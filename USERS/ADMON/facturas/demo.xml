@@ -1,0 +1,105 @@
+<EnvioDTE version="1.0" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+	<SetDTE ID="SetDoc">
+		<Caratula version="1.0">
+			<RutEmisor>11111111-1</RutEmisor>
+			<RutEnvia>14441916-2</RutEnvia>
+			<RutReceptor>60803000-K</RutReceptor>
+			<FchResol>2014-08-22</FchResol>
+			<NroResol>80</NroResol>
+			<TmstFirmaEnv>2018-01-26T11:25:46</TmstFirmaEnv>
+			<SubTotDTE>
+				<TpoDTE>33</TpoDTE>
+				<NroDTE>1</NroDTE>
+			</SubTotDTE></Caratula>
+			<DTE version="1.0">
+				<Documento ID="F21T33">
+					<Encabezado>
+						<IdDoc>
+							<TipoDTE>33</TipoDTE>
+							<Folio>21</Folio>
+							<FchEmis>2018-01-23</FchEmis>
+						</IdDoc>
+						<Emisor>
+							<RUTEmisor>11111111-1</RUTEmisor>
+							<RznSoc>DEMO LTDA</RznSoc>
+							<GiroEmis>IMPORTADORA, EXPORTADORA, PAQUETERIA, LIBRERIA, MANUALIDADES</GiroEmis>
+							<Acteco>519000</Acteco>
+							<Sucursal>Casa Matriz</Sucursal>
+							<CdgSIISucur>123</CdgSIISucur>
+							<DirOrigen>ROSAS 1265</DirOrigen>
+							<CmnaOrigen>SANTIAGO</CmnaOrigen>
+							<CiudadOrigen>SANTIAGO</CiudadOrigen>
+						</Emisor>
+						<Receptor>
+							<RUTRecep>7851826-K</RUTRecep>
+							<RznSocRecep>CACILDA MURIEL ACEVEDO PIZARRO</RznSocRecep>
+							<GiroRecep>ARTESANIA</GiroRecep>
+							<Contacto>2794362</Contacto>
+							<CorreoRecep/>
+							<DirRecep>POBLACION LOS PESCADORES 21</DirRecep>
+							<CmnaRecep>PUCHUNCAVI</CmnaRecep>
+							<CiudadRecep>PUCHUNCAVI</CiudadRecep>
+						</Receptor>
+						<Totales>
+							<MntNeto>2208</MntNeto>
+							<MntExe>0</MntExe>
+							<TasaIVA>19.00</TasaIVA>
+							<IVA>420</IVA>
+							<MntTotal>2628</MntTotal>
+						</Totales>
+					</Encabezado>
+					<Detalle>
+						<NroLinDet>1</NroLinDet>
+						<NmbItem>Servilleta</NmbItem>
+						<DscItem>Servilleta</DscItem>
+						<QtyItem>1</QtyItem>
+						<UnmdItem>UNI</UnmdItem>
+						<PrcItem>1200</PrcItem>
+						<MontoItem>1200</MontoItem>
+					</Detalle>
+					<Detalle>
+						<NroLinDet>2</NroLinDet>
+						<NmbItem>Servilleta</NmbItem>
+						<DscItem>Servilleta</DscItem>
+						<QtyItem>1</QtyItem>
+						<UnmdItem>UNI</UnmdItem>
+						<PrcItem>1008.403</PrcItem>
+						<MontoItem>1008</MontoItem>
+					</Detalle>
+					<TED version="1.0">
+						<DD>
+							<RE>11111111-1</RE>
+							<TD>33</TD>
+							<F>21</F>
+							<FE>2018-01-23</FE>
+							<RR>7851826-K</RR>
+							<RSR>CACILDA MURIEL ACEVEDO PIZARRO</RSR>
+							<MNT>2628</MNT>
+							<IT1>Servilleta</IT1>
+							<CAF version="1.0">
+							<DA>
+								<RE>78510560-5</RE>
+								<RS>COMERCIAL MELQUISEDEC LIMITADA</RS>
+								<TD>33</TD>
+								<RNG>
+									<D>1</D>
+									<H>1400</H>
+								</RNG>
+								<FA>2016-08-01</FA>
+								<RSAPK>
+									<M>qXjKJDzvXgm/QPMez78XsDXbuITd+6aL25QZ8GLnWBwfQe5Zhszo4t2hKWqlIW0iWJL0Fr068C18H+O/PvuktQ==</M>
+									<E>Aw==</E>
+								</RSAPK>
+								<IDK>300</IDK>
+							</DA>
+							<FRMA algoritmo="SHA1withRSA">R1IVkSuwO/q9MJJjJswVnxhrmlA+mem+LelQ0Wn2GBxZJy65T5PiI22oKBBp0LqVAQjulH7RjGQ7UPv4txquzA==</FRMA>
+						</CAF>
+						<TSTED>2018-01-23T17:07:53</TSTED>
+					</DD>
+					<FRMT algoritmo="SHA1withRSA">m5SoCDWU1fDNIjfTPZT5oi1t2R3ViYlT29/HQ1XAMAP6cqpC/EBalG7MHYiy8qkZS3qvAZpl53Dh+6fgEw1Q6A==</FRMT>
+				</TED>
+				<TmstFirma>2018-01-23T17:07:53</TmstFirma>
+			</Documento>
+		</DTE>
+	</SetDTE>
+</EnvioDTE>

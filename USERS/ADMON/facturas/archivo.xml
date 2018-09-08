@@ -1,0 +1,14 @@
+
+		<Detalle>
+			<NroLinDet>1</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>CFN</TpoCodigo>
+				<VlrCodigo>2</VlrCodigo>
+			</CdgItem>
+			<NmbItem>POTENCIA</NmbItem>
+			<QtyItem>1</QtyItem>
+			<UnmdItem>UN</UnmdItem>
+			<PrcItem>4989</PrcItem>
+			<MontoItem>4989</MontoItem>
+		</Detalle>
+		

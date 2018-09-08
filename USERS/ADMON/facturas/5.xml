@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+			<EnvioDTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+<SetDTE ID="SetDoc">
+          <Caratula version="1.0"><RutEmisor>76792112-8</RutEmisor><RutEnvia>24577671-3</RutEnvia><RutReceptor></RutReceptor><FchResol>2014-08-22</FchResol><NroResol>80</NroResol><TmstFirmaEnv>2018-07-31T05:39:42</TmstFirmaEnv>  
+  <SubTotDTE>
+    <TpoDTE></TpoDTE>
+    <NroDTE>1</NroDTE>
+  </SubTotDTE></Caratula>
+  <DTE version='1.0'>
+  	<Documento ID='F5T'>
+		<Encabezado>
+			<IdDoc>
+				<TipoDTE></TipoDTE>
+				<Folio>5</Folio>
+				<FchEmis></FchEmis>
+				<FchVenc></FchVenc>
+			</IdDoc>
+			<Emisor>
+				<RUTEmisor>76792112-8</RUTEmisor>
+				<RznSoc>PR INTERNATIONAL SPA</RznSoc>
+				<GiroEmis>ACTIVIDADES DE ASESORAMIENTO EMPRESARIAL Y EN MATERIA DE GESTION</GiroEmis>
+				<Telefono>+56994559514</Telefono>
+				<Acteco>401019</Acteco>
+				<DirOrigen>NAPOLEON 3565</DirOrigen>
+				<CmnaOrigen>LAS CONDES</CmnaOrigen>
+				<CiudadOrigen>SANTIAGO</CiudadOrigen>
+			</Emisor>
+			<Receptor>
+				<RUTRecep></RUTRecep>
+				<RznSocRecep></RznSocRecep>
+				<GiroRecep></GiroRecep>
+				<Contacto></Contacto>
+				<DirRecep></DirRecep>
+				<CmnaRecep></CmnaRecep>
+				<CiudadRecep></CiudadRecep>
+			</Receptor>
+			<Totales>
+				<MntNeto>544226</MntNeto>
+				<MntExe>0</MntExe>
+				<TasaIVA>19</TasaIVA>
+				<IVA>103403</IVA>
+				<MntTotal>647629</MntTotal>
+			</Totales>
+		</Encabezado>
+		
+		<Detalle>
+			<NroLinDet>1</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>CFN</TpoCodigo>
+				<VlrCodigo>1</VlrCodigo>
+			</CdgItem>
+			<NmbItem>ENERGIA</NmbItem>
+			<QtyItem>1</QtyItem>
+			<UnmdItem>UN</UnmdItem>
+			<PrcItem>544226</PrcItem>
+			<MontoItem>544226</MontoItem>
+		</Detalle>
+		
+	</Documento>
+	</DTE>
+	</SetDTE>
+</EnvioDTE>

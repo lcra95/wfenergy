@@ -1,0 +1,1 @@
+<a href="generaDte.php?fac=1">Firma</a>

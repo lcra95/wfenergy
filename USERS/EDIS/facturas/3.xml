@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+			<EnvioDTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+<SetDTE ID="SetDoc">
+          <Caratula version="1.0"><RutEmisor>76584248-4</RutEmisor><RutEnvia>24675367-9</RutEnvia><RutReceptor>76071891-2</RutReceptor><FchResol>2014-08-22</FchResol><NroResol>80</NroResol><TmstFirmaEnv>2017-07-03T10:55:13</TmstFirmaEnv>  
+  <SubTotDTE>
+    <TpoDTE>33</TpoDTE>
+    <NroDTE>1</NroDTE>
+  </SubTotDTE></Caratula>
+  <DTE version='1.0'>
+  	<Documento ID='F3T33'>
+		<Encabezado>
+			<IdDoc>
+				<TipoDTE>33</TipoDTE>
+				<Folio>3</Folio>
+				<FchEmis>2017-07-03</FchEmis>
+				<FchVenc>2017-07-31</FchVenc>
+			</IdDoc>
+			<Emisor>
+				<RUTEmisor>76584248-4</RUTEmisor>
+				<RznSoc>LATIN SERVICES SPA</RznSoc>
+				<GiroEmis>ACTIVIDADES DE ASESORAMIENTO EMPRESARIAL Y EN MATERIA DE GESTION</GiroEmis>
+				<Telefono>+56994559514</Telefono>
+				<Acteco>401019</Acteco>
+				<DirOrigen>AV. APOQUINDO 3910</DirOrigen>
+				<CmnaOrigen>LAS CONDES</CmnaOrigen>
+				<CiudadOrigen>SANTIAGO</CiudadOrigen>
+			</Emisor>
+			<Receptor>
+				<RUTRecep>76071891-2</RUTRecep>
+				<RznSocRecep>HIDROELECTRICA ALLIPEN S.A</RznSocRecep>
+				<GiroRecep>GENERACION HIDROELECTRICA</GiroRecep>
+				<Contacto>TSCHWEIGER@GPE.CL</Contacto>
+				<DirRecep>FELIX DE AMESTI N? 90 OF 201</DirRecep>
+				<CmnaRecep>LAS CONDES</CmnaRecep>
+				<CiudadRecep>SANTIAGO</CiudadRecep>
+			</Receptor>
+			<Totales>
+				<MntNeto>196219</MntNeto>
+				<MntExe>0</MntExe>
+				<TasaIVA>19</TasaIVA>
+				<IVA>37282</IVA>
+				<MntTotal>233501</MntTotal>
+			</Totales>
+		</Encabezado>
+		
+		<Detalle>
+			<NroLinDet>1</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>CFN</TpoCodigo>
+				<VlrCodigo>8</VlrCodigo>
+			</CdgItem>
+			<NmbItem>CAJON</NmbItem>
+			<QtyItem>124</QtyItem>
+			<UnmdItem>UN</UnmdItem>
+			<PrcItem>940</PrcItem>
+			<MontoItem>116560</MontoItem>
+		</Detalle>
+		
+		<Detalle>
+			<NroLinDet>2</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>CFN</TpoCodigo>
+				<VlrCodigo>9</VlrCodigo>
+			</CdgItem>
+			<NmbItem>RELLENO</NmbItem>
+			<QtyItem>53</QtyItem>
+			<UnmdItem>UN</UnmdItem>
+			<PrcItem>1503</PrcItem>
+			<MontoItem>79659</MontoItem>
+		</Detalle>
+		<TED version='1.0'>
+		<DD>
+			<RE>76584248-4</RE>
+			<TD>33</TD>
+			<F>3</F>
+			<FE>2017-07-03</FE>
+			<RR>76071891-2</RR>
+			<RSR>HIDROELECTRICA ALLIPEN S.A</RSR>
+			<MNT>233501</MNT>
+			<IT1>CAJON</IT1>
+			<CAF version="1.0">
+<DA>
+<RE>76584248-4</RE>
+<RS>LATIN SERVICES SPA</RS>
+<TD>33</TD>
+<RNG><D>1</D><H>50</H></RNG>
+<FA>2017-07-03</FA>
+<RSAPK><M>v5UgDJ/0AFn3JlQqppedatRMgKEkS6QgSJQtIZm1Xiq9fDzAfuYbPfrb3DSspmYVWLAabpbx45b5FXN3pPFh9Q==</M><E>Aw==</E></RSAPK>
+<IDK>100</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">Nb3faMSdnqDQx0nfyTX6ixI2osoEO0Ns+9SqmnDQ9o+PMFnVDPDDSVgC6ejp5+2ZFWY2e40WpYfNURpEkojdNQ==</FRMA>
+</CAF>
+			<TSTED>2017-07-03T10:55:13</TSTED>
+		</DD>
+		<FRMT algoritmo='SHA1withRSA'>OicW7s3fchWu78DDtGFy5f2KJ61nweYyxhZCAlEwGq5jYo357mFveBNz0IraWRZQ9adJ6m6n7nMUrEWs78DQLw==</FRMT>
+	</TED>
+<TmstFirma>2017-07-03T10:55:13</TmstFirma>
+	</Documento>
+	</DTE>
+	</SetDTE>
+</EnvioDTE>

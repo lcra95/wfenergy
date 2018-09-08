@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+	<EnvioDTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0" xsi:schemaLocation="http://www.sii.cl/SiiDte EnvioDTE_v10.xsd">
+
+	<SetDTE ID="SetDoc"><Caratula version="1.0">
+
+	<RutEmisor>76254347-8</RutEmisor>
+
+	<RutEnvia>24675367-9</RutEnvia>
+
+	<RutReceptor>76437712-5</RutReceptor>
+
+	<FchResol>2014-08-22</FchResol>
+
+	<NroResol>80</NroResol>
+
+	<TmstFirmaEnv>2017-06-27T05:41:08</TmstFirmaEnv>
+
+	<SubTotDTE>
+
+		<TpoDTE>33</TpoDTE>
+
+		<NroDTE>1</NroDTE>
+
+	</SubTotDTE>
+
+</Caratula>
+
+<DTE version="1.0">
+
+	<Documento ID="F1T33">
+
+		<Detalle>
+
+			<NroLinDet>1</NroLinDet>
+
+			<CdgItem>
+
+				<TpoCodigo>CFN</TpoCodigo>
+
+				<VlrCodigo>2</VlrCodigo>
+
+			</CdgItem>
+
+			<NmbItem>POTENCIA</NmbItem>
+
+			<QtyItem>1</QtyItem>
+
+			<UnmdItem>UN</UnmdItem>
+
+			<PrcItem>6201</PrcItem>
+
+			<MontoItem>6201</MontoItem>
+
+		</Detalle>
+
+		<TED version="1.0"><DD>
+
+			<RE>76254347-8</RE>
+
+			<TD>33</TD>
+
+			<F>1</F>
+
+			<FE>2017-06-27</FE>
+
+			<RR>76437712-5</RR>
+
+			<RSR>ACCIONA ENERGIA CHILE HOLDINGS SA</RSR>
+
+			<MNT>7380</MNT>
+
+			<IT1>POTENCIA</IT1>
+
+			<CAF version="1.0">
+<DA>
+<RE>76254347-8</RE>
+<RS>HANWHA Q CELLS TIL TIL UNO SPA</RS>
+<TD>33</TD>
+<RNG><D>51</D><H>75</H></RNG>
+<FA>2017-05-29</FA>
+<RSAPK>
+	<M>u0yAfAShQgj6+KQKOPgARpA1lbs2zndZjAPYG5Q4o3HFhzwb2Aya6Ux5rUPD2eAZW6dtXTdMLwPc89xWB/Rv6Q==</M>
+	<E>Aw==</E></RSAPK>
+<IDK>100</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">OicW7s3fchWu78DDtGFy5f2KJ61nweYyxhZCAlEwGq5jYo357mFveBNz0IraWRZQ9adJ6m6n7nMUrEWs78DQLw==</FRMA>
+</CAF>
+
+			<TSTED>2017-06-27T05:41:08</TSTED>
+
+		  </DD></TED>
+</Documento>
+
+	</DTE>
+
+	</SetDTE>
+
+</EnvioDTE>
+	
