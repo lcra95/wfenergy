@@ -1,6 +1,8 @@
-<?php include("modales.php");
-include("funciones.php");
+<?php 
 include("head.php");
+include("modales.php");
+include("funciones.php");
+
 ?>
 
 <body>
@@ -25,7 +27,7 @@ include("head.php");
   </ol>
 <div class="row">
   <div class="col-lg-12">
-    <p class="<?php  $color=$_GET['color'];  echo color($color);?>"><font class="<?php echo color($color);?>"><?PHP echo @$msg=$_GET['msg'];?></font></p>
+    <p class="<?php  @$color=$_GET['color'];  echo color($color);?>"><font class="<?php echo color($color);?>"><?PHP echo @$msg=$_GET['msg'];?></font></p>
   </div>  
 </div>
   <div class="row">
@@ -182,15 +184,15 @@ include("head.php");
 
 </div>
 
-    <script src="js/jquery.js"></script>
+    <script src="../../js/jquery.js"></script>
     <script>
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });
     </script>
-  <script src="js/jquery-1.11.1.min.js"></script>
-  <script src="js/bootstrap.js"></script>
+  <script src="../../js/jquery-1.11.1.min.js"></script>
+  <script src="../../js/bootstrap.js"></script>
 </body>
 </html>
 <?php include("conexion.php");?>

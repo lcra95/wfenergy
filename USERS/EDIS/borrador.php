@@ -17,13 +17,6 @@ $miva=miva();
 mysql_query("INSERT INTO borrador VALUES ('$fac', '1', '', '$fecha', '', '$empresa', '$periodo', '$tipo');");
 
 mysql_query("INSERT INTO `borrador_concepto` (`id`, `id_factura`, `id_concepto`, `canti`, `monto`, `extendido`, `exento`, `iva`, `descuento_por`, `recargo_por`, `descuento_efe`, `recargo_efe`, `total`) VALUES ('null', '$fac', '$concepto', '1', '$monto', '$monto', '0', '$iva', '0', '0', '0', '0', '$total');");
-
-
-
-
-
-
-
 if(@$empresa=="")
 {}
 else
@@ -55,7 +48,7 @@ $(document).ready(function() {
   <div id="page-content-wrapper">
     <div class="container well">
       <div class="row">
-<p class="<?php  $color=$_GET['color'];  echo color($color);?>"><font class="<?php echo color($color);?>"><?PHP echo @$msg=$_GET['msg'];?></font></p>
+<p class="<?php  @$color=$_GET['color'];  echo color($color);?>"><font class="<?php echo color($color);?>"><?PHP echo @$msg=$_GET['msg'];?></font></p>
 
 
           <div class="col-lg-12">

@@ -43,7 +43,7 @@ $t=$_SESSION["id"];
       <td rowspan="2" valign="top" width="65%">
       <SELECT name="periodo" >
       <?PHP 
-      $per=mysql_query("SELECT * FROM periodo");
+      $per=mysql_query("SELECT * FROM periodo  ORDER BY id DESC");
       ?>
       <h4><option value="<?php echo $periodo;?>"><?php echo $periodo;?></option></h4>
       <?php while($rowa=mysql_fetch_array($per)){?>

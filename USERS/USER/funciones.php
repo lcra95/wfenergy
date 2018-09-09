@@ -1,5 +1,17 @@
 <?php 
 include("conexion.php");
+function pdfac($id)
+{
+	
+$sql=mysql_query("SELECT * FROM factura_transaccion WHERE id_factura = $id");
+$row=mysql_fetch_array($sql);
+ return $row[3];
+}
+
+
+
+
+
 function acumulado($id)
 {
 $peri=substr($id, 0,-3);
@@ -240,7 +252,7 @@ function ffactura($id)
 	$sel=mysql_query("SELECT * FROM factura_transaccion WHERE id_transaccion = $id");
 	if($row=mysql_fetch_array($sel))
 	{
-		return $row[1];
+		return 'N/F';
 	}
 	else
 	{
@@ -290,7 +302,7 @@ function status_fac($id)
 	{
 	$sql=mysql_query("SELECT * FROM seguimiento_factura WHERE id_factura = $id");
 	$row=mysql_fetch_array($sql);
-	$k=dstatusfac($row[2]);
+	$k=dstatusfac(1);
 	return $k;
 }
 }
@@ -306,7 +318,7 @@ function color($id)
 }
 function filial()
 {
-	$sql=mysql_query("SELECT * FROM filial WHERE rut like '11111111-1'");
+	$sql=mysql_query("SELECT * FROM filial WHERE rut like '76792112-8'");
 	$row=mysql_fetch_array($sql);
 	return array($row[0],$row[1],$row[2],$row[3],$row[4],$row[5],$row[6], $row[7],$row[8]);
 }
@@ -326,6 +338,9 @@ function obtenerFechaEnLetra($fecha){
     return $num.' de '.$mes.' del '.$anno;
 
 }
+
+ 
+
 function conocerDiaSemanaFecha($fecha) {
 
     $dias = array('Domingo', 'Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado');
@@ -356,7 +371,6 @@ function detallefac($id)
 	return array($rowa[1],$rowa[4],$row[8],$row[10],$row[14]);
 
 }
-
 function datos_empresa($id)
 {
 	$sql=mysql_query("SELECT * FROM empresa_transaccion WHERE id = $id");
@@ -457,5 +471,4 @@ function  update_factura($id,$pro)
 		return $row[8];
 	}
 }
-
 ?>

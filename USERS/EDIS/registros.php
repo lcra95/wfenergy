@@ -21,7 +21,7 @@ include("conexion.php");
 @$ide=$_POST["ide"];
 @$cuenta=$_POST["cuenta"];
 @$codigoc=$_POST["codigoc"];
-
+@$giro=$_POST['giro'];
 if($id=="rp")
 {		
 	
@@ -33,7 +33,12 @@ if($id=="rp")
 		}
 		else
 		{
-		mysql_query("INSERT INTO periodo VALUES ('$codigo', '$nombre',$status)");
+
+		if($status==1){
+			mysql_query("UPDATE periodo SET activo = 0 where activo = 1");
+
+		}
+			mysql_query("INSERT INTO periodo VALUES ('$codigo', '$nombre',$status)");
 		header("location: tablas.php?msg=OPERACION EXITOSA&color=verde");		
 		}
 }
@@ -158,8 +163,9 @@ if($id=="recp")
 	}	
 	else
 	{
-		mysql_query("INSERT INTO `cdec_manager`.`empresa` (`id`, `rut`, `razon social`, `cuenta_bancaria`, `codigo_banco`, `direccion`, `comuna`, `ciudad`, `telefono`, `contacto`)
-		VALUES ('$ide', '$codigo', '$razon', '$cuenta', '$codigoc', '$direccion', '$comuna', '$ciudad', '$contacto', '$email');");
+		mysql_query("INSERT INTO `latinsyc_giasys`.`empresa` (`id`, `rut`, `razon social`, `cuenta_bancaria`, `codigo_banco`, `direccion`, `comuna`, `ciudad`, `telefono`, `contacto`, `giro` )
+		VALUES ('$ide', '$codigo', '$razon', '$cuenta', '$codigoc', '$direccion', '$comuna', '$ciudad', '$contacto', '$email', '$giro');");
+		
 		header("location: tablas.php?msg=OPERACION EXITOSA&color=verde");
 	}
 

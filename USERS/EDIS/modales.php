@@ -373,10 +373,16 @@
         <input type="text" class="form-control" id="formGroup" placeholder="Contacto" name="contacto" required="true">
         </div>
       </div>
-            <div class="form-group">
+      <div class="form-group">
         <label for="formGroup" class="col-sm-2 control-label">Email</label>
         <div class="col-sm-4">
         <input type="text" class="form-control" id="formGroup" placeholder="Email" name="email" required="true">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="formGroup" class="col-sm-2 control-label">Giro</label>
+        <div class="col-sm-4">
+        <input type="text" class="form-control" id="formGroup" placeholder="Giro" name="giro" required="true">
         </div>
       </div>
       <br>

@@ -1,32 +1,30 @@
-    <html>
-    <head>
-    <meta http-equiv=”Content-Type” content=”text/html; charset=utf-8″ />
-    <title></title>
-    </head>
-    <body>
 <?php 
 include("conexion.php");
 include("funciones.php");
+include("Classes/PHPExcel.php");
+$obj=new PHPExcel();
 $iva=miva();
 $periodo=$_GET["periodo"];
 
-?>
-<table border="1" cellspacing="0" cellspading="0">
-	<tr>
-		<td align="center"><b>Item</b></td>
-		<td align="center"><b>ID</b></td>
-		<td align="center"><b>Empresa</b></td>
-		<td align="center"><b>Concepto</b></td>		
-		<td align="center"><b>Monto</b></td>
-		<td align="center"><b>Iva <?php echo $iva; ?></b></td>
-		<td align="center"><b>Total</b></td>
-		<td align="center"><b>Fecha Factura</b></td>
-		<td align="center"><b>N° Factura</b></td>
-		<td align="center"><b>Tipo Pago</b></td>		
-	</tr>
 
-<?php
+	
+	$obj->getProperties()->setCreator("Codigos")->setDescription("Facturas $periodo");
+	$obj->setActiveSheetIndex(0);
+	$obj->getActiveSheet()->setTitle("Facturar $periodo");
+
+	$obj->getActiveSheet()->setCellValue('A1', 'Item');
+	$obj->getActiveSheet()->setCellValue('B1', 'ID');
+	$obj->getActiveSheet()->setCellValue('C1', 'Empresa');
+	$obj->getActiveSheet()->setCellValue('D1', 'Nombre');
+	$obj->getActiveSheet()->setCellValue('E1', 'Concepto');
+	$obj->getActiveSheet()->setCellValue('F1', 'Monto');
+	$obj->getActiveSheet()->setCellValue('G1', 'Iva');
+	$obj->getActiveSheet()->setCellValue('H1', 'Total');
+	$obj->getActiveSheet()->setCellValue('I1', 'Fecha');
+	$obj->getActiveSheet()->setCellValue('J1', 'N° Factura');
+
 $i=1;
+$fila=2;
 $sql=mysql_query("SELECT * FROM empresa_transaccion WHERE periodo LIKE '$periodo'");
 while($row=mysql_fetch_row($sql))
 {
@@ -37,23 +35,21 @@ $concep=concepto($row[1]);
 $empresa=rut_empresa($row[2]);
 $monto=round($row[4]);
 $moiva=round($monto*$iva);
-$total=round($monto+$moiva);?>
-<tr>
-	<td align="center"><?php echo $i;?></td>
-	<td><?php echo $row[0];?></td>
-	<td><?php echo $empresa;?></td>
-	<td><?php echo $concep;?></td>
-	<td align="right"><?php echo $monto;?></td>
-	<td align="right"><?php echo $moiva;?></td>
-	<td align="right"><?php echo $total;?></td>
-	<td></td>
-	<td></td>
-	<td></td>
-</tr>
+$total=round($monto+$moiva);
+	 
+	$obj->getActiveSheet()->setCellValue('A'.$fila, $i);
+	$obj->getActiveSheet()->setCellValue('B'.$fila, $row[0]);
+	$obj->getActiveSheet()->setCellValue('C'.$fila, $empresa);
+	$obj->getActiveSheet()->setCellValue('D'.$fila, $row[2]);
+	$obj->getActiveSheet()->setCellValue('E'.$fila, $concep);
+	$obj->getActiveSheet()->setCellValue('F'.$fila, $monto);
+	$obj->getActiveSheet()->setCellValue('G'.$fila, $moiva);
+	$obj->getActiveSheet()->setCellValue('H'.$fila, $total);
+	$obj->getActiveSheet()->setCellValue('I'.$fila, '');
+	$obj->getActiveSheet()->setCellValue('J'.$fila, '');
 
-
-<?php
-$i++; 
+$i++;
+$fila++; 
 }
 elseif($row[1]>=20 && $row[4]<0)
 {
@@ -63,35 +59,28 @@ $monto=round($row[4]*-1);
 $moiva=round($monto*$iva);
 $total=round($monto+$moiva);
 
+	$obj->getActiveSheet()->setCellValue('A'.$fila, $i);
+	$obj->getActiveSheet()->setCellValue('B'.$fila, $row[0]);
+	$obj->getActiveSheet()->setCellValue('C'.$fila, $empresa);
+	$obj->getActiveSheet()->setCellValue('D'.$fila, $row[2]);
+	$obj->getActiveSheet()->setCellValue('E'.$fila, $concep);
+	$obj->getActiveSheet()->setCellValue('F'.$fila, $monto);
+	$obj->getActiveSheet()->setCellValue('G'.$fila, $moiva);
+	$obj->getActiveSheet()->setCellValue('H'.$fila, $total);
+	$obj->getActiveSheet()->setCellValue('I'.$fila, '');
+	$obj->getActiveSheet()->setCellValue('J'.$fila, '');
 
-
-?>
-<tr>
-	<td align="center"><?php echo $i;?></td>
-	<td><?php echo $row[0];?></td>
-	<td><?php echo $empresa;?></td>
-	<td><?php echo $concep;?></td>
-	<td align="right"><?php echo $monto;?></td>
-	<td align="right"><?php echo $moiva;?></td>
-	<td align="right"><?php echo $total;?></td>
-	<td></td>
-	<td></td>
-	<td></td>
-</tr>
-
-
-<?php 
+$fila++;
 $i++;
 }
 }
 
-?>
-</table>
- </body>
-</html>
-<?PHP 
-    header('Content-Type: application/vnd.ms-excel');
-    header('Expires: 0');
-    header('Cache-Control: must-revalidate, post-check=0, pre-check=0');
+    header('Content-Type: application/vnd.openxmlformats-officedocument.spreadsheetml.sheet');
     header('content-disposition: attachment;filename=Pendiente_por_Facturar.xls');
+    header('Cache-Control: max-age=0');
+
+    $Writer= new PHPExcel_Writer_Excel2007($obj);
+    $Writer->save('php://output');
+
+
 ?>

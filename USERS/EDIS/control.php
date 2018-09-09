@@ -4,19 +4,19 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 $db_host = 'localhost';
-$db_user = 'root';
-$db_pass = '';
+$db_user = 'latinsyc_lrequen';
+$db_pass = '18594602lcra*';
 $peri=$_POST["periodo"];
 $tipo=$_POST["tipo"];
 $date=date("Y-m-d h:i:s");
- include("funciones.php");
+include("funciones.php");
  
 $i=0;
 
 
 
 
-$database = 'cdec_manager';
+$database = 'latinsyc_giasys';
 $table = 'empresa_transaccion';
 if (!@mysql_connect($db_host, $db_user, $db_pass))
     die("No se pudo establecer conexión a la base de datos");
@@ -40,22 +40,23 @@ if (!@mysql_select_db($database))
          $chk_ext = explode(".",$fname);
          if($td=="OK")
          {
-         mysql_query("INSERT INTO archivo VALUES ('NULL', '$fname','$date')");
+         
          if(strtolower(end($chk_ext)) == "csv")
          {
              //si es correcto, entonces damos permisos de lectura para subir
              $filename = $_FILES['sel_file']['tmp_name'];
              $handle = fopen($filename, "r");
     
-             while (($data = fgetcsv($handle, 1000, ";")) !== FALSE)
+             while (($data = fgetcsv($handle, 1000, ",")) !== FALSE)
              {
                 $id=id();
                //Insertamos los datos con los valores...
-                $sql = "INSERT INTO `cdec_manager`.`empresa_transaccion` VALUES ('$id','$tipo', '$data[0]','$peri','$data[1]');";
+            $sql = "INSERT INTO empresa_transaccion VALUES ('$id','$tipo', '$data[0]','$peri','$data[1]');";
               mysql_query($sql) or die('Error: '.mysql_error());
              }
              //cerramos la lectura del archivo "abrir archivo" con un "cerrar archivo"
              fclose($handle);
+            mysql_query("INSERT INTO archivo VALUES ('NULL', '$fname','$date')"); 
             header("location: tablas.php?msg=OPERACION EXITOSA&color=verde");
          }
          else

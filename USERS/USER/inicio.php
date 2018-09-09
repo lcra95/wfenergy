@@ -111,7 +111,7 @@ $tte=mysql_fetch_array($tpr);
         $("#wrapper").toggleClass("toggled");
     });
     </script>
-<script src="js/bootstrap.js"></script>
+  <script src="js/bootstrap.js"></script>
 <script type="text/javascript" src="Graphics/js/jquery.js"></script>
 <script type="text/javascript" src="Graphics/js/chartJS/Chart.min.js"></script>
 
