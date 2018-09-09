@@ -1,4 +1,5 @@
 <?php 
+//Agrego comentario para demostracion
 include("conexion.php");
 $directorio = opendir("/var/www/html/GIASYS/PDFS 2017-10/"); //ruta actual
 while ($archivo = readdir($directorio)) //obtenemos un archivo y luego otro sucesivamente
