@@ -1,0 +1,14 @@
+Instrucciones Para Usar GIT en Visual Studio Code
+
+1)  Antes de empezar a trabajar debes abrir la consola(menu terminal, new terminal ) y escribir lo siguiente
+    git pull origin test (Con esto descargaras la ultima actualizacion del proyecto).
+
+2) Cada vez que se crea o modifica un archivo se crea un actualizacion en la rama.
+    si quieres guardar ese cambio se le da al (+) sino en el (-).
+
+3) Una vez terminado las modificaciones o creacion del archivo debes escribir donde dice message 
+    un mensaje que te ayude a recordar que hiciste en ese determinado momento. y luego clickeas en el (+) 
+    que dice commit.
+
+4) Para subir los datos a la carpeta remota debes escribir en la consola lo siguiente:
+    git push origin test (Subiras las actualizaciones al respaldo en git).
