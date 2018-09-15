@@ -184,15 +184,15 @@ include("funciones.php");
 
 </div>
 
-    <script src="../../js/jquery.js"></script>
+    <script src="js/jquery.js"></script>
     <script>
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });
     </script>
-  <script src="../../js/jquery-1.11.1.min.js"></script>
-  <script src="../../js/bootstrap.js"></script>
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
 </body>
 </html>
 <?php include("conexion.php");?>

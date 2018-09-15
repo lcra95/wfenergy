@@ -8,7 +8,7 @@
 			        <span class="icon-bar"></span>
 			        <span class="icon-bar"></span>
 			      </button>
-			      <a class="navbar-brand" href="inicio.php">        <img src="images/wf.png" class="img-responsive" width="80" heigth="35">
+			      <a class="navbar-brand" href="../../ADMON/inicio.php">        <img src="images/wf.png" class="img-responsive" width="80" heigth="35">
 </a>
 			</div>
 
@@ -19,7 +19,7 @@
 				      <ul class="nav navbar-nav">
 				      	
 				      <li><a href="#menu-toggle" class="btn fa fa-exchange" id="menu-toggle"></a></li>
-				        <li><a href="registro.php"><i class="fa fa-balance-scale" aria-hidden="true"></i> Balances</a></li>
+				        <li><a href="../../ADMON/registro.php"><i class="fa fa-balance-scale" aria-hidden="true"></i> Balances</a></li>
  <!--Aqui comienza el menu con sub obciones-->
 						<li class="dropdown">
 				          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
@@ -27,7 +27,7 @@
 							Administrar <span class="caret"></span></a>
 
 				          <ul class="dropdown-menu" role="menu">
-				          	<li><a href="tablas.php"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Gestionar Tablas</a></li>
+				          	<li><a href="../../ADMON/tablas.php"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Gestionar Tablas</a></li>
 				          </ul>
 				        </li>
 				        <li class="dropdown">
@@ -35,9 +35,9 @@
 				          	<i class="fa fa-file-text" aria-hidden="true"></i> Facturas<span class="caret"></span></a>
 
 				          <ul class="dropdown-menu" role="menu">
-							<li><a href="../API/Facturacion/" ><span class="fa fa-file-text" aria-hidden="true"></span> Nueva Factura</a></li>
-				           	<li><a href="../API/Facturacion/pfactura.php" ><span class="fa fa-file-text" aria-hidden="true"></span> Emitir Factura</a></li>
-				         	<li><a href="../API/Facturacion/listafacturas.php" ><span class="fa fa-file-text" aria-hidden="true"></span> Seguimiento de Facturas</a></li>
+							<li><a href="index.php" ><span class="fa fa-file-text" aria-hidden="true"></span> Nueva Factura</a></li>
+				           	<li><a href="pfactura.php" ><span class="fa fa-file-text" aria-hidden="true"></span> Emitir Factura</a></li>
+				         	<li><a href="listafacturas.php" ><span class="fa fa-file-text" aria-hidden="true"></span> Seguimiento de Facturas</a></li>
 				         
 
 				           </ul>
