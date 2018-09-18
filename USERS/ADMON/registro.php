@@ -15,7 +15,7 @@ $tte=mysql_fetch_array($tpr);
 <div id="page-content-wrapper">
 <?php 
 
-$t=$_SESSION["id"];
+//$t=$_SESSION["id"];
       list($ting,$tegr,$ttotal)=calculo2($periodo); 
       list ($acu,$p)=acumulado($periodo);
 

@@ -1,6 +1,6 @@
 <?php 
 include("conexion.php");
-//$fac=$_GET['id'];
+$fac=$_GET['id'];
 $tipo_d=61;
 $fecha=date('Y-m-d');
 $tipo_f=56;
@@ -12,19 +12,20 @@ $desde=$row[1];
 $sql1=mysql_query("SELECT * FROM nota_debito");
 $num=mysql_num_rows($sql1);
 $id=$desde+$num;
-$folio=9;
-list($tipo, $fac, $date, $anul)=setNotaDebito($folio);
-echo $tipo.'-'.$fac.'-'.$anul;
-mysql_query("INSERT INTO `latinsyc_giasys`.`nota_debito` (`id`, `folio`, `tipo`, `tipo_doc_ref`, `num_doc_ref`, `fecha_ref`, `cod_ref`, `razon_ref`) VALUES 
-	(NULL, '$id', '$tipo_f', '$tipo_d', '$fac', '$fecha', '$codref', '$razon');");
+$folio=$id;
+echo $sql="INSERT INTO `latinsyc_giasys`.`nota_debito` (`id`, `folio`, `tipo`, `tipo_doc_ref`, `num_doc_ref`, `fecha_ref`, `codigo_ref`, `razon_ref`)
+VALUES ('$num+1', '$id', '$tipo_f', '$tipo_d', '$fac', '$fecha', '$codref', '$razon')";
+mysql_query($sql);
+
+list($tipo, $fac, $date, $anul)=setNotaDebito($id);
 
 include("../funciones.php");
 
 
 
-function setNotaDebito($folio)
+function setNotaDebito($id)
 {
-	$sql=mysql_query("SELECT * FROM nota_debito WHERE folio = $folio");
+	$sql=mysql_query("SELECT * FROM nota_debito WHERE folio = $id");
 	$row=mysql_fetch_array($sql);
 
 	$sql1=mysql_query("SELECT * FROM nota_credito WHERE folio = $row[4]");

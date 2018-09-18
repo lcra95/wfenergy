@@ -6,11 +6,15 @@ $fac=$_GET['factura'];
 $observacion=$_POST['observacion'];
 $fecha=$_POST['fecha'];
 
- $fecha = str_replace('/', '-', $fecha);
- date('Y-m-d', strtotime($fecha));
+$fecha = str_replace('/', '-', $fecha);
+date('Y-m-d', strtotime($fecha));
+if($facha==""){
+    $fecha = date('Y-m-d');
+}
+
 
 $id=$_GET['id'];
-mysql_query("INSERT INTO factura_transaccion VALUES ('null','$fac','$id')");
+
 
 
 
@@ -25,10 +29,9 @@ $if=proxima_factura();
 
 
 
-
+mysql_query("INSERT INTO factura_transaccion VALUES ('null','$if','$id')");
 mysql_query("INSERT INTO factura VALUES ('$if', '$row[1]', '$observacion', '$date', '$fecha', '$row[5]', '$row[6]', '$row[7]','0','0')");
 mysql_query("DELETE FROM borrador WHERE id = $fac");
-$sql6=mysql_query("INSERT INTO `cdec_manager`.`seguimiento_factura` (`id`, `id_factura`, `id_status_factura`, `fecha`) VALUES (NULL, '$if', '1', '$date');");
 
 
 $sql2=mysql_query("SELECT * FROM empresa WHERE id LIKE '$row[5]'");

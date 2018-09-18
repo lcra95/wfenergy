@@ -1,5 +1,13 @@
 <?php 
 include("conexion.php");
+
+function empresaNota($folio){
+	$sql=mysql_query("SELECT * FROM factura WHERE id = $folio");
+	$data=mysql_fetch_array($sql);
+
+	return $data[5];
+}
+
 function acumulado($id)
 {
 $peri=substr($id, 0,-3);

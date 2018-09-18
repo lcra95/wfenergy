@@ -20,8 +20,6 @@ $if=proxima_factura();
 
 
 mysql_query("INSERT INTO factura VALUES ('$if', '$row[1]', '$observacion', '$date', '$fecha', '$row[5]', '$row[6]', '$row[7]', '$dg', '$rg')");
-$sql6=mysql_query("INSERT INTO `cdec_manager`.`seguimiento_factura` (`id`, `id_factura`, `id_status_factura`, `fecha`) VALUES (NULL, '$if', '1', '$date');");
-
 mysql_query("DELETE FROM borrador WHERE id = $fac");
 $sql2=mysql_query("SELECT * FROM empresa WHERE id LIKE '$row[5]'");
 $datos=mysql_fetch_array($sql2);
