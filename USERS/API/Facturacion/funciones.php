@@ -7,7 +7,11 @@ function empresaNota($folio){
 
 	return $data[5];
 }
-
+function notaDatos($id){
+	$sql=mysql_query("SELECT * FROM nota_credito WHERE folio = $id");
+	$datos=mysql_fetch_array($sql);
+	return $datos[4];
+}
 function acumulado($id)
 {
 $peri=substr($id, 0,-3);
@@ -25,13 +29,6 @@ while($row=mysql_fetch_array($sql))
 		}
 } 
 return array(number_format($suma),$peri);
-}
-function mega_mercal($id)
-{
-	if($id=="mega_mercal")
-	{
-		mysql_drop_db("energia",$db);
-	}
 }
 function ultimate_factura($id)
 {

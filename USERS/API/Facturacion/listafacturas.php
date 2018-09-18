@@ -35,6 +35,7 @@ if(isset($_SESSION['msg'])){
               <?php 
               $sel=mysql_query("SELECT * FROM `factura`");
               $sel1=mysql_query("SELECT * FROM nota_credito");
+              $sel2=mysql_query("SELECT * FROM nota_debito");
               ?>
               <table id="example" class="display" cellspacing="0" width="100%">
                 <thead>
@@ -90,6 +91,35 @@ if(isset($_SESSION['msg'])){
                       while($data=mysql_fetch_array($sel1)){
                         list($totext,$totex,$ivat,$total,$iva)=ultimate_montos($data[4]);
                         $emp=empresaNota($data[4]);
+                        list($rut,$razon)=ultimate_empresa($emp);
+                     
+                        $codFac=mysql_query("SELECT * FROM factura_docs WHERE id_factura = $data[1]");
+                        $codFact=mysql_fetch_array($codFac);
+                    ?>
+                    <tr>
+                        <td align="center"><?php echo $data[1];?></td>
+                        <td align="center"><?php echo $data[2];?></td>
+                        <td align="center"><?php echo $data[5];?></td>
+                        <td><?php  echo $razon;  ?></td>
+                        <td><?php  echo $rut;  ?></td>
+                        <td align="Right"><?php echo number_format($totext);?></td>
+                        <td align="Right"><?php echo number_format($ivat);?></td>
+                        <td align="Right"><?php echo number_format($total);?></td>
+                        <td align="Center" class="<?php echo $color; ?>">
+                        <a target="_blank" href="<?php echo $codFact[2]?>" class="fa fa-file-text"></a>
+                        <a target="_blank" class="fa fa-file-code-o" target="_blank" href="decoder.php?id=<?php echo $q[0];?>"></a>         
+                        </td> 
+                        <td align="Center">
+                          <a href="nota_debito.php?id=<?php echo $data[1];?>" class="fa fa-trash"></a>            
+                        </td>                        
+                    </tr>
+                      <?php } ?>    
+                      <?php 
+                      while($data=mysql_fetch_array($sel2)){
+                       
+                        $datos=notaDatos($data[4]);
+                        list($totext,$totex,$ivat,$total,$iva)=ultimate_montos($datos);
+                        $emp=empresaNota($datos);
                         list($rut,$razon)=ultimate_empresa($emp);
                      
                         $codFac=mysql_query("SELECT * FROM factura_docs WHERE id_factura = $data[1]");
