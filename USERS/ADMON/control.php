@@ -10,7 +10,7 @@ $peri=$_POST["periodo"];
 $tipo=$_POST["tipo"];
 $date=date("Y-m-d h:i:s");
 include("funciones.php");
- 
+$nfname="";
 $i=0;
 
 
@@ -25,6 +25,7 @@ if (!@mysql_select_db($database))
     die("base de datos no existe");
     if(isset($_POST['submit']))
     {
+
         //Aquí es donde seleccionamos nuestro csv
          $fname = $_FILES['sel_file']['name'];
          list ($td,$fn,$h)=busca_archivo($fname);
@@ -47,7 +48,7 @@ if (!@mysql_select_db($database))
              $filename = $_FILES['sel_file']['tmp_name'];
              $handle = fopen($filename, "r");
     
-             while (($data = fgetcsv($handle, 1000, ",")) !== FALSE)
+             while (($data = fgetcsv($handle, 1000, ";")) !== FALSE)
              {
                 $id=id();
                //Insertamos los datos con los valores...
@@ -56,7 +57,11 @@ if (!@mysql_select_db($database))
              }
              //cerramos la lectura del archivo "abrir archivo" con un "cerrar archivo"
              fclose($handle);
-            mysql_query("INSERT INTO archivo VALUES ('NULL', '$fname','$date')"); 
+            mysql_query("INSERT INTO archivo VALUES ('NULL', '$fname','$date')");
+            $rest = "CARGADO-".$fname;
+            $nfname="C:/Users/NoteBook-01/Documents/WFENERGY/".$peri."/".$rest;
+            rename("C:/Users/NoteBook-01/Documents/WFENERGY/".$peri."/".$fname, $nfname);
+
             header("location: tablas.php?msg=OPERACION EXITOSA&color=verde");
          }
          else

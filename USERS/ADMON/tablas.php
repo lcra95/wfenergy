@@ -216,8 +216,9 @@ include("funciones.php");
         <div class="col-sm-4">
        <SELECT name="periodo" class="form-control">
       <?PHP 
-      $per=mysql_query("SELECT * FROM periodo");
+      $per=mysql_query("SELECT * FROM periodo ORDER BY id DESC");
       ?>
+      <option value="1">SELECCIONE</option>
       <?php while($rowa=mysql_fetch_array($per)){?>
       <option value="<?php echo $rowa[0];?>"><?php echo $rowa[0];?></option>
       <?php }?>
