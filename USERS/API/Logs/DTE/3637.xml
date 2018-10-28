@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F3637T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>3637</Folio>
+                    <FchEmis>2018-10-25</FchEmis>
+                    <FchVenc>2018-10-25</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76550580-1</RUTRecep>
+                    <RznSocRecep>GENERACION EN CENTRALES TERMOELECTRICA DE CICLOS COMBINADOS</RznSocRecep>
+                    <GiroRecep> DISTRIBUCION DE ENERGIA ELECTRICA</GiroRecep>
+                    <Contacto></Contacto>
+                    <DirRecep>CERRO EL PLOMO N? 5680 PISO 15, OFICINA 1501</DirRecep>
+                    <CmnaRecep>LAS CONDES</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>908</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>173</IVA>
+                    <MntTotal>1081</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>1</VlrCodigo>
+        </CdgItem>
+        <NmbItem>ENERGIA</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>908</PrcItem>
+        <MontoItem>908</MontoItem>
+    </Detalle></Documento>
+    </DTE>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F3612T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>3612</Folio>
+                    <FchEmis>2018-09-28</FchEmis>
+                    <FchVenc>2018-09-28</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>78932860-9</RUTRecep>
+                    <RznSocRecep>GASATACAMA CHILE S.A.</RznSocRecep>
+                    <GiroRecep>GENERACION EN CENTRALES TERMOELEC</GiroRecep>
+                    <Contacto> miguel.buzunariz@enel.com</Contacto>
+                    <DirRecep> SANTA ROSA 76</DirRecep>
+                    <CmnaRecep> SANTIAGO</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>8279</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>1573</IVA>
+                    <MntTotal>9852</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>1</VlrCodigo>
+        </CdgItem>
+        <NmbItem>ENERGIA</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>8279</PrcItem>
+        <MontoItem>8279</MontoItem>
+    </Detalle></Documento>
+    </DTE>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F3562T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>3562</Folio>
+                    <FchEmis>2018-09-27</FchEmis>
+                    <FchVenc>2018-09-27</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76376635-7</RUTRecep>
+                    <RznSocRecep>JAVIERA SPA</RznSocRecep>
+                    <GiroRecep>GENERACION EN OTRAS CENTRALES N.C.P.</GiroRecep>
+                    <Contacto>PRUIZ@SUNEDISON.COM</Contacto>
+                    <DirRecep>MAGDALENA 140 PISO 10</DirRecep>
+                    <CmnaRecep>LAS CONDES</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>276388</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>52514</IVA>
+                    <MntTotal>328902</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>1</VlrCodigo>
+        </CdgItem>
+        <NmbItem>ENERGIA</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>276388</PrcItem>
+        <MontoItem>276388</MontoItem>
+    </Detalle></Documento>
+    </DTE>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F3586T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>3586</Folio>
+                    <FchEmis>2018-09-27</FchEmis>
+                    <FchVenc>2018-09-27</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>77302440-5</RUTRecep>
+                    <RznSocRecep>TECNORED S.A.</RznSocRecep>
+                    <GiroRecep>GENERACION EN OTRAS CENTRALES N.C.P</GiroRecep>
+                    <Contacto>FRONCAGL@TECNORED.CL</Contacto>
+                    <DirRecep>CALLE CERRO PLOMO N? 3819, PARQUE INDUSTRIAL, CURAUMA</DirRecep>
+                    <CmnaRecep>VALPARAISO</CmnaRecep>
+                    <CiudadRecep>VALPARAISO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>100913</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>19173</IVA>
+                    <MntTotal>120086</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>1</VlrCodigo>
+        </CdgItem>
+        <NmbItem>ENERGIA</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>100913</PrcItem>
+        <MontoItem>100913</MontoItem>
+    </Detalle></Documento>
+    </DTE>
