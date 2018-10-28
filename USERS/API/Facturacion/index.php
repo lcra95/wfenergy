@@ -243,7 +243,18 @@ $(document).ready(function() {
                         <div class="input-group">
                           
                           <span class="input-group-addon">Giro</span>
-                          <input type="text" class="form-control" id="formGroup" placeholder="Giro" Value="<?php echo @$g;?>" >                  
+                          <?php 
+                                $array=array();
+                                $array = explode(',' , @$g);
+                                ?>
+                                <select name="" id="" class="form-control">
+                                <?php 
+
+                                foreach($array as $key){
+                                    echo "<option>$key</option>";
+                                }
+                                ?>
+                                </select>                          
                         </div>
                         </div>
                     </div><br>                    

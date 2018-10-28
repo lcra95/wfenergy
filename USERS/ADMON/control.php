@@ -48,7 +48,7 @@ if (!@mysql_select_db($database))
              $filename = $_FILES['sel_file']['tmp_name'];
              $handle = fopen($filename, "r");
     
-             while (($data = fgetcsv($handle, 1000, ";")) !== FALSE)
+             while (($data = fgetcsv($handle, 1000, ",")) !== FALSE)
              {
                 $id=id();
                //Insertamos los datos con los valores...

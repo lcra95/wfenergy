@@ -35,6 +35,13 @@ else
     $c=$row[6];
     $ci=$row[7];
     $t=$row[8];
+    $array=array();
+    $array = explode(',' , $row[10]);
+
+    foreach($array as $key ){
+        $g= $key;
+    }
+
 }
 
 
@@ -83,7 +90,7 @@ $(document).ready(function() {
               <b>Comuna:</b> <?php echo $c;?><br>
               <b>Ciudad:</b> <?php echo $ci;?><br>
               <b>Teléfono:</b> <?php echo $t;?><br>
-              <b>Giro:</b> <?php $c;?>
+              <b>Giro:</b> <?php echo $g;?>
               </div>
                  </div>
                 </div>

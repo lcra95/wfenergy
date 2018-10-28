@@ -1,11 +1,15 @@
-<?php @$msg=$_GET['msg'];
-if($msg<>"")
-{
-?>
-<script type="text/javascript">alert(<?php echo $msg; ?>);</script>
-<?php } include("head.php"); include("conexion.php"); include("funciones.php"); ?>
+<?php
+include("head.php");
+include("conexion.php");
+include("funciones.php");
+include("head-nav-main.php");
 
-<?php include("head-nav-main.php");?>
+if(isset($_SESSION['msg'])){
+  $msg=$_SESSION['msg'];
+  echo "<script> alert('$msg')</script>"; 
+  unset($_SESSION['msg']);
+}
+?>
 <div id="wrapper">
 <div class="container well">
 <div class="row">

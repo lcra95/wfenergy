@@ -1,8 +1,9 @@
-<?php 
+<?php
 session_start();
 $mysqli = new mysqli("localhost", "latinsyc_lrequen", "18594602lcra*", "latinsyc_giasys");
 include("nusoap/src/nusoap.php");
 $idr=$_GET['id'];
+//$idr=".xml";//SE COMENTA LA LINEA ANTERIOR, SE ACTIVA ESTA Y SE COLOCA EL NOMBRE DEL ARCHIVO QUE SE DESEA ENVIAR MANUALMENTE
 $id='Logs/DTE/'.$idr;
 $emisorRut="76254347-8";
 $usuarioWs="24675367-9";
@@ -56,20 +57,20 @@ if($estado!=0){
     
     switch($estado){
         case 1:
-            $_SESSION['msg']="Error En el Shema XML";
-            header("location: Facturacion/listafacturas.php");
+            $_SESSION['msg']="Error En el Schema XML";
+            header("location: Facturacion/pfactura.php");
         break;
         case 2:
             $_SESSION['msg']="Error en Datos";
-            header("location: Facturacion/listafacturas.php");
+            header("location: Facturacion/pfactura.php");
         break;
         case 3:
             $_SESSION['msg']="Folio Duplicado";
-            header("location: Facturacion/listafacturas.php");
+            header("location: Facturacion/pfactura.php");
         break;
         default:
             $_SESSION['msg']="Error en el Envio del DTE";
-            header("location: Facturacion/listafacturas.php");
+            header("location: Facturacion/pfactura.php");
 
     }
 
@@ -81,7 +82,7 @@ if($estado!=0){
         $mysqli->query($sql);
         //header ("location: Logs/RespuestaWs/$docFolio.xml");
         $_SESSION['msg']="Operacion Exitosa Folio ".$docFolio." Tipo ".$docTipo;
- 	    header("location: Facturacion/listafacturas.php");
+ 	    header("location: Facturacion/pfactura.php");
     }
 }
 ?>

@@ -15,6 +15,7 @@ $id=$desde+$num;
 
 mysql_query("INSERT INTO `latinsyc_giasys`.`nota_credito` (`id`, `folio`, `tipo`, `tipo_doc_ref`, `num_doc_ref`, `fecha_ref`, `cod_ref`, `razon_ref`) VALUES 
 	(NULL, '$id', '$tipo_f', '$tipo_d', '$fac', '$fecha', '$codref', '$razon');");
+mysql_query("DELETE FROM factura_transaccion WHERE id_factura = $fac");
 
 include("../funciones.php");
 
@@ -35,7 +36,13 @@ function setDTE($fac,$folio, $date)
 
 list($frut,$fraz,$fdir,$fcom,$fciu,$fema,$ftel,$fsuc,$fgir,$ate)=filial();
 list($st,$obs,$fec,$ven,$emp,$per,$tip,$dg,$rg)=ultimate_factura($fac);
-list($rut,$raz,$dir,$com,$ciu,$con,$gir)=ultimate_empresa($emp);
+list($rut,$raz,$dir,$com,$ciu,$con,$giro)=ultimate_empresa($emp);
+$array=array();
+$array = explode(',' , $giro);
+
+foreach($array as $key ){
+    $gir= $key;
+}
 list($totext,$totex,$ivat,$total,$iva)=ultimate_montos($fac);
 //list($f,$desde,$hasta,$caf,$tf)=folio_activo($tip);
 	

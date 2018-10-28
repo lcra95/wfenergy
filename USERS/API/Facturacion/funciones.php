@@ -61,21 +61,19 @@ function ultimate_montos($id)
 	$iva=$iva*100;
 	return array($totext,$totex,$ivat,$total,$iva);
 }
-
 function no_fac($periodo)
 {
-if($periodo=="2016-01" || $periodo=="2016-02" || $periodo=="2016-03" || $periodo=="2016-04" || $periodo=="2016-05" || $periodo=="2016-06" || $periodo=="2016-07" || $periodo=="2016-08" || $periodo=="2016-09" || $periodo=="2016-10" || $periodo=="2016-11" || $periodo=="2016-12" || $periodo=="2017-01" || $periodo=="2017-02" || $periodo=="2017-03" || $periodo=="2017-04" )
-{
+if($periodo!='2018-09'){
 	return "FALSE";
 }
-else
-{
+else{
 	return "TRUE";
 }
 
-
-
 }
+
+
+
 function borradores($id)
 {
 	$sql=mysql_query("SELECT * FROM borrador_concepto WHERE id_factura = $id");

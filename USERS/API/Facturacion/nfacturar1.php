@@ -56,7 +56,13 @@ function setDTE($fac)
 {
 list($frut,$fraz,$fdir,$fcom,$fciu,$fema,$ftel,$fsuc,$fgir,$ate)=filial();
 list($st,$obs,$fec,$ven,$emp,$per,$tip,$dg,$rg)=ultimate_factura($fac);
-list($rut,$raz,$dir,$com,$ciu,$con,$gir)=ultimate_empresa($emp);
+list($rut,$raz,$dir,$com,$ciu,$con,$giro)=ultimate_empresa($emp);
+$array=array();
+$array = explode(',' , $giro);
+
+foreach($array as $key ){
+    $gir= $key;
+}
 list($totext,$totex,$ivat,$total,$iva)=ultimate_montos($fac);
 list($f,$desde,$hasta,$caf,$tf)=folio_activo($tip);
     
