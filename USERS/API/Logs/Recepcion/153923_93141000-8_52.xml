@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+  <Documento ID="F153923T52"><Encabezado><IdDoc>
+        <TipoDTE>52</TipoDTE>
+        <Folio>153923</Folio>
+        <FchEmis>2018-11-06</FchEmis>
+        <IndTraslado>5</IndTraslado>
+        <FchVenc>2018-11-06</FchVenc>
+      </IdDoc><Emisor>
+        <RUTEmisor>93141000-8</RUTEmisor>
+        <RznSoc>LUREYE GENERACION S.A.</RznSoc>
+        <GiroEmis>FABRICACION DE MOTORES, GENERADORES Y TRANSFORMADORES ELECTRICOS</GiroEmis>
+        <Acteco>311010</Acteco>
+        <DirOrigen>AV. VICUNA MACKENNA 1503</DirOrigen>
+        <CmnaOrigen>SANTIAGO</CmnaOrigen>
+        <CiudadOrigen>SANTIAGO</CiudadOrigen>
+      </Emisor><Receptor><RUTRecep>76254347-8</RUTRecep><RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep><GiroRecep>GENERACION EN OTRAS CENTRALES</GiroRecep><Contacto>Fono:</Contacto><DirRecep>AV. APOQUINDO 3910 PISO 5</DirRecep><CmnaRecep>LAS CONDES</CmnaRecep><CiudadRecep>SANTIAGO</CiudadRecep></Receptor><Totales>
+        <MntNeto>36</MntNeto>
+        <MntExe>0</MntExe>
+        <TasaIVA>19</TasaIVA>
+        <IVA>7</IVA>
+        <MntTotal>43</MntTotal>
+      </Totales></Encabezado><Detalle>
+      <NroLinDet>1</NroLinDet>
+      <CdgItem>
+         <TpoCodigo>INT1</TpoCodigo>
+         <VlrCodigo>856FJ006</VlrCodigo>
+      </CdgItem>
+      <NmbItem>FILTRO PETROLEO</NmbItem>
+      <DscItem/>
+      <QtyItem>1</QtyItem>
+      <PrcItem>1</PrcItem>
+      <MontoItem>1</MontoItem>
+    </Detalle><Detalle>
+      <NroLinDet>2</NroLinDet>
+      <CdgItem>
+         <TpoCodigo>INT1</TpoCodigo>
+         <VlrCodigo>856LJ007</VlrCodigo>
+      </CdgItem>
+      <NmbItem>FILTRO ACEITE</NmbItem>
+      <DscItem/>
+      <QtyItem>1</QtyItem>
+      <PrcItem>1</PrcItem>
+      <MontoItem>1</MontoItem>
+    </Detalle><Detalle>
+      <NroLinDet>3</NroLinDet>
+      <CdgItem>
+         <TpoCodigo>INT1</TpoCodigo>
+         <VlrCodigo>856AD020</VlrCodigo>
+      </CdgItem>
+      <NmbItem>FILTRO AIRE</NmbItem>
+      <DscItem/>
+      <QtyItem>1</QtyItem>
+      <PrcItem>1</PrcItem>
+      <MontoItem>1</MontoItem>
+    </Detalle><Detalle>
+      <NroLinDet>4</NroLinDet>
+      <CdgItem>
+         <TpoCodigo>INT1</TpoCodigo>
+         <VlrCodigo>8530R005</VlrCodigo>
+      </CdgItem>
+      <NmbItem>ACEITE LITRO 15W40</NmbItem>
+      <DscItem/>
+      <QtyItem>8</QtyItem>
+      <PrcItem>1</PrcItem>
+      <MontoItem>8</MontoItem>
+    </Detalle><Detalle>
+      <NroLinDet>5</NroLinDet>
+      <CdgItem>
+         <TpoCodigo>INT1</TpoCodigo>
+         <VlrCodigo>53900039</VlrCodigo>
+      </CdgItem>
+      <NmbItem>REFRIGERANTE COOLELF AUTO SUPR</NmbItem>
+      <DscItem/>
+      <QtyItem>20</QtyItem>
+      <PrcItem>1</PrcItem>
+      <MontoItem>20</MontoItem>
+    </Detalle><Detalle>
+      <NroLinDet>6</NroLinDet>
+      <CdgItem>
+         <TpoCodigo>INT1</TpoCodigo>
+         <VlrCodigo>53900036</VlrCodigo>
+      </CdgItem>
+      <NmbItem>SOLVENTE DIELECTRICO</NmbItem>
+      <DscItem/>
+      <QtyItem>5</QtyItem>
+      <PrcItem>1</PrcItem>
+      <MontoItem>5</MontoItem>
+    </Detalle><TED version="1.0">
+<DD>
+<RE>93141000-8</RE>
+<TD>52</TD>
+<F>153923</F>
+<FE>2018-11-06</FE>
+<RR>76254347-8</RR>
+<RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR>
+<MNT>43</MNT>
+<IT1>FILTRO PETROLEO</IT1>
+<CAF version="1.0">
+<DA>
+<RE>93141000-8</RE>
+<RS>LUREYE GENERACION S A</RS>
+<TD>52</TD>
+<RNG><D>140001</D><H>160000</H></RNG>
+<FA>2012-11-27</FA>
+<RSAPK><M>1F0Rv4VKk0JKXh6bk3F42neB84AJu6FVjKoTAazH/QL5+eV5u/sX2JxJDIF7lhQe8NBd3CadYDke7wAr58xXRQ==</M><E>Aw==</E></RSAPK>
+<IDK>300</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">iOiLSySUJXb99AYsJqvGC1ef7dDnnkQJTrc20n9VChXdHgeYtXtrOOg0PRwtR0e7hgsm/dTsDzyLnZrpIAPLMA==</FRMA>
+</CAF>
+<TSTED>2018-11-06T11:40:42</TSTED>
+</DD>
+<FRMT algoritmo="SHA1withRSA">BeBitNX9js39Y/ks99mWJ/mi/kxa4adT0RPtGUjLWs9M5WyrCwDDFQ+VvyHAcCKz5gyRFK4dRsMpruKDzVKw2Q==</FRMT>
+</TED>
+<TmstFirma>2018-11-06T11:40:42</TmstFirma></Documento>
+  <default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<default:SignedInfo>
+<default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<default:Reference URI="#F153923T52">
+<default:Transforms>
+<default:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</default:Transforms>
+<default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<default:DigestValue>W18G9NvlVOj4bIAYMuT4HTbJogE=</default:DigestValue>
+</default:Reference>
+</default:SignedInfo>
+<default:SignatureValue>
+L0krwWUeyUY9mdQrx6TrhH0+Gcy+T8h45pMZUV55KBVB7LeOemDoRjgaOHl1h7XU
++gbz+BVTWjgU88Dh4TsK/RFLxcWx8VOIVniOUTIwXvUj12DWmoYz5Bgo7BlmPtjO
+HtMJHsQdryPNIEUDLK+OMlwfgLNzn5z6T5Rze11gkc8=
+</default:SignatureValue>
+<default:KeyInfo>
+<default:KeyValue>
+<default:RSAKeyValue>
+<default:Modulus>
+scT1yES5ERtHPt5JxGfZn9gYSg+iBDvgj9HAozkJS4MJI0Fxxw3I6ixjxAbKhWKWimSohdbpK9ACf4SrZafbRykUPv82j9+2LgCrWF2aiTwesV5sov6VACTdJb+VcfHlRB6/s/LEsgBAEILLl1qhbx+wW8PvjjFO7O9iSTotyMs=
+</default:Modulus>
+<default:Exponent>AQAB</default:Exponent>
+</default:RSAKeyValue>
+</default:KeyValue>
+<default:X509Data>
+<default:X509Certificate>
+MIIGUzCCBTugAwIBAgIKcFcp6wAAAAlJBTANBgkqhkiG9w0BAQUFADCB0jELMAkG
+A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
+EwhTYW50aWFnbzEUMBIGA1UEChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9y
+aWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQDEydFLUNFUlRDSElMRSBDQSBGSVJN
+QSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEWGHNjbGllbnRlc0Bl
+LWNlcnRjaGlsZS5jbDAeFw0xNzExMDgxNzQ5MDVaFw0xOTExMDgxNzQ5MDVaMIHW
+MQswCQYDVQQGEwJDTDEjMCEGA1UECBMaTUVUUk9QT0xJVEFOQSBERSBTQU5USUFH
+TyAxETAPBgNVBAcTCFNhbnRpYWdvMS8wLQYDVQQKDCZMdXJleWUgQWRtaW5pc3Ry
+YWNpw7NuIHkgR2VzdGnDs24gUy5BLjEVMBMGA1UECxMMQ29udGFiaWxpZGFkMSQw
+IgYDVQQDExtKdWFuIEFsYmVydG8gRXNjb2JhciBIYWJhY2gxITAfBgkqhkiG9w0B
+CQEWEmFlc2NvYmFyQGx1cmV5ZS5jbDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkC
+gYEAscT1yES5ERtHPt5JxGfZn9gYSg+iBDvgj9HAozkJS4MJI0Fxxw3I6ixjxAbK
+hWKWimSohdbpK9ACf4SrZafbRykUPv82j9+2LgCrWF2aiTwesV5sov6VACTdJb+V
+cfHlRB6/s/LEsgBAEILLl1qhbx+wW8PvjjFO7O9iSTotyMsCAwEAAaOCAqcwggKj
+MD0GCSsGAQQBgjcVBwQwMC4GJisGAQQBgjcVCILcgy+Fk4xmhdWdF4Li3CeB7+w8
+YYOq50OH08YOAgFkAgEEMB0GA1UdDgQWBBRe619RQoZM61SGWgr+8igCtVuEdjAL
+BgNVHQ8EBAMCBPAwHwYDVR0jBBgwFoAUeOE+n9ISs3o8jc0wDlOzQykHs1UwPgYD
+VR0fBDcwNTAzoDGgL4YtaHR0cDovL2NybC5lLWNlcnRjaGlsZS5jbC9lY2VydGNo
+aWxlY2FGRVMuY3JsMDoGCCsGAQUFBwEBBC4wLDAqBggrBgEFBQcwAYYeaHR0cDov
+L29jc3AuZWNlcnRjaGlsZS5jbC9vY3NwMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGg
+DBYKMTE4MTA4NDktMzAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwWCjk2OTI4MTgw
+LTUwggFNBgNVHSAEggFEMIIBQDCCATwGCCsGAQQBw1IFMIIBLjAtBggrBgEFBQcC
+ARYhaHR0cDovL3d3dy5lLWNlcnRjaGlsZS5jbC9DUFMuaHRtMIH8BggrBgEFBQcC
+AjCB7x6B7ABDAGUAcgB0AGkAZgBpAGMAYQBkAG8AIABGAGkAcgBtAGEAIABTAGkA
+bQBwAGwAZQAuACAASABhACAAcwBpAGQAbwAgAHYAYQBsAGkAZABhAGQAbwAgAGUA
+bgAgAGYAbwByAG0AYQAgAHAAcgBlAHMAZQBuAGMAaQBhAGwALAAgAHEAdQBlAGQA
+YQBuAGQAbwAgAGgAYQBiAGkAbABpAHQAYQBkAG8AIABlAGwAIABDAGUAcgB0AGkA
+ZgBpAGMAYQBkAG8AIABwAGEAcgBhACAAdQBzAG8AIAB0AHIAaQBiAHUAdABhAHIA
+aQBvMA0GCSqGSIb3DQEBBQUAA4IBAQC/85fnmbTfNpjTZZRWFG7mqv1O2pHvEbkY
+W3Kb7qBTlKjiljf+rTn0D83TmnIKeBxcXNNfDJBho2tia9K5rvEO/RKVz4zOdOKS
+pzqO7V9OAS/f1wMwpYY2ci/uVungwvsvZcfYGItfoTjrUpcTKpFl31sZmO9BHIoa
+r3Llyu4z4+v7d7ReVojOYuohwxKHZfHdd2M4Sdf8OLww7yFDxIcTJuuc5KQYvV8A
+d0J7FYAJqHre4UtStBqWoGVKI/Z7rGWdOLWWdE/G8TkRm4yCu7qzY5FOq/qteSaf
+vtVyORsEDAP8+u5x9GcWCW4YXOBv1eJ04u0Eubg6PPRT9IRN69GV
+</default:X509Certificate>
+</default:X509Data>
+</default:KeyInfo>
+</default:Signature>
+</DTE>

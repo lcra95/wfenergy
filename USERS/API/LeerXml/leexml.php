@@ -1,24 +1,21 @@
 <?php 
-include("FPDF/fpdf.php");
-include("FPDF/conexion.php");
-
-
-
+//include("FPDF/fpdf.php");
+//include("FPDF/conexion.php");
 $doc=new DOMDocument();
-$doc->load('result.xml');
+$doc->load('../Logs/Recepcion/1035_76481364-2_33.xml');
 
 $receptores=$doc->getElementsByTagName('Receptor');
 foreach ($receptores as $receptor) 
 {
 //Acceso al TAG	
-	$rut=$receptor->getElementsByTagName('RUTRecep');
+	$rut=$receptor->getElementsByTagName('RUTRecep');//<RUTRecep>76254347-8</RUTRecep>
 	$razon=$receptor->getElementsByTagName('RznSocRecep');
 	$giro=$receptor->getElementsByTagName('GiroRecep');
 	$direccion=$receptor->getElementsByTagName('DirRecep');
 	$comuna=$receptor->getElementsByTagName('CmnaRecep');
 	$ciudad=$receptor->getElementsByTagName('CiudadRecep');
 //Valores Contenidos en los TAGS
-	$rr=$rut->item(0)->nodeValue;
+	$rr=$rut->item(0)->nodeValue;//76254347-8
 	$rzr=$razon->item(0)->nodeValue;
 	$grr=$giro->item(0)->nodeValue;
 	$drr=$direccion->item(0)->nodeValue;
@@ -32,23 +29,44 @@ foreach ($totales as $total)
 //Acceso al TAG		
 	$definitivo=$total->getElementsByTagName('MntTotal');
 	$iva=$total->getElementsByTagName('IVA');
-	$exento=$total->getElementsByTagName('MntExe');
+	if(!$exento=$total->getElementsByTagName('MntExe'))
+	{
+		$ex=$exento->item(0)->nodeValue;
+	}
 	$neto=$total->getElementsByTagName('MntNeto');
 //Valores Contenidos en los TAGS
-	$df=$definitivo->item(0)->nodeValue;
-	$iv=$iva->item(0)->nodeValue;
-	$ex=$exento->item(0)->nodeValue;
-	$nt=$neto->item(0)->nodeValue;
+	echo $df=$definitivo->item(0)->nodeValue;
+	echo $iv=$iva->item(0)->nodeValue;
+	echo $nt=$neto->item(0)->nodeValue;
 	$dg=0;
 	$rg=0;
 }
+$i=0;
+$detalles=$doc->getElementsByTagName('Detalle');
+foreach ($detalles as $detalle ) 
+{
+	$descripcion[$i]=$detalle->getElementsByTagName('DscItem');	
+	$cantidad[$i]=$detalle->getElementsByTagName('QtyItem');
+	$precio[$i]=$detalle->getElementsByTagName('PrcItem');
+	$unidad[$i]=$detalle->getElementsByTagName('UnmdItem');
+	$monto[$i]=$detalle->getElementsByTagName('MontoItem');
 
+	$des=$descripcion[$i]->item(0)->nodeValue;
+	$can=$cantidad[$i]->item(0)->nodeValue;
+	$pr=$precio[$i]->item(0)->nodeValue;
+	$un=$unidad[$i]->item(0)->nodeValue;
+	$mon=$monto[$i]->item(0)->nodeValue;
+	$i++;
+}
+
+
+/*
 class PDF extends FPDF{
 
 	function Header()
 	{
 		$doc=new DOMDocument();
-		$doc->load('result.xml');
+		$doc->load('../Logs/Recepcion/1035_76481364-2_33.xml');
 		$tdte="FACTURA ELECTRONICA";
 		$sii="S.I.I - SANTIAGO ORIENTE";
 		$encabezados=$doc->getElementsByTagName('IdDoc');
@@ -173,20 +191,5 @@ foreach ($detalles as $detalle )
 $pdf->SetFont('Arial','',10);
 $pdf->Output();
 $pdf->ob_end_flush();
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
 ?>

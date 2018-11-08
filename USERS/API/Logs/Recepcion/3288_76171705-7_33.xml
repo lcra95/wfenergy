@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+  <Documento ID="D033F3288">
+<!-- DTE vs. 1.1.716-->
+<Encabezado>
+<IdDoc>
+<TipoDTE>33</TipoDTE>
+<Folio>3288</Folio>
+<FchEmis>2018-10-31</FchEmis>
+<TpoTranVenta>1</TpoTranVenta>
+<FmaPago>2</FmaPago>
+<TermPagoGlosa>CREDITO 30 DIAS</TermPagoGlosa>
+<FchVenc>2018-11-30</FchVenc>
+</IdDoc>
+<Emisor>
+<RUTEmisor>76171705-7</RUTEmisor>
+<RznSoc>BIOCRUZ GENERACION</RznSoc>
+<GiroEmis>PRODUCCION Y COMERCIALIZACION DE BIOCOMBUSTIBLE</GiroEmis>
+<Acteco>401019</Acteco>
+<Acteco>401020</Acteco>
+<DirOrigen>CHACRA VICTORIA SUR S/N CARRETERA INTERNACIONAL KM.11,5</DirOrigen>
+<CmnaOrigen>LA CRUZ</CmnaOrigen>
+<CiudadOrigen>LA CRUZ</CiudadOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>76254347-8</RUTRecep>
+<CdgIntRecep>76254347</CdgIntRecep>
+<RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep>
+<GiroRecep>GENERACION ENERGIA</GiroRecep>
+<CorreoRecep>762543478@webfactura.net</CorreoRecep>
+<DirRecep>Avda. Apoquindo 3910, piso 5 3910</DirRecep>
+<CmnaRecep>Las Condes</CmnaRecep>
+<CiudadRecep>Santiago</CiudadRecep>
+<CiudadPostal>8320000</CiudadPostal>
+</Receptor>
+<Totales>
+<MntNeto>2</MntNeto>
+<IVA>0</IVA>
+<MntTotal>2</MntTotal>
+</Totales>
+</Encabezado>
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<CdgItem>
+<TpoCodigo>INT1</TpoCodigo>
+<VlrCodigo>1</VlrCodigo>
+</CdgItem>
+<IndExe>1</IndExe>
+<NmbItem>Reliquidacion Cargos Unicos Mayo 2016 - Julio 2016</NmbItem>
+<DscItem>Reliquidacion Cargos Unicos Mayo 2016 - Julio 2016</DscItem>
+<QtyItem>1</QtyItem>
+<UnmdItem>UN</UnmdItem>
+<PrcItem>2</PrcItem>
+<MontoItem>2</MontoItem>
+</Detalle>
+<TED version="1.0"><DD><RE>76171705-7</RE><TD>33</TD><F>3288</F><FE>2018-10-31</FE><RR>76254347-8</RR><RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR><MNT>2</MNT><IT1>Reliquidacion Cargos Unicos Mayo 2016 - </IT1><CAF version="1.0"><DA><RE>76171705-7</RE><RS>BIOCRUZ GENERACION SA</RS><TD>33</TD><RNG><D>2401</D><H>3305</H></RNG><FA>2017-12-27</FA><RSAPK><M>xzkPfthHaHqSOmsV1aw/+CiQnZ+kqnu7HXiwIUVJyheFk1qnIUmATHbwCdz9SxOR1ajLo2b/MmhxvVUZOx0f7Q==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">ZVZp1VsfzAP8py1lwojaGIlB4cU/8ggkIk0NEnJ4cvS1O6ZJJ2DtVKn2k0jk2VMW5NGZkc5y+aV+PibN+TjMug==</FRMA></CAF><TSTED>2018-11-06T12:03:03</TSTED></DD><FRMT algoritmo="SHA1withRSA">Z81uuRmJBZFo1R58WmuXXga25Gfwa4HMvtpQyTa4CmZClsBX3RDnMlJN10nv0IL+rYm3+KrL5zXU32KdDJumOw==</FRMT></TED><TmstFirma>2018-11-06T12:03:03</TmstFirma></Documento>
+  <default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <default:SignedInfo>
+      <default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+      <default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+      <default:Reference URI="#D033F3288">
+        <default:Transforms>
+          <default:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+        </default:Transforms>
+        <default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+        <default:DigestValue>dHYrNCLE1PqtRLwlFEHWvobgcHs=</default:DigestValue>
+      </default:Reference>
+    </default:SignedInfo>
+    <default:SignatureValue>pQjyfjlqvLkUePD1szwJ+evullSXUZqXE3O/BC4ztolHiGv3+q2bXUKKb26gJhrK4YpxxpuxmzdBsfPtJrK6cQSd/EfF1WOGc6r+egP62Anm1f9qoeDDSwaGBRIB2NW9ZgaZFCwUyMUMbeGKtDeE0lO+KY8TzG3TxYs2OmWXHaVm8wEUk091Q83wkCwEZCzA/u3ZRlZT3NIMqrN4h4gLw52Iw2kzvznzPhmh3JE149XcSVq/ggZ8d3BIFBFk94XtVYhDpyo3A8BMbRA768UbIHyjN2nRfwH1uViJ025iWUzA448dzsGyoVpyvUxT3oqrg2GJ/KSNg5DECzutLK9htQ==</default:SignatureValue>
+    <default:KeyInfo>
+      <default:KeyValue>
+        <default:RSAKeyValue>
+          <default:Modulus>tHr8qbebqBcxKoXc+qXKZA5/RDKBG1UScwTSuGr79ZH7Kweoswc04zJLzvHe8Nv7myAsWmjqxfRwGszOPCfMgT6eFFvcmtqgpgWdA7fObrMG9ibMiHXhX0RSC7wn9LWnhb3JPBAx3wkBTgLnFrc/QFCJ16d2S9NbVG8z4Ys3sKQlLglPDzePaPrmEElgu+ItrCOyt1Ju1N22C3GzWvhOh1TumWcRWS5oImQ2ny5GW/735kvD5NBzzr+0+hvckUeqncT1F9Kwwxlo/gsq7vWOs0PCKpfe3NglSU8Sa0AWoTOpBz+AvQNKwG9h4kmi6v/f177QGb/0mXPhuFzOUX9a2Q==</default:Modulus>
+          <default:Exponent>AQAB</default:Exponent>
+        </default:RSAKeyValue>
+      </default:KeyValue>
+      <default:X509Data>
+        <default:X509Certificate>MIIGcjCCBVqgAwIBAgIDApTIMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJDTDEYMBYGA1UE
+ChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29tIEF1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFsIC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9A
+YWNlcHRhLmNvbTETMBEGA1UEBRMKOTY5MTkwNTAtODAeFw0xODEwMTAxMzMyMTJaFw0yMTEwMTAx
+MzMyMTJaMIGNMQswCQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMS0wKwYDVQQD
+EyRHT05aQUxPIExVSVMgRlJBTkNJU0NPIEJSSU9ORVMgU0FWQUwxITAfBgkqhkiG9w0BCQEWEmds
+ZWZpYW5AZ2JzY29ycC5jbDESMBAGA1UEBRMJODQ1MDYxNy02MIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAtHr8qbebqBcxKoXc+qXKZA5/RDKBG1UScwTSuGr79ZH7Kweoswc04zJLzvHe
+8Nv7myAsWmjqxfRwGszOPCfMgT6eFFvcmtqgpgWdA7fObrMG9ibMiHXhX0RSC7wn9LWnhb3JPBAx
+3wkBTgLnFrc/QFCJ16d2S9NbVG8z4Ys3sKQlLglPDzePaPrmEElgu+ItrCOyt1Ju1N22C3GzWvhO
+h1TumWcRWS5oImQ2ny5GW/735kvD5NBzzr+0+hvckUeqncT1F9Kwwxlo/gsq7vWOs0PCKpfe3Ngl
+SU8Sa0AWoTOpBz+AvQNKwG9h4kmi6v/f177QGb/0mXPhuFzOUX9a2QIDAQABo4ICvjCCArowHwYD
+VR0jBBgwFoAUZaWrPj/ItlFtEX5fwwoH5kOgCLYwHQYDVR0OBBYEFIo99O2uL/MznMAbvqmtCaFi
+7A3xMAsGA1UdDwQEAwIE8DAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwEQYJYIZIAYb4
+QgEBBAQDAgWgMIH1BgNVHSAEge0wgeowgecGCCsGAQQBtWsCMIHaMDEGCCsGAQUFBwIBFiVodHRw
+czovL2FjZzQuYWNlcHRhLmNvbS9DUFMtQWNlcHRhY29tMIGkBggrBgEFBQcCAjCBlzAWFg9BY2Vw
+dGEuY29tIFMuQS4wAwIBCRp9RWwgdGl0dWxhciBoYSBzaWRvIHZhbGlkYWRvIGVuIGZvcm1hIG9u
+bGluZSwgcXVlZGFuZG8gaGFiaWxpdGFkbyBlbCBDZXJ0aWZpY2FkbyBwYXJhIHVzbyB0cmlidXRh
+cmlvLCBwYWdvcywgY29tZXJjaW8geSBvdHJvcy4wWgYDVR0SBFMwUaAYBggrBgEEAcEBAqAMFgo5
+NjkxOTA1MC04oCQGCCsGAQUFBwgDoBgwFgwKOTY5MTkwNTAtOAYIKwYBBAHBAQKBD2luZm9AYWNl
+cHRhLmNvbTBbBgNVHREEVDBSoBcGCCsGAQQBwQEBoAsWCTg0NTA2MTctNqAjBggrBgEFBQcIA6AX
+MBUMCTg0NTA2MTctNgYIKwYBBAHBAQKBEmdsZWZpYW5AZ2JzY29ycC5jbDBHBggrBgEFBQcBAQQ7
+MDkwNwYIKwYBBQUHMAGGK2h0dHBzOi8vYWNnNC5hY2VwdGEuY29tL2FjZzQvb2NzcC9DbGFzZTIt
+RzQwPwYDVR0fBDgwNjA0oDKgMIYuaHR0cHM6Ly9hY2c0LmFjZXB0YS5jb20vYWNnNC9jcmwvQ2xh
+c2UyLUc0LmNybDANBgkqhkiG9w0BAQsFAAOCAQEAFPR7WfAGLyoTDWAnO6cG09g6EjypjB+jvQDN
+EEkQaLk11A3P6500l4lkcofXsnZh/HddQX4zFNwsCn8jI4g9exrhvy78Hsuz6sULuu2J8HUe8UM0
+drd+vX9ElGDewd1s1JCM7ftBHzAV23T/oC1ECX70N9fbRFr4XuQ5cBLauGE7fzcVfRUYORl5s8dm
+q2vWnrHgCSxFCBl7zb3fTZhgoFzPoZFd+HL5qWeRNTG7WyQKIrkhaPpRpajbuhmMOr5CkB1rkvqD
+sVTck82k6XgecPzS3Usr24vgZvfx/4ftV9VKNDRomF2a/c01iJnQ1ZfGnC6rusrjDjS36Y+Qa6nS
+wQ==</default:X509Certificate>
+      </default:X509Data>
+    </default:KeyInfo>
+  </default:Signature>
+</DTE>
