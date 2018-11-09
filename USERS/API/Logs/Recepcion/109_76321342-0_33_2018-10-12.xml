@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+  <!-- O Win32 Chrome 69 central VERSION: v20170209 -->
+<Documento ID="MiPE76321342-12505">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>109</Folio>
+        <FchEmis>2018-10-12</FchEmis>
+        <TpoTranCompra>1</TpoTranCompra>
+        <TpoTranVenta>1</TpoTranVenta>
+        <FmaPago>2</FmaPago>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>76321342-0</RUTEmisor>
+        <RznSoc>CONSULTORA SOLUCIONES AMBIENTALES ESTRATEGICAS SPA</RznSoc>
+        <GiroEmis>ASES CAPACITACION E INVESTIGACION MATERIAS MEDIOAMBIENTES,FORESTACION</GiroEmis>
+        <Telefono>24620876</Telefono>
+        <CorreoEmisor>LIZA@HLACONTADORES.CL</CorreoEmisor>
+        <Acteco>741400</Acteco>
+        <CdgSIISucur>078263770</CdgSIISucur>
+        <DirOrigen>HUERFANOS 1178  501</DirOrigen>
+        <CmnaOrigen>SANTIAGO</CmnaOrigen>
+        <CiudadOrigen>SANTIAGO</CiudadOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>76254347-8</RUTRecep>
+        <RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep>
+        <GiroRecep>GENERACION EN OTRAS CENTRALES N.C.P.</GiroRecep>
+        <DirRecep>APOQUINDO 3910 PISO 5</DirRecep>
+        <CmnaRecep>LAS CONDES</CmnaRecep>
+        <CiudadRecep>SANTIAGO</CiudadRecep>
+      </Receptor>
+      <Totales>
+        <MntNeto>4933478</MntNeto>
+        <TasaIVA>19.00</TasaIVA>
+        <IVA>937361</IVA>
+        <MntTotal>5870839</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <NmbItem>Mantenimiento Forestaci?n</NmbItem>
+      <QtyItem>180.31</QtyItem>
+      <UnmdItem>UF</UnmdItem>
+      <PrcItem>27361.09</PrcItem>
+      <MontoItem>4933478</MontoItem>
+    </Detalle>
+<TED version="1.0"><DD><RE>76321342-0</RE><TD>33</TD><F>109</F><FE>2018-10-12</FE><RR>76254347-8</RR><RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR><MNT>5870839</MNT><IT1>Mantenimiento Forestaci?n</IT1><CAF version="1.0"><DA><RE>76321342-0</RE><RS>CONSULTORA SOLUCIONES AMBIENTALES ESTRAT</RS><TD>33</TD><RNG><D>109</D><H>109</H></RNG><FA>2018-10-12</FA><RSAPK><M>q2lEZEwxgFndGMveadsyhQsBNOM9uXMjjs1wm4olGk5gqUP69XUraWndkZlmkynDCcvWRPvyVYLuYPPmtmK8zw==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">SF40PGpPLPuJV+djQl2C8khYOotZTu7jWZkylt7rNK1/I04EK12FtKtM4/lVrk3OGzLjTXlt/mBrB7Y1WlMCFQ==</FRMA></CAF><TSTED>2018-10-12T00:10:39</TSTED></DD><FRMT algoritmo="SHA1withRSA">IYPg4OfUxvzy159+fMDzkU6lg/mV1CFDhb3OMsrc9dnDUy9wFZ8/CiQgIvrUyPbhqKBVM2o8b+gCuRpOIn3RbA==</FRMT></TED>
+    <TmstFirma>2018-10-12T00:10:39</TmstFirma>
+
+  </Documento>
+<default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<default:SignedInfo>
+<default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<default:Reference URI="#MiPE76321342-12505">
+<default:Transforms>
+<default:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</default:Transforms>
+<default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<default:DigestValue>MBI50+UUEjOlPrfYD8U+VE+GTto=</default:DigestValue>
+</default:Reference>
+</default:SignedInfo>
+<default:SignatureValue>
+nw5b19VySClBYBghs098eaU3ibIzUgpkwHZle3zvd/NhYsehYL6oqqTh+pe/ZwYyXQuB5e+S1BDs
+mqqxGdSW2wBq/4y/HP7bicoKUSZrDisqmEeQvfttL9Qme/hhmIjoqZ+o4rX2R1zfzb1AjI7I3RH4
+AxRMOno2dWQ89FDRB+g=
+</default:SignatureValue>
+<default:KeyInfo>
+<default:KeyValue>
+<default:RSAKeyValue>
+<default:Modulus>
+s1Et05nGr60OLbQ8+OdgGfWHCHdgRrX0AWFLnrt5H4N63Fkn24eh2yHt/6pXApbyAAS3/0amcSPI
+PDzhJHRHcqCrDw4+RK4F+YeO6+v6UBVczh3TOqpjvcTbTxP1+nq3VpBINRIim3r2KcvAGp4mLfo8
+uDiBO0feI/tNbA9Y870=
+</default:Modulus>
+<default:Exponent>AQAB</default:Exponent>
+</default:RSAKeyValue>
+</default:KeyValue>
+<default:X509Data>
+<default:X509Certificate>
+MIIGYjCCBUqgAwIBAgIKIqdQdwAAAAjQ1DANBgkqhkiG9w0BAQUFADCB0jELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQD
+EydFLUNFUlRDSElMRSBDQSBGSVJNQSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEW
+GHNjbGllbnRlc0BlLWNlcnRjaGlsZS5jbDAeFw0xNzA5MDIwMTAzMzVaFw0yMDA5MDEwMTAzMzVa
+MIHlMQswCQYDVQQGEwJDTDEiMCAGA1UECBMZTUVUUk9QT0xJVEFOQSBERSBTQU5USUFHTzERMA8G
+A1UEBxMIU2FudGlhZ28xPTA7BgNVBAoTNENvbnN1bHRvcmEgU29sdWNpb25lcyBBbWJpZW50YWxl
+cyBFc3RyYXRlZ2ljYXMgTHRkYS4xFzAVBgNVBAsTDkh1ZXJmYW5vcyAxMTc4MSYwJAYDVQQDEx1N
+YXVyaWNpbyBGcmFuY2lzY28gTGVtdXMgVmVyYTEfMB0GCSqGSIb3DQEJARYQbWxlbXVzQGJpb2N5
+cy5jbDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAs1Et05nGr60OLbQ8+OdgGfWHCHdgRrX0
+AWFLnrt5H4N63Fkn24eh2yHt/6pXApbyAAS3/0amcSPIPDzhJHRHcqCrDw4+RK4F+YeO6+v6UBVc
+zh3TOqpjvcTbTxP1+nq3VpBINRIim3r2KcvAGp4mLfo8uDiBO0feI/tNbA9Y870CAwEAAaOCAqcw
+ggKjMD0GCSsGAQQBgjcVBwQwMC4GJisGAQQBgjcVCILcgy+Fk4xmhdWdF4Li3CeB7+w8YYHLnhSG
+qIJYAgFkAgEEMB0GA1UdDgQWBBTHkLOa7g3wvDX4/DhyIF6jTjcFNzALBgNVHQ8EBAMCBPAwHwYD
+VR0jBBgwFoAUeOE+n9ISs3o8jc0wDlOzQykHs1UwPgYDVR0fBDcwNTAzoDGgL4YtaHR0cDovL2Ny
+bC5lLWNlcnRjaGlsZS5jbC9lY2VydGNoaWxlY2FGRVMuY3JsMDoGCCsGAQUFBwEBBC4wLDAqBggr
+BgEFBQcwAYYeaHR0cDovL29jc3AuZWNlcnRjaGlsZS5jbC9vY3NwMCMGA1UdEQQcMBqgGAYIKwYB
+BAHBAQGgDBYKMTI1MDU0NzQtOTAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwWCjk2OTI4MTgwLTUw
+ggFNBgNVHSAEggFEMIIBQDCCATwGCCsGAQQBw1IFMIIBLjAtBggrBgEFBQcCARYhaHR0cDovL3d3
+dy5lLWNlcnRjaGlsZS5jbC9DUFMuaHRtMIH8BggrBgEFBQcCAjCB7x6B7ABDAGUAcgB0AGkAZgBp
+AGMAYQBkAG8AIABGAGkAcgBtAGEAIABTAGkAbQBwAGwAZQAuACAASABhACAAcwBpAGQAbwAgAHYA
+YQBsAGkAZABhAGQAbwAgAGUAbgAgAGYAbwByAG0AYQAgAHAAcgBlAHMAZQBuAGMAaQBhAGwALAAg
+AHEAdQBlAGQAYQBuAGQAbwAgAGgAYQBiAGkAbABpAHQAYQBkAG8AIABlAGwAIABDAGUAcgB0AGkA
+ZgBpAGMAYQBkAG8AIABwAGEAcgBhACAAdQBzAG8AIAB0AHIAaQBiAHUAdABhAHIAaQBvMA0GCSqG
+SIb3DQEBBQUAA4IBAQAzsbufMQZlykZj1NaOxkkCqJL6iJ2Ik3btZz/wOEAP6unPXCPninC2BX61
+jd9wajX3r8cvcfWTKdxPgwscgjUdNiOnPcsWljKRQ2QIj5yPOrr1hEzrmYPq+oU0kiWZK2v22I43
+6qg69PxO183GxSK4ZSsVOJsCdj15ssLqPrZwI6avOh1epnQ7Skeuq+73aNhOtZqrEo7xF+Pf3w0b
+S4w6WMk6S4fl6FMmK8hIxnQ8/LsT/+wvNVmVgQfhxEHQkQL4FtY0iVPJAgWznw3vdUJYFiMkm9dJ
+YIUOBQXLF9yFxGNwJYWI7Ict/Dc+piYENlqv1x3nfhrWC8yCQ8Hzky9e
+</default:X509Certificate>
+</default:X509Data>
+</default:KeyInfo>
+</default:Signature></DTE>

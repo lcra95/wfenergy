@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+  <Documento ID="D526da67c-a790-4122-8ce0-35ce6dac7d77">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>00008130</Folio>
+        <FchEmis>2018-10-09</FchEmis>
+        <TpoTranVenta>1</TpoTranVenta>
+        <FmaPago>2</FmaPago>
+        <FchVenc>2018-10-16</FchVenc>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>76046791-K</RUTEmisor>
+        <RznSoc>Edelnor Transmisi?n S.A.</RznSoc>
+        <GiroEmis>Transmisi?n y Distrib.El?ctrica</GiroEmis>
+        <Acteco>41011</Acteco>
+        <DirOrigen>Avda. Apoquindo N? 3721, piso 6</DirOrigen>
+        <CmnaOrigen>Las Condes</CmnaOrigen>
+        <CiudadOrigen>Las Condes</CiudadOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>76254347-8</RUTRecep>
+        <CdgIntRecep>917120</CdgIntRecep>
+        <RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep>
+        <GiroRecep>SIN GIRO</GiroRecep>
+        <DirRecep>AVENIDA APOQUINDO PISO 5 3910</DirRecep>
+        <CmnaRecep>SANTIAGO</CmnaRecep>
+        <CiudadRecep>LAS CONDES</CiudadRecep>
+        <DirPostal>12345</DirPostal>
+      </Receptor>
+      <Totales>
+        <MntNeto>31150</MntNeto>
+        <TasaIVA>19</TasaIVA>
+        <IVA>5919</IVA>
+        <MntTotal>37069</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <CdgItem>
+        <TpoCodigo>SAP</TpoCodigo>
+        <VlrCodigo>900089</VlrCodigo>
+      </CdgItem>
+      <NmbItem>Peajes de Retiro por Peaje Unitario v/s</NmbItem>
+      <DscItem>Peajes de Retiro por Peaje Unitario v/s** Peajes de Retiro por Peaje Unitario v/s Cargo ?nico mes 12 2017 Seg?n Informe SEN D.E. Nro. DE04653 / 2018 -SEN_[PCU_][NOV17-DIC17][</DscItem>
+      <QtyRef>1</QtyRef>
+      <QtyItem>1</QtyItem>
+      <UnmdItem>C/U</UnmdItem>
+      <PrcItem>31150</PrcItem>
+      <MontoItem>31150</MontoItem>
+    </Detalle>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>802</TpoDocRef>
+      <FolioRef>16112</FolioRef>
+      <FchRef>2018-10-09</FchRef>
+    </Referencia>
+    <Referencia>
+      <NroLinRef>2</NroLinRef>
+      <TpoDocRef>SEN</TpoDocRef>
+      <FolioRef>DE04653A18C19S0222</FolioRef>
+      <FchRef>2018-10-08</FchRef>
+      <RazonRef>SEN_[PCU_][Nov17-Dic17][R][V01]</RazonRef>
+    </Referencia>
+    <TED version="1.0">
+      <DD>
+        <RE>76046791-K</RE>
+        <TD>33</TD>
+        <F>00008130</F>
+        <FE>2018-10-09</FE>
+        <RR>76254347-8</RR>
+        <RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR>
+        <MNT>37069</MNT>
+        <IT1>Peajes de Retiro por Peaje Unitario v/s</IT1>
+        <CAF version="1.0">
+<DA>
+<RE>76046791-K</RE>
+<RS>EDELNOR TRANSMISION S.A.</RS>
+<TD>33</TD>
+<RNG>
+              <D>8089</D>
+              <H>10088</H>
+            </RNG>
+<FA>2018-10-05</FA>
+<RSAPK>
+              <M>5Pjd4yOTU5HKYcHBk8gQlUIfNCW/CbduIubl1zDo6mZiXp9TLTg7+2M/aCXISPqLaSwsZFOOELZNK668vFFqvw==</M>
+              <E>Aw==</E>
+            </RSAPK>
+<IDK>300</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">lnCVsgWBq3Sxwx3OiPbZepAARrAMWfrw33bQ7VxIDGCstyWkwvnovmhMGSGKspmZnUsabDU7bDVy/72d2bk5hw==</FRMA>
+</CAF>
+      <TSTED>2018-10-09T17:11:24</TSTED>
+      </DD>
+    <FRMT algoritmo="SHA1withRSA">tHzjNY4bSDSZZeTqSJnysM0wnKlcuR1ohPs6dmI5LYI8bpC5+TmOHiw6FKL0At88tyW4v9wYhq8b2/ab95bXxA==</FRMT>
+    </TED>
+  <TmstFirma>2018-10-09T17:11:24</TmstFirma>
+  </Documento>
+  <default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<default:SignedInfo>
+<default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<default:Reference URI="#D526da67c-a790-4122-8ce0-35ce6dac7d77">
+<default:Transforms>
+<default:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</default:Transforms>
+<default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<default:DigestValue>PQ8v2ng/Jd6JsuadjdCGNbranV8=</default:DigestValue>
+</default:Reference>
+</default:SignedInfo>
+<default:SignatureValue>
+giWgYrxl5mdspd3YfIz1Nw+ezbdb7ONXcsp0NquGpNAitUhgla/5/seyUYxoDytD8202AyW/N1I6
+NLIh6ZX0KgzuwpQ0Uls6ciJ73FIbUM7bYC71hAF7mnzClL8TqMTnsX7hpEzMBFXdD+z6jfVihAcR
+CHAQ1GlJqBEHpZZ3J3cGfxybc1z/c0sTI5ONtdtjAib4RB8hO/xUj2K4MGXa37ejuoSwQpzrEwTh
+pUIPNFCQ0bPx+R+4CkhMyAaEgFH04NfgofTQaeK5ZxKF2pNbkivJY08B7K9xZ+o0UsLLLClm3PKt
+NlRDEN+sqRdcJkLdktNq+z7RbuIcEcV5tBV8XA==
+</default:SignatureValue>
+<default:KeyInfo>
+<default:KeyValue>
+<default:RSAKeyValue>
+<default:Modulus>
+3hA71A7IGcUpRBvlu4V3KsEl+Grv1zGtij/crKyYg+9X6U5rdqK1gXuhCjaieHTroXYoutCp35OO
+yf/hXRLJE3paz+0/l0x1guJgV0qwaGZXZTTFYjLKkD06C8ZIwABx0TBKXrt+nplyNqU6EBw6EnWf
+q4RQe5hmiGkUTmiQupNnIiP8tu4Bqa/EU4VYCZtFbvrGsYCfedqe0vF8wRAgVG2r3NZXgKv4mkPR
+TKrLGbrYWGiQJlaFE7Tgiw3UPhqpkgQ0MLMYjwMGOK5uENwSo9n7VVEDj+sbHCwZ7uZLny4Jv17p
+oWhqU6B71BuD0/WoX76PHx7WsRikbTotUzomHQ==
+</default:Modulus>
+<default:Exponent>AQAB</default:Exponent>
+</default:RSAKeyValue>
+</default:KeyValue>
+<default:X509Data>
+<default:X509Certificate>
+MIIF7DCCBNSgAwIBAgIDASdfMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJDTDEYMBYGA1UE
+ChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29tIEF1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFsIC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9A
+YWNlcHRhLmNvbTETMBEGA1UEBRMKOTY5MTkwNTAtODAeFw0xNzA4MDkxNTQzNTRaFw0yMDA4MDkx
+NDQzNTRaMIGIMQswCQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSkwJwYDVQQD
+EyBCUkFVTElPIEVOUklRVUUgU0FOVElCQU5FWiBOVU5FWjEfMB0GCSqGSIb3DQEJARYQYnJhdWxp
+b0BmZWJvcy5pbzETMBEGA1UEBRMKMTQxNzI5NTEtOTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAN4QO9QOyBnFKUQb5buFdyrBJfhq79cxrYo/3KysmIPvV+lOa3aitYF7oQo2onh066F2
+KLrQqd+Tjsn/4V0SyRN6Ws/tP5dMdYLiYFdKsGhmV2U0xWIyypA9OgvGSMAAcdEwSl67fp6Zcjal
+OhAcOhJ1n6uEUHuYZohpFE5okLqTZyIj/LbuAamvxFOFWAmbRW76xrGAn3nantLxfMEQIFRtq9zW
+V4Cr+JpD0Uyqyxm62FhokCZWhRO04IsN1D4aqZIENDCzGI8DBjiubhDcEqPZ+1VRA4/rGxwsGe7m
+S58uCb9e6aFoalOge9Qbg9P1qF++jx8e1rEYpG06LVM6Jh0CAwEAAaOCAj0wggI5MB8GA1UdIwQY
+MBaAFGWlqz4/yLZRbRF+X8MKB+ZDoAi2MB0GA1UdDgQWBBTWRdDlPWCvMm/YZazxUZFFYeo3SzAL
+BgNVHQ8EBAMCBPAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMBEGCWCGSAGG+EIBAQQE
+AwIFoDB1BgNVHSAEbjBsMGoGCCsGAQQBtWsCMF4wMQYIKwYBBQUHAgEWJWh0dHBzOi8vYWNnNC5h
+Y2VwdGEuY29tL0NQUy1BY2VwdGFjb20wKQYIKwYBBQUHAgIwHTAWFg9BY2VwdGEuY29tIFMuQS4w
+AwIBCRoDVEJEMFoGA1UdEgRTMFGgGAYIKwYBBAHBAQKgDBYKOTY5MTkwNTAtOKAkBggrBgEFBQcI
+A6AYMBYMCjk2OTE5MDUwLTgGCCsGAQQBwQECgQ9pbmZvQGFjZXB0YS5jb20wWwYDVR0RBFQwUqAY
+BggrBgEEAcEBAaAMFgoxNDE3Mjk1MS05oCQGCCsGAQUFBwgDoBgwFgwKMTQxNzI5NTEtOQYIKwYB
+BAHBAQKBEGJyYXVsaW9AZmVib3MuaW8wRwYIKwYBBQUHAQEEOzA5MDcGCCsGAQUFBzABhitodHRw
+czovL2FjZzQuYWNlcHRhLmNvbS9hY2c0L29jc3AvQ2xhc2UyLUc0MD8GA1UdHwQ4MDYwNKAyoDCG
+Lmh0dHBzOi8vYWNnNC5hY2VwdGEuY29tL2FjZzQvY3JsL0NsYXNlMi1HNC5jcmwwDQYJKoZIhvcN
+AQELBQADggEBAHfebR+W6gcd1r90lx/B+Gisc3dv+8ekG7HwmWZ9jfpjB/s35I4WDH4ddp2G5oRW
+T/2w4mJHtedMY9co7g5fnU/WAeLeh5Q4zWnw9SQX3GgY97sFJ2tuVKOwIaNqokS3ZYG31r/+R4iD
+DelNU5EGBrCbeHjznCzZsgEGwZuC3WvFAR0kI/BD/Ves0T9+xLWOYaF2e0CpVvJXgRwDLLR6dZYg
+3BXN0e+DNkIcJBALQ/iLFlCuKeyC+RMdkvTs4SBj7cv7Sp2VVSAxR2Rv8o9fPJ7+SsqRLiWCjAPW
+8a3ckRgVq4VNIgsRBNqKW1ytd8wwpqQEXpmX1DUBP3xW4+7qOzM=
+</default:X509Certificate>
+</default:X509Data>
+</default:KeyInfo>
+</default:Signature>
+  </DTE>

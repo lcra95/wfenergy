@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+<Documento ID="F9215T33">
+<Encabezado>
+<IdDoc>
+<TipoDTE>33</TipoDTE>
+<Folio>9215</Folio>
+<FchEmis>2018-10-24</FchEmis>
+<FmaPago>2</FmaPago>
+<FchVenc>2018-10-26</FchVenc>
+
+</IdDoc>
+<Emisor>
+<RUTEmisor>76085254-6</RUTEmisor>
+<RznSoc>Empresa El?ctrica Cochrane SpA</RznSoc>
+<GiroEmis>Generacion, Transmisi?n y Venta de energ?a el?ctrica.</GiroEmis>
+<Acteco>401013</Acteco>
+<Sucursal>El?ctrica Cochrane</Sucursal>
+<CdgSIISucur>75711437</CdgSIISucur>
+<DirOrigen>ROSARIO NORTE #532 P19</DirOrigen>
+<CmnaOrigen>LAS CONDES</CmnaOrigen>
+<CiudadOrigen>SANTIAGO</CiudadOrigen>
+</Emisor>
+<Receptor>
+<RUTRecep>76254347-8</RUTRecep>
+<RznSocRecep>Hanwha Q Cells Til Til Uno SpA</RznSocRecep>
+<GiroRecep>Generaci?n En Otras Centrales N.C.P</GiroRecep>
+<Contacto>O.Moreno@q-cells.com</Contacto>
+<DirRecep>Apoquindo 3910 P.5</DirRecep>
+<CmnaRecep>Santiago</CmnaRecep>
+<CiudadRecep>Santiago</CiudadRecep>
+</Receptor>
+
+<Totales>
+<MntNeto>22057</MntNeto>
+<TasaIVA>19.00</TasaIVA>
+<IVA>4191</IVA>
+<MntTotal>26248</MntTotal>
+<MontoNF>0</MontoNF>
+<SaldoAnterior>0</SaldoAnterior>
+<VlrPagar>0</VlrPagar>
+</Totales>
+
+</Encabezado>
+
+<Detalle>
+<NroLinDet>1</NroLinDet>
+<NmbItem>.</NmbItem>
+
+<DscItem>Balance 201809 \ \ \ \ \ \ \</DscItem>
+<MontoItem>0</MontoItem>
+</Detalle>
+<Detalle>
+<NroLinDet>2</NroLinDet>
+<NmbItem>SSCC</NmbItem>
+<MontoItem>22057</MontoItem>
+</Detalle>
+<Referencia>
+<NroLinRef>1</NroLinRef>
+<TpoDocRef>SEN</TpoDocRef>
+<FolioRef>DE04830A18C27S0236</FolioRef>
+<FchRef>2018-10-22</FchRef>
+<RazonRef>SEN_[SSCC][Sep18][L][V01]     </RazonRef>
+</Referencia>
+<TED version="1.0"><DD><RE>76085254-6</RE><TD>33</TD><F>9215</F><FE>2018-10-24</FE><RR>76254347-8</RR><RSR>Hanwha Q Cells Til Til Uno SpA</RSR><MNT>26248</MNT><IT1>.</IT1><CAF version="1.0"><DA><RE>76085254-6</RE><RS>EMPRESA ELECTRICA COCHRANE S.P.A.</RS><TD>33</TD><RNG><D>7348</D><H>9733</H></RNG><FA>2018-06-22</FA><RSAPK><M>oYCAllZwpEpqCtbfNiR05XcFhoyBMqT2ZdvfQ/RBmMaho20S5jMpXeva7oopCmTiCRibYHL6iVrca4wmKsR34Q==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">mT1hvs9IkkLSGes65V8DlH2c9tFsKHToWI6FSVM0hWElldZKpdB8jeJDBw4b15xEme/qFCH4aHS7Pup6ZFSW4w==</FRMA></CAF><TSTED>2018-10-24T17:19:59</TSTED></DD><FRMT algoritmo="SHA1withRSA">dNHbXNNO+P02zbSxg8SNsjqd2HiCjdwAbaAHad9XLkxagriNrffHdOgFE8ePpzxCM34EpRAg980QlBLuL1bevQ==</FRMT></TED>
+<TmstFirma>2018-10-24T17:26:44</TmstFirma></Documento><default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+  <default:SignedInfo>
+    <default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+    <default:Reference URI="#F9215T33">
+      <default:Transforms>
+        <default:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
+      </default:Transforms>
+      <default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+      <default:DigestValue>RKFXXj5hVZqjbwb/vsA0n1FqFKc=</default:DigestValue>
+    </default:Reference>
+  </default:SignedInfo>
+  <default:SignatureValue>
+    E/ZiuyFB9diGmX+ECTww5B0O71tgkuDj6CQt+7vl1WwsJtjKLobhAviyMM9lSLnv9sTEwA1P
+    z7hcphDh63ds0bU+qc4J5UIPjbI0zTfQPK1pReMJsqWk7FKiGiUL1w1MwmWVNfLkGhjARCY9
+    66tnPb5Shau0xVt9birX6dOA7Ko/b39sSIv+JidHLZczmNl5qwTfyG575gX2/xUw70Ixy0cu
+    V4I6EOoUX3kn2rMJ4aRUYbw7Dh5MVCtiIxaR1Nb06VTcTFKpF+C+ulRUO4bSBehRUMkUYwSs
+    rcPcr7FEALeC6DimCqVYvievDYdZ5XIbOjitDASAA35CICQaqimDOw==
+  </default:SignatureValue>
+  <default:KeyInfo>
+    <default:KeyValue>
+      <default:RSAKeyValue>
+        <default:Modulus>
+          jKHNu4qJ8DZrre8RTc/pmEW17X7rqzi+3XRl/ww+VVCCv984+bVB76+/z80iOz9yQD
+          UGIDkQRz9Lm9rNPLFlXqYdk6iz3O6Rv78ZwfADjyiKYtiV86qbGDZV4cipswjmJZe+
+          QhP5rzt9xTuD5qf8jJmJ4iZQYOhf47tJBJLDb8WyxwOP9rmGNr+BOnOOyFxZGk7M7U
+          zlrMR0pkVg95UIPkR/w9M7Dv/KjLrdSTy3r1waBnQgKFp2X3mf3XoDtyGyVjP4eZBm
+          aAtAqAe0WWlO7Jzj+pNboCKAt2ia5Ls1jfaqOX57c2PcWnKb4mN+silb8I9TSW+M4t
+          IyS8xGtAw1MQ==
+        </default:Modulus>
+        <default:Exponent>AQAB</default:Exponent>
+      </default:RSAKeyValue>
+    </default:KeyValue>
+    <default:X509Data>
+      <default:X509Certificate>
+MIIGRzCCBS+gAwIBAgIIZQwdnwvI88cwDQYJKoZIhvcNAQELBQAwga8xCzAJBgNVBAYTAkNMMRQw
+EgYDVQQKDAtFLVNpZ24gUy5BLjE5MDcGA1UECwwwVGVybXMgb2YgdXNlIGF0IHd3dy5lc2lnbi1s
+YS5jb20vYWN1ZXJkb3RlcmNlcm9zMSswKQYDVQQDDCJFLVNpZ24gQ2xhc3MgMiBGaXJtYSBUcmli
+dXRhcmlhIENBMSIwIAYJKoZIhvcNAQkBFhNlLXNpZ25AZXNpZ24tbGEuY29tMB4XDTE3MDgyOTE3
+MjEzMVoXDTE5MDgyOTE3MTkwMFowgaYxCzAJBgNVBAYTAkNMMRQwEgYDVQQKDAtFLVNpZ24gUy5B
+LjE5MDcGA1UECwwwVGVybXMgb2YgdXNlIGF0IHd3dy5lc2lnbi1sYS5jb20vYWN1ZXJkb3RlcmNl
+cm9zMR8wHQYDVQQDDBZWaWNlbnRlIEphdmllciBHaW9yZ2lvMSUwIwYJKoZIhvcNAQkBFhZqYXZp
+ZXIuZ2lvcmdpb0BhZXMuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjKHNu4qJ
+8DZrre8RTc/pmEW17X7rqzi+3XRl/ww+VVCCv984+bVB76+/z80iOz9yQDUGIDkQRz9Lm9rNPLFl
+XqYdk6iz3O6Rv78ZwfADjyiKYtiV86qbGDZV4cipswjmJZe+QhP5rzt9xTuD5qf8jJmJ4iZQYOhf
+47tJBJLDb8WyxwOP9rmGNr+BOnOOyFxZGk7M7UzlrMR0pkVg95UIPkR/w9M7Dv/KjLrdSTy3r1wa
+BnQgKFp2X3mf3XoDtyGyVjP4eZBmaAtAqAe0WWlO7Jzj+pNboCKAt2ia5Ls1jfaqOX57c2PcWnKb
+4mN+silb8I9TSW+M4tIyS8xGtAw1MQIDAQABo4ICbDCCAmgwgYAGCCsGAQUFBwEBBHQwcjBKBggr
+BgEFBQcwAoY+aHR0cDovL3BraS5lc2lnbi1sYS5jb20vY2FjZXJ0cy9wa2lDbGFzczJGaXJtYVRy
+aWJ1dGFyaWFDQS5jcnQwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmVzaWduLWxhLmNvbTAdBgNV
+HQ4EFgQUHnkzrfUNEqXzp6eKUsB0xlgRSB8wDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBT5SvrC
+x27C5xKcV0U1hBptKOlKpDCByAYDVR0gBIHAMIG9MIG6BgwrBgEEAYLKagEEAQIwgakwfgYIKwYB
+BQUHAgIwch5wAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAHAAYQByAGEAIAB1AHMAbwAgAFQAcgBp
+AGIAdQB0AGEAcgBpAG8ALAAgAEMAbwBtAGUAcgBjAGkAbwAsACAAUABhAGcAbwBzACAAeQAgAE8A
+dAByAG8AczAnBggrBgEFBQcCARYbaHR0cDovL3d3dy5lc2lnbi1sYS5jb20vY3BzMFEGA1UdHwRK
+MEgwRqBEoEKGQGh0dHA6Ly9wa2kuZXNpZ24tbGEuY29tL2NybC9wa2lDbGFzczJGaXJtYVRyaWJ1
+dGFyaWEvZW5kdXNlci5jcmwwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggr
+BgEFBQcDBDAjBgNVHREEHDAaoBgGCCsGAQQBwQEBoAwWCjIzMjAyMzExLTIwIwYDVR0SBBwwGqAY
+BggrBgEEAcEBAqAMFgo5OTU1MTc0MC1LMA0GCSqGSIb3DQEBCwUAA4IBAQAPQmyx8mjYmD0ijVS0
+aH6teg4HbuivCnhGwCKMZFX5LtnEnXK6RnqKG51c+mXTMr7zf+inKlic6QPMiJ17yNfgx751vMyd
+40zI+BsKkyklVPAJtsduStZhA1XHxNZnVWknHhG2yVzkPb5BESbXXW4pawO4z9TNGMmuHK6ZrZGv
+zzwVQmms9lhef5rVybIanlnerYmqkER9LxAHjmjdmvG+L8sffFGA6V5Z0dEQGaP8CrzggBI+w0zO
+ksJu7F25z9M7ZnfYdNl2LkMFSUuSek4HY9wF50fUWWE4gAMS3/Yaj0CMRo4f5iEzMayxcvdw7FO8
+ILJDFbKZCM7fqI9PDmDH
+      </default:X509Certificate>
+    </default:X509Data>
+  </default:KeyInfo>
+</default:Signature></DTE>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+	<Documento ID="F1006243T33">
+		<Encabezado>
+			<IdDoc>
+				<TipoDTE>33</TipoDTE>
+				<Folio>1006243</Folio>
+				<FchEmis>2018-09-12</FchEmis>
+				<FmaPago>2</FmaPago>
+				<TermPagoGlosa>CREDITO SII</TermPagoGlosa>
+				<FchVenc>2018-09-24</FchVenc>
+			</IdDoc>
+			<Emisor>
+				<RUTEmisor>70849500-K</RUTEmisor>
+				<RznSoc>EMPRESA ELECTRICA MUNICIPAL DE TIL TIL</RznSoc>
+				<GiroEmis>DISTRIBUIDORA DE ENERGIA ELECTRICA DE SERVICIO PUBLICO</GiroEmis>
+				<CorreoEmisor>amunoz@neozet.com</CorreoEmisor>
+				<Acteco>401030</Acteco>
+				<DirOrigen>EMILIO VALLE 013</DirOrigen>
+				<CmnaOrigen>TIL-TIL</CmnaOrigen>
+				<CiudadOrigen>SANTIAGO</CiudadOrigen>
+			</Emisor>
+			<Receptor>
+				<RUTRecep>76254347-8</RUTRecep>
+				<RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep>
+				<GiroRecep>COMERCIAL</GiroRecep>
+				<DirRecep>APOQUINDO 3910 PISO 5</DirRecep>
+				<CmnaRecep>LAS CONDES</CmnaRecep>
+				<CiudadRecep>SANTIAGO</CiudadRecep>
+			</Receptor>
+			<Totales>
+				<MntNeto>3924</MntNeto>
+				<MntExe>0</MntExe>
+				<TasaIVA>19</TasaIVA>
+				<IVA>746</IVA>
+				<MntTotal>4670</MntTotal>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<NroLinDet>1</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>0</VlrCodigo>
+			</CdgItem>
+			<NmbItem>Administración del Servicio</NmbItem>
+			<QtyItem>1</QtyItem>
+			<UnmdItem>UN</UnmdItem>
+			<PrcItem>1883</PrcItem>
+			<MontoItem>1883</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>2</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>0</VlrCodigo>
+			</CdgItem>
+			<NmbItem>Coordinación y transporte de electricidad</NmbItem>
+			<QtyItem>1</QtyItem>
+			<UnmdItem>UN</UnmdItem>
+			<PrcItem>164</PrcItem>
+			<MontoItem>164</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>3</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>0</VlrCodigo>
+			</CdgItem>
+			<NmbItem>Electricidad Consumida 16 Kwh</NmbItem>
+			<QtyItem>1</QtyItem>
+			<UnmdItem>UN</UnmdItem>
+			<PrcItem>1711</PrcItem>
+			<MontoItem>1711</MontoItem>
+		</Detalle>
+		<Detalle>
+			<NroLinDet>4</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>0</VlrCodigo>
+			</CdgItem>
+			<NmbItem>INTERES POR ATRASO 1 de 1                                                       </NmbItem>
+			<QtyItem>1</QtyItem>
+			<UnmdItem>UN</UnmdItem>
+			<PrcItem>166</PrcItem>
+			<MontoItem>166</MontoItem>
+		</Detalle>
+	<TED version="1.0"><DD><RE>70849500-K</RE><TD>33</TD><F>1006243</F><FE>2018-09-12</FE><RR>76254347-8</RR><RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR><MNT>4670</MNT><IT1>Administración del Servicio</IT1><CAF version="1.0"><DA><RE>70849500-K</RE><RS>EMPRESA ELECTRICA MUNICIPAL DE TIL TIL</RS><TD>33</TD><RNG><D>1001877</D><H>1006884</H></RNG><FA>2017-11-29</FA><RSAPK><M>tHtsCG6jw6movMECXC0F/ELyCu8OL1PJODNByusVWCVSStkR84vcFmgw8Rdl4Lqewlbb5MZjrg/7xPjmz46Z8Q==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">L55gsFQvx+VdPVUKB1Rl5rloQ/oEDsIDd/1Ll4Z4ni1u6H0S3A8vvRLcEeyjzKGHBnA6sWgM2X6UuwgReGlCvw==</FRMA></CAF><TSTED>2018-10-01T08:57:15</TSTED></DD><FRMT algoritmo="SHA1withRSA">Zdk5BytGpn/o1pYGHrYuocN5uxKBslXFEiPBxP3+j++4iNSNnJUig1a0BCCbmduMU+jK8QAkQh082xB1scbhfQ==</FRMT></TED><TmstFirma>2018-10-01T08:57:15</TmstFirma></Documento>
+<default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><default:SignedInfo><default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><default:Reference URI="#F1006243T33"><default:Transforms><default:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></default:Transforms><default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><default:DigestValue>p3QFeRiVfw1I1ifFv6i5pu9tVlM=</default:DigestValue></default:Reference></default:SignedInfo><default:SignatureValue>EfQPYBQ2NZ6hTaRWo4U01vPKtpYG1ugXVupDK80Foyx0UiXtDBiYEKZcB0Tzso5QxX5JWy/mINDc
+jmM2xZeVc6kawm31E2klnjCj6zFsZa+tS9WLuI3otioLNg0rZhYbmf062Vdgq5/IyuUWWZ7ErOVW
+BS1ZzKL9UujFiR2JrIhYqoEphW1zRhly6ywnSNnrAR7c67fV5h5bjnwiAX/BFdqhIdvajQu4de8F
+cg8DwJ6CWODIt9UEPLbuTgAgHWP9oGD9RVh2hLz32mQPHxKEceicbjBlERBZH9I1kgVOMrQgNrZh
+gGc99RRBZDs6pqguodjOaqw13oYvlHC+K4/x4w==</default:SignatureValue><default:KeyInfo><default:KeyValue><default:RSAKeyValue><default:Modulus>wznisBue/LeDx0+Wv4fm2WB2qh9PPS0waDeh1RE1DAxO9b95IMGTLJjEqanRl49ciq2cJdLtzK8m
+lDMW34fiSxio2WS2HVg8+RcPdqZhwJHiYOSaAuReaAWMk1t4kKjVChi9ogKaKBuVX3127qHYabYh
+ne0dUKnxohG7wEGBMXPcHvXmzFOiHWBX6jEi2NsnSDRLvRYRFRbGYf2ybgdW8E3X8zRWdYgZNLZh
+/33ueTKgrAZFxS0TmWeZKUxpd9MIYDSa3qM6A+TDM3AKCniT7YRFiN8DzMSSMbUs29HtHAEMXy8+
+4Ar3aLGOjSRD8WnPPuM6UAmXRGQGDAcEejI0LQ==</default:Modulus><default:Exponent>AQAB</default:Exponent></default:RSAKeyValue></default:KeyValue><default:X509Data><default:X509Certificate>MIIGjzCCBXegAwIBAgIKJ9EljwABAAA/4jANBgkqhkiG9w0BAQsFADCB0DELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzESMBAGA1UE
+ChMJUEFQRVJMRVNTMSAwHgYDVQQLExdBdXRvcmlkYWQgQ2VydGlmaWNhZG9yYTEuMCwGA1UEAxMl
+UEFQRVJMRVNTIENBIEZJUk1BIEVMRUNUUk9OSUNBIFNJTVBMRTEpMCcGCSqGSIb3DQEJARYaY29t
+dW5pY2FjaW9uZXNAcGtpY2hpbGUuY2wwHhcNMTcwOTEyMTc1NzI1WhcNMjAwOTExMTc1NzI1WjCB
+1DELMAkGA1UEBhMCQ0wxKjAoBgNVBAgMIVJFR0nDk04gTUVUUk9QT0xJVEFOQSBERSBTQU5USUFH
+TzERMA8GA1UEBxMIU0FOVElBR08xHTAbBgNVBAoTFFNpbiBkYXRvcyBkZSBFbXByZXNhMR8wHQYD
+VQQLExZTaW4gZGF0b3MgZGUgT2N1cGFjaW9uMRswGQYDVQQDExJSVUJFTiBCVVNUT1MgVEFQSUEx
+KTAnBgkqhkiG9w0BCQEWGmZvcm11bGFyaW9zQGZhY3R1cmFjaW9uLmNsMIIBIjANBgkqhkiG9w0B
+AQEFAAOCAQ8AMIIBCgKCAQEAwznisBue/LeDx0+Wv4fm2WB2qh9PPS0waDeh1RE1DAxO9b95IMGT
+LJjEqanRl49ciq2cJdLtzK8mlDMW34fiSxio2WS2HVg8+RcPdqZhwJHiYOSaAuReaAWMk1t4kKjV
+Chi9ogKaKBuVX3127qHYabYhne0dUKnxohG7wEGBMXPcHvXmzFOiHWBX6jEi2NsnSDRLvRYRFRbG
+Yf2ybgdW8E3X8zRWdYgZNLZh/33ueTKgrAZFxS0TmWeZKUxpd9MIYDSa3qM6A+TDM3AKCniT7YRF
+iN8DzMSSMbUs29HtHAEMXy8+4Ar3aLGOjSRD8WnPPuM6UAmXRGQGDAcEejI0LQIDAQABo4ICYzCC
+Al8wPQYJKwYBBAGCNxUHBDAwLgYmKwYBBAGCNxUIgszOPoL4zR3Zix6Cj4VXhM6VNYEQgr6NfobM
+jUgCAWQCAQIwggGFBgNVHSAEggF8MIIBeDCCAXQGCCsGAQQBgsQ3MIIBZjCCAWIGCCsGAQUFBwIC
+MIIBVB6CAVAAQwBlAHIAdABpAGYAaQBjAGEAZABvACAAcABhAHIAYQAgAHUAcwBvACAAVAByAGkA
+YgB1AHQAYQByAGkAbwAuACAAUABTAEMAIABQAGEAcABlAHIAbABlAHMAcwAgAGEAYwByAGUAZABp
+AHQAYQBkAG8AIABzAGUAZwD6AG4AIABSAC4AQQAuACAARQB4AGUAbgB0AGEAIABOALoAIAAxADcA
+MgAsACAAZABlACAAMwAwACAAZABlACAAZQBuAGUAcgBvACAAZABlACAAMgAwADEAMwAsACAAZABl
+ACAAbABhACAAUwB1AGIAcwBlAGMAcgBlAHQAYQByAO0AYQAgAGQAZQAgAEUAYwBvAG4AbwBtAO0A
+YQAsACAAeQAgAEUAbQBwAHIAZQBzAGEAcwAgAGQAZQAgAE0AZQBuAG8AcgAgAFQAYQBtAGEA8QBv
+AC4wHQYDVR0OBBYEFE+hmq4kHlNsCtShib+5fm+sDHTLMAsGA1UdDwQEAwIE8DAfBgNVHSMEGDAW
+gBSU5K83ZWZd6WfMPrydb3Eay4yL7DAjBgNVHREEHDAaoBgGCCsGAQQBwQEBoAwWCjA2MjIzNTcy
+LTEwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkxNTMxMC02MA0GCSqGSIb3DQEBCwUAA4IB
+AQAIhf6tiYXKFqMJsWMHNIUy2LN5FdabWMIHo72IWYzit3kWFZUKUUsbbNBLYWEZBhapNoqRu3Y1
+kEkFIa6fHjJdonBQ1U5bPV2iB3RH9hxaSUprvlf5fkIIzrVNZGgkX7oJgDYJa36mfW7keDrxXufK
+er6KmEdTuPEQVcDLRXivbnkSrhuO2nt6/iEKsAq+T5AkjfoCSiz1U6Vis4jui/wDr+gRshZIq5NU
+KMLqFMlGr026EO9V2nsr6y8SJuRoQv1KQcv2MIKLRo8SJrBniJpg7gQ3fL1TjJHm6Bf42RgrcGhu
+qxKi8iFUNKuzHWMuTCZpo/ObWWHOO7hbXFzjZDsJ</default:X509Certificate></default:X509Data></default:KeyInfo></default:Signature></DTE>

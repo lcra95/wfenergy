@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+      <Documento ID="T33F0009572">
+        <Encabezado>
+    <IdDoc>
+      <TipoDTE>33</TipoDTE>
+      <Folio>0009572</Folio>
+      <FchEmis>2018-10-24</FchEmis>
+    </IdDoc>
+    <Emisor>
+      <RUTEmisor>76060441-0</RUTEmisor>
+      <RznSoc>ORAZUL ENERGY CHILE HOLDING II.B.V.CPA</RznSoc>
+      <GiroEmis>Gen., Transm. y Venta de Energia Elect.</GiroEmis>
+      <Acteco>401012</Acteco>
+      <DirOrigen>Cerro el Plomo 5630, oficina N?1502</DirOrigen>
+      <CmnaOrigen>Las Condes</CmnaOrigen>
+      <CiudadOrigen>Santiago</CiudadOrigen>
+    </Emisor>
+    <Receptor>
+      <RUTRecep>76254347-8</RUTRecep>
+      <CdgIntRecep/>
+      <RznSocRecep>Hanwha Q Cells Til Til Uno SpA</RznSocRecep>
+      <GiroRecep>Generacion Electrica</GiroRecep>
+      <DirRecep>Avda. Apoquindo N? 3910, Piso 5.</DirRecep>
+      <CmnaRecep>Las Condes</CmnaRecep>
+      <CiudadRecep>Santiago</CiudadRecep>
+    </Receptor>
+    <Totales>
+      <MntNeto>282</MntNeto>
+      <TasaIVA>19.00</TasaIVA>
+      <IVA>54</IVA>
+      <MntTotal>336</MntTotal>
+    </Totales>
+  </Encabezado>
+        <Detalle>
+    <NroLinDet>1</NroLinDet>
+    <CdgItem>
+      <TpoCodigo/>
+      <VlrCodigo/>
+    </CdgItem>
+    <NmbItem>SERVICIOS COMPLEMENTARIOS</NmbItem>
+    <DscItem>SEN[SSCC][Sep18][L][V01]</DscItem>
+    <QtyItem>282.0000</QtyItem>
+    <UnmdItem>MWH</UnmdItem>
+    <PrcItem>1.0000</PrcItem>
+    <MontoItem>282</MontoItem>
+  </Detalle>
+        <TED version="1.0">
+          <DD>
+            <RE>76060441-0</RE>
+            <TD>33</TD>
+            <F>0009572</F>
+            <FE>2018-10-24</FE>
+            <RR>76254347-8</RR>
+            <RSR>Hanwha Q Cells Til Til Uno SpA</RSR>
+            <MNT>336</MNT>
+            <IT1>SERVICIOS COMPLEMENTARIOS</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>76060441-0</RE>
+                <RS>ORAZUL ENERGY CHILE HOLDING II B.V. SOCI</RS>
+                <TD>33</TD>
+                <RNG>
+                  <D>9352</D>
+                  <H>9676</H>
+                </RNG>
+                <FA>2018-10-23</FA>
+                <RSAPK>
+                  <M>n1U61Vae3HauFMUW3jNIG2QgeR4nWrOcRbwljB3SwqCGB2pfkK5zMV9p7xJhUlMy/TwAYFGUX9dkJ4l9U4Bk6w==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">jLMtcVNEFn4dtzdhF/x3AnBO/rVO4BRYYWzDgFWxE5ApkuApqFWax1JoR0mJwf9bHi4SEts1mDdtlcLvBOSaaA==</FRMA>
+            </CAF>
+            <TSTED>2018-10-24T10:14:13</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">aRKANBx0U7vmxuiqJYWN//f+yP3f0aQLh4yoapqG+n6BmkrV6Wje0dIjeL68Sh/QZX4GVL218FZG
+mCDdm4DFwQ==</FRMT>
+        </TED>
+        <TmstFirma>2018-10-24T10:14:13</TmstFirma>
+      </Documento>
+      <default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+	<default:SignedInfo>
+		<default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+		<default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+		<default:Reference URI="#T33F0009572">
+			<default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+			<default:DigestValue>mzDUDbIasEhZu/k6bYXHsJFLqXM=</default:DigestValue>
+		</default:Reference>
+	</default:SignedInfo>
+	<default:SignatureValue>Dfk2OJ9jHB6a6KZUYZn2MHDEsVSOfXj7CUZ+U2TswpJ7f+DhdSAx1UUjhu1GorpmlB+TTMsn05MT
+j7gFUI4rVvAibiK2bVPMZfRWJcfmnAZo+0SJWTSzngTxpxxS2c0yqLagZctKFl0OKlEkCgsw3j5B
+6yABdAAJFAVBeZsjOjyQb6yMd+qKg3KqGYpEIGpak4GnfGte37B7V77JQU98el4w6QIH33waoXEM
+5QAiJzmmHoFMk2dqcZ8XiG1p2j/Jy7EGLmmaYOWt9DsjGlmL7BxYqcJy4fCtOhSf7r01M6qDewmq
+yb+Wed5n610iQqWPn1RsVjuJihiWPAiZQgYP/w==</default:SignatureValue>
+	<default:KeyInfo>
+		<default:KeyValue>
+			<default:RSAKeyValue>
+				<default:Modulus>0s7wESGNgJ8sPfVmsw6fr0pgb/jxdCR2kuDdefwcbwhAsJE+BMtc2pSQPXC1to/4pQ0NiJrUiJXl
+oseflEZGIOKXPmQRYNNB2IkC1LIey7LmIzlmI7It11OWGa71fy7d90Owgax6+XsI1FwVVUO0PJE7
+ODf0mNaTOYY0QnldGtRm0e7FarWelD0Pe/Fu0/iSvTgcIUaSCXM6SAhS0p7/oFk1agM+7jQ/RxI7
+THSFZ7iHJinELMgwdcmimUkrpEIUtVgyznFqSfPZ+CULkHzAXqhs1eHLMePH2PDbNBUayZpHpGey
+SKbSzN0W1TPPmShLnadwjb2b9Fau6JcynawVyQ==</default:Modulus>
+				<default:Exponent>AQAB</default:Exponent>
+			</default:RSAKeyValue>
+		</default:KeyValue>
+		<default:X509Data>
+			<default:X509Certificate>MIIF1TCCBL2gAwIBAgICe0EwDQYJKoZIhvcNAQEFBQAwgaYxCzAJBgNVBAYTAkNMMRgwFgYDVQQK
+Ew9BY2VwdGEuY29tIFMuQS4xSDBGBgNVBAMTP0FjZXB0YS5jb20gQXV0b3JpZGFkIENlcnRpZmlj
+YWRvcmEgQ2xhc2UgMiBQZXJzb25hIE5hdHVyYWwgLSBHMzEeMBwGCSqGSIb3DQEJARYPaW5mb0Bh
+Y2VwdGEuY29tMRMwEQYDVQQFEwo5NjkxOTA1MC04MB4XDTE2MDcyOTE2MDAzOVoXDTE5MDcyOTE2
+MDAzOVowgYkxCzAJBgNVBAYTAkNMMRgwFgYDVQQMEw9QRVJTT05BIE5BVFVSQUwxKTAnBgNVBAMT
+IENSSVNUSUFOIE1BTlVFTCBNQVJUSU4gUVVJTlRFUk9TMSEwHwYJKoZIhvcNAQkBFhJjbWFydGlu
+cUB5YWhvby5jb20xEjAQBgNVBAUTCTc4NDgzNjAtMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBANLO8BEhjYCfLD31ZrMOn69KYG/48XQkdpLg3Xn8HG8IQLCRPgTLXNqUkD1wtbaP+KUN
+DYia1IiV5aLHn5RGRiDilz5kEWDTQdiJAtSyHsuy5iM5ZiOyLddTlhmu9X8u3fdDsIGsevl7CNRc
+FVVDtDyROzg39JjWkzmGNEJ5XRrUZtHuxWq1npQ9D3vxbtP4kr04HCFGkglzOkgIUtKe/6BZNWoD
+Pu40P0cSO0x0hWe4hyYpxCzIMHXJoplJK6RCFLVYMs5xaknz2fglC5B8wF6obNXhyzHjx9jw2zQV
+GsmaR6Rnskim0szdFtUzz5koS52ncI29m/RWruiXMp2sFckCAwEAAaOCAiYwggIiMB8GA1UdIwQY
+MBaAFEAkGj2pMXqFd3o9nnKTOYTlQDgZMB0GA1UdDgQWBBTCFc7nNC7ipCM3doYkb6idvJezRTAL
+BgNVHQ8EBAMCBPAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMBEGCWCGSAGG+EIBAQQE
+AwIFoDBuBgNVHSAEZzBlMGMGCisGAQQBtWuHagowVTAoBggrBgEFBQcCARYcaHR0cDovL3d3dy5h
+Y2VwdGEuY29tL0NQUy1HMzApBggrBgEFBQcCAjAdMBYWD0FjZXB0YS5jb20gUy5BLjADAgEJGgNU
+QkQwWgYDVR0SBFMwUaAYBggrBgEEAcEBAqAMFgo5NjkxOTA1MC04oCQGCCsGAQUFBwgDoBgwFgwK
+OTY5MTkwNTAtOAYIKwYBBAHBAQKBD2luZm9AYWNlcHRhLmNvbTBbBgNVHREEVDBSoBcGCCsGAQQB
+wQEBoAsWCTc4NDgzNjAtMaAjBggrBgEFBQcIA6AXMBUMCTc4NDgzNjAtMQYIKwYBBAHBAQKBEmNt
+YXJ0aW5xQHlhaG9vLmNvbTA/BggrBgEFBQcBAQQzMDEwLwYIKwYBBQUHMAGGI2h0dHA6Ly9vY3Nw
+LmFjZXB0YS5jb20vQ2xhc2UzQmlvLUczMDcGA1UdHwQwMC4wLKAqoCiGJmh0dHA6Ly9jcmwuYWNl
+cHRhLmNvbS9DbGFzZTNCaW8tRzMuY3JsMA0GCSqGSIb3DQEBBQUAA4IBAQB/h75HBxZbroXKYM7V
+fL0jP+6l7wpkMFjE9bB4nLmj961A754dAQYl7djQROsw9l2+ymO2jlo9g0raOEublNNRULNN0few
+bxZPvrYcTgkhGMDkMa2Mx0BKaolFHCeCrf7GTSZb1s7ixS+PvJOZVJO90cN16gqbb7f5NnozZ2OT
+/Ul8ihAUw4emQjUqXs514JBBfrUziz3nKTPX83krGWnv3oen2JMFFrNkj8vfUhXB2aJlzO1uoedh
+FekDcqawCXKIZgppOtbdZRwQGN3ViQiXXtw29cQVkgT7Dev3oH5RRPTV7rrOIQ2KC4FrHKMeVaqC
+Jt3WL20E9GrQGwrv5GT0</default:X509Certificate>
+		</default:X509Data>
+	</default:KeyInfo>
+</default:Signature>
+    </DTE>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+	<Documento ID="F666036T33">
+		<Encabezado>
+			<IdDoc>
+				<TipoDTE>33</TipoDTE>
+				<Folio>666036</Folio>
+				<FchEmis>2018-10-06</FchEmis>
+			</IdDoc>
+			<Emisor>
+				<RUTEmisor>77574330-1</RUTEmisor>
+				<RznSoc>SERVICIOS Y TECNOLOGIA LIMITADA</RznSoc>
+				<GiroEmis>IMPORTACION Y EXPORTACION DE SOFTWARE, SUMINISTROS Y COMPUTADORES</GiroEmis>
+				<Telefono>(562) 2947 2800</Telefono>
+				<CorreoEmisor>facturacion@desis.cl</CorreoEmisor>
+				<Acteco>61911</Acteco>
+				<DirOrigen>Gran Avenida J. M. Carrera #5018 Of.:308</DirOrigen>
+				<CmnaOrigen>SAN MIGUEL</CmnaOrigen>
+				<CiudadOrigen>SANTIAGO</CiudadOrigen>
+			</Emisor>
+			<Receptor>
+				<RUTRecep>76254347-8</RUTRecep>
+				<RznSocRecep>Hanwha Q Cells Til Til Uno Spa</RznSocRecep>
+				<GiroRecep>SOCIEDADES DE INVERSION Y RENTISTAS DE C</GiroRecep>
+				<DirRecep>Apoquindo 3910 piso 5</DirRecep>
+				<CmnaRecep>LAS CONDES</CmnaRecep>
+				<CiudadRecep>SANTIAGO</CiudadRecep>
+			</Receptor>
+			<Totales>
+				<MntNeto>27368</MntNeto>
+				<MntExe>0</MntExe>
+				<TasaIVA>19</TasaIVA>
+				<IVA>5200</IVA>
+				<MntTotal>32568</MntTotal>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<NroLinDet>1</NroLinDet>
+			<CdgItem>
+				<TpoCodigo>INT1</TpoCodigo>
+				<VlrCodigo>0</VlrCodigo>
+			</CdgItem>
+			<NmbItem>76254347-8 Servicio Facturaci?n Electr?nica Mensual Cant.DTE:100/0</NmbItem>
+			<QtyItem>1</QtyItem>
+			<PrcItem>27368</PrcItem>
+			<MontoItem>27368</MontoItem>
+		</Detalle>
+	<TED version="1.0"><DD><RE>77574330-1</RE><TD>33</TD><F>666036</F><FE>2018-10-06</FE><RR>76254347-8</RR><RSR>Hanwha Q Cells Til Til Uno Spa</RSR><MNT>32568</MNT><IT1>76254347-8 Servicio Facturaci?n Electr?n</IT1><CAF version="1.0"><DA><RE>77574330-1</RE><RS>SERVICIOS Y TECNOLOGIA LIMITADA</RS><TD>33</TD><RNG><D>621639</D><H>741579</H></RNG><FA>2018-05-07</FA><RSAPK><M>2cKd9xxAn2/FEJvmT1tSMV/UW7uW4YOVu+0EtloawKJXREu8KzSB2uLT9Muo/dSrt0MoYn7Y1zKdhFc8F7bAMQ==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">er5IKbiwkhzl1lXB79mY2kwAjxbPssj2kaUNVXj8ufBUZPKB7rTe0Gl9n/NNUn3HYzGd5sl6HRpJX4j/yMXYWg==</FRMA></CAF><TSTED>2018-10-07T20:10:47</TSTED></DD><FRMT algoritmo="SHA1withRSA">OEQwK8klHbSKViIxDUF9xuOSmjVjqTb0kHin6UgSlK3vibv2YUHrj4ssA8fkOpj7OzWG82dwn3ebXBn/YfWRvg==</FRMT></TED><TmstFirma>2018-10-07T20:10:47</TmstFirma></Documento>
+<default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><default:SignedInfo><default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><default:Reference URI="#F666036T33"><default:Transforms><default:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></default:Transforms><default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><default:DigestValue>O0vLUyf3CnLXywpMxKvRyK0gNco=</default:DigestValue></default:Reference></default:SignedInfo><default:SignatureValue>OjePE6JGyJAGnRJyPOePLOnhBOeeFogBwt4dwDZ/brcEMdSmBUQ0Kgf339dQFsOwb8/aQuXKV+Tz
+7Ah8sQtE/mbq5mauXZtYAKy6EhUzZAJJ5lemOwMNTLJLlWIzfIN5yFSCYwj1PoQJuaWAXSQ/+SNy
+DIyqyCzLnADhr9Q8+IZpOCLE9/NTWXlfAuIGDiZOTuZlgb/rPgqNfYeqbFNwS2FJd+aj84/NYkQb
+sjQOsJQ2jY25hH/1I4bJjDAX9drl8xTo2KIyKaxYA9mnIalClVw5jQxEbxwdqZTm39v2RLRDNfsu
+GXqvYvnnj9jdN3/uuNukiG6Fnns83GxH0KxCCg==</default:SignatureValue><default:KeyInfo><default:KeyValue><default:RSAKeyValue><default:Modulus>oCeqdOpITZeFeTfPIOK7753WUZUjHKZdvkktFIH9080GYJhcRuaMfNeyeiLtW642Jg1OF10TwRm3
+Bpb+ZjG68XzZX/5T74weOpfLrLGQsWDpIAYxl+DrVbjGtz6boZfVLmXSm1kgearMRvznOak1Yslb
+vfncQdmcOwxwCwnhbYr2iZNx3JvMUeiH9X/u/XRt+kINFOHkgHTUB2nL0cNa4eVi0NaKyuMQKcGu
+4l9cJdWy5VDe14uyHwZibawkWp2ODUGFOyitMXi/tpmOqJMWW/UTa1Ef68YOQxpMvN88RmeIwIJU
+NzVHJd2aoQH9+Obvy1izeVFSnhAxZt/NLhUXLw==</default:Modulus><default:Exponent>AQAB</default:Exponent></default:RSAKeyValue></default:KeyValue><default:X509Data><default:X509Certificate>MIIGkzCCBXugAwIBAgIKOGrr7gAAAAAU3DANBgkqhkiG9w0BAQUFADCB0DELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzESMBAGA1UE
+ChMJUEFQRVJMRVNTMSAwHgYDVQQLExdBdXRvcmlkYWQgQ2VydGlmaWNhZG9yYTEuMCwGA1UEAxMl
+UEFQRVJMRVNTIENBIEZJUk1BIEVMRUNUUk9OSUNBIFNJTVBMRTEpMCcGCSqGSIb3DQEJARYaY29t
+dW5pY2FjaW9uZXNAcGtpY2hpbGUuY2wwHhcNMTYwODE3MTc0MDMxWhcNMTkwODE3MTc0MDMxWjCB
+2DELMAkGA1UEBhMCQ0wxKjAoBgNVBAgMIVJFR0nDk04gTUVUUk9QT0xJVEFOQSBERSBTQU5USUFH
+TzERMA8GA1UEBxMIU0FOVElBR08xHTAbBgNVBAoTFFNpbiBkYXRvcyBkZSBFbXByZXNhMR8wHQYD
+VQQLExZTaW4gZGF0b3MgZGUgT2N1cGFjaW9uMR8wHQYDVQQDExZST0xBTkRPIFJPSkFTIFNBQVZF
+RFJBMSkwJwYJKoZIhvcNAQkBFhpmb3JtdWxhcmlvc0BmYWN0dXJhY2lvbi5jbDCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAKAnqnTqSE2XhXk3zyDiu++d1lGVIxymXb5JLRSB/dPNBmCY
+XEbmjHzXsnoi7VuuNiYNThddE8EZtwaW/mYxuvF82V/+U++MHjqXy6yxkLFg6SAGMZfg61W4xrc+
+m6GX1S5l0ptZIHmqzEb85zmpNWLJW7353EHZnDsMcAsJ4W2K9omTcdybzFHoh/V/7v10bfpCDRTh
+5IB01Adpy9HDWuHlYtDWisrjECnBruJfXCXVsuVQ3teLsh8GYm2sJFqdjg1BhTsorTF4v7aZjqiT
+Flv1E2tRH+vGDkMaTLzfPEZniMCCVDc1RyXdmqEB/fjm78tYs3lRUp4QMWbfzS4VFy8CAwEAAaOC
+AmMwggJfMD0GCSsGAQQBgjcVBwQwMC4GJisGAQQBgjcVCILMzj6C+M0d2Ysego+FV4TOlTWBEIK+
+jX6GzI1IAgFkAgECMIIBhQYDVR0gBIIBfDCCAXgwggF0BggrBgEEAYLENzCCAWYwggFiBggrBgEF
+BQcCAjCCAVQeggFQAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAHAAYQByAGEAIAB1AHMAbwAgAFQA
+cgBpAGIAdQB0AGEAcgBpAG8ALgAgAFAAUwBDACAAUABhAHAAZQByAGwAZQBzAHMAIABhAGMAcgBl
+AGQAaQB0AGEAZABvACAAcwBlAGcA+gBuACAAUgAuAEEALgAgAEUAeABlAG4AdABhACAATgC6ACAA
+MQA3ADIALAAgAGQAZQAgADMAMAAgAGQAZQAgAGUAbgBlAHIAbwAgAGQAZQAgADIAMAAxADMALAAg
+AGQAZQAgAGwAYQAgAFMAdQBiAHMAZQBjAHIAZQB0AGEAcgDtAGEAIABkAGUAIABFAGMAbwBuAG8A
+bQDtAGEALAAgAHkAIABFAG0AcAByAGUAcwBhAHMAIABkAGUAIABNAGUAbgBvAHIAIABUAGEAbQBh
+APEAbwAuMB0GA1UdDgQWBBTOOHRKJas0IHUt+rHtSxr0bWUKVTALBgNVHQ8EBAMCBPAwHwYDVR0j
+BBgwFoAUlOSvN2VmXelnzD68nW9xGsuMi+wwIwYDVR0RBBwwGqAYBggrBgEEAcEBAaAMFgoxMjI2
+MjUzMi1LMCMGA1UdEgQcMBqgGAYIKwYBBAHBAQKgDBYKOTY5MTUzMTAtNjANBgkqhkiG9w0BAQUF
+AAOCAQEAXLLGnqRF09Mt0CjDj9969KvwBwCu8sIgyvdHrcXfm6w/GjX8ZC2BwbiOg2KzUYLjd9cF
+2dkL/7Y8WQUepUcBWNZvSuaCoM3UqqUfNw5mZ7IeT7UNMNgrEVOF9Ze1uudZgKDYr+T83SZIuOfB
+zjyDQ4OwMBBCNb7iuZKZtPxZQ4rbOwMa7uVyU41MjZrPpfdU7rHqhBntJ3BLbqo8N7S1HvGT8lb7
+keWTw8E5DOoT+Irxv1gbkO2I4f9WHaznBWFI3luqIMTIuRsCOxOXjljUVbRKbOVOH4Fm5brnMdaR
+T9JY5S8qowxLt/hOspRbY2MH0MIMo4h2sVHQr2SyW7cgcQ==</default:X509Certificate></default:X509Data></default:KeyInfo></default:Signature></DTE>

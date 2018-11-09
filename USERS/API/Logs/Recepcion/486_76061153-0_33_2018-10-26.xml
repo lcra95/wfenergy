@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+        <Documento ID="T33F486">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>486</Folio>
+                    <FchEmis>2018-10-26</FchEmis>
+                    <FmaPago>2</FmaPago>
+                    <FchVenc>2018-11-25</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76061153-0</RUTEmisor>
+                    <RznSoc>MT MECATRONICA SPA</RznSoc>
+                    <GiroEmis>SERVICIOS DE DISENO Y PUESTA EN MARCHA DE TECNOLOGIA ESPECIAL</GiroEmis>
+                    <Acteco>749990</Acteco>
+                    <DirOrigen>LIMACHE 3405 OFICINA 94</DirOrigen>
+                    <CmnaOrigen>VI?A DEL MAR</CmnaOrigen>
+                    <CiudadOrigen>VI?A DEL MAR</CiudadOrigen>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76254347-8</RUTRecep>
+                    <RznSocRecep>HANWHA Q CELLS Til Til Uno SPA</RznSocRecep>
+                    <GiroRecep>Codigo II 659920</GiroRecep>
+                    <Contacto>CARLA ANEZ</Contacto>
+                    <DirRecep>Av. Apoquindo 3910, Piso 5</DirRecep>
+                    <CmnaRecep>Las Condes</CmnaRecep>
+                    <CiudadRecep>Santiago</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>2749352</MntNeto>
+                    <TasaIVA>19.00</TasaIVA>
+                    <IVA>522377</IVA>
+                    <MntTotal>3271729</MntTotal>
+                </Totales>
+            </Encabezado>
+            <Detalle>
+                <NroLinDet>1</NroLinDet>
+                <CdgItem>
+                    <TpoCodigo>INT1</TpoCodigo>
+                    <VlrCodigo>36618 TIL TIL</VlrCodigo>
+                </CdgItem>
+                <NmbItem>01.02 Administrative Support - Item 01.02.0010</NmbItem>
+                <QtyItem>1.00</QtyItem>
+                <UnmdItem>$</UnmdItem>
+                <PrcItem>471919.00</PrcItem>
+                <MontoItem>471919</MontoItem>
+            </Detalle>
+            <Detalle>
+                <NroLinDet>2</NroLinDet>
+                <CdgItem>
+                    <TpoCodigo>INT1</TpoCodigo>
+                    <VlrCodigo>36618 TIL TIL</VlrCodigo>
+                </CdgItem>
+                <NmbItem>01.02 Administrative Support - Item 01.02.0020</NmbItem>
+                <QtyItem>1.00</QtyItem>
+                <UnmdItem>$</UnmdItem>
+                <PrcItem>476892.00</PrcItem>
+                <MontoItem>476892</MontoItem>
+            </Detalle>
+            <Detalle>
+                <NroLinDet>3</NroLinDet>
+                <CdgItem>
+                    <TpoCodigo>INT1</TpoCodigo>
+                    <VlrCodigo>36618 TIL TIL</VlrCodigo>
+                </CdgItem>
+                <NmbItem>01.04 Corrective Maintenance - Item 01.04.0023</NmbItem>
+                <QtyItem>1.00</QtyItem>
+                <UnmdItem>$</UnmdItem>
+                <PrcItem>359503.00</PrcItem>
+                <MontoItem>359503</MontoItem>
+            </Detalle>
+            <Detalle>
+                <NroLinDet>4</NroLinDet>
+                <CdgItem>
+                    <TpoCodigo>INT1</TpoCodigo>
+                    <VlrCodigo>36618 TIL TIL</VlrCodigo>
+                </CdgItem>
+                <NmbItem>01.04 Corrective Maintenance - Item 01.04.0027</NmbItem>
+                <QtyItem>1.00</QtyItem>
+                <UnmdItem>$</UnmdItem>
+                <PrcItem>92729.00</PrcItem>
+                <MontoItem>92729</MontoItem>
+            </Detalle>
+            <Detalle>
+                <NroLinDet>5</NroLinDet>
+                <CdgItem>
+                    <TpoCodigo>INT1</TpoCodigo>
+                    <VlrCodigo>36618 TIL TIL</VlrCodigo>
+                </CdgItem>
+                <NmbItem>01.04 Corrective Maintenance - Item 01.04.0028</NmbItem>
+                <QtyItem>1.00</QtyItem>
+                <UnmdItem>$</UnmdItem>
+                <PrcItem>39028.00</PrcItem>
+                <MontoItem>39028</MontoItem>
+            </Detalle>
+            <Detalle>
+                <NroLinDet>6</NroLinDet>
+                <CdgItem>
+                    <TpoCodigo>INT1</TpoCodigo>
+                    <VlrCodigo>36618 TIL TIL</VlrCodigo>
+                </CdgItem>
+                <NmbItem>01.04 Corrective Maintenance - Item 01.04.0030</NmbItem>
+                <QtyItem>1.00</QtyItem>
+                <UnmdItem>$</UnmdItem>
+                <PrcItem>1271712.00</PrcItem>
+                <MontoItem>1271712</MontoItem>
+            </Detalle>
+            <Detalle>
+                <NroLinDet>7</NroLinDet>
+                <CdgItem>
+                    <TpoCodigo>INT1</TpoCodigo>
+                    <VlrCodigo>36618 TIL TIL</VlrCodigo>
+                </CdgItem>
+                <NmbItem>Other cost of manteniment</NmbItem>
+                <DscItem>^
+Services of mainteniment corrective - Period of May 2018 at September 2018.^</DscItem>
+                <QtyItem>1.00</QtyItem>
+                <UnmdItem>$</UnmdItem>
+                <PrcItem>37569.00</PrcItem>
+                <MontoItem>37569</MontoItem>
+            </Detalle>
+            <TED version="1.0"><DD><RE>76061153-0</RE><TD>33</TD><F>486</F><FE>2018-10-26</FE><RR>76254347-8</RR><RSR>HANWHA Q CELLS Til Til Uno SPA</RSR><MNT>3271729</MNT><IT1>01.02 Administrative Support - Item 01.0</IT1><CAF version="1.0"><DA><RE>76061153-0</RE><RS>MT MECATRONICA SPA</RS><TD>33</TD><RNG><D>401</D><H>500</H></RNG><FA>2018-03-01</FA><RSAPK><M>2kmd6XeqotypSLqH7owy7vMFjs3uig6191Bjkv5B+a2Lbdf2cNoaQn18/4ZLlMshttiP6x4y1/5rTzdxofRc5w==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">M2qfI3bnku7gdV+iIY6GLEHa+t/Ondud8He/9IwGJoHSt4Gmv/2UgnhjESlQRKcpFqJnxmZ+0blCVKDMBAe3rw==</FRMA></CAF><TSTED>2018-10-26T12:31:39</TSTED></DD><FRMT algoritmo="SHA1withRSA">ew7gWKc9Ix6TxGbwwYkT7lMVjhTxQA4+YU+yq6bQFK/FGO8rL1dcAiRUveRC1G0KEcpyqF9Y6vnp
+eHh82ChDkw==</FRMT></TED>
+            <TmstFirma>2018-10-26T12:31:39</TmstFirma>
+        </Documento>
+        <default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+	<default:SignedInfo>
+		<default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+		<default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+		<default:Reference URI="#T33F486">
+			<default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+			<default:DigestValue>sM9sN7t+rVyJRNx/nGZsQjb6V58=</default:DigestValue>
+		</default:Reference>
+	</default:SignedInfo>
+	<default:SignatureValue>LrGZM5rySbqc6Zcd5EIUNxIbZ9ssfPUaRcFQsT1zCImJH/uzy6q6mNt/A+spD//jSUfmvEKdtjIR
+i8gWTlXOGF9R2Q4RO5lOJO2QuArJIUdz79DaP7aDYVXrPFeWxqBaEYBPKV7KvFxNQ8NOaYly3L4G
+lklgx0T8J5jmoIoM0Lo8GNpTwqUrBd7KaVJaEl99Sf9/WjE5ChOBdCLHkZZCPRfQ/jKAGciNyTh4
+0nnOGaQlV6fu5XrPN2vUaGwnksHUyLAyyyPUpOiyTG+wzekVykv7DUizYMcomatEqTwD7Pvf+q9W
+fLyQ4bTj3t8xs3xghQUEG2s43oXppm0GEJ0A2Q==</default:SignatureValue>
+	<default:KeyInfo>
+		<default:KeyValue>
+			<default:RSAKeyValue>
+				<default:Modulus>p44jbRKX6daMUlQ9zxBx73WCUgTzRSlVwgokHJ2GrOdVfpb8NKuQYfIOo5eAfwM3VSXN7xexRjFE
+MOK0/HEF4+x+Y9+3YxwSdjlYgbDC84jd2HrKVWMUUqXyno8fwTsbZE26GUWcdM5NYdsc5GRZn1J0
+baTzmM+vqZ1zfPxOM5phykOZpdlMOQrICmo+PIO7perkgNAn/P60NIMlad8xc6OKoX2KtKlFUshG
+tpW3tnXfPCANszQydVoHCSJSBUvGxWTl9qudQLmrTgwKRGbdWPNtnvuqR3eUxf5bkhYfyvhMzTKx
+6APx9wH6V9wd3Uf50o6VsOv81lK+2Bx/nPW7Ow==</default:Modulus>
+				<default:Exponent>AQAB</default:Exponent>
+			</default:RSAKeyValue>
+		</default:KeyValue>
+		<default:X509Data>
+			<default:X509Certificate>MIIGcDCCBVigAwIBAgIDAoxFMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJDTDEYMBYGA1UE
+ChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29tIEF1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFsIC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9A
+YWNlcHRhLmNvbTETMBEGA1UEBRMKOTY5MTkwNTAtODAeFw0xODA5MjgxNjE1NTFaFw0yMDA5Mjgx
+NjE1NTFaMIGFMQswCQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSAwHgYDVQQD
+ExdQSUVSUkUgQ0hSSVNUT1BIIENIQVBVUzElMCMGCSqGSIb3DQEJARYWcmNmYXNlc29yaWFzQGdt
+YWlsLmNvbTETMBEGA1UEBRMKMjEzODI2OTAtNTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAKeOI20Sl+nWjFJUPc8Qce91glIE80UpVcIKJBydhqznVX6W/DSrkGHyDqOXgH8DN1Ulze8X
+sUYxRDDitPxxBePsfmPft2McEnY5WIGwwvOI3dh6ylVjFFKl8p6PH8E7G2RNuhlFnHTOTWHbHORk
+WZ9SdG2k85jPr6mdc3z8TjOaYcpDmaXZTDkKyApqPjyDu6Xq5IDQJ/z+tDSDJWnfMXOjiqF9irSp
+RVLIRraVt7Z13zwgDbM0MnVaBwkiUgVLxsVk5farnUC5q04MCkRm3VjzbZ77qkd3lMX+W5IWH8r4
+TM0ysegD8fcB+lfcHd1H+dKOlbDr/NZSvtgcf5z1uzsCAwEAAaOCAsQwggLAMB8GA1UdIwQYMBaA
+FGWlqz4/yLZRbRF+X8MKB+ZDoAi2MB0GA1UdDgQWBBR18gQbx4hUcQ5akL3kzYVdnCMHxzALBgNV
+HQ8EBAMCBPAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMBEGCWCGSAGG+EIBAQQEAwIF
+oDCB9QYDVR0gBIHtMIHqMIHnBggrBgEEAbVrAjCB2jAxBggrBgEFBQcCARYlaHR0cHM6Ly9hY2c0
+LmFjZXB0YS5jb20vQ1BTLUFjZXB0YWNvbTCBpAYIKwYBBQUHAgIwgZcwFhYPQWNlcHRhLmNvbSBT
+LkEuMAMCAQkafUVsIHRpdHVsYXIgaGEgc2lkbyB2YWxpZGFkbyBlbiBmb3JtYSBvbmxpbmUsIHF1
+ZWRhbmRvIGhhYmlsaXRhZG8gZWwgQ2VydGlmaWNhZG8gcGFyYSB1c28gdHJpYnV0YXJpbywgcGFn
+b3MsIGNvbWVyY2lvIHkgb3Ryb3MuMFoGA1UdEgRTMFGgGAYIKwYBBAHBAQKgDBYKOTY5MTkwNTAt
+OKAkBggrBgEFBQcIA6AYMBYMCjk2OTE5MDUwLTgGCCsGAQQBwQECgQ9pbmZvQGFjZXB0YS5jb20w
+YQYDVR0RBFowWKAYBggrBgEEAcEBAaAMFgoyMTM4MjY5MC01oCQGCCsGAQUFBwgDoBgwFgwKMjEz
+ODI2OTAtNQYIKwYBBAHBAQKBFnJjZmFzZXNvcmlhc0BnbWFpbC5jb20wRwYIKwYBBQUHAQEEOzA5
+MDcGCCsGAQUFBzABhitodHRwczovL2FjZzQuYWNlcHRhLmNvbS9hY2c0L29jc3AvQ2xhc2UyLUc0
+MD8GA1UdHwQ4MDYwNKAyoDCGLmh0dHBzOi8vYWNnNC5hY2VwdGEuY29tL2FjZzQvY3JsL0NsYXNl
+Mi1HNC5jcmwwDQYJKoZIhvcNAQELBQADggEBABk8YSNX2EBhUb1Tu9L498WaG35PguC6A0QE5Pf2
+PkQ10b7071dM+rDbirBKEAc9CoYtHPb9Liu2EXsfvRKfAlLL8rMIOYIqe5XojJTYpsMIyZYJ5pkX
+UfbX7gtW71vCL9pyZDxQ5RBllx932Ra5VMVgeRhFxZbmg7wEZJ1mtbHirmWNsJgTO92p8UMIsvoa
+ErnCs7WmYWRc+4AwtWYlCiRF687fZaQbIR0iwY9nYB2zdM4mBpVXGDrk6BWMn8s8224iE4vJ5WzE
+JeeS6wsakrcFunWfz42J3Cb2p4NEi3+nh7vuOX31BFFiwGAWIbmqLWTXWgHgxz2y847B6o3fFek=
+</default:X509Certificate>
+		</default:X509Data>
+	</default:KeyInfo>
+</default:Signature>
+    </DTE>

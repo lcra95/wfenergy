@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+<Documento ID="S20181019T033F0006808439">
+  <Encabezado>
+   <IdDoc>
+    <TipoDTE>33</TipoDTE>
+    <Folio>6808439</Folio>
+    <FchEmis>2018-10-18</FchEmis>
+   </IdDoc>
+   <Emisor>
+    <RUTEmisor>81821100-7</RUTEmisor>
+    <RznSoc>TURISMO COCHA S.A.</RznSoc>
+    <GiroEmis>AGENCIA DE TURISMO</GiroEmis>
+    <Acteco>630400</Acteco>
+    <DirOrigen>AV. EL BOSQUE NORTE 0430</DirOrigen>
+    <CmnaOrigen>LAS CONDES</CmnaOrigen>
+   </Emisor><Receptor>
+    <RUTRecep>76254347-8</RUTRecep>
+    <RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep>
+    <GiroRecep>SOC DE INV Y RENTISTAS DE CAPITALES</GiroRecep>
+    <DirRecep>APOQUINDO 3910 PISO 5</DirRecep>
+    <CmnaRecep>LAS CONDES</CmnaRecep>
+    <CiudadRecep>SANTIAGO</CiudadRecep>
+   </Receptor>
+   <Totales>
+    <MntNeto>15444</MntNeto>
+    <MntExe>0</MntExe>
+    <TasaIVA>19</TasaIVA>
+    <IVA>2934</IVA>
+    <MntTotal>18378</MntTotal>
+   </Totales>
+  </Encabezado>
+  <Detalle>
+   <NroLinDet>1</NroLinDet>
+   <NmbItem>Efectuamos por cuenta de Uds el siguiente pago:</NmbItem>
+   <MontoItem>0</MontoItem>
+  </Detalle>
+  <Detalle>
+   <NroLinDet>2</NroLinDet>
+   <NmbItem>8-ED1-034 GASOLINA/FULL CREDIT/SANTIAGO Pax:PARRA/HERNAN</NmbItem>
+   <MontoItem>15444</MontoItem>
+  </Detalle>
+  <Detalle>
+   <NroLinDet>3</NroLinDet>
+   <NmbItem>F.Viaje : 10AUG18/11AUG18/GV 07446999 Cc:SCC /O:S/N</NmbItem>
+   <MontoItem>0</MontoItem>
+  </Detalle>
+<TED version="1.0"><DD><RE>81821100-7</RE><TD>33</TD><F>6808439</F><FE>2018-10-18</FE><RR>76254347-8</RR><RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR><MNT>18378</MNT><IT1>Efectuamos por cuenta de Uds el siguient</IT1><CAF version="1.0"><DA><RE>81821100-7</RE><RS>TURISMO COCHA S A</RS><TD>33</TD><RNG><D>6805036</D><H>6865035</H></RNG><FA>2018-09-24</FA><RSAPK><M>scvPYHNCrEf0uH/+sPGsqR4nZmtLgs00ZDFfcujUraCLQxZNHtzWaD76Blq/TLNmtnWGl5U7Ij5YnlA0qNjq6w==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">M+U/s4MD3XKfe/JawIkYETRk11bJiqcDqc/EY0ZtyTIV1yCLarENI56160oVd9tLbsgoqsQA7YOIr4lUP+WvPA==</FRMA></CAF><TSTED>2018-10-19T09:45:58</TSTED></DD><FRMT algoritmo="SHA1withRSA">XGu1fp0ku/hS7aDDTKzZTInnLaVhRe7CEy10BnNSHmN6kn5IYk5jIBo+YyGItxsGKhqWxZQIT4Sm
+YV+Ezw6+OQ==
+</FRMT></TED>
+<TmstFirma>2018-10-19T09:45:58</TmstFirma>
+</Documento>
+<default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+  <default:SignedInfo>
+    <default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+    <default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+    <default:Reference URI="#S20181019T033F0006808439">
+      <default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+      <default:DigestValue>oQXk7OvqY+WI5PqCi3yB0qvf5YY=</default:DigestValue>
+    </default:Reference>
+  </default:SignedInfo>
+  <default:SignatureValue>
+    knHw3D+cTT+sirdqENszsmaA21Kkzv3aw1pTirZ3f3PY/527YBc2MKnnimK8jTUa
+    NPkdl0hz2A3TUW2N2HEcrwDm0SNeCJ7twJOGPPF8OLGN14Q/jn2Er9FngDx+5V5W
+    268s+hDO9JUuS0qAXfFaJC4lCifK1opkcFG68OdJaO4=
+  </default:SignatureValue>
+  <default:KeyInfo>
+    <default:KeyValue>
+      <default:RSAKeyValue>
+        <default:Modulus>
+          p+S2nJUkJ4q5Bo8lGOi4xSqD4lkSt0xquqHKV9jhuBZxfRLru8vCHNDfoPGtWOgs
+          7K7WRAC2IwnkJcN8cLSz/pxItSQQHiKBTLCdk+6KIufB10HlWhteV8uuIQgkOzjM
+          zq3JzNGCjtSavR5VvZZ5+FqL2fgQvqbcg86o5P2Dlbs=
+        </default:Modulus>
+        <default:Exponent>AQAB</default:Exponent>
+      </default:RSAKeyValue>
+    </default:KeyValue>
+    <default:X509Data>
+      
+      <default:X509Certificate>
+        MIIGRTCCBS2gAwIBAgIKGNMe5gAAAARQ1DANBgkqhkiG9w0BAQUFADCB0jELMAkG
+        A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
+        EwhTYW50aWFnbzEUMBIGA1UEChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9y
+        aWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQDEydFLUNFUlRDSElMRSBDQSBGSVJN
+        QSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEWGHNjbGllbnRlc0Bl
+        LWNlcnRjaGlsZS5jbDAeFw0xNjA3MDgxNjIxNTdaFw0xOTA3MDgxNjIxNTdaMIHI
+        MQswCQYDVQQGEwJDTDEiMCAGA1UECBMZTUVUUk9QT0xJVEFOQSBERSBTQU5USUFH
+        TzERMA8GA1UEBxMIU2FudGlhZ28xGzAZBgNVBAoTElRVUklTTU8gQ09DSEEgUy5B
+        LjEaMBgGA1UECxMRQUdFTkNJQSBERSBWSUFKRVMxKDAmBgNVBAMTH1NFUkdJTyBF
+        RFVBUkRPIFBVUkNFTEwgUk9CSU5TT04xHzAdBgkqhkiG9w0BCQEWEExQQVJET0BD
+        T0NIQS5DT00wgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKfktpyVJCeKuQaP
+        JRjouMUqg+JZErdMarqhylfY4bgWcX0S67vLwhzQ36DxrVjoLOyu1kQAtiMJ5CXD
+        fHC0s/6cSLUkEB4igUywnZPuiiLnwddB5VobXlfLriEIJDs4zM6tyczRgo7Umr0e
+        Vb2Wefhai9n4EL6m3IPOqOT9g5W7AgMBAAGjggKnMIICozA9BgkrBgEEAYI3FQcE
+        MDAuBiYrBgEEAYI3FQiC3IMvhZOMZoXVnReC4twnge/sPGGBy54UhqiCWAIBZAIB
+        BDAdBgNVHQ4EFgQUaEM3R298+XiAsTdqOsKr4dtNQewwCwYDVR0PBAQDAgTwMB8G
+        A1UdIwQYMBaAFHjhPp/SErN6PI3NMA5Ts0MpB7NVMD4GA1UdHwQ3MDUwM6AxoC+G
+        LWh0dHA6Ly9jcmwuZS1jZXJ0Y2hpbGUuY2wvZWNlcnRjaGlsZWNhRkVTLmNybDA6
+        BggrBgEFBQcBAQQuMCwwKgYIKwYBBQUHMAGGHmh0dHA6Ly9vY3NwLmVjZXJ0Y2hp
+        bGUuY2wvb2NzcDAjBgNVHREEHDAaoBgGCCsGAQQBwQEBoAwWCjA3MDMzNzY3LTMw
+        IwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4MC01MIIBTQYDVR0gBIIB
+        RDCCAUAwggE8BggrBgEEAcNSBTCCAS4wLQYIKwYBBQUHAgEWIWh0dHA6Ly93d3cu
+        ZS1jZXJ0Y2hpbGUuY2wvQ1BTLmh0bTCB/AYIKwYBBQUHAgIwge8egewAQwBlAHIA
+        dABpAGYAaQBjAGEAZABvACAARgBpAHIAbQBhACAAUwBpAG0AcABsAGUALgAgAEgA
+        YQAgAHMAaQBkAG8AIAB2AGEAbABpAGQAYQBkAG8AIABlAG4AIABmAG8AcgBtAGEA
+        IABwAHIAZQBzAGUAbgBjAGkAYQBsACwAIABxAHUAZQBkAGEAbgBkAG8AIABoAGEA
+        YgBpAGwAaQB0AGEAZABvACAAZQBsACAAQwBlAHIAdABpAGYAaQBjAGEAZABvACAA
+        cABhAHIAYQAgAHUAcwBvACAAdAByAGkAYgB1AHQAYQByAGkAbzANBgkqhkiG9w0B
+        AQUFAAOCAQEAg6mjDwpkG7G9GQ7590glACVN8eMzvJ6twkR2aGzSFdsnETkzh92X
+        9UhtoXK2i01M1mKgzw23M9R5BjGj16YKH7oE5WMEnnJogVA5LLcl5vC2HggBHPmW
+        5O3xe/H23qJeG9QywMUNgXU+57S4o6DER5vZnxzEEw0Wj02xE4tCKQ5dB8UfPNjq
+        EOK70/obid5AwYD1fbbqea//w9zyCdBXZ1c5PVCyCcJwUCSEBjz7yXlNa6TYsJ+9
+        bXwvPe6J/HG9/Ppf9YCLCYY4Yxp0EdQS/iyg/tC5SRQ9uoij+TVfXvYCS1iMO9A1
+        Oa41Ug19OO/PIxb4vgiIu2ysH5tl+CdJuQ==
+      </default:X509Certificate>
+    </default:X509Data>
+  </default:KeyInfo>
+</default:Signature>
+
+
+</DTE>

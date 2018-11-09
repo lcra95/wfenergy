@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+  <!-- O Win32 Chrome 69 central VERSION: v20170209 -->
+<Documento ID="MiPE76874608-8092">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>34</TipoDTE>
+        <Folio>1</Folio>
+        <FchEmis>2018-10-31</FchEmis>
+        <TpoTranCompra>1</TpoTranCompra>
+        <TpoTranVenta>1</TpoTranVenta>
+        <FmaPago>2</FmaPago>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>76874608-7</RUTEmisor>
+        <RznSoc>INVERSIONES GHNEIM PASTRANO SPA</RznSoc>
+        <GiroEmis>VENTA AL POR MENOR EN EMPRESAS DE VENTA A DISTANCIA POR INTERNET</GiroEmis>
+        <Telefono>0 0</Telefono>
+        <CorreoEmisor>KGHNEIM2@GMAIL.COM</CorreoEmisor>
+        <Acteco>521900</Acteco>
+        <CdgSIISucur>082348398</CdgSIISucur>
+        <DirOrigen>BOMBERO OSSA 1010  1020 SANTIAGO</DirOrigen>
+        <CmnaOrigen>SANTIAGO</CmnaOrigen>
+        <CiudadOrigen>SANTIAGO</CiudadOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>76254347-8</RUTRecep>
+        <RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep>
+        <GiroRecep>GENERACION EN OTRAS CENTRALES N.C.P.</GiroRecep>
+        <DirRecep>APOQUINDO 3910 PISO 5</DirRecep>
+        <CmnaRecep>LAS CONDES</CmnaRecep>
+        <CiudadRecep>SANTIAGO</CiudadRecep>
+      </Receptor>
+      <Totales>
+        <MntExe>600000</MntExe>
+        <MntTotal>600000</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <NmbItem>Servicio facturacion</NmbItem>
+      <QtyItem>1.00</QtyItem>
+      <PrcItem>600000.00</PrcItem>
+      <MontoItem>600000</MontoItem>
+    </Detalle>
+<TED version="1.0"><DD><RE>76874608-7</RE><TD>34</TD><F>1</F><FE>2018-10-31</FE><RR>76254347-8</RR><RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR><MNT>600000</MNT><IT1>Servicio facturacion</IT1><CAF version="1.0"><DA><RE>76874608-7</RE><RS>INVERSIONES GHNEIM PASTRANO SPA</RS><TD>34</TD><RNG><D>1</D><H>1</H></RNG><FA>2018-10-31</FA><RSAPK><M>vgBA3tGhJZzcVJBPZmg6dK3bFlSR3K0aSZhmrUajy47mGAqSZTM42xmFsnt7xgVIxs6lgDcIl3m2clMTC1bxow==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">j3PotUGtqedKlz3/MSZxRJaW6toODBeZ858QoPVpd3tUaDZi/IUXmG1clu5GWaYuPQVXn8liMf5347E7MDY5Uw==</FRMA></CAF><TSTED>2018-10-31T15:16:34</TSTED></DD><FRMT algoritmo="SHA1withRSA">OYD30wQ10sudag3j1OAeIL/fiXpQKNhRzkmra1USUrnRcu3Vs+pJRv4K2u4aSsPt4J17puHF3wtQTm1t1dEpwA==</FRMT></TED>
+    <TmstFirma>2018-10-31T15:16:34</TmstFirma>
+
+  </Documento>
+<default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<default:SignedInfo>
+<default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<default:Reference URI="#MiPE76874608-8092">
+<default:Transforms>
+<default:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</default:Transforms>
+<default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<default:DigestValue>8t6HgSRt9mhBROmImG0lT8ItqEQ=</default:DigestValue>
+</default:Reference>
+</default:SignedInfo>
+<default:SignatureValue>
+IqRbJEGJTHQbaZdoVKnsMfnZs5W5KTXWxjIifX6l3sdb6YC2aInGXa7CtFzYGJT2Pwtvzd12ckx4
+0I+C0fm3dA/lr9/Tqsb2GP94nSK6XDMj8kcaN5eNQn1UvZHHrajMak1caUUPTcSJfzxxLjV8ulT9
+Ux5cG6scqRdTFkulkRA=
+</default:SignatureValue>
+<default:KeyInfo>
+<default:KeyValue>
+<default:RSAKeyValue>
+<default:Modulus>
+qPN4QGThgki1PDbors1Sh7sRia9W4+Y0edZ65d/dbjZowU5A5IcmMYxaOhWSS/F7lJZKls87eZLS
+D9QgA0bww8vWoF+b7whKvcg/GpJeW8KkLXlSa8i7Eo5DlyHlng5HtsYv4sEcNRygnuj90UrHpg46
+4mrL7vmbJkPDGNByCBk=
+</default:Modulus>
+<default:Exponent>AQAB</default:Exponent>
+</default:RSAKeyValue>
+</default:KeyValue>
+<default:X509Data>
+<default:X509Certificate>
+MIIGTTCCBTWgAwIBAgIKF8w+XwAAAAvR1TANBgkqhkiG9w0BAQUFADCB0jELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQD
+EydFLUNFUlRDSElMRSBDQSBGSVJNQSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEW
+GHNjbGllbnRlc0BlLWNlcnRjaGlsZS5jbDAeFw0xODA4MTgxNDQ0MzBaFw0xOTA4MTgxNDQ0MzBa
+MIHOMQswCQYDVQQGEwJDTDEjMCEGA1UECBMaTUVUUk9QT0xJVEFOQSBERSBTQU5USUFHTyAxETAP
+BgNVBAcTCFNhbnRpYWdvMSwwKgYDVQQKEyNDYXRhbGluYSBBbWFsaWEgQ3ViaWxsb3MgVmlsbGFu
+dWV2YTEKMAgGA1UECwwBKjEsMCoGA1UEAxMjQ2F0YWxpbmEgQW1hbGlhIEN1YmlsbG9zIFZpbGxh
+bnVldmExHzAdBgkqhkiG9w0BCQEWEGMuYy52QGhvdG1haWwuZXMwgZ8wDQYJKoZIhvcNAQEBBQAD
+gY0AMIGJAoGBAKjzeEBk4YJItTw26K7NUoe7EYmvVuPmNHnWeuXf3W42aMFOQOSHJjGMWjoVkkvx
+e5SWSpbPO3mS0g/UIANG8MPL1qBfm+8ISr3IPxqSXlvCpC15UmvIuxKOQ5ch5Z4OR7bGL+LBHDUc
+oJ7o/dFKx6YOOuJqy+75myZDwxjQcggZAgMBAAGjggKpMIICpTCCAU8GA1UdIASCAUYwggFCMIIB
+PgYIKwYBBAHDUgUwggEwMC0GCCsGAQUFBwIBFiFodHRwOi8vd3d3LmUtY2VydGNoaWxlLmNsL0NQ
+Uy5odG0wgf4GCCsGAQUFBwICMIHxHoHuAEUAbAAgAHIAZQBzAHAAbwBuAGQAZQByACAAZQBzAHQA
+ZQAgAGYAbwByAG0AdQBsAGEAcgBpAG8AIABlAHMAIAB1AG4AIAByAGUAcQB1AGkAcwBpAHQAbwAg
+AGkAbgBkAGkAcwBwAGUAbgBzAGEAYgBsAGUAIABwAGEAcgBhACAAZABhAHIAIABpAG4AaQBjAGkA
+bwAgAGEAbAAgAHAAcgBvAGMAZQBzAG8AIABkAGUAIABjAGUAcgB0AGkAZgBpAGMAYQBjAGkA8wBu
+AC4AIABQAG8AcwB0AGUAcgBpAG8AcgBtAGUAbgB0AGUALDAdBgNVHQ4EFgQU/pGvVyvLxMQJ1P7M
+BumMkD0x0hkwCwYDVR0PBAQDAgTwMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMTgxNjUxNDEt
+NTAfBgNVHSMEGDAWgBR44T6f0hKzejyNzTAOU7NDKQezVTA+BgNVHR8ENzA1MDOgMaAvhi1odHRw
+Oi8vY3JsLmUtY2VydGNoaWxlLmNsL2VjZXJ0Y2hpbGVjYUZFUy5jcmwwOgYIKwYBBQUHAQEELjAs
+MCoGCCsGAQUFBzABhh5odHRwOi8vb2NzcC5lY2VydGNoaWxlLmNsL29jc3AwPQYJKwYBBAGCNxUH
+BDAwLgYmKwYBBAGCNxUIgtyDL4WTjGaF1Z0XguLcJ4Hv7DxhhevCZ4eQsB8CAWQCAQQwIwYDVR0S
+BBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4MC01MA0GCSqGSIb3DQEBBQUAA4IBAQAIR1RpB6Nq
+bDSs7YCKv2litkg7JBxjLXIsqUOjpsrlxz9k8dfCIEFehZfWrsEeTz42Ve72M2uSNGuORtN4Mhac
+YZ8BS+Hd34WcsSn1DsUYDtuW7iwfK+jx8DicsnJuwCfnfeegvb0l1RYeg0q4+ofrz41DgF6AcBa+
+PrZTNJHGqYnBeIybSV0Gte8yQixBYqfZwXA38urTKOs2FB+AwYT6GCYuUQryzTjoNCK3fdHgg9J9
+9p1YG7+ebhMzB4S3bTt0STpJr+8VDRbxpJexndHUWcXM7b5vjJqLU+uNZr0qHhXH7IXvom5Fh6Fs
+EPSUuXHB6HncdRNdN8J90emUu72A
+</default:X509Certificate>
+</default:X509Data>
+</default:KeyInfo>
+</default:Signature></DTE>

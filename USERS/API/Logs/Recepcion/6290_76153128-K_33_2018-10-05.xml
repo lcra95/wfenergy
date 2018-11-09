@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+  <!-- O Win32 Trident 7 plugin VERSION: v20170209 -->
+<Documento ID="MiPE76153128-18892">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>6290</Folio>
+        <FchEmis>2018-10-05</FchEmis>
+        <TpoTranCompra>1</TpoTranCompra>
+        <TpoTranVenta>1</TpoTranVenta>
+        <FmaPago>2</FmaPago>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>76153128-K</RUTEmisor>
+        <RznSoc>CENTRAL HIDROELECTRICA CHANLEUFU S.A.EN LIQUIDACION</RznSoc>
+        <GiroEmis>GENERACION DE ELECTRICIDAD</GiroEmis>
+        <Telefono>2 26994145</Telefono>
+        <CorreoEmisor>CYNTHIAPUGA@MCLOUD.CL</CorreoEmisor>
+        <Acteco>401011</Acteco>
+        <CdgSIISucur>076661270</CdgSIISucur>
+        <DirOrigen>AMUNATEGUI 277  1001</DirOrigen>
+        <CmnaOrigen>SANTIAGO</CmnaOrigen>
+        <CiudadOrigen>STGO</CiudadOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>76254347-8</RUTRecep>
+        <RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep>
+        <GiroRecep>GENERACION EN OTRAS CENTRALES N.C.P.</GiroRecep>
+        <DirRecep>APOQUINDO 3910 PISO 5</DirRecep>
+        <CmnaRecep>LAS CONDES</CmnaRecep>
+        <CiudadRecep>SANTIAGO</CiudadRecep>
+      </Receptor>
+      <Totales>
+        <MntNeto>11</MntNeto>
+        <TasaIVA>19.00</TasaIVA>
+        <IVA>2</IVA>
+        <MntTotal>13</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <NmbItem>facturacion</NmbItem>
+      <DscItem>balance de potencia DE DE N?00391-18
+
+
+
+
+
+</DscItem>
+      <QtyItem>1.00</QtyItem>
+      <PrcItem>11.00</PrcItem>
+      <MontoItem>11</MontoItem>
+    </Detalle>
+<TED version="1.0"><DD><RE>76153128-K</RE><TD>33</TD><F>6290</F><FE>2018-10-05</FE><RR>76254347-8</RR><RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR><MNT>13</MNT><IT1>facturacion</IT1><CAF version="1.0"><DA><RE>76153128-K</RE><RS>CENTRAL HIDROELECTRICA CHANLEUFU S.A.EN</RS><TD>33</TD><RNG><D>6290</D><H>6290</H></RNG><FA>2018-10-05</FA><RSAPK><M>vgOxrmJ3hTQdTB+RM20a9+XtENeAW0Uk9Ntk2tiEQ3go6Fp1KyvoogYNUI8HkNJ5/JMh+b5qqvpBmXdz8KKaeQ==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">fh4gJ07lb/suCwPOsZrhcdqylP1VvKsR0ENLBjmZR6Jb2+9k4hSblwCyr1BeRSFKoBMtPaW+0nMb/JHn2FN31A==</FRMA></CAF><TSTED>2018-10-05T12:04:08</TSTED></DD><FRMT algoritmo="SHA1withRSA">tx8myygcHOcRKg9ltr/rJoV8ibj9BtsBxx5IrBsuF+7EftSK3jTRpRrQzg4OxE8FWsXOGH8xTVFfw1O6tjCVVQ==</FRMT></TED>
+    <TmstFirma>2018-10-05T12:04:08</TmstFirma>
+
+  </Documento>
+<default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<default:SignedInfo><default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><default:Reference URI="#MiPE76153128-18892"><default:Transforms><default:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></default:Transforms><default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><default:DigestValue>BcuVH56cJAtufA9Z9O5RPX8tUCg=</default:DigestValue></default:Reference></default:SignedInfo>
+<default:SignatureValue>PdHFzsYKYSJveRU3O2zIVPLB9Pl7oX/A6WwBSifYxvw/YBmw8FLBbylVCrArts4xiCK7OCwIX5fiwy3nJtzmQDl2add2WaHP2NpmxgCb0RDuYI4fc44109e14BMI9nnZBlwhoxNnaJqXnkXgoD6G+sF176VGUyqcfS4VqPNVWyc=</default:SignatureValue>
+<default:KeyInfo>
+<default:KeyValue>
+<default:RSAKeyValue>
+<default:Modulus>xZcW72XM2GjVHmv4iwau1IIjGH2WHHkCIpBVxB9HQYFXY6J2cGSQezOp+HxssrbN7DBWWPedCAtr9lsGnK/cutlV9zz9cn4neZU78UNWXZy/WCGrqJC3uM2ImcJ7SUzz18JHYz71sNmfL5lfbhYZ+anDof+KjrZAOQHAKSfFWuM=</default:Modulus>
+<default:Exponent>AQAB</default:Exponent>
+</default:RSAKeyValue>
+</default:KeyValue>
+<default:X509Data>
+<default:X509Certificate>
+MIIGVTCCBT2gAwIBAgIKb3sK8gAAAAmHADANBgkqhkiG9w0BAQUFADCB0jELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQD
+EydFLUNFUlRDSElMRSBDQSBGSVJNQSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEW
+GHNjbGllbnRlc0BlLWNlcnRjaGlsZS5jbDAeFw0xNzEyMTIxNTQ1MDlaFw0xOTEyMTIxNTQ1MDla
+MIHYMQswCQYDVQQGEwJDTDEjMCEGA1UECBMaTUVUUk9QT0xJVEFOQSBERSBTQU5USUFHTyAxETAP
+BgNVBAcTCFNhbnRpYWdvMS4wLAYDVQQKEyVDRU5UUkFMIEhJRFJPRUxFQ1RSSUNBIENIQU5MRVVG
+VSBTLkEuMQowCAYDVQQLDAEqMSwwKgYDVQQDEyNFTlJJUVVFIE1BUkNPIEFOVE9OSU8gT1JUSVog
+RCdBTUlDTzEnMCUGCSqGSIb3DQEJARYYb2NvbnRyZXJhczg3QG91dGxvb2suY29tMIGfMA0GCSqG
+SIb3DQEBAQUAA4GNADCBiQKBgQDFlxbvZczYaNUea/iLBq7UgiMYfZYceQIikFXEH0dBgVdjonZw
+ZJB7M6n4fGyyts3sMFZY950IC2v2Wwacr9y62VX3PP1yfid5lTvxQ1ZdnL9YIauokLe4zYiZwntJ
+TPPXwkdjPvWw2Z8vmV9uFhn5qcOh/4qOtkA5AcApJ8Va4wIDAQABo4ICpzCCAqMwPQYJKwYBBAGC
+NxUHBDAwLgYmKwYBBAGCNxUIgtyDL4WTjGaF1Z0XguLcJ4Hv7Dxhg6rnQ4fTxg4CAWQCAQQwHQYD
+VR0OBBYEFK8eBWx55c+i+WHxGLVpyWNE1G3hMAsGA1UdDwQEAwIE8DAfBgNVHSMEGDAWgBR44T6f
+0hKzejyNzTAOU7NDKQezVTA+BgNVHR8ENzA1MDOgMaAvhi1odHRwOi8vY3JsLmUtY2VydGNoaWxl
+LmNsL2VjZXJ0Y2hpbGVjYUZFUy5jcmwwOgYIKwYBBQUHAQEELjAsMCoGCCsGAQUFBzABhh5odHRw
+Oi8vb2NzcC5lY2VydGNoaWxlLmNsL29jc3AwIwYDVR0RBBwwGqAYBggrBgEEAcEBAaAMFgoxMTIy
+Mjg2MC04MCMGA1UdEgQcMBqgGAYIKwYBBAHBAQKgDBYKOTY5MjgxODAtNTCCAU0GA1UdIASCAUQw
+ggFAMIIBPAYIKwYBBAHDUgUwggEuMC0GCCsGAQUFBwIBFiFodHRwOi8vd3d3LmUtY2VydGNoaWxl
+LmNsL0NQUy5odG0wgfwGCCsGAQUFBwICMIHvHoHsAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAEYA
+aQByAG0AYQAgAFMAaQBtAHAAbABlAC4AIABIAGEAIABzAGkAZABvACAAdgBhAGwAaQBkAGEAZABv
+ACAAZQBuACAAZgBvAHIAbQBhACAAcAByAGUAcwBlAG4AYwBpAGEAbAAsACAAcQB1AGUAZABhAG4A
+ZABvACAAaABhAGIAaQBsAGkAdABhAGQAbwAgAGUAbAAgAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAg
+AHAAYQByAGEAIAB1AHMAbwAgAHQAcgBpAGIAdQB0AGEAcgBpAG8wDQYJKoZIhvcNAQEFBQADggEB
+AIe9ChYj/G03Q/k7cVz1Oi+qTTX9V2Y1cqFpvYXPu7CKREDMgMCPB176RgiBuCt4l7Gk2qWzkktB
+64vfJZoDm8wKRwZXY1yg/8W1Bb777qKeO/x+bPuFF001pbM8hR14VXLIGjC4/ablEipfsfuVevvy
+q0BjeS7zjPlwOegzeGs6g60YDEq0y3Om7Pf4tuL1uW2RRgljNOOZ09VFZxNh3g3jD7z78SOZxIi1
+fg+nBnzp/PXkzQyN61xLWIiVsKvR9J6KSNMhfRVRghIFiZTA3DrW9zJn3XKOzwL0bQi3V/etPWv1
+QznqdGq3auTpRK53H93mr4xroutyfjvcdZIPYbY=
+</default:X509Certificate>
+</default:X509Data>
+</default:KeyInfo>
+</default:Signature></DTE>

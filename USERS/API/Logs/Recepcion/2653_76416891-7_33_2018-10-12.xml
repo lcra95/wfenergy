@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+      <Documento ID="F2653T33">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>33</TipoDTE>
+            <Folio>2653</Folio>
+            <FchEmis>2018-10-12</FchEmis>
+            <FchVenc>2018-10-17</FchVenc>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>76416891-7</RUTEmisor>
+            <RznSoc>PARQUE EOLICO LEBU TORO SPA</RznSoc>
+            <GiroEmis>GENERACI?N EN OTRAS CENTRALES</GiroEmis>
+            <Acteco>401019</Acteco>
+            <DirOrigen>DAGOBERTO GODOY 182</DirOrigen>
+            <CmnaOrigen>CERRILLOS</CmnaOrigen>
+            <CiudadOrigen>SANTIAGO</CiudadOrigen>
+            <CdgVendedor>PARQUE EOLICO LEBU</CdgVendedor>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>76254347-8</RUTRecep>
+            <RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep>
+            <GiroRecep>GENERACI?N EN OTRAS CENTRALES N.C.P</GiroRecep>
+            <DirRecep>AV. APOQUINDO 3910, PISO 5</DirRecep>
+            <CmnaRecep>LAS CONDES</CmnaRecep>
+            <CiudadRecep>SANTIAGO</CiudadRecep>
+          </Receptor>
+          <Transporte>
+            <DirDest>AV. APOQUINDO 3910, PISO 5</DirDest>
+            <CmnaDest>LAS CONDES</CmnaDest>
+          </Transporte>
+          <Totales>
+            <MntNeto>434</MntNeto>
+            <MntExe>0</MntExe>
+            <TasaIVA>19.00</TasaIVA>
+            <IVA>82</IVA>
+            <MntTotal>516</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INTERNA</TpoCodigo>
+            <VlrCodigo>000000000459</VlrCodigo>
+          </CdgItem>
+          <NmbItem>SERVICIOS COMPLEMENTARIOS</NmbItem>
+          <QtyItem>1.000000</QtyItem>
+          <PrcItem>434.000000</PrcItem>
+          <MontoItem>434</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>2</NroLinDet>
+          <IndExe>2</IndExe>
+          <NmbItem>ABRIL 2018</NmbItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <Detalle>
+          <NroLinDet>3</NroLinDet>
+          <IndExe>2</IndExe>
+          <NmbItem>SEN_[SSCC_][ABR18][R][V01]</NmbItem>
+          <QtyItem>1.000000</QtyItem>
+          <MontoItem>0</MontoItem>
+        </Detalle>
+        <TED version="1.0">
+          <DD>
+            <RE>76416891-7</RE>
+            <TD>33</TD>
+            <F>2653</F>
+            <FE>2018-10-12</FE>
+            <RR>76254347-8</RR>
+            <RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR>
+            <MNT>516</MNT>
+            <IT1>SERVICIOS COMPLEMENTARIOS</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>76416891-7</RE>
+                <RS>PARQUE EOLICO LEBU - TORO SPA</RS>
+                <TD>33</TD>
+                <RNG>
+                  <D>2191</D>
+                  <H>2940</H>
+                </RNG>
+                <FA>2018-03-26</FA>
+                <RSAPK>
+                  <M>r06o8CJLW3bChZ3eKo44kLpQDG4TVCLfVvMh1J2gZKFFWaXIr9sIZQWvUw5uTYs/33uVaohYgkbQnxdWOKzpeQ==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">jRFjC3eeke5Hqq6AiFVuUh+3gT84wqSrtAFXDPvOXogwhy7JkH3JA39O17W8o+Zsao+S3KQMbwUnA2grQtYV9w==</FRMA>
+            </CAF>
+            <TSTED>2018-10-12T15:14:38</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">X+c0fybG2kCEGlwEiTkft8MlgZoCZhnjBMrZKdwowHFgT7nmkktPCVwISkCFoFK6lx7SImaDPUsljdmZYiEQFw==</FRMT>
+        </TED>
+        <TmstFirma>2018-10-12T15:14:39</TmstFirma>
+      </Documento><default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><default:SignedInfo><default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><default:Reference URI="#F2653T33"><default:Transforms><default:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></default:Transforms><default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><default:DigestValue>/S1DqDmCvEnHD82o2jaRaSPdVV4=</default:DigestValue></default:Reference></default:SignedInfo><default:SignatureValue>
+QG8lX8RYarQ/K96TWwOb/arKUfDDnEC6kaddnIBYWtsa8iY6WyXW3KEfDuFYHKwV
+gKQ1Na+2lZuN9Y9KFPgaHXhxyfnx4Mm9rTqjXf5DdutCayIyT4N8w/9djidgUqA4
+qhF5/s9JUX/fM5ej23qOuEU73RK1qjlzYVolOY34CkaUc8QsOmRMp04tTI8RGQt6
+jBfNoC1zR/kQNTdqKHV902o9XEUgbyKWP8WHbkR222cLDRlBYSYZbKbgqYjjIjgU
+9oNtAtsaW4YTt01z1clGHBcXN2TzatTpFcC0kcCsggYahKbx6pLepYcLowgl/CiZ
+xhFpWIYrqqIgvQYn+Y61Sw==
+</default:SignatureValue><default:KeyInfo><default:KeyValue><default:RSAKeyValue><default:Modulus>
+0sw199q0T16vw9pq+QUPFpUyxqZtQWhXreznKiivDcR/82Flqip1FUbTyRct8kkR
+hC56yMuFAMw5a9avGjm4wlG7Df9BkW5N2mMzdARpKoAEtvkNMd0khL6Em1oVxeXV
+eKl6T2W7dSpaRwqtDSLlkffTN/MfMXLzBgGbYHEaFk/LNlZi/b/xtM84til07xvN
+wRFJ3BRw25/cH4vuVOIry7RucLky5bN9GUMr7lbsoFeGeXPoiQluC1Y20PVtSrK0
+R96cCc13U6POE826xqRIhLKpAbM3csK86c4lFj3xVkqKsqatvL3BT54+LMpubRwD
+KcQQn/9+NEVzFkuxxfcgew==
+</default:Modulus><default:Exponent>AQAB</default:Exponent></default:RSAKeyValue></default:KeyValue><default:X509Data><default:X509Certificate>
+MIIF0TCCBLmgAwIBAgIDAK0cMA0GCSqGSIb3DQEBBQUAMIGmMQswCQYDVQQGEwJD
+TDEYMBYGA1UEChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29t
+IEF1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFs
+IC0gRzMxHjAcBgkqhkiG9w0BCQEWD2luZm9AYWNlcHRhLmNvbTETMBEGA1UEBRMK
+OTY5MTkwNTAtODAeFw0xNjA5MTUxODE0NDhaFw0xOTA5MTUxODE0NDhaMIGHMQsw
+CQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSowKAYDVQQDEyFH
+VUlMTEVSTU8gRkVSTkFORE8gVE9STyBIQVJORUNLRVIxHjAcBgkqhkiG9w0BCQEW
+D2d0aEBjcmlzdG9yby5jbDESMBAGA1UEBRMJNjkyMTUzNy04MIIBIjANBgkqhkiG
+9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0sw199q0T16vw9pq+QUPFpUyxqZtQWhXrezn
+KiivDcR/82Flqip1FUbTyRct8kkRhC56yMuFAMw5a9avGjm4wlG7Df9BkW5N2mMz
+dARpKoAEtvkNMd0khL6Em1oVxeXVeKl6T2W7dSpaRwqtDSLlkffTN/MfMXLzBgGb
+YHEaFk/LNlZi/b/xtM84til07xvNwRFJ3BRw25/cH4vuVOIry7RucLky5bN9GUMr
+7lbsoFeGeXPoiQluC1Y20PVtSrK0R96cCc13U6POE826xqRIhLKpAbM3csK86c4l
+Fj3xVkqKsqatvL3BT54+LMpubRwDKcQQn/9+NEVzFkuxxfcgewIDAQABo4ICIzCC
+Ah8wHwYDVR0jBBgwFoAUQCQaPakxeoV3ej2ecpM5hOVAOBkwHQYDVR0OBBYEFI2s
+Pf9WS2m3iz9AGoStgQ0lDYxqMAsGA1UdDwQEAwIE8DAdBgNVHSUEFjAUBggrBgEF
+BQcDAgYIKwYBBQUHAwQwEQYJYIZIAYb4QgEBBAQDAgWgMG4GA1UdIARnMGUwYwYK
+KwYBBAG1a4dqCjBVMCgGCCsGAQUFBwIBFhxodHRwOi8vd3d3LmFjZXB0YS5jb20v
+Q1BTLUczMCkGCCsGAQUFBwICMB0wFhYPQWNlcHRhLmNvbSBTLkEuMAMCAQkaA1RC
+RDBaBgNVHRIEUzBRoBgGCCsGAQQBwQECoAwWCjk2OTE5MDUwLTigJAYIKwYBBQUH
+CAOgGDAWDAo5NjkxOTA1MC04BggrBgEEAcEBAoEPaW5mb0BhY2VwdGEuY29tMFgG
+A1UdEQRRME+gFwYIKwYBBAHBAQGgCxYJNjkyMTUzNy04oCMGCCsGAQUFBwgDoBcw
+FQwJNjkyMTUzNy04BggrBgEEAcEBAoEPZ3RoQGNyaXN0b3JvLmNsMD8GCCsGAQUF
+BwEBBDMwMTAvBggrBgEFBQcwAYYjaHR0cDovL29jc3AuYWNlcHRhLmNvbS9DbGFz
+ZTNCaW8tRzMwNwYDVR0fBDAwLjAsoCqgKIYmaHR0cDovL2NybC5hY2VwdGEuY29t
+L0NsYXNlM0Jpby1HMy5jcmwwDQYJKoZIhvcNAQEFBQADggEBADxKabayXtL2OJOS
+60J4lRygJB6EI0Gusc7csKR9z/Vo643XGs9tJ2OA55WrZwikuPuvMo4M1XrCYjJe
+vLX86PNSgrw2jNoth0X1HqRYjy3T1SfJQ9jZwI8rsjmnJ2HtOOMngoVBuPuziwBD
+cNXbY8/s7DeaO0TetFDRUTYL+Urm4pklp3RZiogFSOc0t56M5kGFlUefoFZ78Wem
+bi+qEUTwgUhB7rKFE4Do9p1GSTRNsjn4daV/O575JYiZvtABWgeZylZi2fi1RwiI
+8KR0X2R7BeqQIk8DhFFjaPbnAvyUUjp+xOUhEaQ+A/MWBwvwn4GQn/UuIIZmi7ZY
+B5nhQCw=
+</default:X509Certificate></default:X509Data></default:KeyInfo></default:Signature>
+    </DTE>
