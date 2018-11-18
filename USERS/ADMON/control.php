@@ -52,7 +52,8 @@ if (!@mysql_select_db($database))
              {
                 $id=id();
                //Insertamos los datos con los valores...
-            $sql = "INSERT INTO empresa_transaccion VALUES ('$id','$tipo', '$data[0]','$peri','$data[1]');";
+               $monto=round($data[1]);
+               $sql = "INSERT INTO empresa_transaccion VALUES ('$id','$tipo', '$data[0]','$peri','$monto');";
               mysql_query($sql) or die('Error: '.mysql_error());
              }
              //cerramos la lectura del archivo "abrir archivo" con un "cerrar archivo"

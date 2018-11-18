@@ -35,11 +35,10 @@
 				          	<i class="fa fa-file-text" aria-hidden="true"></i> Facturas<span class="caret"></span></a>
 
 				          <ul class="dropdown-menu" role="menu">
-							<li><a href="index.php" ><span class="fa fa-file-text" aria-hidden="true"></span> Nueva Factura</a></li>
-				           	<li><a href="pfactura.php" ><span class="fa fa-file-text" aria-hidden="true"></span> Emitir Factura</a></li>
-				         	<li><a href="listafacturas.php" ><span class="fa fa-file-text" aria-hidden="true"></span> Seguimiento de Facturas</a></li>
-				         
-
+										<li><a href="index.php" ><span class="fa fa-file-text" aria-hidden="true"></span>Nueva Factura</a></li>
+										<li><a href="pfactura.php" ><span class="fa fa-file-text" aria-hidden="true"></span>Emitir Factura</a></li>
+										<li><a href="listafacturas.php" ><span class="fa fa-file-text" aria-hidden="true"></span>Facturas Emitidas</a></li>
+										<li><a href="../recepcion_fact.php" ><span class="fa fa-file-text" aria-hidden="true"></span>Facturas Recibidas</a></li>
 				           </ul>
 				        </li>
 				        <!--<li class="dropdown">

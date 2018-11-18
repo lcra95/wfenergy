@@ -46,7 +46,7 @@ class leeXml{
         //Acceso al TAG		
             $definitivo=$total->getElementsByTagName('MntTotal');
             $iva=$total->getElementsByTagName('IVA');
-            if(!$exento=$total->getElementsByTagName('MntExe'))
+            if($exento=$total->getElementsByTagName('MntExe'))
             {
                 @$ex=$exento->item(0)->nodeValue;
             }else{

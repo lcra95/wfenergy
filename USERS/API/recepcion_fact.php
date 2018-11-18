@@ -36,7 +36,6 @@ foreach ($arrayRec as $key){
     }
 
 }
-echo 'Exitosos '.$coun.'<br>';
-echo 'Fallidos '.$res;
+header("location: Facturacion/listarecibo.php");
 
 ?>
