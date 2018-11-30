@@ -237,7 +237,7 @@ $tte=mysql_fetch_array($tpr);
                         url:'Graphics/controlador/diario_mes.php',
                         data:'año='+año,
                         success:function(data){
-
+                            
                             var valores = eval(data);
 
                             var   ae= valores[0];
@@ -303,16 +303,17 @@ $tte=mysql_fetch_array($tpr);
                             var   ffe= valores[60];
                             var   ffr= valores[61];                           
                             var Datos = {
-labels : ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Day 7', 'Day 8', 
-                                    'Day 9', 'Day 10', 'Day 11', 'Day 12', 'Day 13', 'Day 14', 'Day 15', 'Day 16', 'Day 17', 'Day 18', 
-                                    'Day 19', 'Day 20', 'Day 21', 'Day 22', 'Day 23', 'Day 24', 'Day 25', 'Day 26', 'Day 27', 'Day 28', 'Day 29', 'Day 30', 'Day 31'],                                    datasets : [
+                                            labels : ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Day 7', 'Day 8', 
+                                            'Day 9', 'Day 10', 'Day 11', 'Day 12', 'Day 13', 'Day 14', 'Day 15', 'Day 16', 'Day 17', 'Day 18', 
+                                            'Day 19', 'Day 20', 'Day 21', 'Day 22', 'Day 23', 'Day 24', 'Day 25', 'Day 26', 'Day 27', 'Day 28', 'Day 29', 'Day 30', 'Day 31'],                                    
+                                    datasets : [
                                         {   
                                             label: 'Energia',
                                             fillColor : 'rgba(249, 11, 11, 1)', //COLOR DE LAS BARRAS
                                             strokeColor : 'rgba(249, 11, 11, 1)', //COLOR DEL BORDE DE LAS BARRAS
                                             highlightFill : 'rgba(60,141,188,0.8)', //COLOR "HOVER" DE LAS BARRAS
                                             highlightStroke : 'rgba(60,141,188,0.8)', //COLOR "HOVER" DEL BORDE DE LAS BARRAS
-data : [ae, be, ce, de, ee, fe, ge, he, ie, je, ke, le, me, ne, oe, pe, qe, re, se, te, ue, ve, we, xe, ze, aae, bbe, cce, dde, eee, ffe]                                            
+                                            data : [ae, be, ce, de, ee, fe, ge, he, ie, je, ke, le, me, ne, oe, pe, qe, re, se, te, ue, ve, we, xe, ze, aae, bbe, cce, dde, eee, ffe]                                            
                                         }
                                     ]
                                 }
@@ -329,65 +330,86 @@ data : [ae, be, ce, de, ee, fe, ge, he, ie, je, ke, le, me, ne, oe, pe, qe, re, 
 <!--COSTO MARGINAL  DE LA ENERGIA-->
 <script>
             $(document).ready(mostrarResultados(2016));  
+               
                 function mostrarResultados(año){
+                    var Datos;
                     $.ajax({
                         type:'POST',
                         url:'Graphics/controlador/costo_marginal.php',
                         data:'año='+año,
+                        
                         success:function(data){
-
+                            
                             var valores = eval(data);
+                           
+                            var   ae= valores[0];
+                            var   be= valores[1];
+                            var   ce= valores[2];
+                            var   de= valores[3];
+                            var   ee= valores[4];
+                            var   fe= valores[5];
+                            var   ge= valores[6];
+                            var   he= valores[7];  
+                            var   ie= valores[8];
+                            var   je= valores[9];
+                            var   ke= valores[10];
+                            var   le= valores[11];
+                            var   me= valores[12];
+                            var   ne= valores[13];
+                            var   oe= valores[14];
+                            var   pe= valores[15];
+                            var   qe= valores[16];
+                            var   re= valores[17];                            
+                            var   se= valores[18];
+                            var   te= valores[19];
+                            var   ue= valores[20];
+                            var   ve= valores[21];
+                            var   we= valores[22];
+                            var   xe= valores[23];      
+                            var   ye= valores[24];
+                            var   ze= valores[25];
+                            var   aae= valores[26];
+                            var   bbe= valores[27];  
+                            var   cce= valores[28];
+                            var   dde= valores[29];
+                            var   eee= valores[30];
+                            
+                                
 
-                            var a= valores[0];
-                            var b= valores[1];
-                            var c= valores[2];
-                            var d= valores[3];
-                            var e= valores[4];
-                            var f= valores[5];
-                            var g= valores[6];
-                            var h= valores[7];  
-                            var i= valores[8];
-                            var j= valores[9];
-                            var k= valores[10];
-                            var l= valores[11];
-                            var m= valores[12];
-                            var n= valores[13];
-                            var o= valores[14];
-                            var p= valores[15];
-                            var q= valores[16];
-                            var r= valores[17];
-                            var s= valores[18];
-                            var t= valores[19];
-                            var u= valores[20];                            
-                            var v= valores[21];
-                            var w= valores[22];
-                            var x= valores[23];                            
-                            var Datos = {
-                                    labels : ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto'],
+                            Datos = {
+                                    labels : [
+                                        '1','2','3','4','5','6','7','8','9','10','11','12','13','14','15'
+                                        ,'16','17','18','19','20','21','22','23','24','25','26','27','28'
+                                        ,'29','30','31'
+                                        ],
                                     datasets : [
-                                        {   
-                                            label: 'Maximo',
-                                            fillColor : 'rgba(249, 11, 11, 0)', //COLOR DE LAS BARRAS
-                                            strokeColor : 'rgba(249, 11, 11, 1)', //COLOR DEL BORDE DE LAS BARRAS
-                                            //highlightFill : 'rgba(60,141,188,0.8)', //COLOR "HOVER" DE LAS BARRAS
-                                            //highlightStroke : 'rgba(60,141,188,0.8)', //COLOR "HOVER" DEL BORDE DE LAS BARRAS
-                                            data : [a, b, c, d, e, f, s, v]
-                                        },
-                                        {   
+                                            {   
                                             label: 'Promedio',
                                             fillColor : 'rgba(39, 81, 221, 0)', //COLOR DE LAS BARRAS
                                             strokeColor : 'rgba(39, 81, 221, 1)', //COLOR DEL BORDE DE LAS BARRAS
                                             //highlightFill : 'rgba(39, 221, 118, 1)', //COLOR "HOVER" DE LAS BARRAS
                                             //highlightStroke : 'rgba(39, 221, 118, 1)', //COLOR "HOVER" DEL BORDE DE LAS BARRAS
-                                            data : [m, n, o, p, q, r, t, w]
-                                        },
-                                        {
-                                            label: 'Minimo',
-                                            fillColor : 'rgba(249, 222, 21, 0)', //COLOR DE LAS BARRAS
-                                            strokeColor : 'rgba(249, 222, 21, 1)', //COLOR DEL BORDE DE LAS BARRAS
-                                           // highlightFill : 'rgba(210, 214, 222, 1)', //COLOR "HOVER" DE LAS BARRAS
-                                            //highlightStroke : 'rgba(210, 214, 222, 1)', //COLOR "HOVER" DEL BORDE DE LAS BARRAS
-                                            data : [g, h, i, j, k, l, u, x]
+                                            data : [ae, 
+                                            be, 
+                                            ce, 
+                                            de, 
+                                            ee, 
+                                            fe, 
+                                            ge, 
+                                            he, 
+                                            ie, 
+                                            je, 
+                                            ke, 
+                                            le, 
+                                            me, 
+                                            ne, 
+                                            oe, 
+                                            pe, 
+                                            qe, 
+                                            re,
+                                            se, 
+                                            te, ue, ve, we, xe, ye, ze, aae, bbe, cce, dde, eee]                                            
+
                                         }
                                     ]
                                 }
@@ -396,6 +418,7 @@ data : [ae, be, ce, de, ee, fe, ge, he, ie, je, ke, le, me, ne, oe, pe, qe, re, 
                             window.Barra = new Chart(contexto).Line(Datos, { responsive : true });
                         }
                     });
+                    
                     return false;
                 }
     </script>

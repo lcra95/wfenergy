@@ -184,15 +184,15 @@ include("funciones.php");
 
 </div>
 
-    <script src="../../js/jquery.js"></script>
+    <script src="js/jquery.js"></script>
     <script>
     $("#menu-toggle").click(function(e) {
         e.preventDefault();
         $("#wrapper").toggleClass("toggled");
     });
     </script>
-  <script src="../../js/jquery-1.11.1.min.js"></script>
-  <script src="../../js/bootstrap.js"></script>
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/bootstrap.js"></script>
 </body>
 </html>
 <?php include("conexion.php");?>
@@ -216,8 +216,9 @@ include("funciones.php");
         <div class="col-sm-4">
        <SELECT name="periodo" class="form-control">
       <?PHP 
-      $per=mysql_query("SELECT * FROM periodo");
+      $per=mysql_query("SELECT * FROM periodo ORDER BY id DESC");
       ?>
+      <option value="1">SELECCIONE</option>
       <?php while($rowa=mysql_fetch_array($per)){?>
       <option value="<?php echo $rowa[0];?>"><?php echo $rowa[0];?></option>
       <?php }?>

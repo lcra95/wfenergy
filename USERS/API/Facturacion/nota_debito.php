@@ -14,7 +14,7 @@ $num=mysql_num_rows($sql1);
 $id=$desde+$num;
 $num++;
 $folio=$id;
-echo $sql="INSERT INTO `latinsyc_giasys`.`nota_debito` (`id`, `folio`, `tipo`, `tipo_doc_ref`, `num_doc_ref`, `fecha_ref`, `codigo_ref`, `razon_ref`)
+echo $sql="INSERT INTO `wfenergy_wf_tiltiluno`.`nota_debito` (`id`, `folio`, `tipo`, `tipo_doc_ref`, `num_doc_ref`, `fecha_ref`, `codigo_ref`, `razon_ref`)
 VALUES ('$num', '$id', '$tipo_f', '$tipo_d', '$fac', '$fecha', '$codref', '$razon')";
 mysql_query($sql);
 

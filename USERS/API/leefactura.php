@@ -63,8 +63,8 @@ class leeXml{
         $result=mysql_num_rows($sel);
         
         if($result == 0){
-            $sql=mysql_query("INSERT INTO `latinsyc_giasys`.`factura_recibida` (`id`, `folio`, `tipo`, `fechaemision`, `rut_emisor`, `total`, `iva`, `exento`, `neto`) VALUES (NULL, '$fl', '$tp', '$fh','$re','$df','$iv','$ex','$nt')");
-            $sql2=mysql_query("INSERT INTO `latinsyc_giasys`.`acreedor` (`rut_acreedor`, `razonsocial`, `giro`, `comuna`, `ciudad`, `direccion`) VALUES('$re','$rze','$gre','$coe','$cie','$dre')");
+            $sql=mysql_query("INSERT INTO `wfenergy_wf_tiltiluno`.`factura_recibida` (`id`, `folio`, `tipo`, `fechaemision`, `rut_emisor`, `total`, `iva`, `exento`, `neto`) VALUES (NULL, '$fl', '$tp', '$fh','$re','$df','$iv','$ex','$nt')");
+            $sql2=mysql_query("INSERT INTO `wfenergy_wf_tiltiluno`.`acreedor` (`rut_acreedor`, `razonsocial`, `giro`, `comuna`, `ciudad`, `direccion`) VALUES('$re','$rze','$gre','$coe','$cie','$dre')");
             $detalles=$doc->getElementsByTagName('Detalle');
             $i=0;
             $nom='';
@@ -86,7 +86,7 @@ class leeXml{
                 @$un=$unidad[$i]->item(0)->nodeValue;
                 @$mon=$monto[$i]->item(0)->nodeValue;
                 $i++;
-                $sql3=mysql_query("INSERT INTO `latinsyc_giasys`.`factura_recibida_concepto` (`id`, `folio`, `rut_emisor`, `descripcion`, `nombre`, `cantidad`, `precio`, `unidad`, `monto`) 
+                $sql3=mysql_query("INSERT INTO `wfenergy_wf_tiltiluno`.`factura_recibida_concepto` (`id`, `folio`, `rut_emisor`, `descripcion`, `nombre`, `cantidad`, `precio`, `unidad`, `monto`) 
                 VALUES (NULL, '$fl', '$re', '$des', '$nom', '$can', '$pr', '$un', '$mon');");
             }
 

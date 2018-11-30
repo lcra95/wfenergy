@@ -1,7 +1,7 @@
 <?php 
-include("conexion.php");
-include("funciones.php");
-include("11pesos.php");
+include ("conexion.php");
+include ("funciones.php");
+include ("11pesos.php");
 $tpr=mysql_query("SELECT id FROM periodo WHERE activo = 1");
 $tte=mysql_fetch_array($tpr);
  if(@$periodo=$_GET['periodo']==""){$periodo=$tte[0];}else {@$periodo=$_GET['periodo'];} ?>

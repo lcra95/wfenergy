@@ -4,19 +4,19 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 $db_host = 'localhost';
-$db_user = 'latinsyc_lrequen';
-$db_pass = '18594602lcra*';
+$db_user = 'wfenergy_ejpo';
+$db_pass = 'Elianny2018.*';
 $peri=$_POST["periodo"];
 $tipo=$_POST["tipo"];
 $date=date("Y-m-d h:i:s");
 include("funciones.php");
- 
+$nfname="";
 $i=0;
 
 
 
 
-$database = 'latinsyc_giasys';
+$database = 'wfenergy_wf_tiltiluno';
 $table = 'empresa_transaccion';
 if (!@mysql_connect($db_host, $db_user, $db_pass))
     die("No se pudo establecer conexión a la base de datos");
@@ -25,6 +25,7 @@ if (!@mysql_select_db($database))
     die("base de datos no existe");
     if(isset($_POST['submit']))
     {
+
         //Aquí es donde seleccionamos nuestro csv
          $fname = $_FILES['sel_file']['name'];
          list ($td,$fn,$h)=busca_archivo($fname);
@@ -51,12 +52,17 @@ if (!@mysql_select_db($database))
              {
                 $id=id();
                //Insertamos los datos con los valores...
-            $sql = "INSERT INTO empresa_transaccion VALUES ('$id','$tipo', '$data[0]','$peri','$data[1]');";
+               $monto=round($data[1]);
+               $sql = "INSERT INTO empresa_transaccion VALUES ('$id','$tipo', '$data[0]','$peri','$monto');";
               mysql_query($sql) or die('Error: '.mysql_error());
              }
              //cerramos la lectura del archivo "abrir archivo" con un "cerrar archivo"
              fclose($handle);
-            mysql_query("INSERT INTO archivo VALUES ('NULL', '$fname','$date')"); 
+            mysql_query("INSERT INTO archivo VALUES ('NULL', '$fname','$date')");
+            $rest = "CARGADO-".$fname;
+            $nfname="C:/Users/NoteBook-01/Documents/WFENERGY/".$peri."/".$rest;
+            rename("C:/Users/NoteBook-01/Documents/WFENERGY/".$peri."/".$fname, $nfname);
+
             header("location: tablas.php?msg=OPERACION EXITOSA&color=verde");
          }
          else

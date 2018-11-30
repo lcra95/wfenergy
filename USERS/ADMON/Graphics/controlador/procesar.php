@@ -1,8 +1,8 @@
 <?php
 $host='localhost';
-$user='latinsyc_lrequen';
-$pass='18594602lcra*';
-$daba='latinsyc_giasys';
+$user='wfenergy_ejpo';
+$pass='Elianny2018.*';
+$daba='wfenergy_wf_tiltiluno';
 //Verifico conexón con el servidor
 if(!@$db=mysql_connect($host,$user,$pass))
 {
@@ -18,7 +18,7 @@ else
 };
 	
 	
-	$año=2017;
+	$año=2018;
 
 	$enero = mysql_fetch_array(mysql_query("SELECT SUM(monto) AS r FROM empresa_transaccion WHERE periodo LIKE '%$año-01%'"));
 	$febrero = mysql_fetch_array(mysql_query("SELECT SUM(monto) AS r FROM empresa_transaccion WHERE periodo LIKE '%$año-02%'"));
