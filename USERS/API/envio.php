@@ -1,6 +1,6 @@
 <?php
 session_start();
-$mysqli = new mysqli("localhost", "wfenergy_ejpo", "Elianny2018.*", "wfenergy_wf_tiltiluno");
+$mysqli = new mysqli("localhost", "latinsyc_lrequen", "18594602lcra*", "latinsyc_giasys");
 include("nusoap/src/nusoap.php");
 $idr=$_GET['id'];
 //$idr=".xml";//SE COMENTA LA LINEA ANTERIOR, SE ACTIVA ESTA Y SE COLOCA EL NOMBRE DEL ARCHIVO QUE SE DESEA ENVIAR MANUALMENTE
@@ -78,7 +78,7 @@ if($estado!=0){
     foreach( $searchNode as $searchNode ){
     
         $valueID = $searchNode->getAttribute('Url');
-        $sql="INSERT INTO `wfenergy_wf_tiltiluno`.`factura_docs` (`id`, `xml`, `pdf`, `id_factura`) VALUES (NULL,'','$valueID','$docFolio')";
+        $sql="INSERT INTO `latinsyc_giasys`.`factura_docs` (`id`, `xml`, `pdf`, `id_factura`) VALUES (NULL,'','$valueID','$docFolio')";
         $mysqli->query($sql);
         //header ("location: Logs/RespuestaWs/$docFolio.xml");
         $_SESSION['msg']="Operacion Exitosa Folio ".$docFolio." Tipo ".$docTipo;
