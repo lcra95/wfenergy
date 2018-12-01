@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SetDTE version="1.0">
+  <EnvioDTE ID="76254347-8F3717T33">
+    <Caratula>
+      <RutEmisor>76254347-8</RutEmisor>
+      <NroDetalles>1</NroDetalles>
+      <FechaHoraEnvio>2018-11-30T23:49:37</FechaHoraEnvio>
+    </Caratula>
+    <DocumentoDTE>
+      <TipoDTE>33</TipoDTE>
+      <Folio>3717</Folio>
+      <EstadoDTE>0</EstadoDTE>
+      <GlosaEstadoDTE>DTE RECIBIDO OK</GlosaEstadoDTE>
+      <PDF Url="https://sistema.webfactura.net/pdf/10624e03ea8095f53c423773399e4f02" Timbre="https://sistema.webfactura.net/pdf/10624e03ea8095f53c423773399e4f02/2"/>
+    </DocumentoDTE>
+  </EnvioDTE>
+</SetDTE>
