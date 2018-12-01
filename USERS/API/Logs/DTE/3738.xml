@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F3738T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>3738</Folio>
+                    <FchEmis>2018-12-01</FchEmis>
+                    <FchVenc>2018-12-01</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76218856-2</RUTRecep>
+                    <RznSocRecep>COLBUN TRANSMISION S.A</RznSocRecep>
+                    <GiroRecep>TRANSMISION DE ENERGIA ELECTRICA</GiroRecep>
+                    <Contacto>CVAREA@COLBUN.CL</Contacto>
+                    <DirRecep>AV. APOQUINDO 4775</DirRecep>
+                    <CmnaRecep>LAS CONDES</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>5471</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>1039</IVA>
+                    <MntTotal>6510</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>2</VlrCodigo>
+        </CdgItem>
+        <NmbItem>SEN_[BP__][Oct18]</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>5471</PrcItem>
+        <MontoItem>5471</MontoItem>
+    </Detalle><Adicional>
+                    <NodosA>
+                        <A6>SEGUN CARTA DE05562</A6>
+                    </NodosA>
+                </Adicional></Documento>
+    </DTE>

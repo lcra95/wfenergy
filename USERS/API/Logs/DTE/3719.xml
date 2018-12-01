@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F3719T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>3719</Folio>
+                    <FchEmis>2018-12-01</FchEmis>
+                    <FchVenc>2018-12-01</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76437712-5</RUTRecep>
+                    <RznSocRecep>ACCIONA ENERGIA CHILE HOLDINGS SA</RznSocRecep>
+                    <GiroRecep>GENERACION EN OTRAS CENTRALES N.C.P.</GiroRecep>
+                    <Contacto>VSALINAS@ELEONERACL</Contacto>
+                    <DirRecep>AV APOQUINDO 4499, PISO 14</DirRecep>
+                    <CmnaRecep>LAS CONDES</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>348459</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>66207</IVA>
+                    <MntTotal>414666</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>1</VlrCodigo>
+        </CdgItem>
+        <NmbItem>SEN_[TEE_][Oct18]</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>348459</PrcItem>
+        <MontoItem>348459</MontoItem>
+    </Detalle><Adicional>
+                    <NodosA>
+                        <A6>SEGUN CARTA DE05562</A6>
+                    </NodosA>
+                </Adicional></Documento>
+    </DTE>

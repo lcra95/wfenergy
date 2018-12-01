@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F3728T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>3728</Folio>
+                    <FchEmis>2018-12-01</FchEmis>
+                    <FchVenc>2018-12-01</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76004976-K</RUTRecep>
+                    <RznSocRecep>EMPRESA ELECTRICA ANGAMOS SA</RznSocRecep>
+                    <GiroRecep>GENERACION EN OTRAS CENTRALES TERMOELE</GiroRecep>
+                    <Contacto>N/A</Contacto>
+                    <DirRecep>ROSARIO NORTE 532, PISO 19</DirRecep>
+                    <CmnaRecep>LAS CONDES</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>116444</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>22124</IVA>
+                    <MntTotal>138568</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>2</VlrCodigo>
+        </CdgItem>
+        <NmbItem>SEN_[BP__][Oct18]</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>116444</PrcItem>
+        <MontoItem>116444</MontoItem>
+    </Detalle><Adicional>
+                    <NodosA>
+                        <A6>SEGUN CARTA DE05562</A6>
+                    </NodosA>
+                </Adicional></Documento>
+    </DTE>
