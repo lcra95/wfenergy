@@ -1,5 +1,5 @@
 <?php 
-include("conexion.php");
+include_once ("conexion.php");
 $fac=$_GET['id'];
 $tipo_d=61;
 $fecha=date('Y-m-d');
@@ -20,7 +20,7 @@ mysql_query($sql);
 
 list($tipo, $fac, $date, $anul)=setNotaDebito($id);
 
-include("../funciones.php");
+include_once ("../funciones.php");
 
 
 
