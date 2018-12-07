@@ -63,7 +63,7 @@ function ultimate_montos($id)
 }
 function no_fac($periodo)
 {
-if($periodo!='2018-09'){
+if($periodo!='2018-10'){
 	return "FALSE";
 }
 else{

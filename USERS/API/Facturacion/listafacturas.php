@@ -139,7 +139,7 @@ if(isset($_SESSION['msg'])){
                         <a target="_blank" class="fa fa-file-code-o" target="_blank" href="decoder.php?id=<?php echo $q[0];?>"></a>         
                         </td> 
                         <td align="Center">
-                          <a href="nota_debito.php?id=<?php echo $data[1];?>" class="fa fa-trash" onclick="return confirm('¿Esta Seguro que Deseas Anularlo?')"></a>            
+                          <a href="nota_credito1.php?id=<?php echo $data[1];?>" class="fa fa-trash" onclick="return confirm('¿Esta Seguro que Deseas Anularlo?')"></a>            
                         </td>                        
                     </tr>
                       <?php } ?>    

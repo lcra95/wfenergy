@@ -1,7 +1,7 @@
 <?php 
 include_once ("conexion.php");
 $fac=$_GET['id'];
-$tipo_d=33;
+$tipo_d=56;
 $fecha=date('Y-m-d');
 $tipo_f=61;
 $codref=1;
@@ -14,13 +14,26 @@ $num=mysql_num_rows($sql1);
 $id=$desde+$num;
 
 mysql_query("INSERT INTO `latinsyc_giasys`.`nota_credito` (`id`, `folio`, `tipo`, `tipo_doc_ref`, `num_doc_ref`, `fecha_ref`, `cod_ref`, `razon_ref`) VALUES 
-	(NULL, '$id', '$tipo_f', '$tipo_d', '$fac', '$fecha', '$codref', '$razon');");
+(NULL, '$id', '$tipo_f', '$tipo_d', '$fac', '$fecha', '$codref', '$razon');");
 mysql_query("DELETE FROM factura_transaccion WHERE id_factura = $fac");
 
 include_once ("../funciones.php");
 
 $folio=$id;
-list($tipo, $fac, $date)=setNotaCredito($folio);
+$val=setNotaDebito($fac);
+list($tipo, $fac, $date)=setNotaCredito($val[1]);
+
+function setNotaDebito($id)
+{
+    
+	$sql=mysql_query("SELECT * FROM nota_debito WHERE folio = $id");
+	$row=mysql_fetch_array($sql);
+
+	$sql1=mysql_query("SELECT * FROM nota_credito WHERE folio = $row[4]");
+	$data=mysql_fetch_array($sql1);
+	return array($row[3], $row[4],$row[5], $data[4]);
+
+}
 
 function setNotaCredito($folio)
 {
@@ -31,7 +44,7 @@ function setNotaCredito($folio)
 
 }
 
-function setDTE($fac,$folio, $date)
+function setDTE($fac,$folio, $date,$val)
 {
 
 list($frut,$fraz,$fdir,$fcom,$fciu,$fema,$ftel,$fsuc,$fgir,$ate)=filial();
@@ -49,9 +62,9 @@ list($totext,$totex,$ivat,$total,$iva)=ultimate_montos($fac);
 
 	$referencia='<Referencia>
 			<NroLinRef>1</NroLinRef>
-			<TpoDocRef>'.$tip.'</TpoDocRef>
-			<FolioRef>'.$fac.'</FolioRef>
-			<FchRef>'.$date.'</FchRef>
+			<TpoDocRef>'.$val[0].'</TpoDocRef>
+			<FolioRef>'.$val[1].'</FolioRef>
+			<FchRef>'.$val[2].'</FchRef>
 			<CodRef>1</CodRef>
 			<RazonRef>ANULA DOCUMENTO</RazonRef>
 		</Referencia>';
@@ -205,7 +218,7 @@ $i=0;
 return $buffermedio;
 
 }
-$b2=setDTE($fac,$folio,$date);
+$b2=setDTE($fac,$folio,$date,$val);
 $files=fopen("../Logs/DTE/$folio.xml","w+");
 fwrite ($files,$b2);
 fclose($files);
