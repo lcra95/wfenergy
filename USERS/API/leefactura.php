@@ -5,7 +5,7 @@ include_once ("conexion.php");
 class leeXml{
 
 
-    function getDtes($xml){
+    function getDtes($xml, $pdf){
 
         $doc=new DOMDocument();
         $doc->load($xml);
@@ -63,7 +63,7 @@ class leeXml{
         $result=mysql_num_rows($sel);
         
         if($result == 0){
-            $sql=mysql_query("INSERT INTO `latinsyc_giasys`.`factura_recibida` (`id`, `folio`, `tipo`, `fechaemision`, `rut_emisor`, `total`, `iva`, `exento`, `neto`) VALUES (NULL, '$fl', '$tp', '$fh','$re','$df','$iv','$ex','$nt')");
+            $sql=mysql_query("INSERT INTO `latinsyc_giasys`.`factura_recibida` (`id`, `folio`, `tipo`, `fechaemision`, `rut_emisor`, `total`, `iva`, `exento`, `neto`, `pdf`) VALUES (NULL, '$fl', '$tp', '$fh','$re','$df','$iv','$ex','$nt', '$pdf')");
             $sql2=mysql_query("INSERT INTO `latinsyc_giasys`.`acreedor` (`rut_acreedor`, `razonsocial`, `giro`, `comuna`, `ciudad`, `direccion`) VALUES('$re','$rze','$gre','$coe','$cie','$dre')");
             $detalles=$doc->getElementsByTagName('Detalle');
             $i=0;

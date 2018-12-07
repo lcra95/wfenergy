@@ -1,8 +1,8 @@
 <?php 
 session_start();
-include("conexion.php");
-include("funciones.php");
-include("head.php");
+include_once ("conexion.php");
+include_once ("funciones.php");
+include_once ("head.php");
 if(isset($_SESSION['msg'])){
   $msg=$_SESSION['msg'];
   echo "<script> alert('$msg')</script>"; 
@@ -66,7 +66,7 @@ if(isset($_SESSION['msg'])){
                       <td align="Right"><?php echo $data['iva'];?></td>
                       <td align="Right"><?php echo $data['total'];?></td>
                       <td align="Center" class="">
-                        <a href="#" class="fa fa-file-text"></a>
+                        <a target="_blank" href="pdfread.php?id=<?php echo $data['folio']; ?>" class="fa fa-file-text"></a>
                         <a target="_blank" class="fa fa-file-code-o" target="_blank" href="<?php $rest = substr($data['rut_emisor'], 0, -2); echo '../Logs/Recepcion/'.$rest.'_'.$data['tipo'].'_'.$data['folio'].'.xml'?>"></a>         
                       </td> 
                       <td align="Center">
