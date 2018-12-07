@@ -4,8 +4,8 @@
 ini_set('display_errors', 1);
 error_reporting(E_ALL);
 $db_host = 'localhost';
-$db_user = 'latinsyc_lrequen';
-$db_pass = '18594602lcra*';
+$db_user = 'wfenergy_ejpo';
+$db_pass = 'Elianny2018.*';
 $peri=$_POST["periodo"];
 $tipo=$_POST["tipo"];
 $date=date("Y-m-d h:i:s");
@@ -16,7 +16,7 @@ $i=0;
 
 
 
-$database = 'latinsyc_giasys';
+$database = 'wfenergy_wf_tiltiluno';
 $table = 'empresa_transaccion';
 if (!@mysql_connect($db_host, $db_user, $db_pass))
     die("No se pudo establecer conexión a la base de datos");
