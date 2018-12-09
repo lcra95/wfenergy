@@ -164,7 +164,7 @@ if($id=="recp")
 	}	
 	else
 	{
-		mysql_query("INSERT INTO `latinsyc_giasys`.`empresa` (`id`, `rut`, `razon social`, `cuenta_bancaria`, `codigo_banco`, `direccion`, `comuna`, `ciudad`, `telefono`, `contacto`, `giro` )
+		mysql_query("INSERT INTO empresa (`id`, `rut`, `razon social`, `cuenta_bancaria`, `codigo_banco`, `direccion`, `comuna`, `ciudad`, `telefono`, `contacto`, `giro` )
 		VALUES ('$ide', '$codigo', '$razon', '$cuenta', '$codigoc', '$direccion', '$comuna', '$ciudad', '$contacto', '$email', '$giro');");
 		
 		header("location: tablas.php?msg=OPERACION EXITOSA&color=verde");

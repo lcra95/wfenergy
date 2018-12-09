@@ -1,13 +1,14 @@
 <?php
+include_once ('../../Config.php');
 session_start();
-$mysqli = new mysqli("localhost", "latinsyc_lrequen", "18594602lcra*", "latinsyc_giasys");
-include("nusoap/src/nusoap.php");
+$mysqli = new mysqli(SERVER, DB_USER, DB_PASS, DB);
+include_once ("nusoap/src/nusoap.php");
 $idr=$_GET['id'];
 //$idr=".xml";//SE COMENTA LA LINEA ANTERIOR, SE ACTIVA ESTA Y SE COLOCA EL NOMBRE DEL ARCHIVO QUE SE DESEA ENVIAR MANUALMENTE
 $id='Logs/DTE/'.$idr;
-$emisorRut="76254347-8";
-$usuarioWs="24675367-9";
-$claveWs="MtVZCHZ8d351";
+$emisorRut=WS_EMISOR;
+$usuarioWs=WS_USER;
+$claveWs=WS_PASS;
 $archivoXML = $id;
 $archivoXMLdata = file_get_contents($archivoXML);
 $dom = new DOMDocument;
@@ -19,7 +20,7 @@ $docFolio=$fol->item(0)->nodeValue;
 $emp=$dom->getElementsByTagName('RUTEmisor');
 $empresaRut=$emp->item(0)->nodeValue;
 $archivoXMLbase64 = base64_encode($archivoXMLdata);
-$objClienteSOAP = new soapclient('http://wsprod.webfactura.net/wsWF.php?wsdl');
+$objClienteSOAP = new soapclient(WS_PROD);
 $token = $objClienteSOAP->getToken($emisorRut, $usuarioWs, $claveWs);
 $objRespuesta = $objClienteSOAP->sendDte($token, $archivoXMLbase64, $empresaRut, $docTipo, $docFolio);
 $fp = fopen('Logs/RespuestaWs/'.$docFolio.'.xml', 'w');
@@ -78,7 +79,7 @@ if($estado!=0){
     foreach( $searchNode as $searchNode ){
     
         $valueID = $searchNode->getAttribute('Url');
-        $sql="INSERT INTO `latinsyc_giasys`.`factura_docs` (`id`, `xml`, `pdf`, `id_factura`) VALUES (NULL,'','$valueID','$docFolio')";
+        $sql="INSERT INTO factura_docs (`id`, `xml`, `pdf`, `id_factura`) VALUES (NULL,'','$valueID','$docFolio')";
         $mysqli->query($sql);
         //header ("location: Logs/RespuestaWs/$docFolio.xml");
         $_SESSION['msg']="Operacion Exitosa Folio ".$docFolio." Tipo ".$docTipo;

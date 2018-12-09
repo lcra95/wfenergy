@@ -1,6 +1,6 @@
 <?php 
-include("conexion.php");
-session_start();
+include ("conexion.php");
+@session_start();
 $us=$_GET['us'];
 $pas=$_GET['pas'];
 
