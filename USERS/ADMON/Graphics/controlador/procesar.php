@@ -18,7 +18,7 @@ else
 };
 	
 	
-	$año=2018;
+	$año=$_POST['ano'];
 
 	$enero = mysql_fetch_array(mysql_query("SELECT SUM(monto) AS r FROM empresa_transaccion WHERE periodo LIKE '%$año-01%'"));
 	$febrero = mysql_fetch_array(mysql_query("SELECT SUM(monto) AS r FROM empresa_transaccion WHERE periodo LIKE '%$año-02%'"));

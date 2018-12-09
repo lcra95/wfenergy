@@ -16,7 +16,7 @@ else
 	echo "Error de Conexión con la Base de Datos";
 	}
 }
-$año=2017;
+$año=$_POST['ano'];
 
 $enero=mysql_query("SELECT * FROM energia_ano WHERE periodo LIKE '$año-01'");
 $e=mysql_fetch_array($enero);

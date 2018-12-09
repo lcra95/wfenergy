@@ -38,10 +38,10 @@
 										<li><a href="index.php" ><span class="fa fa-file-text" aria-hidden="true"></span>Nueva Factura</a></li>
 										<li><a href="pfactura.php" ><span class="fa fa-file-text" aria-hidden="true"></span>Emitir Factura</a></li>
 										<li><a href="listafacturas.php" ><span class="fa fa-file-text" aria-hidden="true"></span>Facturas Emitidas</a></li>
-										<li><a href="../recepcion_fact.php" ><span class="fa fa-file-text" aria-hidden="true"></span>Facturas Recibidas</a></li>
+										<li><a href="listarecibo.php" ><span class="fa fa-file-text" aria-hidden="true"></span>Facturas Recibidas</a></li>
 				           </ul>
 				        </li>
-				        <!--<li class="dropdown">
+				        <li class="dropdown">
 				          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 				          	<i class="fa fa-money" aria-hidden="true"></i> Pagos<span class="caret"></span></a>
 
@@ -51,7 +51,7 @@
 				         
 
 				           </ul>
-				        </li>-->
+				        </li>
 				      </ul>
  <!--Aqui termina el menu con sub obciones-->				      
  <!--Aqui comienza el menu alineado a la derecha-->

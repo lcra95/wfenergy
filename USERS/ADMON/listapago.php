@@ -19,7 +19,12 @@ include("funciones.php");
   </ol>
       <div class="col-sm-12">
 
-<?php $sql=mysql_query("SELECT * FROM pago WHERE id_proceso_pago = $id");?>
+<?php $sql=mysql_query("SELECT 
+p.id, p.fecha, fr.folio, fr.rut_emisor, a.razonsocial, fr.total, fr.iva, fr.exento, fr.neto
+FROM pago p 
+JOIN factura_recibida fr ON p.id_factura_recibida = fr.id
+JOIN acreedor a ON fr.rut_emisor = a.rut_acreedor 
+WHERE p.id_proceso_pago = $id");?>
 <div class="panel panel-default">
 <div class="panel-heading"><h4>DETALLE DE PROCESO DE PAGOS ID  <?PHP echo $id;?></4> <br><br> <a href="export_pagos.php?idp=<?php echo $id;?>" class="fa fa-download"></a> Descargar Data Excel</div>
 <div class="panel-body">
@@ -35,44 +40,46 @@ include("funciones.php");
           <tr>
           	<th aling="Center">Id Pago</th>
           	<th align="Center">Fecha</th>
-			<th align="Center">Razón Social</th>
+		      	<th align="Center">Razón Social</th>
             <th align="Center">Rut</th>
-            <th align="Center">Monto</th>
+            <th align="Center">Neto</th>
             <th align="Center">Iva</th>
+            <th align="Center">Exento</th>
             <th align="Center">Total</th>
-            <th align="Center">Factura</th>
+            <th align="Center">Folio</th>
           </tr>
         </thead>
          <tbody>
         <?php 
   while($q=mysql_fetch_array($sql))
   {
-  			list($rut,$razon)=empresa_pago($q[2]);
-            ?>
+?>
           <tr>
-             <td align="Center"><?php echo $q[0];?></td> 
-             <td align="Center"><?php echo $q[1];?></td>                                         
-             <td><?php echo $razon;?></td>
-             <td><?php echo $rut;?></td>
-             <td align="Right"><?php echo number_format($q[4]);?></td>
-             <td align="Right"><?php echo number_format($q[5]);?></td>
-             <td align="Right"><?php echo number_format($q[6]);?></td>    
-             <TD align="Right"><?php echo update_factura($q[0],$q[3]); ?></TD>         
+             <td align="Center"><?php echo $q['id'];?></td> 
+             <td align="Center"><?php echo $q['fecha'];?></td>                                         
+             <td><?php echo $q['razonsocial'];?></td>
+             <td><?php echo $q['rut_emisor'];?></td>
+             <td align="Right"><?php echo number_format($q['neto']);?></td>
+             <td align="Right"><?php echo number_format($q['iva']);?></td>
+             <td align="Right"><?php echo number_format($q['exento']);?></td>
+             <td align="Right"><?php echo number_format($q['total']);?></td>    
+             <TD align="Right"><a target="_blank" href="../API/Facturacion/pdfread.php?id=<?php echo $q['folio'] ?>"><?php echo $q['folio']; ?></a></TD>         
           </tr>
           <?php   
-    }?>
+ }?>
 
         </tbody>
         <TFOOT>
-        	          <tr>
+        <tr>
           	<th aling="Center">Id Pago</th>
           	<th align="Center">Fecha</th>
-			<th align="Center">Razón Social</th>
+		      	<th align="Center">Razón Social</th>
             <th align="Center">Rut</th>
-            <th align="Center">Monto</th>
+            <th align="Center">Neto</th>
             <th align="Center">Iva</th>
+            <th align="Center">Exento</th>
             <th align="Center">Total</th>
-            <th align="Center">Factura</th>
+            <th align="Center">Folio</th>
           </tr>
 
         </TFOOT>

@@ -17,7 +17,7 @@ else
 	}
 }
 
-$periodo='2017-08';
+$periodo=$_POST['periodo'];
 $data=array();
 $i=0;
 $sql=mysql_query("SELECT * FROM `energia_periodo` WHERE `periodo` LIKE '$periodo'");

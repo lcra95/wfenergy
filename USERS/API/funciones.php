@@ -1,23 +1,16 @@
 <?php 
 include("conexion.php");
 
-function ultimate_conpcepto($fac)
+function ultimate_conpcepto($fac, $per)
 {
-$id=$fac;
-$rutdaniel="24675367-9";
-list($frut,$fraz,$fdir,$fcom,$fciu,$fema,$ftel,$fsuc,$fgir)=filial();
-list($st,$obs,$fec,$ven,$emp,$per,$tip)=ultimate_factura($fac);
-$date= date('Y-m-d');
-$time=date('h:i:s');
-list($rut,$raz,$dir,$com,$ciu,$con,$gir)=ultimate_empresa($emp);
-list($totext,$totex,$ivat,$total,$iva)=ultimate_montos($fac);
-list($f,$desde,$hasta,$caf)=folio_activo($tip);
+	$sql="SELECT 
+	r.nemotecnico 
+	FROM factura_concepto fc
+	JOIN referencia r ON fc.id_concepto = r.id_concepto AND r.id_periodo = '$per'
+	WHERE fc.id_factura = $fac";
+	$exe=mysql_query($sql);
+	$data=mysql_fetch_array($exe);
 
-$id=$fac;
-
-    $sql=mysql_query("SELECT * FROM tipo_transaccion WHERE id= $id");
-    $row=mysql_fetch_array($sql);
-    return $row[1];
 }
 function acumulado($id)
 {

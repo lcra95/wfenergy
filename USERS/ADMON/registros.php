@@ -22,6 +22,7 @@ include("conexion.php");
 @$cuenta=$_POST["cuenta"];
 @$codigoc=$_POST["codigoc"];
 @$giro=$_POST['giro'];
+@$ateco=$_POST['ateco'];
 if($id=="rp")
 {		
 	
@@ -149,7 +150,7 @@ if($id=="rfil")
 	else
 	{
 	mysql_query("INSERT INTO filial 
-		VALUES ('$codigo', '$razon', '$direccion', '$comuna', '$ciudad', '$email', '$contacto', '$sucursal')");
+		VALUES ('$codigo', '$razon', '$direccion', '$comuna', '$ciudad', '$email', '$contacto', '$sucursal', '$giro', '$ateco')");
 	header("location: tablas.php?msg=OPERACION EXITOSA&color=verde");
 }
 }

@@ -9,6 +9,13 @@ if(isset($_SESSION['msg'])){
   echo "<script> alert('$msg')</script>"; 
   unset($_SESSION['msg']);
 }
+$tpr=mysql_query("SELECT id FROM periodo WHERE activo = 1");
+$tte=mysql_fetch_array($tpr);
+ if(@$periodo=$_GET['periodo']==""){
+   $periodo=$tte[0];
+ }else {
+   @$periodo=$_GET['periodo'];
+ } 
 ?>
 <div id="wrapper">
 <div class="container well">
@@ -23,7 +30,7 @@ if(isset($_SESSION['msg'])){
 
 
 <div class="panel panel-default">
-<div class="panel-heading"><h4>PENDIENTE POR FACTURAR </div>
+<div class="panel-heading"><h4>PENDIENTE POR FACTURAR <?php echo $periodo;?> </div>
 <div class="panel-body">
 
 
@@ -43,28 +50,13 @@ if(isset($_SESSION['msg'])){
 
 
 <?php 
-$sel=mysql_query("SELECT * FROM empresa_transaccion");
+$sel=mysql_query("SELECT * FROM empresa_transaccion WHERE periodo = '$periodo'");
 while($row=mysql_fetch_array($sel))
 { 
-
-
-
-  $periodo=$row[3];
-  $sf=no_fac($periodo);
-  if($sf=="FALSE")
-  {
-
-  }
-  else
-  {
 	$sql2=mysql_query("SELECT * FROM factura_transaccion WHERE id_transaccion = $row[0]");
-
-	if($data=mysql_fetch_array($sql2))
-	{
-
-	}
-	else
-	{	if(($row[1]<20)&&($row[4]>0))
+	if(!$data=mysql_fetch_array($sql2))
+	{	
+    if(($row[1]<20)&&($row[4]>0))
 		{
 
 		
@@ -92,7 +84,6 @@ while($row=mysql_fetch_array($sel))
 		
 		<?php 
 		}
-}
 }
 }
 ?>

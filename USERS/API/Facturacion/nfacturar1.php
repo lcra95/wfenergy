@@ -8,7 +8,7 @@ $fecha=$_POST['fecha'];
 
 $fecha = str_replace('/', '-', $fecha);
 date('Y-m-d', strtotime($fecha));
-if($facha==""){
+if($fecha==""){
     $fecha = date('Y-m-d');
 }
 
@@ -65,7 +65,15 @@ foreach($array as $key ){
 }
 list($totext,$totex,$ivat,$total,$iva)=ultimate_montos($fac);
 list($f,$desde,$hasta,$caf,$tf)=folio_activo($tip);
-    
+$referencias="SELECT 
+r.emisor, pc.carta, r.codigo_ref, pc.fecha, r.nemotecnico
+FROM factura_concepto fc 
+JOIN factura f on fc.id_factura = f.id AND f.id=$fac
+JOIN referencia r on f.id_periodo = r.id_periodo AND r.id_concepto = (SELECT id_concepto FROM factura_concepto WHERE id_factura = $fac)
+JOIN periodo_carta pc on pc.id_periodo = r.id_periodo AND f.id_periodo = '$per'";
+$refe=mysql_query($referencias);
+$ref=mysql_fetch_array($refe);  
+ 
     $obser="";  
     if($obs!="")
     {
@@ -119,7 +127,14 @@ list($f,$desde,$hasta,$caf,$tf)=folio_activo($tip);
             </Encabezado>';
     $detalles=conceptosxml($fac);
     $descuentos=descuentos($fac);
-    $referencia='';
+    $referencia='
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>'.$ref['emisor'].'</TpoDocRef>
+        <FolioRef>'.$ref['codigo_ref'].'</FolioRef>
+        <FchRef>'.$ref['fecha'].'</FchRef>
+        <RazonRef>'.$ref['nemotecnico'].'</RazonRef>
+    </Referencia>';
     $doc=$ini.$encabezado.$detalles.$descuentos.$referencia.$obser.$fin;
     return $doc;
 
@@ -150,8 +165,9 @@ list($st,$obs,$fec,$ven,$emp,$per,$tip,$dg,$rg)=ultimate_factura($fac);
 }
 function conceptosxml($fac) //esta funcion obtine de la base de datos los datos de los conceptos facturados
 {
-$buffermedio="";
-$i=0;
+    list($st,$obs,$fec,$ven,$emp,$per,$tip,$dg,$rg)=ultimate_factura($fac);
+    $buffermedio="";
+    $i=0;
 
     $sql3=mysql_query("SELECT * FROM `factura_concepto` WHERE `id_factura` = $fac");
     while($row=mysql_fetch_array($sql3))
@@ -185,7 +201,7 @@ $i=0;
             <TpoCodigo>INT</TpoCodigo>
             <VlrCodigo>'.$conc[$a].'</VlrCodigo>
         </CdgItem>
-        <NmbItem>'.$text=ultimate_conpcepto($conc[$a]).'</NmbItem>
+        <NmbItem>'.$text=ultimate_conpcepto($conc[$a],$per).'</NmbItem>
         <QtyItem>'.$cant[$a].'</QtyItem>
         <UnmdItem>UN</UnmdItem>
         <PrcItem>'.round($prec[$a]).'</PrcItem>
@@ -200,7 +216,7 @@ $i=0;
                 <TpoCodigo>INT1</TpoCodigo>
                 <VlrCodigo>'.$conc[$a].'</VlrCodigo>
             </CdgItem>
-            <NmbItem>'.$text=ultimate_conpcepto($conc[$a]).'</NmbItem>
+            <NmbItem>'.$text=ultimate_conpcepto($conc[$a],$per).'</NmbItem>
             <DscItem>N/A</DscItem>
             <QtyItem>'.$cant[$a].'</QtyItem>
             <UnmdItem>UN</UnmdItem>

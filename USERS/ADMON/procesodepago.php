@@ -40,7 +40,7 @@ $t=$_SESSION["id"];
         </div>
         <div class="panel-body">
           <div class="table-responsive table-bordered">
- <p class="<?php  $color=$_GET['color'];  echo color($color);?>"><font class="<?php echo color($color);?>"><?PHP echo @$msg=$_GET['msg'];?></font></p>
+ <p class="<?php  @$color=$_GET['color'];  echo color($color);?>"><font class="<?php echo color($color);?>"><?PHP echo @$msg=$_GET['msg'];?></font></p>
 
             <?php include('conexion.php');
 
