@@ -21,15 +21,19 @@
 				      <li><a href="#menu-toggle" class="btn fa fa-exchange" id="menu-toggle"></a></li>
 				        <li><a href="../../ADMON/registro.php"><i class="fa fa-balance-scale" aria-hidden="true"></i> Balances</a></li>
  <!--Aqui comienza el menu con sub obciones-->
+ <?php 
+						@session_start();
+						if($_SESSION['rol']==1){?>
 						<li class="dropdown">
 				          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 				          	<i class="glyphicon glyphicon-cog" aria-hidden="true"></i>
-							Administrar <span class="caret"></span></a>
+											Administrar <span class="caret"></span></a>
 
 				          <ul class="dropdown-menu" role="menu">
-				          	<li><a href="../../ADMON/tablas.php"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Gestionar Tablas</a></li>
+				          	<li><a href="tablas.php"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Gestionar Tablas</a></li>
 				          </ul>
-				        </li>
+				    </li>
+						<?php } ?>
 				        <li class="dropdown">
 				          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 				          	<i class="fa fa-file-text" aria-hidden="true"></i> Facturas<span class="caret"></span></a>
@@ -46,9 +50,8 @@
 				          	<i class="fa fa-money" aria-hidden="true"></i> Pagos<span class="caret"></span></a>
 
 				          <ul class="dropdown-menu" role="menu">
-				          	<li><a href="procesodepago.php" ><span class="fa fa-money" aria-hidden="true"></span> Procesos de Pago</a></li>
-				         	<li><a href="eregistro.php" ><span class="fa fa-money" aria-hidden="true"></span> Gestionar Pagos</a></li>
-				         
+				          	<li><a href="../../ADMON/procesodepago.php" ><span class="fa fa-money" aria-hidden="true"></span> Procesos de Pago</a></li>
+				         	
 
 				           </ul>
 				        </li>
