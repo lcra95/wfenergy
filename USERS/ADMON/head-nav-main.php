@@ -41,8 +41,8 @@
 				          <ul class="dropdown-menu" role="menu">
 										<li><a href="../API/Facturacion/" ><span class="fa fa-file-text" aria-hidden="true"></span> Nueva Factura</a></li>
 				           	<li><a href="../API/Facturacion/pfactura.php" ><span class="fa fa-file-text" aria-hidden="true"></span> Emitir Factura</a></li>
-				         		<li><a href="../API/Facturacion/listafacturas.php" ><span class="fa fa-file-text" aria-hidden="true"></span> Seguimiento de Facturas</a></li>
-		  							<li><a href="../API/Facturacion/listarecibo.php" ><span class="fa fa-file-text" aria-hidden="true"></span> Seguimiento de Facturas</a></li>
+				         		<li><a href="../API/Facturacion/listafacturas.php" ><span class="fa fa-file-text" aria-hidden="true"></span> Facturas Emitidas</a></li>
+		  							<li><a href="../API/Facturacion/listarecibo.php" ><span class="fa fa-file-text" aria-hidden="true"></span>Facturas Recibidas</a></li>
 						         
 
 				           </ul>
@@ -53,10 +53,7 @@
 
 				          <ul class="dropdown-menu" role="menu">
 				          	<li><a href="procesodepago.php" ><span class="fa fa-money" aria-hidden="true"></span> Procesos de Pago</a></li>
-				         	<li><a href="eregistro.php" ><span class="fa fa-money" aria-hidden="true"></span> Gestionar Pagos</a></li>
-				         
-
-				           </ul>
+				          </ul>
 				        </li>
 				      </ul>
  <!--Aqui termina el menu con sub obciones-->				      
