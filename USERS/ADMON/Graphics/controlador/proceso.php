@@ -1,27 +1,6 @@
 <?php
-<<<<<<< HEAD
-$host='localhost';
-$user='wfenergy_ejpo';
-$pass='Elianny2018.*';
-$daba='wfenergy_wf_tiltiluno';
-//Verifico conexón con el servidor
-if(!@$db=mysql_connect($host,$user,$pass))
-{
-	echo "Error de Conexión con el Servidor";
-}
-else
-{	//Establace conexión con la base de datos si existe conexión con el servidor
-	mysql_select_db($daba,$db);
-	if(mysql_error($db))
-	{
-	echo "Error de Conexión con la Base de Datos";
-	}
-}
-$año=2017;
-=======
 include_once (dirname(__FILE__).'/../../../../conexion.php');
 $año=$_POST['ano'];
->>>>>>> 8d7bce0b01dcf2c991fca151eb9ef806aa58a619
 
 $enero=mysql_query("SELECT * FROM energia_ano WHERE periodo LIKE '$año-01'");
 $e=mysql_fetch_array($enero);

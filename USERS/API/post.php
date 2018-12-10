@@ -18,11 +18,7 @@ fclose($files);
 $res=file_get_contents('DTE/result.xml');
 $xml=base64_encode($res);
 include("conexion.php");
-<<<<<<< HEAD
-mysql_query("INSERT INTO `wfenergy_wf_tiltiluno`.`factura_docs` (`id`, `xml`, `pdf`, `id_factura`) VALUES (NULL, '$xml', '', '$idr');");
-=======
 mysql_query("INSERT INTO factura_docs (`id`, `xml`, `pdf`, `id_factura`) VALUES (NULL, '$xml', '', '$idr');");
->>>>>>> 8d7bce0b01dcf2c991fca151eb9ef806aa58a619
 
 
 header("location: Facturacion/pfactura.php?msg=SE HA CREADO EXITOSAMENTE LA FACTURA $idr");

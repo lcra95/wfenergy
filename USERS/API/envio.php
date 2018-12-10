@@ -1,13 +1,8 @@
 <?php
 include_once ('../../Config.php');
 session_start();
-<<<<<<< HEAD
-$mysqli = new mysqli("localhost", "wfenergy_ejpo", "Elianny2018.*", "wfenergy_wf_tiltiluno");
-include("nusoap/src/nusoap.php");
-=======
 $mysqli = new mysqli(SERVER, DB_USER, DB_PASS, DB);
 include_once ("nusoap/src/nusoap.php");
->>>>>>> 8d7bce0b01dcf2c991fca151eb9ef806aa58a619
 $idr=$_GET['id'];
 //$idr=".xml";//SE COMENTA LA LINEA ANTERIOR, SE ACTIVA ESTA Y SE COLOCA EL NOMBRE DEL ARCHIVO QUE SE DESEA ENVIAR MANUALMENTE
 $id='Logs/DTE/'.$idr;
