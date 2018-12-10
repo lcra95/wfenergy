@@ -3,7 +3,7 @@
 AMBIENTE TILTIL
 AMBIENTE LOCAL
 */
-define('AMBIENTE','LOCAL');
+define('AMBIENTE','TILTIL');
 define('WS_USER', '24675367-9');
 define('WS_PASS', 'MtVZCHZ8d351');
 define('WS_EMISOR', '76254347-8');
