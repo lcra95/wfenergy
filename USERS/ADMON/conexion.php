@@ -1,9 +1,9 @@
-
 <?PHP 
-$host='localhost';
-$user='wfenergy_ejpo';
-$pass='Elianny2018.*';
-$daba='wfenergy_wf_tiltiluno';
+include_once ('../../Config.php');
+$host=SERVER;
+$user=DB_USER;
+$pass=DB_PASS;
+$daba=DB;
 //Verifico conexón con el servidor
 if(!@$db=mysql_connect($host,$user,$pass))
 {

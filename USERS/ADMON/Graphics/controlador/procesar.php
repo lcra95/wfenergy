@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 $host='localhost';
 $user='wfenergy_ejpo';
 $pass='Elianny2018.*';
@@ -16,9 +17,12 @@ else
 	echo "Error de Conexión con la Base de Datos";
 	}
 };
+=======
+include_once (dirname(__FILE__).'/../../../../conexion.php');
+>>>>>>> 8d7bce0b01dcf2c991fca151eb9ef806aa58a619
 	
 	
-	$año=2018;
+	$año=$_POST['ano'];
 
 	$enero = mysql_fetch_array(mysql_query("SELECT SUM(monto) AS r FROM empresa_transaccion WHERE periodo LIKE '%$año-01%'"));
 	$febrero = mysql_fetch_array(mysql_query("SELECT SUM(monto) AS r FROM empresa_transaccion WHERE periodo LIKE '%$año-02%'"));

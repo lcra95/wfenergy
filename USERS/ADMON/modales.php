@@ -231,6 +231,18 @@
         <input type="text" class="form-control" id="formGroup" placeholder="Sucursal" name="sucursal" required="true">
         </div>
       </div>
+      <div class="form-group">
+        <label for="formGroup" class="col-sm-2 control-label">Giro</label>
+        <div class="col-sm-4">
+        <input type="text" class="form-control" id="formGroup" placeholder="Giro" name="giro" required="true">
+        </div>
+      </div> 
+      <div class="form-group">
+        <label for="formGroup" class="col-sm-2 control-label">Actividad Comercial</label>
+        <div class="col-sm-4">
+        <input type="text" class="form-control" id="formGroup" placeholder="Ateco" name="ateco" required="true">
+        </div>
+      </div> 
       <br>
       <div class="form-group">
       <label for="formGroup" class="col-sm-2 control-label"></label>

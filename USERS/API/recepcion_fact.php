@@ -2,12 +2,13 @@
 date_default_timezone_set('America/Santiago');
 include_once ("nusoap/src/nusoap.php");
 include_once ('leefactura.php');
-$emisorRut="76254347-8";
-$usuarioWs="24675367-9";
-$claveWs="MtVZCHZ8d351";
+include_once ('../../Config.php');
+$emisorRut=WS_EMISOR;
+$usuarioWs=WS_USER;
+$claveWs=WS_PASS;
 $fecha=date('Y-m-d');
 $fecha='';
-$objClienteSOAP = new soapclient('http://wstest.webfactura.net/wsWF.php?wsdl');
+$objClienteSOAP = new soapclient(WS_TEST);
 $token = $objClienteSOAP->getToken($emisorRut, $usuarioWs, $claveWs);
 $recibidos = $objClienteSOAP->getComprasJson($token, $emisorRut, $fecha);
 $res=0;

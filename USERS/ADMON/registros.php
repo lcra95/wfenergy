@@ -22,6 +22,7 @@ include("conexion.php");
 @$cuenta=$_POST["cuenta"];
 @$codigoc=$_POST["codigoc"];
 @$giro=$_POST['giro'];
+@$ateco=$_POST['ateco'];
 if($id=="rp")
 {		
 	
@@ -149,7 +150,7 @@ if($id=="rfil")
 	else
 	{
 	mysql_query("INSERT INTO filial 
-		VALUES ('$codigo', '$razon', '$direccion', '$comuna', '$ciudad', '$email', '$contacto', '$sucursal')");
+		VALUES ('$codigo', '$razon', '$direccion', '$comuna', '$ciudad', '$email', '$contacto', '$sucursal', '$giro', '$ateco')");
 	header("location: tablas.php?msg=OPERACION EXITOSA&color=verde");
 }
 }
@@ -163,7 +164,7 @@ if($id=="recp")
 	}	
 	else
 	{
-		mysql_query("INSERT INTO `wfenergy_wf_tiltiluno`.`empresa` (`id`, `rut`, `razon social`, `cuenta_bancaria`, `codigo_banco`, `direccion`, `comuna`, `ciudad`, `telefono`, `contacto`, `giro` )
+		mysql_query("INSERT INTO empresa (`id`, `rut`, `razon social`, `cuenta_bancaria`, `codigo_banco`, `direccion`, `comuna`, `ciudad`, `telefono`, `contacto`, `giro` )
 		VALUES ('$ide', '$codigo', '$razon', '$cuenta', '$codigoc', '$direccion', '$comuna', '$ciudad', '$contacto', '$email', '$giro');");
 		
 		header("location: tablas.php?msg=OPERACION EXITOSA&color=verde");

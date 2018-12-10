@@ -1,13 +1,9 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-	<meta charset="UTF-8">
-</head>
 <?PHP 
-$host='localhost';
-$user='wfenergy_ejpo';
-$pass='Elianny2018.*';
-$daba='wfenergy_wf_tiltiluno';
+include_once ('Config.php');
+$host=SERVER;
+$user=DB_USER;
+$pass=DB_PASS;
+$daba=DB;
 
 if(!@$db=mysql_connect($host,$user,$pass))
 {

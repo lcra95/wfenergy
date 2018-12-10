@@ -1,4 +1,5 @@
 <?php
+<<<<<<< HEAD
 $host='localhost';
 $user='wfenergy_ejpo';
 $pass='Elianny2018.*';
@@ -17,6 +18,10 @@ else
 	}
 }
 $año=2017;
+=======
+include_once (dirname(__FILE__).'/../../../../conexion.php');
+$año=$_POST['ano'];
+>>>>>>> 8d7bce0b01dcf2c991fca151eb9ef806aa58a619
 
 $enero=mysql_query("SELECT * FROM energia_ano WHERE periodo LIKE '$año-01'");
 $e=mysql_fetch_array($enero);

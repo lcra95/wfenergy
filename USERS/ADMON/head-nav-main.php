@@ -21,38 +21,40 @@
 				      <li><a href="#menu-toggle" class="btn fa fa-exchange" id="menu-toggle"></a></li>
 				        <li><a href="registro.php"><i class="fa fa-balance-scale" aria-hidden="true"></i> Balances</a></li>
  <!--Aqui comienza el menu con sub obciones-->
+						<?php 
+						@session_start();
+						if($_SESSION['rol']==1){?>
 						<li class="dropdown">
 				          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 				          	<i class="glyphicon glyphicon-cog" aria-hidden="true"></i>
-							Administrar <span class="caret"></span></a>
+											Administrar <span class="caret"></span></a>
 
 				          <ul class="dropdown-menu" role="menu">
 				          	<li><a href="tablas.php"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Gestionar Tablas</a></li>
 				          </ul>
-				        </li>
-				        <li class="dropdown">
+				    </li>
+						<?php } ?>
+				    <li class="dropdown">
 				          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 				          	<i class="fa fa-file-text" aria-hidden="true"></i> Facturas<span class="caret"></span></a>
 
 				          <ul class="dropdown-menu" role="menu">
-							<li><a href="../API/Facturacion/" ><span class="fa fa-file-text" aria-hidden="true"></span> Nueva Factura</a></li>
+										<li><a href="../API/Facturacion/" ><span class="fa fa-file-text" aria-hidden="true"></span> Nueva Factura</a></li>
 				           	<li><a href="../API/Facturacion/pfactura.php" ><span class="fa fa-file-text" aria-hidden="true"></span> Emitir Factura</a></li>
-				         	<li><a href="../API/Facturacion/listafacturas.php" ><span class="fa fa-file-text" aria-hidden="true"></span> Seguimiento de Facturas</a></li>
-				         
+				         		<li><a href="../API/Facturacion/listafacturas.php" ><span class="fa fa-file-text" aria-hidden="true"></span> Facturas Emitidas</a></li>
+		  							<li><a href="../API/Facturacion/listarecibo.php" ><span class="fa fa-file-text" aria-hidden="true"></span>Facturas Recibidas</a></li>
+						         
 
 				           </ul>
 				        </li>
-				        <!--<li class="dropdown">
+				        <li class="dropdown">
 				          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
 				          	<i class="fa fa-money" aria-hidden="true"></i> Pagos<span class="caret"></span></a>
 
 				          <ul class="dropdown-menu" role="menu">
 				          	<li><a href="procesodepago.php" ><span class="fa fa-money" aria-hidden="true"></span> Procesos de Pago</a></li>
-				         	<li><a href="eregistro.php" ><span class="fa fa-money" aria-hidden="true"></span> Gestionar Pagos</a></li>
-				         
-
-				           </ul>
-				        </li>-->
+				          </ul>
+				        </li>
 				      </ul>
  <!--Aqui termina el menu con sub obciones-->				      
  <!--Aqui comienza el menu alineado a la derecha-->

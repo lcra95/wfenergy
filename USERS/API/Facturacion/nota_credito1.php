@@ -13,7 +13,11 @@ $sql1=mysql_query("SELECT * FROM nota_credito");
 $num=mysql_num_rows($sql1);
 $id=$desde+$num;
 
+<<<<<<< HEAD
 mysql_query("INSERT INTO `wfenergy_wf_tiltiluno`.`nota_credito` (`id`, `folio`, `tipo`, `tipo_doc_ref`, `num_doc_ref`, `fecha_ref`, `cod_ref`, `razon_ref`) VALUES 
+=======
+mysql_query("INSERT INTO nota_credito (`id`, `folio`, `tipo`, `tipo_doc_ref`, `num_doc_ref`, `fecha_ref`, `cod_ref`, `razon_ref`) VALUES 
+>>>>>>> 8d7bce0b01dcf2c991fca151eb9ef806aa58a619
 (NULL, '$id', '$tipo_f', '$tipo_d', '$fac', '$fecha', '$codref', '$razon');");
 mysql_query("DELETE FROM factura_transaccion WHERE id_factura = $fac");
 

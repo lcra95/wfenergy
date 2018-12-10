@@ -2,7 +2,7 @@
 include("conexion.php");
 include("funciones.php");
 include("11pesos.php");
-$tpr=mysql_query("SELECT id FROM periodo WHERE activo = 1");
+$tpr=mysql_query("SELECT id FROM periodo ORDER BY id desc");
 $tte=mysql_fetch_array($tpr);
  if(@$periodo=$_GET['periodo']==""){$periodo=$tte[0];}else {@$periodo=$_GET['periodo'];} ?>
 <?php include("head.php");?>
@@ -42,6 +42,16 @@ $tte=mysql_fetch_array($tpr);
               <div class="panel-heading">
                 <i class="fa fa-bar-chart-o"></i>
                 <h4 class="box-title"><font color="#d00101">Energia (KWh) Mensual</font> </h4>  
+                <div class="row">
+                    <div class="col-sm-4">
+                        <select class="form-control" name="ano" id="ano" onChange="mostrarResultados3(this)">
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                        </select>
+                    </div>    
+                </div>
+              
               </div>
               <div class="panel-body">
                 <div class="resultados"><canvas id="grafico"></canvas></div>
@@ -55,7 +65,16 @@ $tte=mysql_fetch_array($tpr);
             <div class="panel panel-default">
               <div class="panel-heading">
                 <i class="fa fa-bar-chart-o"></i>
-                <h4 class="box-title">Produccion Menusal CLP</h4>  
+                <h4 class="box-title">Produccion Menusal CLP</h4> 
+                <div class="row">
+                    <div class="col-sm-4">
+                        <select class="form-control" name="ano" id="ano" onChange="mostrarResultados2(this)">
+                            <option value="2018">2018</option>
+                            <option value="2017">2017</option>
+                            <option value="2016">2016</option>
+                        </select>
+                    </div>    
+                </div>
               </div>
               <div class="panel-body">
                 <div class="resultados"><canvas id="grafico1"></canvas></div>
@@ -73,6 +92,25 @@ $tte=mysql_fetch_array($tpr);
               <div class="panel-heading">
                 <i class="fa fa-bar-chart-o"></i>
                 <h4 class="box-title"><font color="#d00101">Energia (KWh) Diaria</font> </font></h4>  
+                <div class="row">
+                
+                <div class="col-sm-2">
+                <SELECT class="form-control" id="periodo" name="periodo" onChange="mostrarResultados1(this)">
+                                 <?PHP 
+                                    $per=mysql_query("SELECT * FROM periodo  ORDER BY id DESC LIMIT 12 ");
+                                    ?>
+                                 <h4>
+                                    <option value="<?php echo $periodo;?>"><?php echo $periodo;?></option>
+                                 </h4>
+                                 <?php while($rowa=mysql_fetch_array($per)){?>
+                                 <h4>
+                                    <option value="<?php echo $rowa[0];?>"><?php echo $rowa[0];?></option>
+                                 </h4>
+                                 <?php }?>
+                              </SELECT> 
+                </div>
+                </div>
+              
               </div>
               <div class="panel-body">
                 <div class="resultados"><canvas id="grafico2"></canvas></div>
@@ -123,12 +161,13 @@ $tte=mysql_fetch_array($tpr);
 
 <!--GRAFICO DE ENERGIA AL 2017-->
     <script>
-            $(document).ready(mostrarResultados(2016));  
-                function mostrarResultados(año){
+            $(document).ready(mostrarResultados3(ano));  
+                function mostrarResultados3(ano){
+                    
                     $.ajax({
                         type:'POST',
                         url:'Graphics/controlador/proceso.php',
-                        data:'año='+año,
+                        data:'ano='+ano.value,
                         success:function(data){
 
                             var valores = eval(data);
@@ -182,12 +221,13 @@ $tte=mysql_fetch_array($tpr);
 <!--GRAFICO DE INGRESOS AL 2017-->
 
 <script>
-            $(document).ready(mostrarResultados(2016));  
-                function mostrarResultados(año){
+            $(document).ready(mostrarResultados2(ano));  
+                function mostrarResultados2(ano){
+                    
                     $.ajax({
                         type:'POST',
                         url:'Graphics/controlador/procesar.php',
-                        data:'año='+año,
+                        data:'ano='+ano.value,
                         success:function(data){
 
                             var valores = eval(data);
@@ -230,94 +270,256 @@ $tte=mysql_fetch_array($tpr);
 
 <!--GRAFICO DE ENERGIA AL PERIODO-->
     <script>
-            $(document).ready(mostrarResultados(2016));  
-                function mostrarResultados(año){
+            $(document).ready(mostrarResultados1(periodo));  
+                function mostrarResultados1(periodo){
+                    var dato = periodo.value;
                     $.ajax({
                         type:'POST',
                         url:'Graphics/controlador/diario_mes.php',
-                        data:'año='+año,
+                        data:'periodo='+dato,
                         success:function(data){
-                            
-                            var valores = eval(data);
-
-                            var   ae= valores[0];
-                            var   ar= valores[1];
-                            var   be= valores[2];
-                            var   br= valores[3];
-                            var   ce= valores[4];
-                            var   cr= valores[5];
-                            var   de= valores[6];
-                            var   dr= valores[7];  
-                            var   ee= valores[8];
-                            var   er= valores[9];
-                            var   fe= valores[10];
-                            var   fr= valores[11];
-                            var   ge= valores[12];
-                            var   gr= valores[13];
-                            var   he= valores[14];
-                            var   hr= valores[15];
-                            var   ie= valores[16];
-                            var   ir= valores[17];                            
-                            var   je= valores[18];
-                            var   jr= valores[19];
-                            var   ke= valores[20];
-                            var   kr= valores[21];
-                            var   le= valores[22];
-                            var   lr= valores[23];      
-                            var   me= valores[24];
-                            var   mr= valores[25];
-                            var   ne= valores[26];
-                            var   nr= valores[27];  
-                            var   oe= valores[28];
-                            var   or= valores[29];
-                            var   pe= valores[30];
-                            var   pr= valores[31];
-                            var   qe= valores[32];
-                            var   qr= valores[33];
-                            var   re= valores[34];
-                            var   rr= valores[35];
-                            var   se= valores[36];
-                            var   sr= valores[37];  
-                            var   te= valores[38];
-                            var   tr= valores[39];
-                            var   ue= valores[40];
-                            var   ur= valores[41];
-                            var   ve= valores[42];
-                            var   vr= valores[43];
-                            var   we= valores[44];
-                            var   wr= valores[45];
-                            var   xe= valores[46];
-                            var   xr= valores[47];  
-                            var   ze= valores[48];
-                            var   zr= valores[49];              
-                            var   aae= valores[50];
-                            var   aar= valores[51];
-                            var   bbe= valores[52];
-                            var   bbr= valores[53];
-                            var   cce= valores[54];
-                            var   ccr= valores[55];
-                            var   dde= valores[56];
-                            var   ddr= valores[57];  
-                            var   eee= valores[58];
-                            var   eer= valores[59];
-                            var   ffe= valores[60];
-                            var   ffr= valores[61];                           
-                            var Datos = {
-                                            labels : ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Day 7', 'Day 8', 
-                                            'Day 9', 'Day 10', 'Day 11', 'Day 12', 'Day 13', 'Day 14', 'Day 15', 'Day 16', 'Day 17', 'Day 18', 
-                                            'Day 19', 'Day 20', 'Day 21', 'Day 22', 'Day 23', 'Day 24', 'Day 25', 'Day 26', 'Day 27', 'Day 28', 'Day 29', 'Day 30', 'Day 31'],                                    
-                                    datasets : [
-                                        {   
-                                            label: 'Energia',
-                                            fillColor : 'rgba(249, 11, 11, 1)', //COLOR DE LAS BARRAS
-                                            strokeColor : 'rgba(249, 11, 11, 1)', //COLOR DEL BORDE DE LAS BARRAS
-                                            highlightFill : 'rgba(60,141,188,0.8)', //COLOR "HOVER" DE LAS BARRAS
-                                            highlightStroke : 'rgba(60,141,188,0.8)', //COLOR "HOVER" DEL BORDE DE LAS BARRAS
-                                            data : [ae, be, ce, de, ee, fe, ge, he, ie, je, ke, le, me, ne, oe, pe, qe, re, se, te, ue, ve, we, xe, ze, aae, bbe, cce, dde, eee, ffe]                                            
-                                        }
-                                    ]
+                            dato=dato.substring(5,7);
+                            if(dato=='01' || dato == '03' || dato == '05' || dato == '07' || dato == '08' || dato == '10' || dato == '12')
+                            {   
+                                var valores="" 
+                                valores = eval(data);
+                                var   ae= valores[0];
+                                var   ar= valores[1];
+                                var   be= valores[2];
+                                var   br= valores[3];
+                                var   ce= valores[4];
+                                var   cr= valores[5];
+                                var   de= valores[6];
+                                var   dr= valores[7];  
+                                var   ee= valores[8];
+                                var   er= valores[9];
+                                var   fe= valores[10];
+                                var   fr= valores[11];
+                                var   ge= valores[12];
+                                var   gr= valores[13];
+                                var   he= valores[14];
+                                var   hr= valores[15];
+                                var   ie= valores[16];
+                                var   ir= valores[17];                            
+                                var   je= valores[18];
+                                var   jr= valores[19];
+                                var   ke= valores[20];
+                                var   kr= valores[21];
+                                var   le= valores[22];
+                                var   lr= valores[23];      
+                                var   me= valores[24];
+                                var   mr= valores[25];
+                                var   ne= valores[26];
+                                var   nr= valores[27];  
+                                var   oe= valores[28];
+                                var   or= valores[29];
+                                var   pe= valores[30];
+                                var   pr= valores[31];
+                                var   qe= valores[32];
+                                var   qr= valores[33];
+                                var   re= valores[34];
+                                var   rr= valores[35];
+                                var   se= valores[36];
+                                var   sr= valores[37];  
+                                var   te= valores[38];
+                                var   tr= valores[39];
+                                var   ue= valores[40];
+                                var   ur= valores[41];
+                                var   ve= valores[42];
+                                var   vr= valores[43];
+                                var   we= valores[44];
+                                var   wr= valores[45];
+                                var   xe= valores[46];
+                                var   xr= valores[47];  
+                                var   ze= valores[48];
+                                var   zr= valores[49];              
+                                var   aae= valores[50];
+                                var   aar= valores[51];
+                                var   bbe= valores[52];
+                                var   bbr= valores[53];
+                                var   cce= valores[54];
+                                var   ccr= valores[55];
+                                var   dde= valores[56];
+                                var   ddr= valores[57];  
+                                var   eee= valores[58];
+                                var   eer= valores[59];
+                                var   ffe= valores[60];
+                                var   ffr= valores[61];                           
+                                var Datos = {
+                                                labels : ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Day 7', 'Day 8', 
+                                                'Day 9', 'Day 10', 'Day 11', 'Day 12', 'Day 13', 'Day 14', 'Day 15', 'Day 16', 'Day 17', 'Day 18', 
+                                                'Day 19', 'Day 20', 'Day 21', 'Day 22', 'Day 23', 'Day 24', 'Day 25', 'Day 26', 'Day 27', 'Day 28', 'Day 29', 'Day 30', 'Day 31'],                                    
+                                        datasets : [
+                                            {   
+                                                label: 'Energia',
+                                                fillColor : 'rgba(249, 11, 11, 1)', //COLOR DE LAS BARRAS
+                                                strokeColor : 'rgba(249, 11, 11, 1)', //COLOR DEL BORDE DE LAS BARRAS
+                                                highlightFill : 'rgba(60,141,188,0.8)', //COLOR "HOVER" DE LAS BARRAS
+                                                highlightStroke : 'rgba(60,141,188,0.8)', //COLOR "HOVER" DEL BORDE DE LAS BARRAS
+                                                data : [ae, be, ce, de, ee, fe, ge, he, ie, je, ke, le, me, ne, oe, pe, qe, re, se, te, ue, ve, we, xe, ze, aae, bbe, cce, dde, eee, ffe]                                            
+                                            }
+                                        ]
                                 }
-                                
+                            }else if(dato =='02'){
+                                var valores="" 
+                                valores = eval(data);
+                                var   ae= valores[0];
+                                var   ar= valores[1];
+                                var   be= valores[2];
+                                var   br= valores[3];
+                                var   ce= valores[4];
+                                var   cr= valores[5];
+                                var   de= valores[6];
+                                var   dr= valores[7];  
+                                var   ee= valores[8];
+                                var   er= valores[9];
+                                var   fe= valores[10];
+                                var   fr= valores[11];
+                                var   ge= valores[12];
+                                var   gr= valores[13];
+                                var   he= valores[14];
+                                var   hr= valores[15];
+                                var   ie= valores[16];
+                                var   ir= valores[17];                            
+                                var   je= valores[18];
+                                var   jr= valores[19];
+                                var   ke= valores[20];
+                                var   kr= valores[21];
+                                var   le= valores[22];
+                                var   lr= valores[23];      
+                                var   me= valores[24];
+                                var   mr= valores[25];
+                                var   ne= valores[26];
+                                var   nr= valores[27];  
+                                var   oe= valores[28];
+                                var   or= valores[29];
+                                var   pe= valores[30];
+                                var   pr= valores[31];
+                                var   qe= valores[32];
+                                var   qr= valores[33];
+                                var   re= valores[34];
+                                var   rr= valores[35];
+                                var   se= valores[36];
+                                var   sr= valores[37];  
+                                var   te= valores[38];
+                                var   tr= valores[39];
+                                var   ue= valores[40];
+                                var   ur= valores[41];
+                                var   ve= valores[42];
+                                var   vr= valores[43];
+                                var   we= valores[44];
+                                var   wr= valores[45];
+                                var   xe= valores[46];
+                                var   xr= valores[47];  
+                                var   ze= valores[48];
+                                var   zr= valores[49];              
+                                var   aae= valores[50];
+                                var   aar= valores[51];
+                                var   bbe= valores[52];
+                                var   bbr= valores[53];
+                                var   cce= valores[54];
+                                var   ccr= valores[55];
+                                                   
+                                var Datos = {
+                                                labels : ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Day 7', 'Day 8', 
+                                                'Day 9', 'Day 10', 'Day 11', 'Day 12', 'Day 13', 'Day 14', 'Day 15', 'Day 16', 'Day 17', 'Day 18', 
+                                                'Day 19', 'Day 20', 'Day 21', 'Day 22', 'Day 23', 'Day 24', 'Day 25', 'Day 26', 'Day 27', 'Day 28'],                                    
+                                        datasets : [
+                                            {   
+                                                label: 'Energia',
+                                                fillColor : 'rgba(249, 11, 11, 1)', //COLOR DE LAS BARRAS
+                                                strokeColor : 'rgba(249, 11, 11, 1)', //COLOR DEL BORDE DE LAS BARRAS
+                                                highlightFill : 'rgba(60,141,188,0.8)', //COLOR "HOVER" DE LAS BARRAS
+                                                highlightStroke : 'rgba(60,141,188,0.8)', //COLOR "HOVER" DEL BORDE DE LAS BARRAS
+                                                data : [ae, be, ce, de, ee, fe, ge, he, ie, je, ke, le, me, ne, oe, pe, qe, re, se, te, ue, ve, we, xe, ze, aae, bbe, cce]                                            
+                                            }
+                                        ]
+                                }
+
+
+
+
+                            }   else{
+                                var valores="" 
+                                valores = eval(data);
+                                var   ae= valores[0];
+                                var   ar= valores[1];
+                                var   be= valores[2];
+                                var   br= valores[3];
+                                var   ce= valores[4];
+                                var   cr= valores[5];
+                                var   de= valores[6];
+                                var   dr= valores[7];  
+                                var   ee= valores[8];
+                                var   er= valores[9];
+                                var   fe= valores[10];
+                                var   fr= valores[11];
+                                var   ge= valores[12];
+                                var   gr= valores[13];
+                                var   he= valores[14];
+                                var   hr= valores[15];
+                                var   ie= valores[16];
+                                var   ir= valores[17];                            
+                                var   je= valores[18];
+                                var   jr= valores[19];
+                                var   ke= valores[20];
+                                var   kr= valores[21];
+                                var   le= valores[22];
+                                var   lr= valores[23];      
+                                var   me= valores[24];
+                                var   mr= valores[25];
+                                var   ne= valores[26];
+                                var   nr= valores[27];  
+                                var   oe= valores[28];
+                                var   or= valores[29];
+                                var   pe= valores[30];
+                                var   pr= valores[31];
+                                var   qe= valores[32];
+                                var   qr= valores[33];
+                                var   re= valores[34];
+                                var   rr= valores[35];
+                                var   se= valores[36];
+                                var   sr= valores[37];  
+                                var   te= valores[38];
+                                var   tr= valores[39];
+                                var   ue= valores[40];
+                                var   ur= valores[41];
+                                var   ve= valores[42];
+                                var   vr= valores[43];
+                                var   we= valores[44];
+                                var   wr= valores[45];
+                                var   xe= valores[46];
+                                var   xr= valores[47];  
+                                var   ze= valores[48];
+                                var   zr= valores[49];              
+                                var   aae= valores[50];
+                                var   aar= valores[51];
+                                var   bbe= valores[52];
+                                var   bbr= valores[53];
+                                var   cce= valores[54];
+                                var   ccr= valores[55];
+                                var   dde= valores[56];
+                                var   ddr= valores[57];  
+                                var   eee= valores[58];
+                                var   eer= valores[59];
+                                       
+                                var Datos = {
+                                                labels : ['Day 1', 'Day 2', 'Day 3', 'Day 4', 'Day 5', 'Day 6', 'Day 7', 'Day 8', 
+                                                'Day 9', 'Day 10', 'Day 11', 'Day 12', 'Day 13', 'Day 14', 'Day 15', 'Day 16', 'Day 17', 'Day 18', 
+                                                'Day 19', 'Day 20', 'Day 21', 'Day 22', 'Day 23', 'Day 24', 'Day 25', 'Day 26', 'Day 27', 'Day 28', 'Day 29', 'Day 30'],                                    
+                                        datasets : [
+                                            {   
+                                                label: 'Energia',
+                                                fillColor : 'rgba(249, 11, 11, 1)', //COLOR DE LAS BARRAS
+                                                strokeColor : 'rgba(249, 11, 11, 1)', //COLOR DEL BORDE DE LAS BARRAS
+                                                highlightFill : 'rgba(60,141,188,0.8)', //COLOR "HOVER" DE LAS BARRAS
+                                                highlightStroke : 'rgba(60,141,188,0.8)', //COLOR "HOVER" DEL BORDE DE LAS BARRAS
+                                                data : [ae, be, ce, de, ee, fe, ge, he, ie, je, ke, le, me, ne, oe, pe, qe, re, se, te, ue, ve, we, xe, ze, aae, bbe, cce, dde, eee]                                            
+                                            }
+                                        ]
+                                }
+
+                            } 
                             var contexto = document.getElementById('grafico2').getContext('2d');
                             window.Barra = new Chart(contexto).Bar(Datos, { responsive : true });
                         }

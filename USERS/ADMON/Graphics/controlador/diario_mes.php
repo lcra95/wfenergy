@@ -1,4 +1,5 @@
 <?php 
+<<<<<<< HEAD
 $host='localhost';
 $user='wfenergy_ejpo';
 $pass='Elianny2018.*';
@@ -16,8 +17,11 @@ else
 	echo "Error de Conexión con la Base de Datos";
 	}
 }
+=======
+include (dirname(__FILE__).'/../../../../conexion.php');
+>>>>>>> 8d7bce0b01dcf2c991fca151eb9ef806aa58a619
 
-$periodo='2017-08';
+$periodo=$_POST['periodo'];
 $data=array();
 $i=0;
 $sql=mysql_query("SELECT * FROM `energia_periodo` WHERE `periodo` LIKE '$periodo'");
