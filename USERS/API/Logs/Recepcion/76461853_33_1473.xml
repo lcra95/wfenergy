@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+<Documento ID="F1473T33">
+  <Encabezado>
+    <IdDoc>
+      <TipoDTE>33</TipoDTE>
+      <Folio>1473</Folio>
+      <FchEmis>2018-12-19</FchEmis>
+      <TpoTranCompra>1</TpoTranCompra>
+      <TpoTranVenta>1</TpoTranVenta>
+    </IdDoc>
+    <Emisor>
+      <RUTEmisor>76461853-K</RUTEmisor>
+      <RznSoc>GR GUAYACAN SPA</RznSoc>
+      <GiroEmis>Generaci?n en otras centrales NCP</GiroEmis>
+      <Acteco>351019</Acteco>
+      <DirOrigen>AVDA APOQUINDO 3472  OFICINA 801B</DirOrigen>
+      <CmnaOrigen>LAS CONDES</CmnaOrigen>
+    </Emisor>
+    <Receptor>
+      <RUTRecep>76254347-8</RUTRecep>
+      <RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep>
+      <GiroRecep>GENERACI?N EN OTRAS CENTRALES N.C.P</GiroRecep>
+      <DirRecep>AV. APOQUINDO 3910, PISO 5</DirRecep>
+      <CmnaRecep>- SIN ESPECIFICAR -</CmnaRecep>
+    </Receptor>
+    <Totales>
+      <MntNeto>4</MntNeto>
+      <TasaIVA>19</TasaIVA>
+      <IVA>1</IVA>
+      <MntTotal>5</MntTotal>
+    </Totales>
+  </Encabezado>
+  <Detalle>
+    <NroLinDet>1</NroLinDet>
+    <NmbItem>SEN_[CU2M][Ago18][L][V01] </NmbItem>
+    <QtyItem>1</QtyItem>
+    <PrcItem>4</PrcItem>
+    <MontoItem>4</MontoItem>
+  </Detalle>
+  <Referencia>
+    <NroLinRef>1</NroLinRef>
+    <TpoDocRef>SEN</TpoDocRef>
+    <FolioRef>DE05909A18C54S0290</FolioRef>
+    <FchRef>2018-12-19</FchRef>
+  </Referencia>
+<TED version="1.0"><DD><RE>76461853-K</RE><TD>33</TD><F>1473</F><FE>2018-12-19</FE><RR>76254347-8</RR><RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR><MNT>5</MNT><IT1>SEN_[CU2M][Ago18][L][V01] </IT1><CAF version="1.0"><DA><RE>76461853-K</RE><RS>GR GUAYACAN SPA</RS><TD>33</TD><RNG><D>1433</D><H>1732</H></RNG><FA>2018-11-30</FA><RSAPK><M>6te9TgJlgwgaRMtaVI+ECfCCQIK1/UvKNAYz6ixIHHhcfB+30TLtghwQZcgSRJ9RyxJTPyPKZNefpMntSVuksQ==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">EWASnfQWHGYeearT4VCcgN5AwhsfbRwkveecSyGsBjx+BpBfyALOO8JYYDWWNIWQ7Lp+5KVfNSZ4cka3yyGjiA==</FRMA></CAF><TSTED>2018-12-19T12:33:23</TSTED></DD><FRMT algoritmo="SHA1withRSA">
+vV35f8JkcDJaHPZMNb0NZ+EbxwBWzoEVfjy2Wf1lL6w3Po+3Hpjyz2EznXMZIjW9gCaWcaOoLPMhGVNe0M0I0Q==
+</FRMT></TED><TmstFirma>2018-12-19T12:33:23</TmstFirma></Documento>
+<default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><default:SignedInfo><default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><default:Reference URI="#F1473T33"><default:Transforms><default:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></default:Transforms><default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><default:DigestValue>cORTRxy2TVPWrJnBYYSPzhCgLG4=</default:DigestValue></default:Reference></default:SignedInfo><default:SignatureValue>GQTSTTRxL50bXRPppbbuVnT+LwQsR9LeVOvkAlA6hEEOy3vTqQplnDJm7A/VD2i8YtUYius0sbE1ZCwbYcUaoKCUQnga45metdJdc3HT53bmCZv1VpqnMkpSZVWpp35E4upSMw7zMZWjqAm4ySZiitps4oOFKtfKBXBqFGuUeXHLjIPQvT5yUM4gxoU9mzPZ1jN/upJOZw5lCOGBlfhK7OlDBhPXZUXtdjlpWxjMx65tF6vp53u3py2lj9txP6pcK/M3E+azZomv41cUIx7Agy55pX+Wfb/TdtqEduBBibTV2q0t2Q27CeaupqkcRTOHGezuFypJFvm4EmRc+vtNyw==</default:SignatureValue><default:KeyInfo><default:KeyValue><default:RSAKeyValue><default:Modulus>iwq/pi/lbGmHP6loHMbCUTiTgJiGEKXU0r9tgjO44iQxhRtl2XdwB7tmsMJj2XSS
+sMxDBtahKmaONgS0vgGzA1bpeeMZp5hEIPw9KdWXycc7LJvNC0j3D8GQlOtpWD7V
+MUkJ+QjvRtIkVpkz54iW3GluiXql/WvCBR7SvO/COUJNbvcd5z9OO1y8zJwkMLM4
+ZOy4xqepcCwoirnI6LHpfQawufhAXwdHzRg7C+QLAFYSN/rs4Hk6OP5LdMKmUZBC
+reaEerPv/EUMH6UXK2ELa1nsE0Xts5IhHeckhTJmuJcON1OKMSlYu1AdLTyWhHdi
+sMB1fWKiWvjbuo93uRj/pQ==
+</default:Modulus><default:Exponent>AQAB</default:Exponent></default:RSAKeyValue></default:KeyValue><default:X509Data><default:X509Certificate>MIIGSjCCBTKgAwIBAgIIGAS+ZxTreMUwDQYJKoZIhvcNAQELBQAwga8xCzAJBgNV
+BAYTAkNMMRQwEgYDVQQKDAtFLVNpZ24gUy5BLjE5MDcGA1UECwwwVGVybXMgb2Yg
+dXNlIGF0IHd3dy5lc2lnbi1sYS5jb20vYWN1ZXJkb3RlcmNlcm9zMSswKQYDVQQD
+DCJFLVNpZ24gQ2xhc3MgMiBGaXJtYSBUcmlidXRhcmlhIENBMSIwIAYJKoZIhvcN
+AQkBFhNlLXNpZ25AZXNpZ24tbGEuY29tMB4XDTE3MDcwNTE1MDgzOVoXDTIwMDcw
+NDE1MDMwMFowgakxCzAJBgNVBAYTAkNMMRQwEgYDVQQKDAtFLVNpZ24gUy5BLjE5
+MDcGA1UECwwwVGVybXMgb2YgdXNlIGF0IHd3dy5lc2lnbi1sYS5jb20vYWN1ZXJk
+b3RlcmNlcm9zMSMwIQYDVQQDDBpBbnRvbmlvIGZyYW5jaXNjbyBSb3MgTWVzYTEk
+MCIGCSqGSIb3DQEJARYVcm9zbWFudG9uaW9AZ21haWwuY29tMIIBIjANBgkqhkiG
+9w0BAQEFAAOCAQ8AMIIBCgKCAQEAiwq/pi/lbGmHP6loHMbCUTiTgJiGEKXU0r9t
+gjO44iQxhRtl2XdwB7tmsMJj2XSSsMxDBtahKmaONgS0vgGzA1bpeeMZp5hEIPw9
+KdWXycc7LJvNC0j3D8GQlOtpWD7VMUkJ+QjvRtIkVpkz54iW3GluiXql/WvCBR7S
+vO/COUJNbvcd5z9OO1y8zJwkMLM4ZOy4xqepcCwoirnI6LHpfQawufhAXwdHzRg7
+C+QLAFYSN/rs4Hk6OP5LdMKmUZBCreaEerPv/EUMH6UXK2ELa1nsE0Xts5IhHeck
+hTJmuJcON1OKMSlYu1AdLTyWhHdisMB1fWKiWvjbuo93uRj/pQIDAQABo4ICbDCC
+AmgwgYAGCCsGAQUFBwEBBHQwcjBKBggrBgEFBQcwAoY+aHR0cDovL3BraS5lc2ln
+bi1sYS5jb20vY2FjZXJ0cy9wa2lDbGFzczJGaXJtYVRyaWJ1dGFyaWFDQS5jcnQw
+JAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmVzaWduLWxhLmNvbTAdBgNVHQ4EFgQU
+aX9/QQcEBRP4iE74UkiXiE7IGFUwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBT5
+SvrCx27C5xKcV0U1hBptKOlKpDCByAYDVR0gBIHAMIG9MIG6BgwrBgEEAYLKagEE
+AQIwgakwfgYIKwYBBQUHAgIwch5wAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAHAA
+YQByAGEAIAB1AHMAbwAgAFQAcgBpAGIAdQB0AGEAcgBpAG8ALAAgAEMAbwBtAGUA
+cgBjAGkAbwAsACAAUABhAGcAbwBzACAAeQAgAE8AdAByAG8AczAnBggrBgEFBQcC
+ARYbaHR0cDovL3d3dy5lc2lnbi1sYS5jb20vY3BzMFEGA1UdHwRKMEgwRqBEoEKG
+QGh0dHA6Ly9wa2kuZXNpZ24tbGEuY29tL2NybC9wa2lDbGFzczJGaXJtYVRyaWJ1
+dGFyaWEvZW5kdXNlci5jcmwwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsG
+AQUFBwMCBggrBgEFBQcDBDAjBgNVHREEHDAaoBgGCCsGAQQBwQEBoAwWCjEzODMx
+NTQ5LTUwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5OTU1MTc0MC1LMA0GCSqG
+SIb3DQEBCwUAA4IBAQAa5iZKiPZHTZ4Z361aujkbAfW2hEoglpVg/x2Vb/7sprWu
+y6jJKBnsbw+Z0vw+4vDCYkgbLR/tfZz7GvAucjMbPdiTYY0fXKKymAQ8drJSo/IP
+2t7hqWqYjujnytGJXfJ/yeRv5TwpryVURxZ/tpKDUgWT7fEtznMwql+zE4TbUbSu
+aF+9g2IpMHPPqXEuw2iNFJ1cGYIMAF0MMM8MpdXetBo2+e4QfcrFoRAVmLxOhBkE
+w0bJczyJIABU5GBYWundPj9ri+ie4Lr1HI3na3q3Tn3TWgqdCcGW1wBVR7yBidqT
+1sPJSfXXUHLUT+Tpu2+DCPaYEZshHeArzHE93FLm
+</default:X509Certificate></default:X509Data></default:KeyInfo></default:Signature>
+</DTE>

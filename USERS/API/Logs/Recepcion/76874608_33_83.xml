@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+  <!-- O Win32 Chrome 71 central VERSION: v20170209 -->
+<Documento ID="MiPE76874608-17606">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>83</Folio>
+        <FchEmis>2018-12-29</FchEmis>
+        <TpoTranCompra>1</TpoTranCompra>
+        <TpoTranVenta>1</TpoTranVenta>
+        <FmaPago>2</FmaPago>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>76874608-7</RUTEmisor>
+        <RznSoc>INVERSIONES GHNEIM PASTRANO SPA</RznSoc>
+        <GiroEmis>INVERSIONES Y SERVICIOS PROFESIONALES N.C.P</GiroEmis>
+        <Telefono>0 0</Telefono>
+        <CorreoEmisor>KGHNEIM2@GMAIL.COM</CorreoEmisor>
+        <Acteco>475901</Acteco>
+        <CdgSIISucur>082348398</CdgSIISucur>
+        <DirOrigen>BOMBERO OSSA 1010  1020 SANTIAGO</DirOrigen>
+        <CmnaOrigen>SANTIAGO</CmnaOrigen>
+        <CiudadOrigen>SANTIAGO</CiudadOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>76254347-8</RUTRecep>
+        <RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep>
+        <GiroRecep>GENERACION DE ENERGIA ELECTRICA EN OTRAS</GiroRecep>
+        <DirRecep>APOQUINDO 3910 PISO 5</DirRecep>
+        <CmnaRecep>LAS CONDES</CmnaRecep>
+        <CiudadRecep>SANTIAGO</CiudadRecep>
+      </Receptor>
+      <Totales>
+        <MntNeto>600000</MntNeto>
+        <TasaIVA>19.00</TasaIVA>
+        <IVA>114000</IVA>
+        <MntTotal>714000</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <NmbItem>FACTURACION DICIEMBRE</NmbItem>
+      <QtyItem>1.00</QtyItem>
+      <PrcItem>600000.00</PrcItem>
+      <MontoItem>600000</MontoItem>
+    </Detalle>
+<TED version="1.0"><DD><RE>76874608-7</RE><TD>33</TD><F>83</F><FE>2018-12-29</FE><RR>76254347-8</RR><RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR><MNT>714000</MNT><IT1>FACTURACION DICIEMBRE</IT1><CAF version="1.0"><DA><RE>76874608-7</RE><RS>INVERSIONES GHNEIM PASTRANO SPA</RS><TD>33</TD><RNG><D>83</D><H>83</H></RNG><FA>2018-12-29</FA><RSAPK><M>xRZSOEWsbqF4kB9dadwdooqNOfSq4nQwD8l/R09j14VqvXftDMXDJYh5R2CDO7QMtC6vwg3VEShOz5SbdEDdMw==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">fxa2xxq9yvFMLwb6hbdG2+elT+1RHctC7wT2dMjiMeFSMP8W/vkLCPqa397Y9GLiPE4nDPOCaAU1hja5fizbrQ==</FRMA></CAF><TSTED>2018-12-29T18:34:55</TSTED></DD><FRMT algoritmo="SHA1withRSA">M8vmI3d2EHxs/89kAhoW1eTILJvq+qbKzp6P+JMhYrnWDkDhncLVjvaoPcyCpq/k8WfahYMDzwV4zEaMjZnf1w==</FRMT></TED>
+    <TmstFirma>2018-12-29T18:34:55</TmstFirma>
+
+  </Documento>
+<default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<default:SignedInfo>
+<default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<default:Reference URI="#MiPE76874608-17606">
+<default:Transforms>
+<default:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</default:Transforms>
+<default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<default:DigestValue>AljtMIXwZnlCNOGBQncFobpd3Vk=</default:DigestValue>
+</default:Reference>
+</default:SignedInfo>
+<default:SignatureValue>
+afhdKm94tHmpgPpftmWdhaYOK+u0gSUkjKaaWZr6RYZL8mq6ZAFLL28cNmgQthP7ict6tfQA0z55
+kWx1p76yKZxp9Ql+EqeJorypSI7AamSXJmc+0VoSkFheYh43u7Bv1hY7EhKc+EwKIOuiwS42zuDY
+qoZYKApY7NTfYDLoctM=
+</default:SignatureValue>
+<default:KeyInfo>
+<default:KeyValue>
+<default:RSAKeyValue>
+<default:Modulus>
+qPN4QGThgki1PDbors1Sh7sRia9W4+Y0edZ65d/dbjZowU5A5IcmMYxaOhWSS/F7lJZKls87eZLS
+D9QgA0bww8vWoF+b7whKvcg/GpJeW8KkLXlSa8i7Eo5DlyHlng5HtsYv4sEcNRygnuj90UrHpg46
+4mrL7vmbJkPDGNByCBk=
+</default:Modulus>
+<default:Exponent>AQAB</default:Exponent>
+</default:RSAKeyValue>
+</default:KeyValue>
+<default:X509Data>
+<default:X509Certificate>
+MIIGTTCCBTWgAwIBAgIKF8w+XwAAAAvR1TANBgkqhkiG9w0BAQUFADCB0jELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQD
+EydFLUNFUlRDSElMRSBDQSBGSVJNQSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEW
+GHNjbGllbnRlc0BlLWNlcnRjaGlsZS5jbDAeFw0xODA4MTgxNDQ0MzBaFw0xOTA4MTgxNDQ0MzBa
+MIHOMQswCQYDVQQGEwJDTDEjMCEGA1UECBMaTUVUUk9QT0xJVEFOQSBERSBTQU5USUFHTyAxETAP
+BgNVBAcTCFNhbnRpYWdvMSwwKgYDVQQKEyNDYXRhbGluYSBBbWFsaWEgQ3ViaWxsb3MgVmlsbGFu
+dWV2YTEKMAgGA1UECwwBKjEsMCoGA1UEAxMjQ2F0YWxpbmEgQW1hbGlhIEN1YmlsbG9zIFZpbGxh
+bnVldmExHzAdBgkqhkiG9w0BCQEWEGMuYy52QGhvdG1haWwuZXMwgZ8wDQYJKoZIhvcNAQEBBQAD
+gY0AMIGJAoGBAKjzeEBk4YJItTw26K7NUoe7EYmvVuPmNHnWeuXf3W42aMFOQOSHJjGMWjoVkkvx
+e5SWSpbPO3mS0g/UIANG8MPL1qBfm+8ISr3IPxqSXlvCpC15UmvIuxKOQ5ch5Z4OR7bGL+LBHDUc
+oJ7o/dFKx6YOOuJqy+75myZDwxjQcggZAgMBAAGjggKpMIICpTCCAU8GA1UdIASCAUYwggFCMIIB
+PgYIKwYBBAHDUgUwggEwMC0GCCsGAQUFBwIBFiFodHRwOi8vd3d3LmUtY2VydGNoaWxlLmNsL0NQ
+Uy5odG0wgf4GCCsGAQUFBwICMIHxHoHuAEUAbAAgAHIAZQBzAHAAbwBuAGQAZQByACAAZQBzAHQA
+ZQAgAGYAbwByAG0AdQBsAGEAcgBpAG8AIABlAHMAIAB1AG4AIAByAGUAcQB1AGkAcwBpAHQAbwAg
+AGkAbgBkAGkAcwBwAGUAbgBzAGEAYgBsAGUAIABwAGEAcgBhACAAZABhAHIAIABpAG4AaQBjAGkA
+bwAgAGEAbAAgAHAAcgBvAGMAZQBzAG8AIABkAGUAIABjAGUAcgB0AGkAZgBpAGMAYQBjAGkA8wBu
+AC4AIABQAG8AcwB0AGUAcgBpAG8AcgBtAGUAbgB0AGUALDAdBgNVHQ4EFgQU/pGvVyvLxMQJ1P7M
+BumMkD0x0hkwCwYDVR0PBAQDAgTwMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMTgxNjUxNDEt
+NTAfBgNVHSMEGDAWgBR44T6f0hKzejyNzTAOU7NDKQezVTA+BgNVHR8ENzA1MDOgMaAvhi1odHRw
+Oi8vY3JsLmUtY2VydGNoaWxlLmNsL2VjZXJ0Y2hpbGVjYUZFUy5jcmwwOgYIKwYBBQUHAQEELjAs
+MCoGCCsGAQUFBzABhh5odHRwOi8vb2NzcC5lY2VydGNoaWxlLmNsL29jc3AwPQYJKwYBBAGCNxUH
+BDAwLgYmKwYBBAGCNxUIgtyDL4WTjGaF1Z0XguLcJ4Hv7DxhhevCZ4eQsB8CAWQCAQQwIwYDVR0S
+BBwwGqAYBggrBgEEAcEBAqAMFgo5NjkyODE4MC01MA0GCSqGSIb3DQEBBQUAA4IBAQAIR1RpB6Nq
+bDSs7YCKv2litkg7JBxjLXIsqUOjpsrlxz9k8dfCIEFehZfWrsEeTz42Ve72M2uSNGuORtN4Mhac
+YZ8BS+Hd34WcsSn1DsUYDtuW7iwfK+jx8DicsnJuwCfnfeegvb0l1RYeg0q4+ofrz41DgF6AcBa+
+PrZTNJHGqYnBeIybSV0Gte8yQixBYqfZwXA38urTKOs2FB+AwYT6GCYuUQryzTjoNCK3fdHgg9J9
+9p1YG7+ebhMzB4S3bTt0STpJr+8VDRbxpJexndHUWcXM7b5vjJqLU+uNZr0qHhXH7IXvom5Fh6Fs
+EPSUuXHB6HncdRNdN8J90emUu72A
+</default:X509Certificate>
+</default:X509Data>
+</default:KeyInfo>
+</default:Signature></DTE>

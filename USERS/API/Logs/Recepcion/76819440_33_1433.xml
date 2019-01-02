@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">		<Documento ID="EMI768194408F1433T33">
+			<Encabezado>
+				<IdDoc>
+					<TipoDTE>33</TipoDTE>
+					<Folio>1433</Folio>
+					<FchEmis>2018-12-26</FchEmis>
+					<FmaPago>2</FmaPago>
+					<MntPagos>
+						<FchPago>2019-01-25</FchPago>
+						<MntPago>2668</MntPago>
+						<GlosaPagos/>
+					</MntPagos>
+					<TermPagoGlosa>Credito 30 Dias                         </TermPagoGlosa>
+					<FchVenc>2019-01-25</FchVenc>
+				</IdDoc>
+				<Emisor>
+					<RUTEmisor>76819440-8</RUTEmisor>
+					<RznSoc>ELECTRICA CENIZAS S.A.</RznSoc>
+					<GiroEmis>Generaci?n, Transporte y Distribuci?n de Energ?a El?ctrica, Asesor?as Empresaria</GiroEmis>
+					<Telefono>223688300</Telefono>
+					<Acteco>351019</Acteco>
+					<DirOrigen>Av. Apoquindo 3885 of 1401 Las Condes</DirOrigen>
+					<CmnaOrigen>SANTIAGO</CmnaOrigen>
+					<CdgVendedor>12076478-0</CdgVendedor>
+				</Emisor>
+				<Receptor>
+					<RUTRecep>76254347-8</RUTRecep>
+					<RznSocRecep>Hanwha Q Cells Til Til Uno SpA</RznSocRecep>
+					<GiroRecep>Generaci?n en Otras Centrales N.C.P</GiroRecep>
+					<Contacto>Fono 232234745</Contacto>
+					<CorreoRecep>dtehq@desis.cl</CorreoRecep>
+					<DirRecep>Av. Apoquindo 3910, piso 5</DirRecep>
+					<CmnaRecep>LAS CONDES</CmnaRecep>
+					<CiudadRecep>SANTIAGO</CiudadRecep>
+				</Receptor>
+				<Totales>
+					<MntNeto>2242</MntNeto>
+					<TasaIVA>19.00</TasaIVA>
+					<IVA>426</IVA>
+					<MntTotal>2668</MntTotal>
+				</Totales>
+			</Encabezado>
+			<Detalle>
+				<NroLinDet>1</NroLinDet>
+				<NmbItem>Servicios Complementarios</NmbItem>
+				<DscItem>\n codigo referencia DE02961A18C55S0110 \n SEN_[SSCC][Abr18][R][V01]</DscItem>
+				<QtyItem>1.000000</QtyItem>
+				<PrcItem>2242.000000</PrcItem>
+				<MontoItem>2242</MontoItem>
+			</Detalle>
+			<Detalle>
+				<NroLinDet>2</NroLinDet>
+				<CdgItem>
+					<TpoCodigo>INTERNO</TpoCodigo>
+					<VlrCodigo>OBS001</VlrCodigo>
+				</CdgItem>
+				<IndExe>2</IndExe>
+				<NmbItem>Observaciones</NmbItem>
+				<DscItem>Favor depositar en BANCO CREDITO INVERSIONES 
+Cta.Numero 10620028..</DscItem>
+				<MontoItem>0</MontoItem>
+			</Detalle>
+			<TED version="1.0">
+				<DD>
+					<RE>76819440-8</RE>
+					<TD>33</TD>
+					<F>1433</F>
+					<FE>2018-12-26</FE>
+					<RR>76254347-8</RR>
+					<RSR>Hanwha Q Cells Til Til Uno SpA</RSR>
+					<MNT>2668</MNT>
+					<IT1>Servicios Complementarios</IT1>
+					<CAF version="1.0">
+						<DA>
+							<RE>76819440-8</RE>
+							<RS>ELECTRICA CENIZAS SA</RS>
+							<TD>33</TD>
+							<RNG>
+								<D>1279</D>
+								<H>1527</H>
+							</RNG>
+							<FA>2018-10-24</FA>
+							<RSAPK>
+								<M>6+Vz8Ih3+yexNzTkk0mywaWJnr8eHywkJnq/hTdCFkibkmMjBH+Q7Yb0tmUGfI3k1o7aA64RMdbHz9Z1ql84nQ==</M>
+								<E>Aw==</E>
+							</RSAPK>
+							<IDK>300</IDK>
+						</DA>
+						<FRMA algoritmo="SHA1withRSA">e23r0a7JUfmE7mGjBmQi0UGvByrAs5bNqrgG0HhlpC/sErZC+2MXgvAk/qZ41BOrrcnohYffMARXFwjB372GNg==</FRMA>
+					</CAF>
+					<TSTED>2018-12-26T16:06:27</TSTED>
+				</DD>
+				<FRMT algoritmo="SHA1withRSA">08i8dbineyQxu6Lmm+33vWublO47lNNpDFkcRdxWfloOqqz/joITFs2PhS4TX5PVFFMkq+LO8YFZPgeHB6qHtQ==</FRMT>
+			</TED>
+			<TmstFirma>2018-12-26T16:06:27</TmstFirma>
+		</Documento>
+		<default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+			<default:SignedInfo>
+				<default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+				<default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+				<default:Reference URI="#EMI768194408F1433T33">
+					<default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+					<default:DigestValue>Rr+72kqaLV6EIyQ+2o1kKWI4GGY=</default:DigestValue>
+				</default:Reference>
+			</default:SignedInfo>
+			<default:SignatureValue>hluB1G9pntjdqDykEXn0b03rGcFqs/FCgGHMzIsNZ8zHG4z6qH1MS9Cqhs4sXLVCUObzzX3/t2jy
+IQkcoU1zWAt4qu+6Lw98Zj8y5PkMA/G+cAcEfHGOEG2ZLMode0qBRRZ11Yowkxpbq4cH2zhEDEL0
+tz6lqzFk7wFjTs2cSs8=</default:SignatureValue>
+			<default:KeyInfo>
+				<default:KeyValue>
+					<default:RSAKeyValue>
+						<default:Modulus>4lac7t93MG4rZjEe2ic2CJcUAGR9tyC2L57EO6eOOk19tCBgfi3cXdlYH0mG81ONatbelxAzjWOG
+olVxNjsHTU2OC7aRnP6R5RUEq5Nd+7JNwHsz/F9q1+VgzUiYEmXgIBaRfXD1mZi1Jlylv3/A1TFs
+wV0E3J4+abBzW5+a5Xc=</default:Modulus>
+						<default:Exponent>AQAB</default:Exponent>
+					</default:RSAKeyValue>
+				</default:KeyValue>
+				<default:X509Data>
+					<default:X509Certificate>MIIGRzCCBS+gAwIBAgIKH/4gsQAAAAnMODANBgkqhkiG9w0BAQUFADCB0jELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQD
+EydFLUNFUlRDSElMRSBDQSBGSVJNQSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEW
+GHNjbGllbnRlc0BlLWNlcnRjaGlsZS5jbDAeFw0xODAxMTcyMDE3MDZaFw0yMTAxMTYyMDE3MDZa
+MIHIMQswCQYDVQQGEwJDTDEjMCEGA1UECBMaTUVUUk9QT0xJVEFOQSBERSBTQU5USUFHTyAxETAP
+BgNVBAcTCFNhbnRpYWdvMSAwHgYDVQQKExdNaW5lcmEgTGFzIENlbml6YXMgUy5BLjEQMA4GA1UE
+CxMHTWluZXJpYTEpMCcGA1UEAxMgQ2hyaXN0aWFuIEtlbm5lIFBpbnRvIEVjaGV2ZXJyaWExIjAg
+BgkqhkiG9w0BCQEWE2VtcHJlc2FzQGNlbml6YXMuY2wwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJ
+AoGBAOJWnO7fdzBuK2YxHtonNgiXFABkfbcgti+exDunjjpNfbQgYH4t3F3ZWB9JhvNTjWrW3pcQ
+M41jhqJVcTY7B01Njgu2kZz+keUVBKuTXfuyTcB7M/xfatflYM1ImBJl4CAWkX1w9ZmYtSZcpb9/
+wNUxbMFdBNyePmmwc1ufmuV3AgMBAAGjggKpMIICpTCCAU8GA1UdIASCAUYwggFCMIIBPgYIKwYB
+BAHDUgUwggEwMC0GCCsGAQUFBwIBFiFodHRwOi8vd3d3LmUtY2VydGNoaWxlLmNsL0NQUy5odG0w
+gf4GCCsGAQUFBwICMIHxHoHuAEUAbAAgAHIAZQBzAHAAbwBuAGQAZQByACAAZQBzAHQAZQAgAGYA
+bwByAG0AdQBsAGEAcgBpAG8AIABlAHMAIAB1AG4AIAByAGUAcQB1AGkAcwBpAHQAbwAgAGkAbgBk
+AGkAcwBwAGUAbgBzAGEAYgBsAGUAIABwAGEAcgBhACAAZABhAHIAIABpAG4AaQBjAGkAbwAgAGEA
+bAAgAHAAcgBvAGMAZQBzAG8AIABkAGUAIABjAGUAcgB0AGkAZgBpAGMAYQBjAGkA8wBuAC4AIABQ
+AG8AcwB0AGUAcgBpAG8AcgBtAGUAbgB0AGUALDAdBgNVHQ4EFgQUmw/ITSTluqWm+pfksUb9QBww
+E/wwCwYDVR0PBAQDAgTwMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMTIwNzY0NzgtMDAfBgNV
+HSMEGDAWgBR44T6f0hKzejyNzTAOU7NDKQezVTA+BgNVHR8ENzA1MDOgMaAvhi1odHRwOi8vY3Js
+LmUtY2VydGNoaWxlLmNsL2VjZXJ0Y2hpbGVjYUZFUy5jcmwwOgYIKwYBBQUHAQEELjAsMCoGCCsG
+AQUFBzABhh5odHRwOi8vb2NzcC5lY2VydGNoaWxlLmNsL29jc3AwPQYJKwYBBAGCNxUHBDAwLgYm
+KwYBBAGCNxUIgtyDL4WTjGaF1Z0XguLcJ4Hv7DxhgZrnFYav4BUCAWQCAQQwIwYDVR0SBBwwGqAY
+BggrBgEEAcEBAqAMFgo5NjkyODE4MC01MA0GCSqGSIb3DQEBBQUAA4IBAQBeWgQWAHDtkzfSPW2X
+KTxIjs3hUQ8S99HjOQFDgs+KRYniabFbJkb+bLzh2KxNL2WzFzKJI1mLAZEaEfz/ISZ48I2y89Y+
+pv6fpthA5yW8oUXfsTpfFIDKTPdjlB2udl9cIvAoFs6HSxxSgAIeBqLTiRexhSgW2DocjRORseSx
+baJ/psrxllY4x4fLwVZLBBR2ZR9tFGfMJ+0jJrCXcZ2w0Swv1KDhVQIrYiawMWtRXkIY3CkqVjRF
+uQ2xyFdsgWayhuzVDjrdNLwidlw2dvDxyLQAj9WHBN9GXqq5m5RtNGNVpATvnwv5Il78saRGtvkQ
+SDad2r3ZBYvVEZmxN4cV</default:X509Certificate>
+				</default:X509Data>
+			</default:KeyInfo>
+		</default:Signature>
+</DTE>
