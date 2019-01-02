@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F3899T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>3899</Folio>
+                    <FchEmis>2018-12-27</FchEmis>
+                    <FchVenc>2018-12-31</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76071891-2</RUTRecep>
+                    <RznSocRecep>HIDROELECTRICA ALLIPEN S.A</RznSocRecep>
+                    <GiroRecep>GENERACION HIDROELECTRICA</GiroRecep>
+                    <Contacto>TSCHWEIGER@GPE.CL</Contacto>
+                    <DirRecep>FELIX DE AMESTI N. 90 OF 201</DirRecep>
+                    <CmnaRecep>LAS CONDES</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>10212</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>1940</IVA>
+                    <MntTotal>12152</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>1</VlrCodigo>
+        </CdgItem>
+        <NmbItem>ENERGIA
+</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>10212</PrcItem>
+        <MontoItem>10212</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE05969A18C58S0294</FolioRef>
+        <FchRef>2018-12-20</FchRef>
+        <RazonRef>SEN_[TEE_][Nov18][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

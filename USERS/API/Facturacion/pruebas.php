@@ -1,15 +1,15 @@
 <?php 
-$periodo='2018-10';
-$fac=3714;
+$periodo='2018-11';
+$fac=3785;
 include("conexion.php");
 include("funciones.php");
 
 $referencias="SELECT 
-r.emisor, pc.carta, r.codigo_ref, pc.fecha, r.nemotecnico
+r.emisor, r.codigo_ref, r.fecha, r.nemotecnico 
 FROM factura_concepto fc 
-JOIN factura f on fc.id_factura = f.id AND f.id=$fac
-JOIN referencia r on f.id_periodo = r.id_periodo AND r.id_concepto = (SELECT id_concepto FROM factura_concepto WHERE id_factura = $fac)
-JOIN periodo_carta pc on pc.id_periodo = r.id_periodo AND f.id_periodo = '$periodo'";
+JOIN factura f on fc.id_factura = f.id AND f.id = $fac 
+JOIN referencia r on f.id_periodo = r.id_periodo AND r.id_concepto = (SELECT id_concepto FROM factura_concepto WHERE id_factura = $fac) AND f.id_periodo = '$periodo' ";
+
 
 
 $balances="SELECT 
@@ -41,13 +41,12 @@ FROM empresa_transaccion et
 JOIN fectura_transaccion ft ON et.id != ft.id_transaccion";
 
 
-$sql="SELECT sum(energia) FROM energia_periodo WHERE periodo = '2018-12'";
+$sql2="SELECT sum(energia) FROM energia_periodo WHERE periodo = '2018-12'";
 
-$sel=mysql_query($sql);
-while($q=mysql_fetch_array($sel)){   
-                echo '<pre>';
-                  print_r($q);
-                echo '</pre>';
+$res=mysql_query($referencias);
+$data=mysql_fetch_array($res);
+echo '<pre>';
+   print_r($data);
+echo '</pre>';
 
-}
 ?>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F3876T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>3876</Folio>
+                    <FchEmis>2018-12-27</FchEmis>
+                    <FchVenc>2018-12-31</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76337599-4</RUTRecep>
+                    <RznSocRecep>EL PELICANO SOLAR COMPANY SPA</RznSocRecep>
+                    <GiroRecep>GENERACION EN OTRAS CENTRALES N.C.P.</GiroRecep>
+                    <Contacto> ADMIN@SOLARPACK.ES</Contacto>
+                    <DirRecep>AVENIDA VITACURA 2939, PISO 27, DPTO. 2702</DirRecep>
+                    <CmnaRecep>LAS CONDES</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>39867</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>7575</IVA>
+                    <MntTotal>47442</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>2</VlrCodigo>
+        </CdgItem>
+        <NmbItem>POTENCIA
+</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>39867</PrcItem>
+        <MontoItem>39867</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE05969A18C56S0292</FolioRef>
+        <FchRef>2018-12-18</FchRef>
+        <RazonRef>SEN_[BP__][Nov18][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+      <Documento ID="T33F10947940">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>33</TipoDTE>
+            <Folio>10947940</Folio>
+            <FchEmis>2018-11-14</FchEmis>
+            <IndServicio>3</IndServicio>
+            <FchVenc>2018-11-26</FchVenc>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>76411321-7</RUTEmisor>
+            <RznSoc>COMPA?A GENERAL DE ELECTRICIDAD S.A.</RznSoc>
+            <GiroEmis>Distr. Energ?a el?ctrica, compraventa art. El?ctricos</GiroEmis>
+            <Acteco>401030</Acteco>
+            <DirOrigen>AVENIDA PRESIDENTE RIESCO 5561 17</DirOrigen>
+            <CmnaOrigen>Las Condes</CmnaOrigen>
+            <CiudadOrigen>SANTIAGO</CiudadOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>76254347-8</RUTRecep>
+            <CdgIntRecep>000005962164</CdgIntRecep>
+            <RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep>
+            <GiroRecep>Generaci?n de energ?a el?ctrica en otras</GiroRecep>
+            <DirRecep>APOQUINDO 3910 piso 5</DirRecep>
+            <CmnaRecep>LAS CONDES</CmnaRecep>
+            <CiudadRecep>SANTIAGO</CiudadRecep>
+          </Receptor>
+          <Totales>
+            <MntNeto>101</MntNeto>
+            <MntExe>0</MntExe>
+            <TasaIVA>19</TasaIVA>
+            <IVA>19</IVA>
+            <MntTotal>120</MntTotal>
+            <MontoNF>0</MontoNF>
+            <MontoPeriodo>0</MontoPeriodo>
+            <SaldoAnterior>0</SaldoAnterior>
+            <VlrPagar>120</VlrPagar>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>802892</VlrCodigo>
+          </CdgItem>
+          <NmbItem>SEN_[PTD_][Ene16-Dic17][R][V01] 20SA</NmbItem>
+          <QtyItem>1.000000</QtyItem>
+          <UnmdItem>UN</UnmdItem>
+          <PrcItem>101.000000</PrcItem>
+          <MontoItem>101</MontoItem>
+        </Detalle>
+        <Referencia>
+          <NroLinRef>1</NroLinRef>
+          <TpoDocRef>SEN</TpoDocRef>
+          <FolioRef>DE04749A18C22S0229</FolioRef>
+          <FchRef>2018-10-12</FchRef>
+          <RazonRef>SEN_[PTD_][ENE16-DIC17][R</RazonRef>
+        </Referencia>
+        <TED version="1.0">
+          <DD>
+            <RE>76411321-7</RE>
+            <TD>33</TD>
+            <F>10947940</F>
+            <FE>2018-11-14</FE>
+            <RR>76254347-8</RR>
+            <RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR>
+            <MNT>120</MNT>
+            <IT1>SEN_[PTD_][Ene16-Dic17][R][V01] 20SA</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>76411321-7</RE>
+                <RS>COMPANIA GENERAL DE ELECTRICIDAD S.A.</RS>
+                <TD>33</TD>
+                <RNG>
+                  <D>10775201</D>
+                  <H>11075200</H>
+                </RNG>
+                <FA>2018-07-30</FA>
+                <RSAPK>
+                  <M>n47UDdCjDu1QeB1qFMEn4Vjw0jfUtIi5AgAbwwf9ai+d92ajnqC8vFzKpP/LiDYJYSv2UmK6qIf9cZPTNg0NcQ==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">cDTReOb+xgGkb2NIPqpyTAs6dQBXv4YKCedy4cot/DPa4GD4EDioqXM2tLYzu2jrzV65fmfEyCnOpuNTEtMqEQ==</FRMA>
+            </CAF>
+            <TSTED>2018-11-14T14:27:39</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">lM63URID54LupNvtRghfRU/C4jTmwtK+zXarCjej7QIywnUCsV2O/uV7ryaX5Ys3T0AWYAJ1jiE7
+o7g57BPdlQ==</FRMT>
+        </TED>
+        <TmstFirma>2018-11-14T14:27:39</TmstFirma>
+      </Documento>
+      <default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+	<default:SignedInfo>
+		<default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+		<default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+		<default:Reference URI="#T33F10947940">
+			<default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+			<default:DigestValue>p/ed/onHhIqlb0UY8UkBWUiqJ0w=</default:DigestValue>
+		</default:Reference>
+	</default:SignedInfo>
+	<default:SignatureValue>ddBXbWc4n1SOxYGd+UJQZcTqn1ftkZRFDzUIKJrku0v2VJ4Nu+UCxFD6oVRUXrssfDFP/jgHPt9o
+120Sc+0nic86mLUPldtAACmQSgDNtDPfnlAsXirKNPMzthMuyLHFRfRsQT05PJFD7qK+CsaGSW4G
+0940zu5LZaMyMURFPc4=</default:SignatureValue>
+	<default:KeyInfo>
+		<default:KeyValue>
+			<default:RSAKeyValue>
+				<default:Modulus>p6ZLNuebCGQinIkE5xo89mEnrqaVS+7WzI8QsUxidRhuOLRuSS8DmIF28GmOY6XDm7cLahMUEwla
+J0A96rQuzWlbz5WxScaqOvR+BbvMc8jlwYssXgHDdflEQocp37MVA73x5sOgB3Pio26X76VE2NSI
+BER1XAnFXzpr4joX0w0=</default:Modulus>
+				<default:Exponent>AQAB</default:Exponent>
+			</default:RSAKeyValue>
+		</default:KeyValue>
+		<default:X509Data>
+			<default:X509Certificate>MIIGMzCCBRugAwIBAgIKKYIuKwAAAAXPiDANBgkqhkiG9w0BAQUFADCB0jELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQD
+EydFLUNFUlRDSElMRSBDQSBGSVJNQSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEW
+GHNjbGllbnRlc0BlLWNlcnRjaGlsZS5jbDAeFw0xNjExMjIxODIyMDlaFw0xODExMjIxODIyMDla
+MIG2MQswCQYDVQQGEwJDTDEjMCEGA1UECBMaTUVUUk9QT0xJVEFOQSBERSBTQU5USUFHTyAxETAP
+BgNVBAcTCFNhbnRpYWdvMSAwHgYDVQQKExdST0RSSUdPIE1PUkVOTyBUSUxMRVJJQTEKMAgGA1UE
+CwwBKjEgMB4GA1UEAxMXUk9EUklHTyBNT1JFTk8gVElMTEVSSUExHzAdBgkqhkiG9w0BCQEWEFJB
+TU9SRU5PVEBDR0UuQ0wwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKemSzbnmwhkIpyJBOca
+PPZhJ66mlUvu1syPELFMYnUYbji0bkkvA5iBdvBpjmOlw5u3C2oTFBMJWidAPeq0Ls1pW8+VsUnG
+qjr0fgW7zHPI5cGLLF4Bw3X5REKHKd+zFQO98ebDoAdz4qNul++lRNjUiAREdVwJxV86a+I6F9MN
+AgMBAAGjggKnMIICozA9BgkrBgEEAYI3FQcEMDAuBiYrBgEEAYI3FQiC3IMvhZOMZoXVnReC4twn
+ge/sPGGE1YlihYy1EQIBZAIBBDAdBgNVHQ4EFgQUGBXsjZ0r7FKQI1DODe+ndtE/f1wwCwYDVR0P
+BAQDAgTwMB8GA1UdIwQYMBaAFHjhPp/SErN6PI3NMA5Ts0MpB7NVMD4GA1UdHwQ3MDUwM6AxoC+G
+LWh0dHA6Ly9jcmwuZS1jZXJ0Y2hpbGUuY2wvZWNlcnRjaGlsZWNhRkVTLmNybDA6BggrBgEFBQcB
+AQQuMCwwKgYIKwYBBQUHMAGGHmh0dHA6Ly9vY3NwLmVjZXJ0Y2hpbGUuY2wvb2NzcDAjBgNVHREE
+HDAaoBgGCCsGAQQBwQEBoAwWCjE1NDUxNjIxLTIwIwYDVR0SBBwwGqAYBggrBgEEAcEBAqAMFgo5
+NjkyODE4MC01MIIBTQYDVR0gBIIBRDCCAUAwggE8BggrBgEEAcNSBTCCAS4wLQYIKwYBBQUHAgEW
+IWh0dHA6Ly93d3cuZS1jZXJ0Y2hpbGUuY2wvQ1BTLmh0bTCB/AYIKwYBBQUHAgIwge8egewAQwBl
+AHIAdABpAGYAaQBjAGEAZABvACAARgBpAHIAbQBhACAAUwBpAG0AcABsAGUALgAgAEgAYQAgAHMA
+aQBkAG8AIAB2AGEAbABpAGQAYQBkAG8AIABlAG4AIABmAG8AcgBtAGEAIABwAHIAZQBzAGUAbgBj
+AGkAYQBsACwAIABxAHUAZQBkAGEAbgBkAG8AIABoAGEAYgBpAGwAaQB0AGEAZABvACAAZQBsACAA
+QwBlAHIAdABpAGYAaQBjAGEAZABvACAAcABhAHIAYQAgAHUAcwBvACAAdAByAGkAYgB1AHQAYQBy
+AGkAbzANBgkqhkiG9w0BAQUFAAOCAQEAcHsPel2/h1Ne8P0rt/wjsko62k21Cq3fNfHp3YT6yPsO
+qP5RCyjkv3HqVjtty/d6idvIS+edy2IxH4fH9zKe01dZxBh6Jsj02wza+DD8XXIJ6uSoEbKHa6Gp
+yd7Xovd8gmA7XOmBFRO9FGGVszvzia7ckMr91MJzwfxpKc6R0jOgYDsue4c1lqKMjLNaXrDL/Umw
+Rma2dsCPz6VpQmMuUc6fnLTLHizLyEao/jLpuJ0yBN2ckzg4HHT+UuR1kGPcenCqEuUoJEYRWH9X
+c2aEzueKa2OC+93JRGI9y01ibcKKcrbCRRmPSMQxArZa4rhXnMvid1ACLV7iu1GpCRUdzg==</default:X509Certificate>
+		</default:X509Data>
+	</default:KeyInfo>
+</default:Signature>
+    </DTE>

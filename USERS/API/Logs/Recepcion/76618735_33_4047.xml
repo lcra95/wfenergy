@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+  <Documento ID="F4047T33"><Encabezado><IdDoc><TipoDTE>33</TipoDTE><Folio>4047</Folio><FchEmis>2018-12-27</FchEmis></IdDoc><Emisor><RUTEmisor>76618735-8</RUTEmisor><RznSoc>ZALDIVAR  TRANSMISION S.A.</RznSoc><GiroEmis>TRANSMISION DE ENERGIA ELECTRI</GiroEmis><Acteco>351020</Acteco><DirOrigen>AV. APOQUINDO 4001, Depto. P.1301</DirOrigen><CmnaOrigen>LAS CONDES</CmnaOrigen><CiudadOrigen>SANTIAGO</CiudadOrigen></Emisor><Receptor><RUTRecep>76254347-8</RUTRecep><RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep><GiroRecep>GENERACI?N EN OTRAS CENTRALES N.C.P</GiroRecep><DirRecep>AV. APOQUINDO 3910, PISO 5.</DirRecep><CmnaRecep>LAS CONDES</CmnaRecep><CiudadRecep>SANTIAGO</CiudadRecep></Receptor><Totales><MntNeto>23</MntNeto><TasaIVA>19</TasaIVA><IVA>4</IVA><MntTotal>27</MntTotal></Totales></Encabezado><Detalle><NroLinDet>1</NroLinDet><CdgItem><TpoCodigo>INTERNO</TpoCodigo><VlrCodigo/></CdgItem><NmbItem>Informe de Revisi?n Peajes 2017</NmbItem><DscItem>Informe de Revisi?n de Peajes del Sistema de Transmisi?n Nacional A?o 2017 Seg?n Carta DE02910-18</DscItem><QtyItem>1.0000</QtyItem><UnmdItem>UN</UnmdItem><PrcItem>23.0000</PrcItem><MontoItem>23</MontoItem></Detalle><TED version="1.0">
+<DD>
+<RE>76618735-8</RE>
+<TD>33</TD>
+<F>4047</F>
+<FE>2018-12-27</FE>
+<RR>76254347-8</RR>
+<RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR>
+<MNT>27</MNT>
+<IT1>Informe de Revisi?n Peajes 2017</IT1>
+<CAF version="1.0">
+<DA>
+<RE>76618735-8</RE>
+<RS>ZALDIVAR TRANSMISION S.A.</RS>
+<TD>33</TD>
+<RNG><D>3545</D><H>5544</H></RNG>
+<FA>2018-12-11</FA>
+<RSAPK><M>xa1BADWejzJgkjcCDmt6fZ4LWHgJFarz64PdTUjZd+CU7injrT2d2qLpx0wYbeNdbN5Gnp84N53XclWPB+LtsQ==</M><E>Aw==</E></RSAPK>
+<IDK>300</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">Np+ztYEfgyWUjkeDotKwbRTf6GsWayjxblSSFb5aL4o7RIaTfvH2vAY74ql3R7/pDtz8GtpEEKgSkvCnX/zd1Q==</FRMA>
+</CAF>
+<TSTED>2018-12-28T00:31:00</TSTED>
+</DD>
+<FRMT algoritmo="SHA1withRSA">efGDrKEtQJXtWtcg+N/E9K8GD5d6h1IoHjihg00og2teAM0DVmOXtiy/boKek56OZYRMHz70fwRVGb5CcMb2YQ==</FRMT>
+</TED>
+<TmstFirma>2018-12-28T00:31:00</TmstFirma></Documento>
+  <default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<default:SignedInfo>
+<default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<default:Reference URI="#F4047T33">
+<default:Transforms>
+<default:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</default:Transforms>
+<default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<default:DigestValue>q2sUc2Ybrtb6XfAq/ldX3rXWqns=</default:DigestValue>
+</default:Reference>
+</default:SignedInfo>
+<default:SignatureValue>
+EYV0z2VyiaT4X9LmaM5JNUyFErUIVjJ02SA8KBc6VJue5kg8JaIafDWdL9fYlDdt
+9wkn8eg9VVbtNa49xa0064Xqr52FeEUyu8JkzGJN47y/YxqYKTiaaOqm811scAYt
+EzchrlielfWXRqCJaOm352V60bRguvpWp36kgQFagCruMpZiQ0P69dc6yDJ9+Jej
+hyXLViQR2/2cAUyk6fAcN2Vjq2GN+ZaryGoYu3xplzNdTATbgc1EsfnmhTDpnFxV
+iKReKPliFx1Mcz4IEWPX0tqCPg5ekNfChepuVZu2p41Lbqpdf5hoAXnrOvflQzR6
+oVDUcEc6W6alVI0GTvAagw==
+</default:SignatureValue>
+<default:KeyInfo>
+<default:KeyValue>
+<default:RSAKeyValue>
+<default:Modulus>
+ngXjiX+s5j/aLRGdfQ2Flx4BG7Sgd1lz/RJK5GC5BT77R66MaDjRUHy50f02aAsxZoTn2OPmPbQ+EFNVhx5AyaIUVgUKSsAVnPMT6PU82toUyeY5glZZ0xLmlpxRC6nkXxd3nn4DvkJtNu83BlFmqIooPBAaFuJR+IX1EkZfxX18gDZB1eLu5vFgiygUimHJWA4x/kFFfaXuQVoh4Fqo/RMW7g4HQqvmZWtdD60M9ghJIm56A3bRUsIJrnPEHojYCEiE9VXeKP5/ux4HycuVESxfonL7xkS8QrXAO+i8tMPEjOpaZyn9wF4JU7mnA1DP+Fi6IYQgli3St4uaQRPe9w==
+</default:Modulus>
+<default:Exponent>AQAB</default:Exponent>
+</default:RSAKeyValue>
+</default:KeyValue>
+<default:X509Data>
+<default:X509Certificate>
+MIIGSTCCBTGgAwIBAgIIG0xVBNfm8RYwDQYJKoZIhvcNAQELBQAwga8xCzAJBgNV
+BAYTAkNMMRQwEgYDVQQKDAtFLVNpZ24gUy5BLjE5MDcGA1UECwwwVGVybXMgb2Yg
+dXNlIGF0IHd3dy5lc2lnbi1sYS5jb20vYWN1ZXJkb3RlcmNlcm9zMSswKQYDVQQD
+DCJFLVNpZ24gQ2xhc3MgMiBGaXJtYSBUcmlidXRhcmlhIENBMSIwIAYJKoZIhvcN
+AQkBFhNlLXNpZ25AZXNpZ24tbGEuY29tMB4XDTE3MDczMTIyMjYwMFoXDTIwMDcz
+MDIyMjYwMFowgagxCzAJBgNVBAYTAkNMMRQwEgYDVQQKDAtFLVNpZ24gUy5BLjE5
+MDcGA1UECwwwVGVybXMgb2YgdXNlIGF0IHd3dy5lc2lnbi1sYS5jb20vYWN1ZXJk
+b3RlcmNlcm9zMScwJQYDVQQDDB5DQVJMT1MgTUlHVUVMIFNFUFVMVkVEQSBDT05D
+SEExHzAdBgkqhkiG9w0BCQEWEGFxdWljc0B5YWhvby5jb20wggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQCeBeOJf6zmP9otEZ19DYWXHgEbtKB3WXP9Ekrk
+YLkFPvtHroxoONFQfLnR/TZoCzFmhOfY4+Y9tD4QU1WHHkDJohRWBQpKwBWc8xPo
+9Tza2hTJ5jmCVlnTEuaWnFELqeRfF3eefgO+Qm027zcGUWaoiig8EBoW4lH4hfUS
+Rl/FfXyANkHV4u7m8WCLKBSKYclYDjH+QUV9pe5BWiHgWqj9ExbuDgdCq+Zla10P
+rQz2CEkibnoDdtFSwgmuc8QeiNgISIT1Vd4o/n+7HgfJy5URLF+icvvGRLxCtcA7
+6Ly0w8SM6lpnKf3AXglTuacDUM/4WLohhCCWLdK3i5pBE973AgMBAAGjggJsMIIC
+aDCBgAYIKwYBBQUHAQEEdDByMEoGCCsGAQUFBzAChj5odHRwOi8vcGtpLmVzaWdu
+LWxhLmNvbS9jYWNlcnRzL3BraUNsYXNzMkZpcm1hVHJpYnV0YXJpYUNBLmNydDAk
+BggrBgEFBQcwAYYYaHR0cDovL29jc3AuZXNpZ24tbGEuY29tMB0GA1UdDgQWBBR2
+lAB0QRHZ3TtlhvuUT/kHPC0S8DAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFPlK
++sLHbsLnEpxXRTWEGm0o6UqkMIHIBgNVHSAEgcAwgb0wgboGDCsGAQQBgspqAQQB
+AjCBqTB+BggrBgEFBQcCAjByHnAAQwBlAHIAdABpAGYAaQBjAGEAZABvACAAcABh
+AHIAYQAgAHUAcwBvACAAVAByAGkAYgB1AHQAYQByAGkAbwAsACAAQwBvAG0AZQBy
+AGMAaQBvACwAIABQAGEAZwBvAHMAIAB5ACAATwB0AHIAbwBzMCcGCCsGAQUFBwIB
+FhtodHRwOi8vd3d3LmVzaWduLWxhLmNvbS9jcHMwUQYDVR0fBEowSDBGoESgQoZA
+aHR0cDovL3BraS5lc2lnbi1sYS5jb20vY3JsL3BraUNsYXNzMkZpcm1hVHJpYnV0
+YXJpYS9lbmR1c2VyLmNybDAOBgNVHQ8BAf8EBAMCBaAwHQYDVR0lBBYwFAYIKwYB
+BQUHAwIGCCsGAQUFBwMEMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYKMTI0NjAw
+NTItOTAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwWCjk5NTUxNzQwLUswDQYJKoZI
+hvcNAQELBQADggEBAHWbfv5AsDmRtRGaDCGX1mWqI5SRIcv1sTgoNEBsreSVLe+s
+FKJ6OnKs0GLBt6IjsAfXRObhQDWgNkm6CnovKpc7OreBNLVgGAhigtayKglKd+yN
++AD12a3chwHF+lYx/mPeQm/7EFuiaasNLlEFkZThvnG/GStLuCXJBbUsNZ+mQXkn
+Y+mzXDcxcuMLJih8hx/A68//xjZ0BvGtLSci5LcSXCopzV7UEma/Gb5gxKtH759c
+IgeASSyUqMjSC/XPwIKGUyU8NaL4weZhkolzkCxgH+rnY3ySjBy2UIxbNYcFxydq
+7XGaovE5hwbkbJcexoh4Bh2/AEL2yampnkQb8bE=
+</default:X509Certificate>
+</default:X509Data>
+</default:KeyInfo>
+</default:Signature>
+</DTE>

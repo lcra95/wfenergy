@@ -16,10 +16,13 @@ if($row=mysql_fetch_array($sql))
 $if=proxima_factura();	
 }
 
-
-
+$qw=mysql_query("SELECT *  FROM borrador_referencia WHERE id_factura= $fac");
+$datqw=mysql_fetch_array($qw);
 
 mysql_query("INSERT INTO factura VALUES ('$if', '$row[1]', '$observacion', '$date', '$fecha', '$row[5]', '$row[6]', '$row[7]', '$dg', '$rg')");
+mysql_query("INSERT INTO factura_referencia VALUES (NULL,'$datqw[1]','$if','$datqw[3]','$datqw[4]','$datqw[5]')");
+
+mysql_query("DELETE FROM borrador_referencia WHERE id_factura = $fac");
 mysql_query("DELETE FROM borrador WHERE id = $fac");
 $sql2=mysql_query("SELECT * FROM empresa WHERE id LIKE '$row[5]'");
 $datos=mysql_fetch_array($sql2);
@@ -50,6 +53,9 @@ $array = explode(',' , $giro);
 foreach($array as $key ){
     $gir= $key;
 }
+$nsql=mysql_query("SELECT * FROM factura_referencia WHERE id_factura = $fac");
+$dnsql=mysql_fetch_array($nsql);
+
 list($totext,$totex,$ivat,$total,$iva)=ultimate_montos($fac);
 list($f,$desde,$hasta,$caf,$tf)=folio_activo($tip);
     
@@ -106,7 +112,17 @@ list($f,$desde,$hasta,$caf,$tf)=folio_activo($tip);
             </Encabezado>';
     $detalles=conceptosxml($fac);
     $descuentos=descuentos($fac);
-    $referencia='';
+   if($dnsql[1]=="" ){
+    $referencia="";
+   }else{
+    $referencia='<Referencia>
+    <NroLinRef>1</NroLinRef>
+    <TpoDocRef>'.$dnsql[1].'</TpoDocRef>
+    <FolioRef>'.$dnsql[3].'</FolioRef>
+    <FchRef>'.$dnsql[4].'</FchRef>
+    <RazonRef>'.$dnsql[5].'</RazonRef>
+</Referencia>';
+   }
     $doc=$ini.$encabezado.$detalles.$descuentos.$referencia.$obser.$fin;
     return $doc;
 

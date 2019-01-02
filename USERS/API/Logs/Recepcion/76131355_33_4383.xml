@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+  <!-- O Win32 Chrome 71 central VERSION: v20170209 -->
+<Documento ID="MiPE76131355-14944">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>4383</Folio>
+        <FchEmis>2018-12-23</FchEmis>
+        <TpoTranCompra>1</TpoTranCompra>
+        <TpoTranVenta>1</TpoTranVenta>
+        <FmaPago>2</FmaPago>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>76131355-K</RUTEmisor>
+        <RznSoc>S.W. OPERATIONS S.A.</RznSoc>
+        <GiroEmis>SERV.DE OPERACION GESTION MANT.Y ADMINISTRACION A EMPRESAS GENERADORAS</GiroEmis>
+        <Telefono>2 25891900</Telefono>
+        <CorreoEmisor>FORELLANA@SWC.CL</CorreoEmisor>
+        <Acteco>702000</Acteco>
+        <CdgSIISucur>076318224</CdgSIISucur>
+        <DirOrigen>AV. ALONSO DE CORDOVA 3827  801</DirOrigen>
+        <CmnaOrigen>VITACURA</CmnaOrigen>
+        <CiudadOrigen>SANTIAGO</CiudadOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>76254347-8</RUTRecep>
+        <RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep>
+        <GiroRecep>GENERACION DE ENERGIA ELECTRICA EN OTRAS</GiroRecep>
+        <DirRecep>APOQUINDO 3910 PISO 5</DirRecep>
+        <CmnaRecep>LAS CONDES</CmnaRecep>
+        <CiudadRecep>SANTIAGO</CiudadRecep>
+      </Receptor>
+      <Totales>
+        <MntNeto>827</MntNeto>
+        <TasaIVA>19.00</TasaIVA>
+        <IVA>157</IVA>
+        <MntTotal>984</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <NmbItem>SEN_[SSCC][Nov18][L][V01]</NmbItem>
+      <QtyItem>1.00</QtyItem>
+      <PrcItem>827.00</PrcItem>
+      <MontoItem>827</MontoItem>
+    </Detalle>
+    <Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>802</TpoDocRef>
+      <FolioRef>DE05969A18C57S0293</FolioRef>
+      <FchRef>2018-12-23</FchRef>
+      <RazonRef>SEN_[SSCC][Nov18][L][V01]</RazonRef>
+    </Referencia>
+<TED version="1.0"><DD><RE>76131355-K</RE><TD>33</TD><F>4383</F><FE>2018-12-23</FE><RR>76254347-8</RR><RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR><MNT>984</MNT><IT1>SEN_[SSCC][Nov18][L][V01]</IT1><CAF version="1.0"><DA><RE>76131355-K</RE><RS>S.W. OPERATIONS S.A.</RS><TD>33</TD><RNG><D>4383</D><H>4383</H></RNG><FA>2018-12-23</FA><RSAPK><M>2OE535L3OvCbOXH7e6EG/T1jF3P3lqMaQkCrFCYLaU3CeM52k8hCmjKR4IFb9lAd/Hvf1vbTCKYJ9h2lC7eUtQ==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">Yhd214Jot8AmPvQkGEQ/C/fmvW/o0+PEzHAChMc1RR+eZnz77lNDL8hmNPF/zY8fF3tB1A4R1tP+0BXKS86RuQ==</FRMA></CAF><TSTED>2018-12-23T21:46:18</TSTED></DD><FRMT algoritmo="SHA1withRSA">jlKtk2DkmVN/EPG9wWgauVQONX1XRlgwEGb4EnFmXlo4FiVaH1/aQcNLHwoy7LcAbPDofriUNE72aaDsdxLuFw==</FRMT></TED>
+    <TmstFirma>2018-12-23T21:46:18</TmstFirma>
+
+  </Documento>
+<default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<default:SignedInfo>
+<default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<default:Reference URI="#MiPE76131355-14944">
+<default:Transforms>
+<default:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</default:Transforms>
+<default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<default:DigestValue>pkYVeFhyPylWsAZzQEPVycPbqiU=</default:DigestValue>
+</default:Reference>
+</default:SignedInfo>
+<default:SignatureValue>
+VdPIwvJyIO8tb0Pt6A6SYq6uWLXqeyjxqoFrf4sx9x32anvYhr0M3CWit+Umew+dc9eQx93eUmE6
+kOrnpoTiV+xMLXVmgPPDoezM3NdPo4lMr15NM3dzECgHSnvwkMsT600LuSU5yX0edQ8duhJ8uWAN
+2go2Ufm1UV7GUMlbxNM=
+</default:SignatureValue>
+<default:KeyInfo>
+<default:KeyValue>
+<default:RSAKeyValue>
+<default:Modulus>
+rTzuJ06QYRM/fi75wwYR3YJBlO2Wd7xbG9UjDd8fbjUMRF03ltlUHrT5tlhHW/7vN7cLMp+mE7UX
+JVtYLfP5U4c+S7A9jneMLlpP33OoObFxcxLdyy24M0jsBZIDk9Grp7QsrHGHrWIUlw6gOV703c9z
+EEYspKDsbYh8eboLuHs=
+</default:Modulus>
+<default:Exponent>AQAB</default:Exponent>
+</default:RSAKeyValue>
+</default:KeyValue>
+<default:X509Data>
+<default:X509Certificate>
+MIIGKzCCBROgAwIBAgIKI8hyHwAAAAdPuzANBgkqhkiG9w0BAQUFADCB0jELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQD
+EydFLUNFUlRDSElMRSBDQSBGSVJNQSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEW
+GHNjbGllbnRlc0BlLWNlcnRjaGlsZS5jbDAeFw0xNzAzMTMxMjM5MjdaFw0xOTAzMTMxMjM5Mjda
+MIGuMQswCQYDVQQGEwJDTDEjMCEGA1UECBMaTUVUUk9QT0xJVEFOQSBERSBTQU5USUFHTyAxETAP
+BgNVBAcTCFNhbnRpYWdvMRswGQYDVQQKExJTLlcgT1BFUkFUSU9OUyBTLkExCjAIBgNVBAsMASox
+ITAfBgNVBAMTGFJPRFJJR08gIERBTlVTIExBVUNJUklDQTEbMBkGCSqGSIb3DQEJARYMVlJJT1NA
+U1dDLkNMMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCtPO4nTpBhEz9+LvnDBhHdgkGU7ZZ3
+vFsb1SMN3x9uNQxEXTeW2VQetPm2WEdb/u83twsyn6YTtRclW1gt8/lThz5LsD2Od4wuWk/fc6g5
+sXFzEt3LLbgzSOwFkgOT0auntCyscYetYhSXDqA5XvTdz3MQRiykoOxtiHx5ugu4ewIDAQABo4IC
+pzCCAqMwPQYJKwYBBAGCNxUHBDAwLgYmKwYBBAGCNxUIgtyDL4WTjGaF1Z0XguLcJ4Hv7Dxhg6rn
+Q4fTxg4CAWQCAQQwHQYDVR0OBBYEFLCVp3tKYPlSvoK4ErBUm4pEHiBJMAsGA1UdDwQEAwIE8DAf
+BgNVHSMEGDAWgBR44T6f0hKzejyNzTAOU7NDKQezVTA+BgNVHR8ENzA1MDOgMaAvhi1odHRwOi8v
+Y3JsLmUtY2VydGNoaWxlLmNsL2VjZXJ0Y2hpbGVjYUZFUy5jcmwwOgYIKwYBBQUHAQEELjAsMCoG
+CCsGAQUFBzABhh5odHRwOi8vb2NzcC5lY2VydGNoaWxlLmNsL29jc3AwIwYDVR0RBBwwGqAYBggr
+BgEEAcEBAaAMFgowOTA5NTA5MC04MCMGA1UdEgQcMBqgGAYIKwYBBAHBAQKgDBYKOTY5MjgxODAt
+NTCCAU0GA1UdIASCAUQwggFAMIIBPAYIKwYBBAHDUgUwggEuMC0GCCsGAQUFBwIBFiFodHRwOi8v
+d3d3LmUtY2VydGNoaWxlLmNsL0NQUy5odG0wgfwGCCsGAQUFBwICMIHvHoHsAEMAZQByAHQAaQBm
+AGkAYwBhAGQAbwAgAEYAaQByAG0AYQAgAFMAaQBtAHAAbABlAC4AIABIAGEAIABzAGkAZABvACAA
+dgBhAGwAaQBkAGEAZABvACAAZQBuACAAZgBvAHIAbQBhACAAcAByAGUAcwBlAG4AYwBpAGEAbAAs
+ACAAcQB1AGUAZABhAG4AZABvACAAaABhAGIAaQBsAGkAdABhAGQAbwAgAGUAbAAgAEMAZQByAHQA
+aQBmAGkAYwBhAGQAbwAgAHAAYQByAGEAIAB1AHMAbwAgAHQAcgBpAGIAdQB0AGEAcgBpAG8wDQYJ
+KoZIhvcNAQEFBQADggEBAEeqMORwaaNeBOmWMCqzEjB1L7TuC2TB0tkNI0uCHjtEyW6cO3/4Whg7
+Sdyi6d4PZTFdyXN1bdmLCb1jQggS3XZ+W35ZikzpjHjgCph+5siXxq1bqsEAfl37bgrx/ng1H4b9
+K+xVx/mBQxFeBpltZGIxpdVc+eX40iNpUDnDAx3fycyfIVUSevcPr58mtC1WhbK5ncpq9453L1jS
+yigD3G1u0BVud6VJ6nlMd4pgKK++5x7JhfVv/V9nEmaEGfbjsBJPobwvK9lBzwCZDGOIQfMhQCvF
+yZb3n9aONN//4uAka79tTSDH6NPh7SSx/rNGrBV+c3Sew9Q/vwhYN5Nq9Zs=
+</default:X509Certificate>
+</default:X509Data>
+</default:KeyInfo>
+</default:Signature></DTE>

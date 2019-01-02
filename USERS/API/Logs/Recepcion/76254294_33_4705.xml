@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+			<Documento ID="T33F4705">
+				<Encabezado>
+					<IdDoc>
+						<TipoDTE>33</TipoDTE>
+						<Folio>4705</Folio>
+						<FchEmis>2018-11-12</FchEmis>
+						<TpoTranVenta>1</TpoTranVenta>
+						<FmaPago>2</FmaPago>
+						<FchVenc>2018-12-12</FchVenc>
+					</IdDoc>
+					<Emisor>
+						<RUTEmisor>76254294-3</RUTEmisor>
+						<RznSoc>Bio Energ?a Las Pampas SpA</RznSoc>
+						<GiroEmis>Generaci?n, Transmisi?n y Distribuci?n de Energ?a El?ctrica</GiroEmis>
+						<Acteco>401019</Acteco>
+						<Acteco>401020</Acteco>
+						<Acteco>401030</Acteco>
+						<Sucursal>Local</Sucursal>
+						<DirOrigen>Local</DirOrigen>
+						<CmnaOrigen>Las Condes</CmnaOrigen>
+						<CiudadOrigen>Santiago</CiudadOrigen>
+						<CdgVendedor>Vendedor</CdgVendedor>
+					</Emisor>
+					<Receptor>
+						<RUTRecep>76254347-8</RUTRecep>
+						<CdgIntRecep>76.254.347-8</CdgIntRecep>
+						<RznSocRecep>STERICYCLE URBANO SPA</RznSocRecep>
+						<GiroRecep>Servicios de Vertederos</GiroRecep>
+						<DirRecep>AV. APOQUINDO 3910  PISO 5.</DirRecep>
+						<CmnaRecep>Vi?a del Mar</CmnaRecep>
+						<CiudadRecep>SANTIAGO</CiudadRecep>
+						<DirPostal>?lvarez N 646, Oficina 501, Vi?a del Mar</DirPostal>
+						<CmnaPostal>Vi?a del Mar</CmnaPostal>
+						<CiudadPostal>Vi?a del Mar</CiudadPostal>
+					</Receptor>
+
+					<Totales>
+						<MntNeto>1202</MntNeto>
+						<TasaIVA>19.00</TasaIVA>
+						<IVA>228</IVA>
+						<MntTotal>1430</MntTotal>
+					</Totales>
+				</Encabezado>
+				<Detalle>
+					<NroLinDet>1</NroLinDet>
+					<CdgItem>
+						<TpoCodigo>INT1</TpoCodigo>
+						<VlrCodigo>1007</VlrCodigo>
+					</CdgItem>
+					<NmbItem>Peaje (STT)</NmbItem>
+					<QtyItem>1.000000</QtyItem>
+					<UnmdItem>UN</UnmdItem>
+					<PrcItem>1202.000000</PrcItem>
+					<MontoItem>1202</MontoItem>
+				</Detalle>
+				<Referencia>
+					<NroLinRef>1</NroLinRef>
+					<TpoDocRef>SEN</TpoDocRef>
+					<FolioRef>DE02961A18C55S0110</FolioRef>
+					<FchRef>2018-07-12</FchRef>
+					<RazonRef>SEN_[SSCC][Abr18][R][V01]</RazonRef>
+				</Referencia>
+				<TED version="1.0"><DD><RE>76254294-3</RE><TD>33</TD><F>4705</F><FE>2018-11-12</FE><RR>76254347-8</RR><RSR>STERICYCLE URBANO SPA</RSR><MNT>1430</MNT><IT1>Peaje (STT)</IT1><CAF version="1.0">
+<DA>
+<RE>76254294-3</RE>
+<RS>BIO ENERGIA LAS PAMPAS SPA</RS>
+<TD>33</TD>
+<RNG><D>4580</D><H>4729</H></RNG>
+<FA>2018-10-23</FA>
+<RSAPK><M>lkIVoCL4yMOd9aNTlDAfPCQ+djeoA+Zmeb3SbUeUShuEvSxw1B/McFwCCOnpmLLm6Dk982gcPgEzfXkcbZV0Kw==</M><E>Aw==</E></RSAPK>
+<IDK>300</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">N4mQOHIZ9Sc32EMtJqQgrpTjy5rr/0CZCgyMZhs0iuvP0sSIiISS8BK5TVMl41eml1yIjiDppmHq2yX82jm8xg==</FRMA>
+</CAF><TSTED>2018-11-12T22:03:06</TSTED></DD><FRMT algoritmo="SHA1withRSA">UuV1HAnqWLiyXDyOaq4ppNaU3zjZk8tfjFWKBZLD6O5h6cGxyp/RW/RbSjBnoz1R5Ae4JHD1fiFP5H+vRDJkdQ==</FRMT></TED>
+				<TmstFirma>2018-11-12T22:02:14</TmstFirma>
+			</Documento><default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><default:SignedInfo><default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><default:Reference URI="#T33F4705"><default:Transforms><default:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></default:Transforms><default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><default:DigestValue>yaJhopX3VyeqotwYQ5npHZ6UKaE=</default:DigestValue></default:Reference></default:SignedInfo><default:SignatureValue>
+MsNAZRcubpwGTRFmMqwB3IybtYGwc5tzQ6LLZMp78EMx8linCqqwUqNB0fhy655T
+6YqhlIdZpKPZxsqnED3Kuj8zXGH3vdVco9X0G1ZUxoIBBve3KkC1iMUf2QOdgHuD
+02wSo5xcagliJt6Rc2v3SJCERXXJe94HU7DzDkfZklw=
+</default:SignatureValue><default:KeyInfo><default:KeyValue><default:RSAKeyValue><default:Modulus>
+txIac2ji+E7XWZeAlETin82/NCsfZAZMQ7Ym1YLfyf1TgdIt4KHwsn1xTmXPa79B
+9VGreDZ2BIU3XIqKZJsEJ9Q9FD/fGgMq2FxP1ZlV7K9kwCU8Ynq/KaKcV6Jy0yEM
+7yeaoDetFlg34PiZjxT3GC/BHosam1UoVY+D7hvid+c=
+</default:Modulus><default:Exponent>AQAB</default:Exponent></default:RSAKeyValue></default:KeyValue><default:X509Data><default:X509Certificate>
+MIIGbTCCBVWgAwIBAgIKE9f/iwAAAAlomzANBgkqhkiG9w0BAQUFADCB0jELMAkG
+A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
+EwhTYW50aWFnbzEUMBIGA1UEChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9y
+aWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQDEydFLUNFUlRDSElMRSBDQSBGSVJN
+QSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEWGHNjbGllbnRlc0Bl
+LWNlcnRjaGlsZS5jbDAeFw0xNzExMjQyMDQxMzdaFw0xODExMjQyMDQxMzdaMIHw
+MQswCQYDVQQGEwJDTDErMCkGA1UECAwiUmVnae+/vW4gTWV0cm9wb2xpdGFuYSBk
+ZSBTYW50aWFnbzERMA8GA1UEBxMIU2FudGlhZ28xHTAbBgNVBAoTFERFRk9OVEFO
+QSBDSElMRSBTLkEuMS0wKwYDVQQLDCRTZXJ2aWNpb3MgSW50ZWdyYWxlcyBkZSBJ
+bmZvcm3DoXRpY2ExIDAeBgNVBAMMF0RJRUdPIEdPTlrvv71MRVogR0FNQk9BMTEw
+LwYJKoZIhvcNAQkBFiJjZXJ0aWZpY2Fkb3NAZmVsbWFpbC5kZWZvbnRhbmEuY29t
+MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC3EhpzaOL4TtdZl4CUROKfzb80
+Kx9kBkxDtibVgt/J/VOB0i3gofCyfXFOZc9rv0H1Uat4NnYEhTdciopkmwQn1D0U
+P98aAyrYXE/VmVXsr2TAJTxier8popxXonLTIQzvJ5qgN60WWDfg+JmPFPcYL8Ee
+ixqbVShVj4PuG+J35wIDAQABo4ICpzCCAqMwPQYJKwYBBAGCNxUHBDAwLgYmKwYB
+BAGCNxUIgtyDL4WTjGaF1Z0XguLcJ4Hv7Dxhg+a1E4OjvSECAWQCAQQwHQYDVR0O
+BBYEFKdYRlfkVwlOXCVH+eKTokQQu5rrMAsGA1UdDwQEAwIE8DAfBgNVHSMEGDAW
+gBR44T6f0hKzejyNzTAOU7NDKQezVTA+BgNVHR8ENzA1MDOgMaAvhi1odHRwOi8v
+Y3JsLmUtY2VydGNoaWxlLmNsL2VjZXJ0Y2hpbGVjYUZFUy5jcmwwOgYIKwYBBQUH
+AQEELjAsMCoGCCsGAQUFBzABhh5odHRwOi8vb2NzcC5lY2VydGNoaWxlLmNsL29j
+c3AwIwYDVR0RBBwwGqAYBggrBgEEAcEBAaAMFgoxMDgyMzA4MS05MCMGA1UdEgQc
+MBqgGAYIKwYBBAHBAQKgDBYKOTY5MjgxODAtNTCCAU0GA1UdIASCAUQwggFAMIIB
+PAYIKwYBBAHDUgUwggEuMC0GCCsGAQUFBwIBFiFodHRwOi8vd3d3LmUtY2VydGNo
+aWxlLmNsL0NQUy5odG0wgfwGCCsGAQUFBwICMIHvHoHsAEMAZQByAHQAaQBmAGkA
+YwBhAGQAbwAgAEYAaQByAG0AYQAgAFMAaQBtAHAAbABlAC4AIABIAGEAIABzAGkA
+ZABvACAAdgBhAGwAaQBkAGEAZABvACAAZQBuACAAZgBvAHIAbQBhACAAcAByAGUA
+cwBlAG4AYwBpAGEAbAAsACAAcQB1AGUAZABhAG4AZABvACAAaABhAGIAaQBsAGkA
+dABhAGQAbwAgAGUAbAAgAEMAZQByAHQAaQBmAGkAYwBhAGQAbwAgAHAAYQByAGEA
+IAB1AHMAbwAgAHQAcgBpAGIAdQB0AGEAcgBpAG8wDQYJKoZIhvcNAQEFBQADggEB
+AIrfx4kzUIN9hUCGHGcPOPZVY2P96AIxh1tmSitkSo6qwsv80rITHQwUSIPqW5Z4
+rP8WhIiH65de2sEy1CKlv/Y3XhLug6FdsqPlzLKv2A6zMkhvKFpzBqkUFh5lt6vs
+kqJV/F5VUFoD04GyW1qAAecaFTNJP1SmOkwXDTErO1m7kDZtBO5tov3X0J2fAzzl
+LifBVI+CUPMaKW/PSV0UNzaA/srQmfVPmBUrkmdfzPaw/MjwmVnVakdwPS4v1kLu
+BScA6GoyYJFjuqVjO08nJXCqUdzWCb0psBLvQhnB5aCeAmrHbFnm27ahY1p+SkX4
+1QXfSxrwzPqbNBE88ih7AUM=
+</default:X509Certificate></default:X509Data></default:KeyInfo></default:Signature>
+		</DTE>

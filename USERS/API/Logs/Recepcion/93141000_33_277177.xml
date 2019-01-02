@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+  <Documento ID="F277177T33"><Encabezado><IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>277177</Folio>
+        <FchEmis>2018-11-30</FchEmis>
+        <FchVenc>2018-11-30</FchVenc>
+      </IdDoc><Emisor>
+        <RUTEmisor>93141000-8</RUTEmisor>
+        <RznSoc>LUREYE GENERACION S.A.</RznSoc>
+        <GiroEmis>FABRICACION DE MOTORES, GENERADORES Y TRANSFORMADORES ELECTRICOS</GiroEmis>
+        <Acteco>311010</Acteco>
+        <DirOrigen>AV. VICUNA MACKENNA 1503</DirOrigen>
+        <CmnaOrigen>SANTIAGO</CmnaOrigen>
+        <CiudadOrigen>SANTIAGO</CiudadOrigen>
+        <CdgVendedor>10832540</CdgVendedor>
+      </Emisor><Receptor><RUTRecep>76254347-8</RUTRecep><RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep><GiroRecep>GENERACION EN OTRAS CENTRALES</GiroRecep><Contacto>Fono:</Contacto><DirRecep>AV. APOQUINDO 3910 PISO 5</DirRecep><CmnaRecep>LAS CONDES</CmnaRecep><CiudadRecep>SANTIAGO</CiudadRecep></Receptor><Totales>
+        <MntNeto>321490</MntNeto>
+        <MntExe>0</MntExe>
+        <TasaIVA>19</TasaIVA>
+        <IVA>61083</IVA>
+        <MntTotal>382573</MntTotal>
+      </Totales></Encabezado><Detalle>
+      <NroLinDet>1</NroLinDet>
+      <CdgItem>
+         <TpoCodigo>INT1</TpoCodigo>
+         <VlrCodigo>OT</VlrCodigo>
+      </CdgItem>
+      <NmbItem>REPARACIONES Y MANTENCIONES</NmbItem>
+      <DscItem>Servicio Tecnico Seg?n el siguiente detalle|Orden Nro. : WR 231984|Equipo : 00696651  G.E. J44K SDMO|Num Serie : 05152686|</DscItem>
+      <QtyItem>1</QtyItem>
+      <PrcItem>321490</PrcItem>
+      <MontoItem>321490</MontoItem>
+    </Detalle><Referencia>
+      <NroLinRef>1</NroLinRef>
+      <TpoDocRef>801</TpoDocRef>
+      <FolioRef>TRANSFERENCIA</FolioRef>
+      <FchRef>2018-11-30</FchRef>
+    </Referencia><TED version="1.0">
+<DD>
+<RE>93141000-8</RE>
+<TD>33</TD>
+<F>277177</F>
+<FE>2018-11-30</FE>
+<RR>76254347-8</RR>
+<RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR>
+<MNT>382573</MNT>
+<IT1>REPARACIONES Y MANTENCIONES</IT1>
+<CAF version="1.0">
+<DA>
+<RE>93141000-8</RE>
+<RS>LUREYE GENERACION S A</RS>
+<TD>33</TD>
+<RNG><D>276001</D><H>278000</H></RNG>
+<FA>2018-08-21</FA>
+<RSAPK><M>7ELmyahMbsTg3VxfUfB8xfwCYfIaqsXhGG2jQGm2rtNC0oO94nNvNQpLKPSKEfhMV4eBD/X/t2niGufNaoJi8Q==</M><E>Aw==</E></RSAPK>
+<IDK>300</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">eduxSKduKoW4pDOVgoTB0JC3uMqmdt9RCpxQCAwnC6EihPeF3sIPqiUKNjJy93BpnXycJQZOYB5L33nrKv6hBg==</FRMA>
+</CAF>
+<TSTED>2018-11-30T12:07:42</TSTED>
+</DD>
+<FRMT algoritmo="SHA1withRSA">JJViMnOIwXGq1o20Bik+fH99BoojmJMpC0YMDWlk3JrjnB/+OYI72PxkiynknwIh4KEGflyaGpNXYItR/0E1rg==</FRMT>
+</TED>
+<TmstFirma>2018-11-30T12:07:42</TmstFirma></Documento>
+  <default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<default:SignedInfo>
+<default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<default:Reference URI="#F277177T33">
+<default:Transforms>
+<default:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</default:Transforms>
+<default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<default:DigestValue>1KCCrbb16+rCR+hDtjmdN63JzSY=</default:DigestValue>
+</default:Reference>
+</default:SignedInfo>
+<default:SignatureValue>
+BqTlonosygmBtoPBOJ8M5Ddaqfy9pMLV3we1aAfiI9J5IqXuTFaf8NCCH6FSYoCJ
+Vuy2ZNBPFLfuGFekdjnXgneWvSDdRwycBiNvBlYZm57aIsifGZHn2NZBnh06/taQ
+KbU6FHzLLpAh4cH92o2fF01OKQX1Wq280pxRCZik9zo=
+</default:SignatureValue>
+<default:KeyInfo>
+<default:KeyValue>
+<default:RSAKeyValue>
+<default:Modulus>
+scT1yES5ERtHPt5JxGfZn9gYSg+iBDvgj9HAozkJS4MJI0Fxxw3I6ixjxAbKhWKWimSohdbpK9ACf4SrZafbRykUPv82j9+2LgCrWF2aiTwesV5sov6VACTdJb+VcfHlRB6/s/LEsgBAEILLl1qhbx+wW8PvjjFO7O9iSTotyMs=
+</default:Modulus>
+<default:Exponent>AQAB</default:Exponent>
+</default:RSAKeyValue>
+</default:KeyValue>
+<default:X509Data>
+<default:X509Certificate>
+MIIGUzCCBTugAwIBAgIKcFcp6wAAAAlJBTANBgkqhkiG9w0BAQUFADCB0jELMAkG
+A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
+EwhTYW50aWFnbzEUMBIGA1UEChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9y
+aWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQDEydFLUNFUlRDSElMRSBDQSBGSVJN
+QSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEWGHNjbGllbnRlc0Bl
+LWNlcnRjaGlsZS5jbDAeFw0xNzExMDgxNzQ5MDVaFw0xOTExMDgxNzQ5MDVaMIHW
+MQswCQYDVQQGEwJDTDEjMCEGA1UECBMaTUVUUk9QT0xJVEFOQSBERSBTQU5USUFH
+TyAxETAPBgNVBAcTCFNhbnRpYWdvMS8wLQYDVQQKDCZMdXJleWUgQWRtaW5pc3Ry
+YWNpw7NuIHkgR2VzdGnDs24gUy5BLjEVMBMGA1UECxMMQ29udGFiaWxpZGFkMSQw
+IgYDVQQDExtKdWFuIEFsYmVydG8gRXNjb2JhciBIYWJhY2gxITAfBgkqhkiG9w0B
+CQEWEmFlc2NvYmFyQGx1cmV5ZS5jbDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkC
+gYEAscT1yES5ERtHPt5JxGfZn9gYSg+iBDvgj9HAozkJS4MJI0Fxxw3I6ixjxAbK
+hWKWimSohdbpK9ACf4SrZafbRykUPv82j9+2LgCrWF2aiTwesV5sov6VACTdJb+V
+cfHlRB6/s/LEsgBAEILLl1qhbx+wW8PvjjFO7O9iSTotyMsCAwEAAaOCAqcwggKj
+MD0GCSsGAQQBgjcVBwQwMC4GJisGAQQBgjcVCILcgy+Fk4xmhdWdF4Li3CeB7+w8
+YYOq50OH08YOAgFkAgEEMB0GA1UdDgQWBBRe619RQoZM61SGWgr+8igCtVuEdjAL
+BgNVHQ8EBAMCBPAwHwYDVR0jBBgwFoAUeOE+n9ISs3o8jc0wDlOzQykHs1UwPgYD
+VR0fBDcwNTAzoDGgL4YtaHR0cDovL2NybC5lLWNlcnRjaGlsZS5jbC9lY2VydGNo
+aWxlY2FGRVMuY3JsMDoGCCsGAQUFBwEBBC4wLDAqBggrBgEFBQcwAYYeaHR0cDov
+L29jc3AuZWNlcnRjaGlsZS5jbC9vY3NwMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGg
+DBYKMTE4MTA4NDktMzAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwWCjk2OTI4MTgw
+LTUwggFNBgNVHSAEggFEMIIBQDCCATwGCCsGAQQBw1IFMIIBLjAtBggrBgEFBQcC
+ARYhaHR0cDovL3d3dy5lLWNlcnRjaGlsZS5jbC9DUFMuaHRtMIH8BggrBgEFBQcC
+AjCB7x6B7ABDAGUAcgB0AGkAZgBpAGMAYQBkAG8AIABGAGkAcgBtAGEAIABTAGkA
+bQBwAGwAZQAuACAASABhACAAcwBpAGQAbwAgAHYAYQBsAGkAZABhAGQAbwAgAGUA
+bgAgAGYAbwByAG0AYQAgAHAAcgBlAHMAZQBuAGMAaQBhAGwALAAgAHEAdQBlAGQA
+YQBuAGQAbwAgAGgAYQBiAGkAbABpAHQAYQBkAG8AIABlAGwAIABDAGUAcgB0AGkA
+ZgBpAGMAYQBkAG8AIABwAGEAcgBhACAAdQBzAG8AIAB0AHIAaQBiAHUAdABhAHIA
+aQBvMA0GCSqGSIb3DQEBBQUAA4IBAQC/85fnmbTfNpjTZZRWFG7mqv1O2pHvEbkY
+W3Kb7qBTlKjiljf+rTn0D83TmnIKeBxcXNNfDJBho2tia9K5rvEO/RKVz4zOdOKS
+pzqO7V9OAS/f1wMwpYY2ci/uVungwvsvZcfYGItfoTjrUpcTKpFl31sZmO9BHIoa
+r3Llyu4z4+v7d7ReVojOYuohwxKHZfHdd2M4Sdf8OLww7yFDxIcTJuuc5KQYvV8A
+d0J7FYAJqHre4UtStBqWoGVKI/Z7rGWdOLWWdE/G8TkRm4yCu7qzY5FOq/qteSaf
+vtVyORsEDAP8+u5x9GcWCW4YXOBv1eJ04u0Eubg6PPRT9IRN69GV
+</default:X509Certificate>
+</default:X509Data>
+</default:KeyInfo>
+</default:Signature>
+</DTE>

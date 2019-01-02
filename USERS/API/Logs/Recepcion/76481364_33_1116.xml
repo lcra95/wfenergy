@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+			<Documento ID="T33F1116">
+				<Encabezado>
+					<IdDoc>
+						<TipoDTE>33</TipoDTE>
+						<Folio>1116</Folio>
+						<FchEmis>2018-12-28</FchEmis>
+						<TpoTranVenta>1</TpoTranVenta>
+						<FmaPago>2</FmaPago>
+						<FchVenc>2019-01-28</FchVenc>
+					</IdDoc>
+					<Emisor>
+						<RUTEmisor>76481364-2</RUTEmisor>
+						<RznSoc>NEOZET INGENIERIA Y SERVICIOS LTDA</RznSoc>
+						<GiroEmis>EMPRESA DE SERVICIOS DE INGENIER?A</GiroEmis>
+						<Acteco>711002</Acteco>
+						<Sucursal>Local</Sucursal>
+						<DirOrigen>Local</DirOrigen>
+						<CmnaOrigen>PROVIDENCIA</CmnaOrigen>
+						<CiudadOrigen>SANTIAGO</CiudadOrigen>
+						<CdgVendedor>VENDEDOR</CdgVendedor>
+					</Emisor>
+					<Receptor>
+						<RUTRecep>76254347-8</RUTRecep>
+						<CdgIntRecep>76.254.347-8</CdgIntRecep>
+						<RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep>
+						<GiroRecep>GENERACION EN OTRAS CENTRALES N.C.P</GiroRecep>
+						<DirRecep>APOQUINDO 3910. PISO 5</DirRecep>
+						<CmnaRecep>LAS CONDES</CmnaRecep>
+						<CiudadRecep>SANTIAGO</CiudadRecep>
+						<DirPostal>APOQUINDO 3910 PISO 5</DirPostal>
+						<CmnaPostal>LAS CONDES</CmnaPostal>
+						<CiudadPostal>SANTIAGO</CiudadPostal>
+					</Receptor>
+
+					<Totales>
+						<MntNeto>82697</MntNeto>
+						<TasaIVA>19.00</TasaIVA>
+						<IVA>15712</IVA>
+						<MntTotal>98409</MntTotal>
+					</Totales>
+				</Encabezado>
+				<Detalle>
+					<NroLinDet>1</NroLinDet>
+					<CdgItem>
+						<TpoCodigo>INT1</TpoCodigo>
+						<VlrCodigo>003001</VlrCodigo>
+					</CdgItem>
+					<NmbItem>Arriendo de enlace PRMTE para el Coordinador</NmbItem>
+					<DscItem>Mes enero 2019 - 3 UF/mes</DscItem>
+					<QtyItem>1.000000</QtyItem>
+					<UnmdItem>UNID</UnmdItem>
+					<PrcItem>82697.000000</PrcItem>
+					<MontoItem>82697</MontoItem>
+				</Detalle>
+				<TED version="1.0"><DD><RE>76481364-2</RE><TD>33</TD><F>1116</F><FE>2018-12-28</FE><RR>76254347-8</RR><RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR><MNT>98409</MNT><IT1>Arriendo de enlace PRMTE para el Coordi</IT1><CAF version="1.0">
+<DA>
+<RE>76481364-2</RE>
+<RS>NEOZET INGENIERIA Y SERVICIOS LIMITADA</RS>
+<TD>33</TD>
+<RNG><D>1115</D><H>1142</H></RNG>
+<FA>2018-12-21</FA>
+<RSAPK><M>ynmH9NWL/5gE+dCgeaOmron4i2rmd174mVGIi07Avy2vTVeeritc0l8eYWth9nPFq1gZ1ablplzCFryeEkLG/Q==</M><E>Aw==</E></RSAPK>
+<IDK>300</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">MMDzJPlgyy8kWVPv2rC2D6ng4D+N2v2B54eLCQlajmB8dMU2D6L+nBBPm1G86dNm/yOuK2Ns9dozDkdvgyGKmA==</FRMA>
+</CAF><TSTED>2018-12-29T01:34:42</TSTED></DD><FRMT algoritmo="SHA1withRSA">bF14LqXxBRWAtTpio+pr05ssC+vB1t48l7qCsikeDBEBJrrBVxkkG0OkRKfzJOfIpmHFq99rhb12Nw821Q4K5w==</FRMT></TED>
+				<TmstFirma>2018-12-29T01:34:59</TmstFirma>
+			</Documento><default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><default:SignedInfo><default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><default:Reference URI="#T33F1116"><default:Transforms><default:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/></default:Transforms><default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><default:DigestValue>etwJK6yfIj13K1vt7oPri154prU=</default:DigestValue></default:Reference></default:SignedInfo><default:SignatureValue>
+ib9L49hejeH1dAhTchmjg+A88jThxSRozxMArWeA7VoJuxzuQY5HpaeRapn6LXqf
+6bJLUd8u3pXYIsndoLm0IR4dc5wtgAFFaWB2P7w1pFcI2RUIhzurDcKkX1ufCcbk
+Vro9GUpciTzTeHB2yFBmzMbkx2dnGdfYW1inK/zKhFY=
+</default:SignatureValue><default:KeyInfo><default:KeyValue><default:RSAKeyValue><default:Modulus>
+xe8/dBVLiZHJiYDkkW2rcL8G+uIBVk6pUnIZGgi6c43kqhztqUVDMSNo6+Bbwcv2
+w0kWdCz/vR2ta+9aNlU+C2PQ7RXGy3bMqmeSlT7SmyZ2UfqanEu0XHWC7C+4yctL
+IAemmhjowe4B9ikE6j98F442eN4m2KTfvOOkgdhfn2c=
+</default:Modulus><default:Exponent>AQAB</default:Exponent></default:RSAKeyValue></default:KeyValue><default:X509Data><default:X509Certificate>
+MIIGgzCCBWugAwIBAgIKEyT2BgAAAAb/qDANBgkqhkiG9w0BAQUFADCB0jELMAkG
+A1UEBhMCQ0wxHTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQH
+EwhTYW50aWFnbzEUMBIGA1UEChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9y
+aWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQDEydFLUNFUlRDSElMRSBDQSBGSVJN
+QSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEWGHNjbGllbnRlc0Bl
+LWNlcnRjaGlsZS5jbDAeFw0xNzAyMjIxMjIwMzJaFw0yMDAyMjIxMjIwMzJaMIIB
+BTELMAkGA1UEBhMCQ0wxIzAhBgNVBAgTGk1FVFJPUE9MSVRBTkEgREUgU0FOVElB
+R08gMREwDwYDVQQHEwhTYW50aWFnbzEvMC0GA1UEChMmTmVvemV0IEluZ2VuaWVy
+aWEgeSBTZXJ2aWNpb3MgTGltaXRhZGExRDBCBgNVBAsMO0FzZXNvcsOtYXMsQ29u
+c3VsdG9yaWFzIHkgRXN0dWRpb3MgZW4gSW5nZW5pZXJpYSBJbmR1c3RyaWFsMSUw
+IwYDVQQDDBxBbGV4aXMgUnVkZHkgTXXDsW96IEdvbnphbGV6MSAwHgYJKoZIhvcN
+AQkBFhFhbXVub3pAbmVvemV0LmNvbTCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkC
+gYEAxe8/dBVLiZHJiYDkkW2rcL8G+uIBVk6pUnIZGgi6c43kqhztqUVDMSNo6+Bb
+wcv2w0kWdCz/vR2ta+9aNlU+C2PQ7RXGy3bMqmeSlT7SmyZ2UfqanEu0XHWC7C+4
+yctLIAemmhjowe4B9ikE6j98F442eN4m2KTfvOOkgdhfn2cCAwEAAaOCAqcwggKj
+MD0GCSsGAQQBgjcVBwQwMC4GJisGAQQBgjcVCILcgy+Fk4xmhdWdF4Li3CeB7+w8
+YYHLnhSGqIJYAgFkAgEEMB0GA1UdDgQWBBS9xe4XA+OJn/1OQkPFT8JDb7jVpzAL
+BgNVHQ8EBAMCBPAwHwYDVR0jBBgwFoAUeOE+n9ISs3o8jc0wDlOzQykHs1UwPgYD
+VR0fBDcwNTAzoDGgL4YtaHR0cDovL2NybC5lLWNlcnRjaGlsZS5jbC9lY2VydGNo
+aWxlY2FGRVMuY3JsMDoGCCsGAQUFBwEBBC4wLDAqBggrBgEFBQcwAYYeaHR0cDov
+L29jc3AuZWNlcnRjaGlsZS5jbC9vY3NwMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGg
+DBYKMTI2NDAxNDctNzAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwWCjk2OTI4MTgw
+LTUwggFNBgNVHSAEggFEMIIBQDCCATwGCCsGAQQBw1IFMIIBLjAtBggrBgEFBQcC
+ARYhaHR0cDovL3d3dy5lLWNlcnRjaGlsZS5jbC9DUFMuaHRtMIH8BggrBgEFBQcC
+AjCB7x6B7ABDAGUAcgB0AGkAZgBpAGMAYQBkAG8AIABGAGkAcgBtAGEAIABTAGkA
+bQBwAGwAZQAuACAASABhACAAcwBpAGQAbwAgAHYAYQBsAGkAZABhAGQAbwAgAGUA
+bgAgAGYAbwByAG0AYQAgAHAAcgBlAHMAZQBuAGMAaQBhAGwALAAgAHEAdQBlAGQA
+YQBuAGQAbwAgAGgAYQBiAGkAbABpAHQAYQBkAG8AIABlAGwAIABDAGUAcgB0AGkA
+ZgBpAGMAYQBkAG8AIABwAGEAcgBhACAAdQBzAG8AIAB0AHIAaQBiAHUAdABhAHIA
+aQBvMA0GCSqGSIb3DQEBBQUAA4IBAQABDl3kerqjS/MbZRahHn/btp9m3ZJb0yJp
+g79SW9VLDHKsBkp9ZhZEOUjkzOwOoFU6Tg4p3eaphxiKipGhx7byWV4ioQ5wYaku
+d565wl/jssErH9GcwFLnHKQioY2uxO3o6G3P7zDgs96g/Eedg4BWsqM74o8j7m57
+JUn54zTbUKPsuPoml7qFLzfO5oinO/BUOUQT/MyE5M7M8CwnPEUlrvk4AOlQLChl
+SpsZHqV7oOLbREovJ8GbaMCZqyVFpKXp05cDY7X/8rx4aDH/JsjDfZcIbQ5Hr4eJ
+EbDdwvS8CTR8MoIXZYe0S3KprGx4lXZvPUQdjCXD/dLXAJYDx8q+
+</default:X509Certificate></default:X509Data></default:KeyInfo></default:Signature>
+		</DTE>

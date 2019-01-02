@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+	<Documento ID="S20181109T33F54">
+		<Encabezado>
+			<IdDoc>
+				<TipoDTE>33</TipoDTE>
+				<Folio>54</Folio>
+				<FchEmis>2018-11-09</FchEmis>
+				<TpoTranVenta>1</TpoTranVenta>
+				<FmaPago>2</FmaPago>
+			</IdDoc>
+			<Emisor>
+				<RUTEmisor>76780957-3</RUTEmisor>
+				<RznSoc>HGLOBAL SPA</RznSoc>
+				<GiroEmis>OBRAS MENORES EN CONSTRUCCION, CONTRATISTAS, ALBANILES, CARPINTEROS</GiroEmis>
+				<Acteco>454000</Acteco>
+				<DirOrigen>Ahumada 254 oficina 806</DirOrigen>
+				<CmnaOrigen>Santiago</CmnaOrigen>
+				<CiudadOrigen>Santiago</CiudadOrigen>
+			</Emisor>
+			<Receptor>
+				<RUTRecep>76254347-8</RUTRecep>
+				<RznSocRecep>Hanwha Q Cells Til Til UNO SPA</RznSocRecep>
+				<GiroRecep>Generaciones de Otras Centrales N.C.P</GiroRecep>
+				<DirRecep>Apoquindo 3910 piso 5</DirRecep>
+				<CmnaRecep>LAS CONDES</CmnaRecep>
+				<CiudadRecep>SANTIAGO</CiudadRecep>
+			</Receptor>
+			<Totales>
+				<MntNeto>3603000</MntNeto>
+				<MntExe>0</MntExe>
+				<TasaIVA>19</TasaIVA>
+				<IVA>684570</IVA>
+				<MntTotal>4287570</MntTotal>
+			</Totales>
+		</Encabezado>
+		<Detalle>
+			<NroLinDet>1</NroLinDet>
+			<NmbItem>Obras Previas (Desmalezamiento de area) y Limpieza de Paneles Solares</NmbItem>
+			<QtyItem>1</QtyItem>
+			<UnmdItem>GL</UnmdItem>
+			<PrcItem>3603000</PrcItem>
+			<MontoItem>3603000</MontoItem>
+		</Detalle>
+<TED version="1.0"><DD><RE>76780957-3</RE><TD>33</TD><F>54</F><FE>2018-11-09</FE><RR>76254347-8</RR><RSR>Hanwha Q Cells Til Til UNO SPA</RSR><MNT>4287570</MNT><IT1>Obras Previas (Desmalezamiento de area) </IT1><CAF version="1.0"><DA><RE>76780957-3</RE><RS>HGLOBAL SPA</RS><TD>33</TD><RNG><D>31</D><H>57</H></RNG><FA>2018-08-22</FA><RSAPK><M>vh9Wh6IT9JHlx5OW1EKUgmaUX7Tgq4lG4llMccsg0DT5pRYB0JolXtzduMkpMfaDojsdCrUJVih6YecNlMCsHw==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">ThMafgXCjuda+RDZ/UsugLxe5cej6ywv+KGcaynHnSzFh2N01x2BcO3uzh9mxlsVo1DpE2zBGyKPmqnYwhtaTA==</FRMA></CAF><TSTED>2018-11-09T17:30:55</TSTED></DD><FRMT algoritmo="SHA1withRSA">LltQ2P+4CI6jcSAsGru7ltd1vT4ukaAKvxhdI5E5RAIwcUyQ0QAJ7in7sxCUqtf2gKPROsDZD+0x
+3GlP3qbWDA==
+</FRMT></TED>
+<TmstFirma>2018-11-09T17:30:55</TmstFirma>
+</Documento>
+	
+<default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><default:SignedInfo><default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><default:Reference URI="#S20181109T33F54"><default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><default:DigestValue>PjOebt8DmTN5mkav5AvmqwsjA4Y=</default:DigestValue></default:Reference></default:SignedInfo><default:SignatureValue>uCQ2HVoQ9g8QaJl9AiL25b1YltBk7T6u+4HGP5hsumeFlhfJjdcHGFN9noWaat7MCafr7lVNNBZg
+ZzWn1a7F5JqrBX1CreecFwNfCSiXIh52lebdc4+Sn0GtVlffb0DYeYrfxrYw7NU9+IGHJ7Le+06w
+9VdbLJTXqm8cNz5gQoK1j6IUIGViVLMQHHpjxX3lWftPI47bwOa+sSMnDAhTFIrbRlG7wv2xPiDv
+JJ1kSc6C0jpZYln38C/CBWfnXXrkTHfeQxR4IHwhNVA4sJXihPaDdV5G5+kI1BTRRz6W6fhXyU5B
+FefKg7BCoKttCpcBmaymzsnOAkdWVEsCyzZo4Q==</default:SignatureValue><default:KeyInfo><default:KeyValue><default:RSAKeyValue><default:Modulus>5TIqJe2E5O52UKPvCb3p1gGQmw808ri7n6GoOOHylQFiyR25oE+uwDhJVM2stMhh+yY0dTbvFNWK
+TS/Pc8shwF8Cpr2tky/9ETuyhTM29N/925vAehYKzcP6lAxyMm4UaqR105hEJpLXkpve4ikn7aku
+gJ5ubLwzVK/PucBrvKyEBXxu48nHIgBRj9+tZDLkbtFx16UO1oEWXM8N0VdWlrzPGRS/AnsFpGgc
+pT12q0AY2vhlQKpxXGKHlQtNXc7SnT4Yhd9PuE1DNdx+NhX207udr1+8LdzcR3CRFKM12MSxWisV
+u+3aeA7j5rAx19ydowBfFJ4YoKZeknmlkwecCQ==</default:Modulus><default:Exponent>AQAB</default:Exponent></default:RSAKeyValue></default:KeyValue><default:X509Data><default:X509Certificate>MIIGnTCCBYWgAwIBAgIKMLhakQABAABykTANBgkqhkiG9w0BAQsFADCB0DELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzESMBAGA1UE
+ChMJUEFQRVJMRVNTMSAwHgYDVQQLExdBdXRvcmlkYWQgQ2VydGlmaWNhZG9yYTEuMCwGA1UEAxMl
+UEFQRVJMRVNTIENBIEZJUk1BIEVMRUNUUk9OSUNBIFNJTVBMRTEpMCcGCSqGSIb3DQEJARYaY29t
+dW5pY2FjaW9uZXNAcGtpY2hpbGUuY2wwHhcNMTgxMTA4MTQwOTE5WhcNMTkxMTA4MTQwOTE5WjCB
+4jELMAkGA1UEBhMCQ0wxKjAoBgNVBAgMIVJFR0nDk04gTUVUUk9QT0xJVEFOQSBERSBTQU5USUFH
+TzERMA8GA1UEBxMIU0FOVElBR08xHTAbBgNVBAoTFFNpbiBkYXRvcyBkZSBFbXByZXNhMR8wHQYD
+VQQLExZTaW4gZGF0b3MgZGUgT2N1cGFjaW9uMS4wLAYDVQQDEyVGQUJJT0xBIEFOR0VMSUNBIENP
+UkRFUk8gREUgSEVSTkFOREVaMSQwIgYJKoZIhvcNAQkBFhVmYWJpb2xhMDc4MEBnbWFpbC5jb20w
+ggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDlMiol7YTk7nZQo+8JvenWAZCbDzTyuLuf
+oag44fKVAWLJHbmgT67AOElUzay0yGH7JjR1Nu8U1YpNL89zyyHAXwKmva2TL/0RO7KFMzb03/3b
+m8B6FgrNw/qUDHIybhRqpHXTmEQmkteSm97iKSftqS6Anm5svDNUr8+5wGu8rIQFfG7jycciAFGP
+361kMuRu0XHXpQ7WgRZczw3RV1aWvM8ZFL8CewWkaBylPXarQBja+GVAqnFcYoeVC01dztKdPhiF
+30+4TUM13H42FfbTu52vX7wt3NxHcJEUozXYxLFaKxW77dp4DuPmsDHX3J2jAF8Unhigpl6SeaWT
+B5wJAgMBAAGjggJjMIICXzA9BgkrBgEEAYI3FQcEMDAuBiYrBgEEAYI3FQiCzM4+gvjNHdmLHoKP
+hVeEzpU1gRCHk9EVhpz4KAIBZAIBAjCCAYUGA1UdIASCAXwwggF4MIIBdAYIKwYBBAGCxDcwggFm
+MIIBYgYIKwYBBQUHAgIwggFUHoIBUABDAGUAcgB0AGkAZgBpAGMAYQBkAG8AIABwAGEAcgBhACAA
+dQBzAG8AIABUAHIAaQBiAHUAdABhAHIAaQBvAC4AIABQAFMAQwAgAFAAYQBwAGUAcgBsAGUAcwBz
+ACAAYQBjAHIAZQBkAGkAdABhAGQAbwAgAHMAZQBnAPoAbgAgAFIALgBBAC4AIABFAHgAZQBuAHQA
+YQAgAE4AugAgADEANwAyACwAIABkAGUAIAAzADAAIABkAGUAIABlAG4AZQByAG8AIABkAGUAIAAy
+ADAAMQAzACwAIABkAGUAIABsAGEAIABTAHUAYgBzAGUAYwByAGUAdABhAHIA7QBhACAAZABlACAA
+RQBjAG8AbgBvAG0A7QBhACwAIAB5ACAARQBtAHAAcgBlAHMAYQBzACAAZABlACAATQBlAG4AbwBy
+ACAAVABhAG0AYQDxAG8ALjAdBgNVHQ4EFgQU+IO2EoL5e8/k82ls8nFxNFN7jPswCwYDVR0PBAQD
+AgTwMB8GA1UdIwQYMBaAFJTkrzdlZl3pZ8w+vJ1vcRrLjIvsMCMGA1UdEQQcMBqgGAYIKwYBBAHB
+AQGgDBYKMjU3NjMyMDQtMDAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwWCjk2OTE1MzEwLTYwDQYJ
+KoZIhvcNAQELBQADggEBAIBtGS++4jNTaMU0UObSGm7WEgdEZZwZPNjkjadXpfY4jdAEMD2ltACh
+ixMTUjGHqGSs1P76NpcVPjaz0OWZof5oodSH22NwDcNof6yhwIdmAJJWKPYy/CZ8g5WoG5fhUfs5
+4GcPWwvW+7FJUbB2h2OBEDJrGin094W986Q3DAA4wzXnRAxufW5f0cr6wdCcDw6751gLiseRkIfs
+cH9xDe9w03LZSJYt1IhNwQOQzdKpMrejpyCPL+EBJLMY4TgLY+rvKqUpaJPOjSdJ8yiRmxGPIw+l
+URTLNDJpT5DEHB1/JtWULVciJqk9epmK4lW9P4mA+nXfplq88oIlWhIhM1g=</default:X509Certificate></default:X509Data></default:KeyInfo></default:Signature></DTE>

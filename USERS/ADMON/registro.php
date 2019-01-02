@@ -108,7 +108,7 @@
                <div class="panel-body">
                   <div class="table-responsive table-bordered">
                      <?php include('conexion.php');
-                        $sql=mysql_query("SELECT DISTINCT et.id_transaccion, pc.carta FROM empresa_transaccion et JOIN periodo_carta pc ON et.periodo = pc.id_periodo AND et.periodo LIKE '$periodo'");
+                        $sql=mysql_query("SELECT DISTINCT et.id_transaccion FROM empresa_transaccion et WHERE et.periodo LIKE '$periodo'");
                         $i=0;
                         ?>
                      <table id="example" class="display" cellspacing="0" width="100%">
@@ -116,7 +116,7 @@
                            <tr>
                               <th>Grupo</th>
                               <th>Concpeto</th>
-                              <th>Carta SEN</th>
+                              <!-- <th>Carta SEN</th> -->
                               <th>Ingreso Neto</th>
                               <th>Egreso Neto</th>
                               <th>Margen Neto</th>
@@ -137,7 +137,7 @@
                            <tr>
                               <td><?php echo grupo($q[0]);?></td>
                               <td><?php echo concepto($q[0]);?></td>
-                              <td align="center"> <a href="verCarta.php?carta=<?php echo $q['carta'];?>" target="_blank"><?php echo $q['carta'];?></a></td>
+                              <!-- <td align="center"> <a href="verCarta.php?carta=<?php// echo $q['carta'];?>" target="_blank"><?php //echo $q['carta'];?></a></td> -->
                               <td align="Right"><?php echo number_format($ing);?></td>
                               <td align="Right"><?php echo number_format($egr);?></td>
                               <td align="Right"><?php echo number_format($ing-$egr);?></td>

@@ -187,7 +187,7 @@ $(document).ready(function() {
                       <?php }$o++;}?>
                     </select>
                     <select  name="ano">
-                      <?php $a=2017; while($a<=2018){?>
+                      <?php $a=2018; while($a<=2020){?>
                       <option><?php echo $a;?></option>
                       <?php $a++;}?>
                     </select>
@@ -287,16 +287,60 @@ $(document).ready(function() {
                           </div>
                     </div><br>
                     <div class="row">
-                          <div class="form-group">
-                            <div class="col-sm-12">
+                      <div class="form-group">
+                        <div class="col-sm-12">
+                          <div class="input-group">  
+                            <span class="input-group-addon">Dirección</span>  
+                            <input type="text" class="form-control" id="formGroup" placeholder="Dirección" Value="<?php echo @$d;?>" >
+                          </div>
+                        </div>
+                      </div>
+                    </div> 
+                    <div class="row">
+                      <div class="form-group">
+                        <div class="col-sm-12">
+                           <br>
+                           <h4>Referencias</h4>
+                        </div>
+                      </div>
+                    </div>   
+                    <div class="row">
+                      <div class="form-group">
+                      <div class="form-group">
+                            <div class="col-sm-3">
+                              <div class="input-group">
+                              <span class="input-group-addon">Tipo Doc</span>
+                              <input type="text" class="form-control" id="formGroup" placeholder="tipo_doc" name="tipo_doc" >
+                            </div>
+                            </div>
+                        
+                          
+                         
+                            <div class="col-sm-3">
+                              <div class="input-group">
+                              <span class="input-group-addon">Doc Ref</span>
+                              <input type="text" class="form-control" id="formGroup" placeholder="doc_ref" name="doc_ref">
+                            </div>
+                            </div>
+                          
+
+                            
+                            <div class="col-sm-3">
                             <div class="input-group">  
-                              <span class="input-group-addon">Dirección</span>  
-                              <input type="text" class="form-control" id="formGroup" placeholder="Dirección" Value="<?php echo @$d;?>" >
+                              <span class="input-group-addon">Fecha</span>
+                              <input type="text" class="form-control" id="formGroup" placeholder="fecha_ref" name="fecha_ref">
                             </div>
                             </div>
                           </div>
-                    </div>   
-
+                          <div class="col-sm-3">
+                            <div class="input-group">  
+                              <span class="input-group-addon">Razón</span>
+                              <input type="text" class="form-control" id="formGroup" placeholder="razon_ref" name="razon_ref">
+                            </div>
+                            </div>
+                          </div>
+                      </div>
+                    </div>  
                 </div>
                 <div class="panel-footer">
 

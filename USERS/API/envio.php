@@ -22,7 +22,9 @@ $empresaRut=$emp->item(0)->nodeValue;
 $archivoXMLbase64 = base64_encode($archivoXMLdata);
 $objClienteSOAP = new soapclient(WS_PROD);
 $token = $objClienteSOAP->getToken($emisorRut, $usuarioWs, $claveWs);
+
 $objRespuesta = $objClienteSOAP->sendDte($token, $archivoXMLbase64, $empresaRut, $docTipo, $docFolio);
+
 $fp = fopen('Logs/RespuestaWs/'.$docFolio.'.xml', 'w');
 fwrite($fp, $objRespuesta);
 fclose($fp);
@@ -41,17 +43,23 @@ if($estado!=0){
     switch($docTipo):
         case 33: 
             $sql1="DELETE FROM factura WHERE id = $docFolio";
+            $sql4="UPDATE empresa_transaccion SET id_status = 0 WHERE id = (SELECT id_transaccion FROM factura_transaccion WHERE id_factura = $docFolio)";
             $sql2="DELETE FROM factura_concepto WHERE id_factura = $docFolio";
             $sql3="DELETE FROM factura_transaccion WHERE id_factura = $docFolio";
             $mysqli->query($sql2);
+            $mysqli->query($sql4);
             $mysqli->query($sql3);
         break;
         case 56: 
             $sql1="DELETE FROM nota_debito WHERE folio = $docFolio";
+            $sql4="UPDATE empresa_transaccion SET id_status = 0 WHERE id = (SELECT id_transaccion FROM factura_transaccion WHERE id_factura = $docFolio)";
+            $mysqli->query($sql4);
         break;   
         case 61: 
             $sql1="DELETE FROM nota_credito WHERE folio = $docFolio";
-        break;   
+            $sql4="UPDATE empresa_transaccion SET id_status = 0 WHERE id = (SELECT id_transaccion FROM factura_transaccion WHERE id_factura = $docFolio)";
+            $mysqli->query($sql4);
+            break;   
     endswitch;
  
         $mysqli->query($sql1);

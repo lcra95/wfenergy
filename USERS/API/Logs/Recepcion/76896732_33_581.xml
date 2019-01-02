@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+  <Documento ID="F581T33"><Encabezado><IdDoc><TipoDTE>33</TipoDTE><Folio>581</Folio><FchEmis>2018-12-19</FchEmis></IdDoc><Emisor><RUTEmisor>76896732-6</RUTEmisor><RznSoc>RED ELECTRICA DEL NORTE 2 S.A.</RznSoc><GiroEmis>TRANSMISION DE ENERGIA ELECTRI</GiroEmis><Acteco>401020</Acteco><DirOrigen>AVENIDA EL GOLF 40 Depto 20</DirOrigen><CmnaOrigen>LAS CONDES</CmnaOrigen><CiudadOrigen>SANTIAGO</CiudadOrigen></Emisor><Receptor><RUTRecep>76254347-8</RUTRecep><RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep><DirRecep>AV. APOQUINDO 3910, PISO 5.</DirRecep><CmnaRecep>LAS CONDES</CmnaRecep><CiudadRecep>SANTIAGO</CiudadRecep></Receptor><Totales><MntNeto>68</MntNeto><TasaIVA>19</TasaIVA><IVA>13</IVA><MntTotal>81</MntTotal></Totales></Encabezado><Detalle><NroLinDet>1</NroLinDet><CdgItem><TpoCodigo>INTERNO</TpoCodigo><VlrCodigo/></CdgItem><NmbItem>Servicios Complementarios</NmbItem><DscItem>Noviembre 2018 seg?n carta DE 05969-18 - Raz?n de Referencia: SEN_[SSCC][Nov18][L][V01]</DscItem><QtyItem>1.0000</QtyItem><UnmdItem>UN</UnmdItem><PrcItem>68.0000</PrcItem><MontoItem>68</MontoItem></Detalle><Referencia><NroLinRef>1</NroLinRef><TpoDocRef>801</TpoDocRef><FolioRef>DE05969A18C57S0293</FolioRef><FchRef>2018-12-20</FchRef><RazonRef>SEN_[SSCC][Nov18][L][V01]</RazonRef></Referencia><TED version="1.0">
+<DD>
+<RE>76896732-6</RE>
+<TD>33</TD>
+<F>581</F>
+<FE>2018-12-19</FE>
+<RR>76254347-8</RR>
+<RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR>
+<MNT>81</MNT>
+<IT1>Servicios Complementarios</IT1>
+<CAF version="1.0">
+<DA>
+<RE>76896732-6</RE>
+<RS>RED ELECTRICA DEL NORTE 2 S.A.</RS>
+<TD>33</TD>
+<RNG><D>309</D><H>610</H></RNG>
+<FA>2018-12-18</FA>
+<RSAPK><M>vl1IOXNvStnLyelgR1oysMMjp3u92l/RhB+0LtvI9vrU5b5BfrtAwPtkw/nIlqdJulfFZBGKGOVAgJxD/9tFRw==</M><E>Aw==</E></RSAPK>
+<IDK>300</IDK>
+</DA>
+<FRMA algoritmo="SHA1withRSA">fgub2zPfCSCy4EkWxU/qlAmxkrquGRnoJ2OMx8Y9FiYX6/ZJ3VzbqetwOoGQebcrrNOzUMid+E4NJuEACcRROA==</FRMA>
+</CAF>
+<TSTED>2018-12-20T18:29:01</TSTED>
+</DD>
+<FRMT algoritmo="SHA1withRSA">foHm2E5UR3fKiTALowaPiXX8epirheQBJv5NfjDXgDF97UDlFaxQ/1y8xxMRdlWXRBpCaKLEJ45d00rz80xfug==</FRMT>
+</TED>
+<TmstFirma>2018-12-20T18:29:01</TmstFirma></Documento>
+  <default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<default:SignedInfo>
+<default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<default:Reference URI="#F581T33">
+<default:Transforms>
+<default:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+</default:Transforms>
+<default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<default:DigestValue>qU6PMPRSgPvMYteO0DY13UiLNT4=</default:DigestValue>
+</default:Reference>
+</default:SignedInfo>
+<default:SignatureValue>
+tssLs55ViLiYXKd7nrre5ghnzFcG89EM+9oA8w1gSyzJxkOqbt4bmXYvsw4AQYlU
+ag+PzawM594+vw+QTg8XsNYstnAy437Zv7SqgACuz/idHYQ81txHzoAGl4e3osiz
+7AttxAYFMb9d1P7sCjaAGjNbckD1KRgjgoNRBrpAnnxZLfc8UVlZ3nQhZ3RrOyLT
+SZMugFik+apA2REPgb5G4zOijFdrU9sscb39i5cc5uBElMGmPZGw4QEWtda5nYqM
+4cH2irVBtrrn5SX0GpZjMMGcAvIpPpvGhUJnIsttsnE6QEEr7U9V970O/lkbnE3y
+BY1Nf/iXYLAaWqRSMtjklw==
+</default:SignatureValue>
+<default:KeyInfo>
+<default:KeyValue>
+<default:RSAKeyValue>
+<default:Modulus>
+vLKGqE9yn0gEr7dsPAUqTfUuZHE9+5IobDCvoZcEmq0ndlSbz1zhG4x5PW/RmTpW2r8TzbhvkxNklkJRY1H18jIv7q7beDjC66PzNQJUKru50+Ut5xJfNodtVtWcv4wj9K0FdF61rtf7xmw/SZQCAS36onEoJzX2BPg+oKQwKCEHhprsAOKODPbvg9BAZaKnULE5xTx4fxwTFus7aiXlf9zDekTtHx/HxEP2CoOLLcggnLXc9KDkUciX9kDnY+VPdpdpTy7p58hrVJUOGMsdLaTUfdrCgacyIWtCuSzyCuG6LCWePhbRmebtZPjpshBkWlqL4wnEJfADzrEyAawK6Q==
+</default:Modulus>
+<default:Exponent>AQAB</default:Exponent>
+</default:RSAKeyValue>
+</default:KeyValue>
+<default:X509Data>
+<default:X509Certificate>
+MIIGljCCBX6gAwIBAgIDAosbMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJD
+TDEYMBYGA1UEChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29t
+IEF1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFs
+IC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9AYWNlcHRhLmNvbTETMBEGA1UEBRMK
+OTY5MTkwNTAtODAeFw0xODA5MjcxNTIyMjFaFw0yMTA5MjcxNTIyMjFaMIGeMQsw
+CQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSwwKgYDVQQDEyNG
+RUxJUEUgQUxFSkFORFJPIEFORFJBREUgR09SSUdPSVRJQTEyMDAGCSqGSIb3DQEJ
+ARYjbWVsYW55LmJhZGlsbGFAcmVkZWxlY3RyaWNhY2hpbGUuY2wxEzARBgNVBAUT
+CjEzNDQyMDI5LTQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8soao
+T3KfSASvt2w8BSpN9S5kcT37kihsMK+hlwSarSd2VJvPXOEbjHk9b9GZOlbavxPN
+uG+TE2SWQlFjUfXyMi/urtt4OMLro/M1AlQqu7nT5S3nEl82h21W1Zy/jCP0rQV0
+XrWu1/vGbD9JlAIBLfqicSgnNfYE+D6gpDAoIQeGmuwA4o4M9u+D0EBloqdQsTnF
+PHh/HBMW6ztqJeV/3MN6RO0fH8fEQ/YKg4styCCctdz0oORRyJf2QOdj5U92l2lP
+LunnyGtUlQ4Yyx0tpNR92sKBpzIha0K5LPIK4bosJZ4+FtGZ5u1k+OmyEGRaWovj
+CcQl8APOsTIBrArpAgMBAAGjggLRMIICzTAfBgNVHSMEGDAWgBRlpas+P8i2UW0R
+fl/DCgfmQ6AItjAdBgNVHQ4EFgQURexilRGKNX+UE3jzvf4+bWLpIvkwCwYDVR0P
+BAQDAgTwMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBglghkgBhvhC
+AQEEBAMCBaAwgfUGA1UdIASB7TCB6jCB5wYIKwYBBAG1awIwgdowMQYIKwYBBQUH
+AgEWJWh0dHBzOi8vYWNnNC5hY2VwdGEuY29tL0NQUy1BY2VwdGFjb20wgaQGCCsG
+AQUFBwICMIGXMBYWD0FjZXB0YS5jb20gUy5BLjADAgEJGn1FbCB0aXR1bGFyIGhh
+IHNpZG8gdmFsaWRhZG8gZW4gZm9ybWEgb25saW5lLCBxdWVkYW5kbyBoYWJpbGl0
+YWRvIGVsIENlcnRpZmljYWRvIHBhcmEgdXNvIHRyaWJ1dGFyaW8sIHBhZ29zLCBj
+b21lcmNpbyB5IG90cm9zLjBaBgNVHRIEUzBRoBgGCCsGAQQBwQECoAwWCjk2OTE5
+MDUwLTigJAYIKwYBBQUHCAOgGDAWDAo5NjkxOTA1MC04BggrBgEEAcEBAoEPaW5m
+b0BhY2VwdGEuY29tMG4GA1UdEQRnMGWgGAYIKwYBBAHBAQGgDBYKMTM0NDIwMjkt
+NKAkBggrBgEFBQcIA6AYMBYMCjEzNDQyMDI5LTQGCCsGAQQBwQECgSNtZWxhbnku
+YmFkaWxsYUByZWRlbGVjdHJpY2FjaGlsZS5jbDBHBggrBgEFBQcBAQQ7MDkwNwYI
+KwYBBQUHMAGGK2h0dHBzOi8vYWNnNC5hY2VwdGEuY29tL2FjZzQvb2NzcC9DbGFz
+ZTItRzQwPwYDVR0fBDgwNjA0oDKgMIYuaHR0cHM6Ly9hY2c0LmFjZXB0YS5jb20v
+YWNnNC9jcmwvQ2xhc2UyLUc0LmNybDANBgkqhkiG9w0BAQsFAAOCAQEApFEyCFvM
+j0YjGiBc+lz7GI3bzXBDoZYQEV8XiZHGRKsLJYyIkLGBI6j4SkUDsijniAS0snrJ
+ZalqQ4rqnmeiD43dTMojc1nzzXHxFgPE5SHzKCJKQdn9zXf+Spz/kI6cttAGruve
+S/5lwkHw0tn9WXUn9NrPiWg+TjTuzbRuLPJjYd4ocPS24/Wmai22y+GVGZIfnp03
+zu6ddbGwD2CnTHyc/waCzJxbsIsKD6YQMRCklTmu4E8OPr/SKpbiyZhKpx/1fMzy
+zPMO/bls4nQObbULw4n8UjXxncrTHM3xBU6TrTWVio4cH5u2gtpIqbtuqNYIbc3c
+8nZQ2IcWX1Vh7Q==
+</default:X509Certificate>
+</default:X509Data>
+</default:KeyInfo>
+</default:Signature>
+</DTE>

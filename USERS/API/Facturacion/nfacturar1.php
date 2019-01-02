@@ -28,7 +28,7 @@ $if=proxima_factura();
 }
 
 
-
+mysql_query("UPDATE empresa_transaccion SET id_status = 1 WHERE id  = $id");
 mysql_query("INSERT INTO factura_transaccion VALUES ('null','$if','$id')");
 mysql_query("INSERT INTO factura VALUES ('$if', '$row[1]', '$observacion', '$date', '$fecha', '$row[5]', '$row[6]', '$row[7]','0','0')");
 mysql_query("DELETE FROM borrador WHERE id = $fac");
@@ -66,11 +66,10 @@ foreach($array as $key ){
 list($totext,$totex,$ivat,$total,$iva)=ultimate_montos($fac);
 list($f,$desde,$hasta,$caf,$tf)=folio_activo($tip);
 $referencias="SELECT 
-r.emisor, pc.carta, r.codigo_ref, pc.fecha, r.nemotecnico
+r.emisor, r.codigo_ref, r.fecha, r.nemotecnico 
 FROM factura_concepto fc 
-JOIN factura f on fc.id_factura = f.id AND f.id=$fac
-JOIN referencia r on f.id_periodo = r.id_periodo AND r.id_concepto = (SELECT id_concepto FROM factura_concepto WHERE id_factura = $fac)
-JOIN periodo_carta pc on pc.id_periodo = r.id_periodo AND f.id_periodo = '$per'";
+JOIN factura f on fc.id_factura = f.id AND f.id = $fac 
+JOIN referencia r on f.id_periodo = r.id_periodo AND r.id_concepto = (SELECT id_concepto FROM factura_concepto WHERE id_factura = $fac) AND f.id_periodo = '$per' ";
 $refe=mysql_query($referencias);
 $ref=mysql_fetch_array($refe);  
  
@@ -216,7 +215,7 @@ function conceptosxml($fac) //esta funcion obtine de la base de datos los datos 
                 <TpoCodigo>INT1</TpoCodigo>
                 <VlrCodigo>'.$conc[$a].'</VlrCodigo>
             </CdgItem>
-            <NmbItem>'.$text=ultimate_conpcepto($conc[$a],$per).'</NmbItem>
+            <NmbItem>'.$text=ultimate_conpcepto($conc[$a]).'</NmbItem>
             <DscItem>N/A</DscItem>
             <QtyItem>'.$cant[$a].'</QtyItem>
             <UnmdItem>UN</UnmdItem>

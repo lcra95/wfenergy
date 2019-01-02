@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+  <!-- O Win32 Chrome 71 central VERSION: v20170209 -->
+<Documento ID="MiPE76479446-18090">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>2837</Folio>
+        <FchEmis>2018-12-21</FchEmis>
+        <TpoTranCompra>1</TpoTranCompra>
+        <TpoTranVenta>1</TpoTranVenta>
+        <FmaPago>2</FmaPago>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>76479446-K</RUTEmisor>
+        <RznSoc>TEATINOS ENERGIA S.A.</RznSoc>
+        <GiroEmis>GENERACION HIDROELECTRICA Y FOTOVOLTAICA</GiroEmis>
+        <Telefono>75 2327995</Telefono>
+        <CorreoEmisor>VRIOSECO@AUDITCON.CL</CorreoEmisor>
+        <Acteco>351011</Acteco>
+        <CdgSIISucur>079566874</CdgSIISucur>
+        <DirOrigen>ESTADO 213  306</DirOrigen>
+        <CmnaOrigen>CURICO</CmnaOrigen>
+        <CiudadOrigen>CURICO</CiudadOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>76254347-8</RUTRecep>
+        <RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep>
+        <GiroRecep>GENERACION DE ENERGIA ELECTRICA EN OTRAS</GiroRecep>
+        <DirRecep>APOQUINDO 3910 PISO 5</DirRecep>
+        <CmnaRecep>LAS CONDES</CmnaRecep>
+        <CiudadRecep>SANTIAGO</CiudadRecep>
+      </Receptor>
+      <Totales>
+        <MntNeto>277</MntNeto>
+        <TasaIVA>19.00</TasaIVA>
+        <IVA>53</IVA>
+        <MntTotal>330</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <NmbItem>SEN[SSCC][Abr18][R][V01]</NmbItem>
+      <DscItem>Servicios Complementarios (Carta DE02961, balance abr 2018)
+</DscItem>
+      <QtyItem>1.00</QtyItem>
+      <PrcItem>277.00</PrcItem>
+      <MontoItem>277</MontoItem>
+    </Detalle>
+<TED version="1.0"><DD><RE>76479446-K</RE><TD>33</TD><F>2837</F><FE>2018-12-21</FE><RR>76254347-8</RR><RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR><MNT>330</MNT><IT1>SEN[SSCC][Abr18][R][V01]</IT1><CAF version="1.0"><DA><RE>76479446-K</RE><RS>TEATINOS ENERGIA S.A.</RS><TD>33</TD><RNG><D>2837</D><H>2837</H></RNG><FA>2018-12-21</FA><RSAPK><M>49/gs00rQBwx6+PJOvsQ0oNCembtonckfha/xmdMvxanreWpNyyHz4Fi1UN7sDFgGY2VemtZYuHyGDC4N0t/BQ==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">Go6Ke0vZ13gLVxEBfwnyK8kxQLEVFb+F+1jj1Tg1UQJkbWEHw6EYImUx9DpUk4GnmLjpykLV/zBGh3NTrN6Fzg==</FRMA></CAF><TSTED>2018-12-21T19:01:20</TSTED></DD><FRMT algoritmo="SHA1withRSA">Yu+ydvpQHwThHM/MEFaY4T88prb3eL+LKrnOcju9Jh7kVpYh4zOO2SVfQPrNTyuMELKaKcLaMLySF731Dd3wqg==</FRMT></TED>
+    <TmstFirma>2018-12-21T19:01:20</TmstFirma>
+
+  </Documento>
+<default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<default:SignedInfo>
+<default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<default:Reference URI="#MiPE76479446-18090">
+<default:Transforms>
+<default:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</default:Transforms>
+<default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<default:DigestValue>KpV6DupMJD2ejVnkFLHDN0tkD+M=</default:DigestValue>
+</default:Reference>
+</default:SignedInfo>
+<default:SignatureValue>
+WQuBEl5JfZEoxybqMkjNWrGvhnLNdkXYBBC7hUVabRGToAypWSCwgt4V531EV/BGNeA4VxqynXA8
+9ilueGOQ0iGE7IiWy+/4/ZTZg9GW+oFLnxuTXOxKAX40j8ndYHe7nFDwK+x4tAS4l7UZmduRt2Fd
+EL4Vekai1H6Iq7fihoY=
+</default:SignatureValue>
+<default:KeyInfo>
+<default:KeyValue>
+<default:RSAKeyValue>
+<default:Modulus>
+ky/2+DfPtsoFdfYPfxqVRs+DJ5rWU1oHRd7pvyxGZyLYdfzlBi8nB6fXWed3vZXs57WmFVb319YO
+YI6ISvYTuGncwjEWQcfj8lTxZY4zMgzl9coXmg79Vp3+Yh2P2hak7QPpny4AZnwsD9WXE2MRzR/N
+Y3qHzzE+wnzIIFmbzZs=
+</default:Modulus>
+<default:Exponent>AQAB</default:Exponent>
+</default:RSAKeyValue>
+</default:KeyValue>
+<default:X509Data>
+<default:X509Certificate>
+MIIGWTCCBUGgAwIBAgIKGbaKagAAAATWtzANBgkqhkiG9w0BAQUFADCB0jELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQD
+EydFLUNFUlRDSElMRSBDQSBGSVJNQSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEW
+GHNjbGllbnRlc0BlLWNlcnRjaGlsZS5jbDAeFw0xNjA4MDQxMzA1MjZaFw0xOTA4MDQxMzA1MjZa
+MIHcMQswCQYDVQQGEwJDTDETMBEGA1UECBMKREVMIE1BVUxFIDEPMA0GA1UEBxMGQ3VyaWNvMR8w
+HQYDVQQKExZISURST0VMRUNUUklDQSBQVU1BIFNBMS0wKwYDVQQLEyRHRU5FUkFDSU9OIERFIEVO
+RVJHSUEgSElEUk9FTEVDVFJJQ0ExKTAnBgNVBAMTIFZJQ1RPUiBSSU9TRUNPIFBJTk8gUklPU0VD
+TyBQSU5PMSwwKgYJKoZIhvcNAQkBFh12cmlvc2Vjb0ByaW9zZWNvLWF1ZGl0b3Jlcy5jbDCBnzAN
+BgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAky/2+DfPtsoFdfYPfxqVRs+DJ5rWU1oHRd7pvyxGZyLY
+dfzlBi8nB6fXWed3vZXs57WmFVb319YOYI6ISvYTuGncwjEWQcfj8lTxZY4zMgzl9coXmg79Vp3+
+Yh2P2hak7QPpny4AZnwsD9WXE2MRzR/NY3qHzzE+wnzIIFmbzZsCAwEAAaOCAqcwggKjMD0GCSsG
+AQQBgjcVBwQwMC4GJisGAQQBgjcVCILcgy+Fk4xmhdWdF4Li3CeB7+w8YYGa5xWGr+AVAgFkAgEE
+MB0GA1UdDgQWBBSIor2wIPIRn5syn1EsGtCYMbie1TALBgNVHQ8EBAMCBPAwHwYDVR0jBBgwFoAU
+eOE+n9ISs3o8jc0wDlOzQykHs1UwPgYDVR0fBDcwNTAzoDGgL4YtaHR0cDovL2NybC5lLWNlcnRj
+aGlsZS5jbC9lY2VydGNoaWxlY2FGRVMuY3JsMDoGCCsGAQUFBwEBBC4wLDAqBggrBgEFBQcwAYYe
+aHR0cDovL29jc3AuZWNlcnRjaGlsZS5jbC9vY3NwMCMGA1UdEQQcMBqgGAYIKwYBBAHBAQGgDBYK
+MDc5NzA0MTQtODAjBgNVHRIEHDAaoBgGCCsGAQQBwQECoAwWCjk2OTI4MTgwLTUwggFNBgNVHSAE
+ggFEMIIBQDCCATwGCCsGAQQBw1IFMIIBLjAtBggrBgEFBQcCARYhaHR0cDovL3d3dy5lLWNlcnRj
+aGlsZS5jbC9DUFMuaHRtMIH8BggrBgEFBQcCAjCB7x6B7ABDAGUAcgB0AGkAZgBpAGMAYQBkAG8A
+IABGAGkAcgBtAGEAIABTAGkAbQBwAGwAZQAuACAASABhACAAcwBpAGQAbwAgAHYAYQBsAGkAZABh
+AGQAbwAgAGUAbgAgAGYAbwByAG0AYQAgAHAAcgBlAHMAZQBuAGMAaQBhAGwALAAgAHEAdQBlAGQA
+YQBuAGQAbwAgAGgAYQBiAGkAbABpAHQAYQBkAG8AIABlAGwAIABDAGUAcgB0AGkAZgBpAGMAYQBk
+AG8AIABwAGEAcgBhACAAdQBzAG8AIAB0AHIAaQBiAHUAdABhAHIAaQBvMA0GCSqGSIb3DQEBBQUA
+A4IBAQA/RedpTh2BCHNyweXrPV/vJoF1wVVwkLsymR8nprltHQJBiTE4dmYCkV4YV6Bb9t0o/GDT
+xu8hH41D9KY3PtatFXYxgsyaqCbwGLFuWbRxeB8hHAiVDZSt02fIKkkT6WxNA46MGmx1ouggMbCf
+mfg3bGldBNa/nUJ/t1L2qk5pkfNdPmXhc3IkCZY/Ryh7COEKlePddPWkIGRxEb1VV7vABbejZ8Lg
++gqaN8ey1+luV4bzmj3PYJ3nMwRqGXeUCksT6Fdq2Du1S9tD3w87C2c2252OSNIzdELWc8EzbXYN
+gjdTrDQiX8t6AwQhMpoxuB69/fe5Rv2EYac+FvQxfaag
+</default:X509Certificate>
+</default:X509Data>
+</default:KeyInfo>
+</default:Signature></DTE>

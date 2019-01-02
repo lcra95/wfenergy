@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+  <!-- O Win32 Chrome 71 central VERSION: v20170209 -->
+<Documento ID="MiPE76862878-23841">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>34</TipoDTE>
+        <Folio>20</Folio>
+        <FchEmis>2018-12-28</FchEmis>
+        <TpoTranCompra>1</TpoTranCompra>
+        <TpoTranVenta>1</TpoTranVenta>
+        <FmaPago>2</FmaPago>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>76862878-5</RUTEmisor>
+        <RznSoc>TRANSPORTES NELSON LUIS TEJADA IBARRA E.I.R.L.</RznSoc>
+        <GiroEmis>TODO TIPO DE TRANSPORTE DE PASAJEROS</GiroEmis>
+        <Telefono>0 0</Telefono>
+        <CorreoEmisor>NELSON.TEJADA.I@HOTMAIL.COM</CorreoEmisor>
+        <Acteco>492240</Acteco>
+        <CdgSIISucur>082027890</CdgSIISucur>
+        <DirOrigen>SAN GUILLERMO S/N, CONDOM 86</DirOrigen>
+        <CmnaOrigen>TALAGANTE</CmnaOrigen>
+        <CiudadOrigen>TALAGANTE</CiudadOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>76254347-8</RUTRecep>
+        <RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep>
+        <GiroRecep>GENERACION DE ENERGIA ELECTRICA EN OTRAS</GiroRecep>
+        <Contacto>Hanwha</Contacto>
+        <DirRecep>APOQUINDO 3910 PISO 5</DirRecep>
+        <CmnaRecep>LAS CONDES</CmnaRecep>
+        <CiudadRecep>SANTIAGO</CiudadRecep>
+      </Receptor>
+      <RUTSolicita>76364596-7</RUTSolicita>
+      <Totales>
+        <MntExe>80000</MntExe>
+        <MntTotal>80000</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <NmbItem>Traslado de personal</NmbItem>
+      <DscItem>Traslado de personal desde San Miguel RM hasta KM 62, sector monte negro comuna de til til</DscItem>
+      <QtyItem>1.00</QtyItem>
+      <PrcItem>80000.00</PrcItem>
+      <MontoItem>80000</MontoItem>
+    </Detalle>
+<TED version="1.0"><DD><RE>76862878-5</RE><TD>34</TD><F>20</F><FE>2018-12-28</FE><RR>76254347-8</RR><RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR><MNT>80000</MNT><IT1>Traslado de personal</IT1><CAF version="1.0"><DA><RE>76862878-5</RE><RS>TRANSPORTES NELSON LUIS TEJADA IBARRA E.</RS><TD>34</TD><RNG><D>20</D><H>20</H></RNG><FA>2018-12-28</FA><RSAPK><M>r1oHE11bp9wy0RN7iEYXFEXKmozw1MAJZ0Yl6RAlt8IaMQj4IP9jP+ps15yuJnM95om0qmWFwAIru5lPMjy/MQ==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">AGpgb4CJ2fmupB7hc7VZjQZV3cv0lWflo5WqrmTvgg74fXyfHyx+ek/T82bxpPbBQWIZCftcFvYZ7NYY7jGBfA==</FRMA></CAF><TSTED>2018-12-28T17:17:06</TSTED></DD><FRMT algoritmo="SHA1withRSA">mTi1ttD5OTexfvUg75R5hu4JFSuqFEQ6L41OKgNUKqPxmUhb1hFQknPocMgBzKQlZMnr2myi81LhYHMVI4acGg==</FRMT></TED>
+    <TmstFirma>2018-12-28T17:17:06</TmstFirma>
+
+  </Documento>
+<default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<default:SignedInfo>
+<default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<default:Reference URI="#MiPE76862878-23841">
+<default:Transforms>
+<default:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</default:Transforms>
+<default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<default:DigestValue>TDeKR1baLp0mQpYE13D5rmF+BI4=</default:DigestValue>
+</default:Reference>
+</default:SignedInfo>
+<default:SignatureValue>
+Xfjy0B4Z7ENxO+aLYFC4JMtwMtt9mH4fsRIDMFMK0D+hkm3zRNZR+icBC/Y+zVbiagLNeuDjKhCj
+zE2QefK8AHkkMs4saAlEg+N0cm/7Oxsw1TN9SjL5xY6/dWQmU/cB8DX2kPYo44gpqplmn2rf+xI8
+nHnKMM/pcMvH3ewuAXgB/MkpSEJImxg+Zhoo0owyBi9UHX4lGJf1iIPbq+c0ioHWzKiGC5LOsNJa
+AVLTVxacA/5U0hSU2dDr8RKOFsUYjwrFI3YeGA2OhmAxvb4f1VRZJIHExZ6/A2mj2ygptC57rXFZ
+hRuaYCUA/t/uVgcX7XMmVMeTw42q+FG5l1+b8Q==
+</default:SignatureValue>
+<default:KeyInfo>
+<default:KeyValue>
+<default:RSAKeyValue>
+<default:Modulus>
+wz8ww9ptdqHTRpMxdpnl/0YpM02Li5gCjBCum4trpZkknsNE5AlX50sPk/GCawwsv1hApmA8CkcC
+zl3cCWTNK+1Rc1EvzmL04s333JSN0i5Ul8QBMZ8TsdqHk8QV9X0Sg+3HQFUOS/B312BFqXG64fqn
+JFJvgr5+i01xINyHg1KbJOQSTEO3/aCSr33gJrKdL9XbUOiLx9ebfiQ9g+DW+LmBjm/RtvitCQeO
+hJJIU9mKKCT+0qj1MYN/lBz+8GS8XoXrt1DVYKqJoYvKKkOUjo+Epk+VaO3kDEhupw+gwy1G2B7O
+lXgc7i/fnKNmAW8k/q6q8VfiZ6VNBmGC8FGiXQ==
+</default:Modulus>
+<default:Exponent>AQAB</default:Exponent>
+</default:RSAKeyValue>
+</default:KeyValue>
+<default:X509Data>
+<default:X509Certificate>
+MIIGfDCCBWSgAwIBAgIDAjheMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJDTDEYMBYGA1UE
+ChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29tIEF1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFsIC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9A
+YWNlcHRhLmNvbTETMBEGA1UEBRMKOTY5MTkwNTAtODAeFw0xODA2MDgxODMxMDlaFw0yMTA2MDgx
+ODMxMDlaMIGMMQswCQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSIwIAYDVQQD
+ExlORUxTT04gTFVJUyBURUpBREEgSUJBUlJBMSowKAYJKoZIhvcNAQkBFhtuZWxzb24udGVqYWRh
+LmlAaG90bWFpbC5jb20xEzARBgNVBAUTCjE2MjkwODIyLTcwggEiMA0GCSqGSIb3DQEBAQUAA4IB
+DwAwggEKAoIBAQDDPzDD2m12odNGkzF2meX/RikzTYuLmAKMEK6bi2ulmSSew0TkCVfnSw+T8YJr
+DCy/WECmYDwKRwLOXdwJZM0r7VFzUS/OYvTizffclI3SLlSXxAExnxOx2oeTxBX1fRKD7cdAVQ5L
+8HfXYEWpcbrh+qckUm+Cvn6LTXEg3IeDUpsk5BJMQ7f9oJKvfeAmsp0v1dtQ6IvH15t+JD2D4Nb4
+uYGOb9G2+K0JB46EkkhT2YooJP7SqPUxg3+UHP7wZLxeheu3UNVgqomhi8oqQ5SOj4SmT5Vo7eQM
+SG6nD6DDLUbYHs6VeBzuL9+co2YBbyT+rqrxV+JnpU0GYYLwUaJdAgMBAAGjggLJMIICxTAfBgNV
+HSMEGDAWgBRlpas+P8i2UW0Rfl/DCgfmQ6AItjAdBgNVHQ4EFgQUkObMbRg0qYI4qljQ/+QKr89j
+Ly8wCwYDVR0PBAQDAgTwMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBglghkgBhvhC
+AQEEBAMCBaAwgfUGA1UdIASB7TCB6jCB5wYIKwYBBAG1awIwgdowMQYIKwYBBQUHAgEWJWh0dHBz
+Oi8vYWNnNC5hY2VwdGEuY29tL0NQUy1BY2VwdGFjb20wgaQGCCsGAQUFBwICMIGXMBYWD0FjZXB0
+YS5jb20gUy5BLjADAgEJGn1FbCB0aXR1bGFyIGhhIHNpZG8gdmFsaWRhZG8gZW4gZm9ybWEgb25s
+aW5lLCBxdWVkYW5kbyBoYWJpbGl0YWRvIGVsIENlcnRpZmljYWRvIHBhcmEgdXNvIHRyaWJ1dGFy
+aW8sIHBhZ29zLCBjb21lcmNpbyB5IG90cm9zLjBaBgNVHRIEUzBRoBgGCCsGAQQBwQECoAwWCjk2
+OTE5MDUwLTigJAYIKwYBBQUHCAOgGDAWDAo5NjkxOTA1MC04BggrBgEEAcEBAoEPaW5mb0BhY2Vw
+dGEuY29tMGYGA1UdEQRfMF2gGAYIKwYBBAHBAQGgDBYKMTYyOTA4MjItN6AkBggrBgEFBQcIA6AY
+MBYMCjE2MjkwODIyLTcGCCsGAQQBwQECgRtuZWxzb24udGVqYWRhLmlAaG90bWFpbC5jb20wRwYI
+KwYBBQUHAQEEOzA5MDcGCCsGAQUFBzABhitodHRwczovL2FjZzQuYWNlcHRhLmNvbS9hY2c0L29j
+c3AvQ2xhc2UyLUc0MD8GA1UdHwQ4MDYwNKAyoDCGLmh0dHBzOi8vYWNnNC5hY2VwdGEuY29tL2Fj
+ZzQvY3JsL0NsYXNlMi1HNC5jcmwwDQYJKoZIhvcNAQELBQADggEBAGD9NmhY4CyhAt0tILpF92Y+
+w5tXjYAxOyd3/90/N+gI6kG4BfBDPjOCb7O+P4EnqDHlnmJMj1PPxHXCFEASqhdM4v5oRdejFw1S
+eG7KPv5P29hHyuIBcCfKU8+y2y/NTMyBYyV7aPHfTMUF1Vm4E3zIzGINwGvQwoHcY2hSMAYifpAk
+t4amY6sr3+rmWxTFTrKAK/CEaNF4p6BrAhE4JuiOZeFH50Tvkg5fuV55S+6rki2hsyWPKc+EUmGh
+Dbt02Sh6NOw2O+VQAGzNdbxrP7CxSvys4yrLY4hG94r4VLNQ+j7kLJpfCrcgx4WLGjEo/tc+4OX6
+FzYjcq6DSX+Kb3Q=
+</default:X509Certificate>
+</default:X509Data>
+</default:KeyInfo>
+</default:Signature></DTE>
