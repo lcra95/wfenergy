@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SetDTE version="1.0">
+  <EnvioDTE ID="76254347-8F147T61">
+    <Caratula>
+      <RutEmisor>76254347-8</RutEmisor>
+      <NroDetalles>1</NroDetalles>
+      <FechaHoraEnvio>2018-12-26T20:46:31</FechaHoraEnvio>
+    </Caratula>
+    <DocumentoDTE>
+      <TipoDTE>61</TipoDTE>
+      <Folio>147</Folio>
+      <EstadoDTE>0</EstadoDTE>
+      <GlosaEstadoDTE>DTE RECIBIDO OK</GlosaEstadoDTE>
+      <PDF Url="https://sistema.webfactura.net/pdf/670614eaf2d8765f3ea444efa4d0f3b8" Timbre="https://sistema.webfactura.net/pdf/670614eaf2d8765f3ea444efa4d0f3b8/2"/>
+    </DocumentoDTE>
+  </EnvioDTE>
+</SetDTE>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+  <!-- O Win32 Chrome 70 central VERSION: v20170209 -->
+<Documento ID="MiPE6542552-720">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>122</Folio>
+        <FchEmis>2018-11-12</FchEmis>
+        <TpoTranCompra>1</TpoTranCompra>
+        <TpoTranVenta>1</TpoTranVenta>
+        <FmaPago>2</FmaPago>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>6542552-1</RUTEmisor>
+        <RznSoc>RODRIGO JORGE MOZO DE TERAN</RznSoc>
+        <GiroEmis>ARRIENDO DE MAQUINARIA,COMPRA VENTA Y SERV.DE BS.MUEBLES.</GiroEmis>
+        <Telefono>212490</Telefono>
+        <CorreoEmisor>ROMO.MOZO@GMAIL.COM</CorreoEmisor>
+        <Acteco>773009</Acteco>
+        <CdgSIISucur>002218297</CdgSIISucur>
+        <DirOrigen>MARIO SILVA IRIARTE 537   LA CHIMBA</DirOrigen>
+        <CmnaOrigen>ANTOFAGASTA</CmnaOrigen>
+        <CiudadOrigen>ANTOFAGASTA</CiudadOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>76254347-8</RUTRecep>
+        <RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep>
+        <GiroRecep>GENERACION DE ENERGIA ELECTRICA EN OTRAS</GiroRecep>
+        <DirRecep>APOQUINDO 3910 PISO 5</DirRecep>
+        <CmnaRecep>LAS CONDES</CmnaRecep>
+        <CiudadRecep>SANTIAGO</CiudadRecep>
+      </Receptor>
+      <Totales>
+        <MntNeto>240000</MntNeto>
+        <TasaIVA>19.00</TasaIVA>
+        <IVA>45600</IVA>
+        <MntTotal>285600</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <NmbItem>TRANSPORTE DE PERSONAL</NmbItem>
+      <DscItem>Transporte de personal desde Santiago a Til Til.</DscItem>
+      <QtyItem>6.00</QtyItem>
+      <PrcItem>40000.00</PrcItem>
+      <MontoItem>240000</MontoItem>
+    </Detalle>
+<TED version="1.0"><DD><RE>6542552-1</RE><TD>33</TD><F>122</F><FE>2018-11-12</FE><RR>76254347-8</RR><RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR><MNT>285600</MNT><IT1>TRANSPORTE DE PERSONAL</IT1><CAF version="1.0"><DA><RE>6542552-1</RE><RS>RODRIGO JORGE MOZO DE TERAN</RS><TD>33</TD><RNG><D>122</D><H>122</H></RNG><FA>2018-11-12</FA><RSAPK><M>xoBuJQFjKXqkwG6W1naGqxVWG5/GAsKQRpDSP+wZTAYWr91JpbPgjw/OA6PxtP4m0diipe1Vr4vFqxzKvXIpdw==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">P8end4sE+Sftle1rtTzkgTZLITxHHd9QOXNSLzb806ecZL0VS6OcU5dlWRHu0DwQKMNdlf+8nRkGan1OPdpCEw==</FRMA></CAF><TSTED>2018-11-12T11:38:38</TSTED></DD><FRMT algoritmo="SHA1withRSA">FtmqR/vYpQS+783GimEbqSdg1Y6t+XqF5RxZWbmseRie4SqY8AA+7TRkNNMPZBxFwKu1NCK1XMDf5qar/tasJQ==</FRMT></TED>
+    <TmstFirma>2018-11-12T11:38:38</TmstFirma>
+
+  </Documento>
+<default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<default:SignedInfo>
+<default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<default:Reference URI="#MiPE6542552-720">
+<default:Transforms>
+<default:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</default:Transforms>
+<default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<default:DigestValue>RYb9dVs2nelYpuK1p/XMEMQcsbA=</default:DigestValue>
+</default:Reference>
+</default:SignedInfo>
+<default:SignatureValue>
+oiFZv/Q1gT12Ceo4/oaQ31Uqik+mcDY++Of6xT4fLfFAzCnxEIGKiR4uHCzu0jA8oM6Pekbc25sD
+jI6VEaE1GkZaFu4pcpBYVNq9XpqmohBX9J9lMQnmwUM8YEQA/Rhy+YrvzeS6xF9Oi6oeHw36/JCZ
+R7LqkPwx/cO1yBCHYrrvcvVfSqjCorVQSop9u1aOOUrnjWeWMVuSOxV12HFyU4q2iMuk0anNY/CM
+adJrI8dnfSJQZTGQkn/Fr2aHDF9OeVr64lOglsO44hvUHqC9IoguYyM6lBDfwbtbYYxeGOX0PWrV
+2MhInbziSbF7CYr4gBbNHv/i22H8UC/4IFrf4g==
+</default:SignatureValue>
+<default:KeyInfo>
+<default:KeyValue>
+<default:RSAKeyValue>
+<default:Modulus>
+yp4pO1AsrpC06ZK5fMI03gTxZCu8hFdSBpxZZntM9JLPiG92BT/nhjZ8IjKfQxTRMqD8tawdZJct
+FUY/RQrGND2ieUl9X/qyVUYrHV39u5OXa9H/LeHgQOEXwipb5M7cXBmKPv6/03aMvyVPuY4cWL8y
+bAWnB7atO3fJiGf9cR1i538mH90fosUAzlHO3kMZlmIsmHNHjYLC3Frrh7XIU7z0ARp+vrruyr72
+oDG97Nhs23cHw9pyFH/tZyvbY8Q/4HaGPTCPUb8oFR1y266nIdVUCFjJnVPIBjEgqaUB7Apt1NLV
+jZ3V4dGDNBNhgvA6pck4RYOqsHVuXlGfiGhRYQ==
+</default:Modulus>
+<default:Exponent>AQAB</default:Exponent>
+</default:RSAKeyValue>
+</default:KeyValue>
+<default:X509Data>
+<default:X509Certificate>
+MIIGazCCBVOgAwIBAgIDAnMiMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJDTDEYMBYGA1UE
+ChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29tIEF1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFsIC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9A
+YWNlcHRhLmNvbTETMBEGA1UEBRMKOTY5MTkwNTAtODAeFw0xODA4MjQxODIzMDRaFw0yMTA4MjQx
+ODIzMDRaMIGFMQswCQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSQwIgYDVQQD
+ExtST0RSSUdPIEpPUkdFIE1PWk8gREUgVEVSQU4xIjAgBgkqhkiG9w0BCQEWE3JvbW8ubW96b0Bn
+bWFpbC5jb20xEjAQBgNVBAUTCTY1NDI1NTItMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoC
+ggEBAMqeKTtQLK6QtOmSuXzCNN4E8WQrvIRXUgacWWZ7TPSSz4hvdgU/54Y2fCIyn0MU0TKg/LWs
+HWSXLRVGP0UKxjQ9onlJfV/6slVGKx1d/buTl2vR/y3h4EDhF8IqW+TO3FwZij7+v9N2jL8lT7mO
+HFi/MmwFpwe2rTt3yYhn/XEdYud/Jh/dH6LFAM5Rzt5DGZZiLJhzR42Cwtxa64e1yFO89AEafr66
+7sq+9qAxvezYbNt3B8PachR/7Wcr22PEP+B2hj0wj1G/KBUdctuupyHVVAhYyZ1TyAYxIKmlAewK
+bdTS1Y2d1eHRgzQTYYLwOqXJOEWDqrB1bl5Rn4hoUWECAwEAAaOCAr8wggK7MB8GA1UdIwQYMBaA
+FGWlqz4/yLZRbRF+X8MKB+ZDoAi2MB0GA1UdDgQWBBS6rdFHgeYPbTfWpRRhV343HASlDTALBgNV
+HQ8EBAMCBPAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMBEGCWCGSAGG+EIBAQQEAwIF
+oDCB9QYDVR0gBIHtMIHqMIHnBggrBgEEAbVrAjCB2jAxBggrBgEFBQcCARYlaHR0cHM6Ly9hY2c0
+LmFjZXB0YS5jb20vQ1BTLUFjZXB0YWNvbTCBpAYIKwYBBQUHAgIwgZcwFhYPQWNlcHRhLmNvbSBT
+LkEuMAMCAQkafUVsIHRpdHVsYXIgaGEgc2lkbyB2YWxpZGFkbyBlbiBmb3JtYSBvbmxpbmUsIHF1
+ZWRhbmRvIGhhYmlsaXRhZG8gZWwgQ2VydGlmaWNhZG8gcGFyYSB1c28gdHJpYnV0YXJpbywgcGFn
+b3MsIGNvbWVyY2lvIHkgb3Ryb3MuMFoGA1UdEgRTMFGgGAYIKwYBBAHBAQKgDBYKOTY5MTkwNTAt
+OKAkBggrBgEFBQcIA6AYMBYMCjk2OTE5MDUwLTgGCCsGAQQBwQECgQ9pbmZvQGFjZXB0YS5jb20w
+XAYDVR0RBFUwU6AXBggrBgEEAcEBAaALFgk2NTQyNTUyLTGgIwYIKwYBBQUHCAOgFzAVDAk2NTQy
+NTUyLTEGCCsGAQQBwQECgRNyb21vLm1vem9AZ21haWwuY29tMEcGCCsGAQUFBwEBBDswOTA3Bggr
+BgEFBQcwAYYraHR0cHM6Ly9hY2c0LmFjZXB0YS5jb20vYWNnNC9vY3NwL0NsYXNlMi1HNDA/BgNV
+HR8EODA2MDSgMqAwhi5odHRwczovL2FjZzQuYWNlcHRhLmNvbS9hY2c0L2NybC9DbGFzZTItRzQu
+Y3JsMA0GCSqGSIb3DQEBCwUAA4IBAQBkx/fsFBRy3mgGeMvPFUXd8z00Xw5+Q5o+lgdDrdYhbEL4
+TyJatd/92iffnYaV2DcCBg4UnEGTWdAAO7LrIY3KesLForyrdhrXw83vlDvDUILnkdbivhx7extF
+RdTfQIa/AK8Phrvq9c2SgbPQxWPBoh0XqgGyQ2HV9J5oEm2woWA2ylzPFzMtUOFU0oF+zGEasCbz
+N0Ko2fxXLU8x0H1m77X8m4VP7gm5kCsNw/thmKCVEIPM7vMexCdvvl32ga7xbdEgshVzWWzCpMYz
+gvYYP4OeB2LDOGFoT666vhWBgPD3lWjZICcHRllCPNfL8BRP/Up7kBjHalurM/edIA9z
+</default:X509Certificate>
+</default:X509Data>
+</default:KeyInfo>
+</default:Signature></DTE>

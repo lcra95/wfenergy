@@ -30,7 +30,7 @@ $tte=mysql_fetch_array($tpr);
 
 
 <div class="panel panel-default">
-<div class="panel-heading"><h4>PENDIENTE POR FACTURAR <?php echo $periodo;?> </div>
+<div class="panel-heading"><h4>PENDIENTE POR FACTURAR  </div>
 <div class="panel-body">
 
 
@@ -50,7 +50,7 @@ $tte=mysql_fetch_array($tpr);
 
 
 <?php 
-$sel=mysql_query("SELECT * FROM empresa_transaccion WHERE periodo = '$periodo'");
+$sel=mysql_query("SELECT * FROM empresa_transaccion WHERE id_status = 0");
 while($row=mysql_fetch_array($sel))
 { 
 	$sql2=mysql_query("SELECT * FROM factura_transaccion WHERE id_transaccion = $row[0]");

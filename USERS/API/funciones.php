@@ -1,16 +1,16 @@
 <?php 
 include("conexion.php");
 
-function ultimate_conpcepto($fac, $per)
+function ultimate_conpcepto($fac)
 {
 	$sql="SELECT 
-	r.nemotecnico 
-	FROM factura_concepto fc
-	JOIN referencia r ON fc.id_concepto = r.id_concepto AND r.id_periodo = '$per'
-	WHERE fc.id_factura = $fac";
+	tt.descripcion FROM tipo_transaccion tt 
+	JOIN factura_concepto fc ON fc.id_concepto = tt.id AND fc.id_concepto = $fac 
+	";
 	$exe=mysql_query($sql);
 	$data=mysql_fetch_array($exe);
 
+	return $data['descripcion'];
 }
 function acumulado($id)
 {

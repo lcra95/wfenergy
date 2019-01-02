@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F3894T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>3894</Folio>
+                    <FchEmis>2018-12-27</FchEmis>
+                    <FchVenc>2018-12-31</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76178599-0</RUTRecep>
+                    <RznSocRecep>PARQUE EOLICO LOS CURUROS LIMITADA</RznSocRecep>
+                    <GiroRecep>GENERACION DE ENERGIA ELECTRICA</GiroRecep>
+                    <Contacto>EPMCHILE@EPMCHILE.COM</Contacto>
+                    <DirRecep>AV. MANQUEHUE NORTE 160 OFICINA 41-B</DirRecep>
+                    <CmnaRecep>LAS CONDES</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>16785</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>3189</IVA>
+                    <MntTotal>19974</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>2</VlrCodigo>
+        </CdgItem>
+        <NmbItem>POTENCIA
+</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>16785</PrcItem>
+        <MontoItem>16785</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE05969A18C56S0292</FolioRef>
+        <FchRef>2018-12-18</FchRef>
+        <RazonRef>SEN_[BP__][Nov18][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

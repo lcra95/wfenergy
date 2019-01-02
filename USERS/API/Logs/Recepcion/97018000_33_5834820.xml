@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:l="http://custodium.com/agent/local" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+      <Documento ID="T33F">
+        <Encabezado>
+          <IdDoc>
+            <TipoDTE>33</TipoDTE>
+            <Folio>5834820</Folio>
+            <FchEmis>2018-11-30</FchEmis>
+            <FmaPago>1</FmaPago>
+          </IdDoc>
+          <Emisor>
+            <RUTEmisor>97018000-1</RUTEmisor>
+            <RznSoc>SCOTIABANK CHILE</RznSoc>
+            <GiroEmis>BANCO</GiroEmis>
+            <Acteco>651910</Acteco>
+            <DirOrigen>AV. Costanera Sur 2710 Torre-A</DirOrigen>
+            <CmnaOrigen>Las Condes</CmnaOrigen>
+            <CiudadOrigen>SANTIAGO</CiudadOrigen>
+          </Emisor>
+          <Receptor>
+            <RUTRecep>76254347-8</RUTRecep>
+            <RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep>
+            <GiroRecep>SOCIEDADES DE INVERSION Y RENTISTAS</GiroRecep>
+            <DirRecep>AV APOQUINDO 3910 OFICINA</DirRecep>
+            <CmnaRecep>LAS CONDES</CmnaRecep>
+          </Receptor>
+          <Totales>
+            <MntNeto>604</MntNeto>
+            <TasaIVA>19</TasaIVA>
+            <IVA>115</IVA>
+            <MntTotal>719</MntTotal>
+          </Totales>
+        </Encabezado>
+        <Detalle>
+          <NroLinDet>1</NroLinDet>
+          <NmbItem>09/11/2018 071 02314 COMISONES COBRADAS</NmbItem>
+          <QtyItem>1</QtyItem>
+          <PrcItem>604</PrcItem>
+          <MontoItem>604</MontoItem>
+        </Detalle>
+        <TED version="1.0">
+          <DD>
+            <RE>97018000-1</RE>
+            <TD>33</TD>
+            <F>5834820</F>
+            <FE>2018-11-30</FE>
+            <RR>76254347-8</RR>
+            <RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR>
+            <MNT>719</MNT>
+            <IT1>09/11/2018 071 02314 COMISONES COBRADAS</IT1>
+            <CAF version="1.0">
+              <DA>
+                <RE>97018000-1</RE>
+                <RS>SCOTIABANK CHILE</RS>
+                <TD>33</TD>
+                <RNG>
+                  <D>5724355</D>
+                  <H>5995124</H>
+                </RNG>
+                <FA>2018-09-07</FA>
+                <RSAPK>
+                  <M>tEiPH4X4I/OeIn0KrLoPhYo5w2+/aipCBQKN+/X2Q8WRl7NwEO/Chc/0XRJzqxeS6+RnCQ+yflEvviClPtw0Xw==</M>
+                  <E>Aw==</E>
+                </RSAPK>
+                <IDK>300</IDK>
+              </DA>
+              <FRMA algoritmo="SHA1withRSA">QBkyf3PHFsaZxYz9fTrJCHqTe6F2oVTFlKzcQ+Fk6dZMfOjK8MKfAC5e5GN7UD9avM3UzisUkSEyHemV3mdiXQ==</FRMA>
+            </CAF>
+            <TSTED>2018-12-04T12:59:21</TSTED>
+          </DD>
+          <FRMT algoritmo="SHA1withRSA">WNsBIkuOZZuH6tUrTsYi3chvmtTL45VIin9w4e5b32E4tc9vpUL4qh1iPXd0/XMVvb7XQeRT5a2g
+4hnf5Fu1Bg==</FRMT>
+        </TED>
+        <TmstFirma>2018-12-04T12:59:21</TmstFirma>
+      </Documento>
+      <default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+	<default:SignedInfo>
+		<default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+		<default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+		<default:Reference URI="#T33F">
+			<default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+			<default:DigestValue>bBL+fiVnWHW+AO+2UZWnlCA5b1o=</default:DigestValue>
+		</default:Reference>
+	</default:SignedInfo>
+	<default:SignatureValue>3tEHLt6ZRvLsUzy8v8tSqTKOdc7QHUDleJ9QAfyiRym+Ni4LLvh8DPus15b53dSLe/ZRqSHgqUNl
+KI/Ypnn7FslOGJcR7G+6zMW9JsNrYNQiTweQt6PrEUch3JcDx1Uk3Czko5NY8zM003L2E2+xkuBG
+7Zn2CzXO3DZOYb8kZ2CoHlIIp+NCaT/ZzrJGAq47YuWa9ymgqUesbkVTgXlAv/8WJFu6c+bSm/6d
+WkJTgLxwD05MdEo4+fYr73QYCMOEvQ7SV6MO4au6j0sWmT9AvAMiQO3p3VixJGvi1gBSk8t9w7S5
+l0YTL1j3SDI447qoYC519tnXD6wYuApr42h+0w==</default:SignatureValue>
+	<default:KeyInfo>
+		<default:KeyValue>
+			<default:RSAKeyValue>
+				<default:Modulus>52pUpD7Gc9fkufOzmVKqYbCT530g2MO5HhQCO196d02l/37vAUcOQB+LhSlVsKuGsyXd1ByVvxOu
+5KkvHLowNiQ1kk6r4KyPo6V1AP3YCXojD64EsmQfoGscNcWlZwuOqmW3a0Vyt6aLsXNuXHTXPFcX
+QKG3D5+GV2/n933Jeqmv50AdMiCaP1EX2eg2RVFvBl/xdaODAODD1Kicv8HA2MC7Bp15vHy3znzh
+J0OlO7FOAhPM3PUKjaa90W2xIZhqXdefiTbQl249JhuwDs0BdpAR1BGDI6kw4brmeEhAk2bV202e
+3SC+q7N1B9HtlfPGGaPYGMt1hid+3inXwWDkLw==</default:Modulus>
+				<default:Exponent>AQAB</default:Exponent>
+			</default:RSAKeyValue>
+		</default:KeyValue>
+		<default:X509Data>
+			<default:X509Certificate>MIIGhTCCBW2gAwIBAgIDAmQBMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJDTDEYMBYGA1UE
+ChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29tIEF1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFsIC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9A
+YWNlcHRhLmNvbTETMBEGA1UEBRMKOTY5MTkwNTAtODAeFw0xODA4MDYxNzU4NTFaFw0xOTA4MDYx
+NzU4NTFaMIGSMQswCQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSUwIwYDVQQD
+ExxKVUFOIEVTVEVCQU4gU0FMQU1BTkNBIERVUkFOMS0wKwYJKoZIhvcNAQkBFh5yb25hbGQuY29u
+dHJlcmFzQHNjb3RpYWJhbmsuY2wxEzARBgNVBAUTCjEwMzA3NTk0LTcwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQDnalSkPsZz1+S587OZUqphsJPnfSDYw7keFAI7X3p3TaX/fu8BRw5A
+H4uFKVWwq4azJd3UHJW/E67kqS8cujA2JDWSTqvgrI+jpXUA/dgJeiMPrgSyZB+gaxw1xaVnC46q
+ZbdrRXK3pouxc25cdNc8VxdAobcPn4ZXb+f3fcl6qa/nQB0yIJo/URfZ6DZFUW8GX/F1o4MA4MPU
+qJy/wcDYwLsGnXm8fLfOfOEnQ6U7sU4CE8zc9QqNpr3RbbEhmGpd15+JNtCXbj0mG7AOzQF2kBHU
+EYMjqTDhuuZ4SECTZtXbTZ7dIL6rs3UH0e2V88YZo9gYy3WGJ37eKdfBYOQvAgMBAAGjggLMMIIC
+yDAfBgNVHSMEGDAWgBRlpas+P8i2UW0Rfl/DCgfmQ6AItjAdBgNVHQ4EFgQUfbeHlST7YlYVjw6g
+SKcyDuV40L4wCwYDVR0PBAQDAgTwMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDARBglg
+hkgBhvhCAQEEBAMCBaAwgfUGA1UdIASB7TCB6jCB5wYIKwYBBAG1awIwgdowMQYIKwYBBQUHAgEW
+JWh0dHBzOi8vYWNnNC5hY2VwdGEuY29tL0NQUy1BY2VwdGFjb20wgaQGCCsGAQUFBwICMIGXMBYW
+D0FjZXB0YS5jb20gUy5BLjADAgEJGn1FbCB0aXR1bGFyIGhhIHNpZG8gdmFsaWRhZG8gZW4gZm9y
+bWEgb25saW5lLCBxdWVkYW5kbyBoYWJpbGl0YWRvIGVsIENlcnRpZmljYWRvIHBhcmEgdXNvIHRy
+aWJ1dGFyaW8sIHBhZ29zLCBjb21lcmNpbyB5IG90cm9zLjBaBgNVHRIEUzBRoBgGCCsGAQQBwQEC
+oAwWCjk2OTE5MDUwLTigJAYIKwYBBQUHCAOgGDAWDAo5NjkxOTA1MC04BggrBgEEAcEBAoEPaW5m
+b0BhY2VwdGEuY29tMGkGA1UdEQRiMGCgGAYIKwYBBAHBAQGgDBYKMTAzMDc1OTQtN6AkBggrBgEF
+BQcIA6AYMBYMCjEwMzA3NTk0LTcGCCsGAQQBwQECgR5yb25hbGQuY29udHJlcmFzQHNjb3RpYWJh
+bmsuY2wwRwYIKwYBBQUHAQEEOzA5MDcGCCsGAQUFBzABhitodHRwczovL2FjZzQuYWNlcHRhLmNv
+bS9hY2c0L29jc3AvQ2xhc2UyLUc0MD8GA1UdHwQ4MDYwNKAyoDCGLmh0dHBzOi8vYWNnNC5hY2Vw
+dGEuY29tL2FjZzQvY3JsL0NsYXNlMi1HNC5jcmwwDQYJKoZIhvcNAQELBQADggEBAGzKg6fbYKcc
+VJzVxrfy1g15oxJ0SJ81UA0XxweJiC23HMSmxRkjO2h3nMtNSaifEkEHdQNbwwe2iQOr6Uoy29r7
+VhNen8Q8hXSsFHuN+/2SCvcJTsfGvUAEePxNYLJlEIvtPIQXYqOWSxXS54vQ7DwDQGIRk5Q5xdFt
+8w7D+WfpVdV67poz1oul7cgGV2NEc2lqmr7E6n0nuY5olaMyBYuuXabXCyiJxjCnaRHetMS/r9w6
+PSgTsXhZZAtYq/qLa3U6GoQg3X/OTlMqtx2kDdeuE5JFa2f5ygO8LJXeDqkSfV2UKIsXs63TIF/3
+hE56yvVnJH2Ud7cfYovkl5xaTSI=</default:X509Certificate>
+		</default:X509Data>
+	</default:KeyInfo>
+</default:Signature>
+    </DTE>

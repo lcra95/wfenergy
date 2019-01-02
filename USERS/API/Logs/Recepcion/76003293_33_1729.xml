@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+  <!-- O Win32 Trident 7 central VERSION: v20170209 -->
+<Documento ID="MiPE76003293-19742">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>33</TipoDTE>
+        <Folio>1729</Folio>
+        <FchEmis>2018-12-10</FchEmis>
+        <TpoTranCompra>1</TpoTranCompra>
+        <TpoTranVenta>1</TpoTranVenta>
+        <FmaPago>2</FmaPago>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>76003293-K</RUTEmisor>
+        <RznSoc>ANDREA PAOLA HIDALGO PEREZ CONTROL DE PLAGAS E.I.R.L.</RznSoc>
+        <GiroEmis>SERVICIOS  DE HIGIENE AMBIENTAL</GiroEmis>
+        <Telefono>2 8601740</Telefono>
+        <CorreoEmisor>CHICUREOPLAGAS@GMAIL.COM</CorreoEmisor>
+        <Acteco>016100</Acteco>
+        <CdgSIISucur>074322535</CdgSIISucur>
+        <DirOrigen>ALPATACAL 0581   J. VANDER</DirOrigen>
+        <CmnaOrigen>COLINA</CmnaOrigen>
+        <CiudadOrigen>SANTIAGO</CiudadOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>76254347-8</RUTRecep>
+        <RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep>
+        <GiroRecep>GENERACION DE ENERGIA ELECTRICA EN OTRAS</GiroRecep>
+        <Contacto>232234747</Contacto>
+        <DirRecep>APOQUINDO 3910 PISO 5</DirRecep>
+        <CmnaRecep>LAS CONDES</CmnaRecep>
+        <CiudadRecep>SANTIAGO</CiudadRecep>
+      </Receptor>
+      <Totales>
+        <MntNeto>220000</MntNeto>
+        <TasaIVA>19.00</TasaIVA>
+        <IVA>41800</IVA>
+        <MntTotal>261800</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <NmbItem>TRATAMIENTOS CONTROL DE</NmbItem>
+      <DscItem>PLAGAS, EN PLANTA FOTOVOLTAICA UBICADA EN TIL TIL.</DscItem>
+      <QtyItem>1.00</QtyItem>
+      <PrcItem>220000.00</PrcItem>
+      <MontoItem>220000</MontoItem>
+    </Detalle>
+<TED version="1.0"><DD><RE>76003293-K</RE><TD>33</TD><F>1729</F><FE>2018-12-10</FE><RR>76254347-8</RR><RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR><MNT>261800</MNT><IT1>TRATAMIENTOS CONTROL DE</IT1><CAF version="1.0"><DA><RE>76003293-K</RE><RS>ANDREA PAOLA HIDALGO PEREZ CONTROL DE PL</RS><TD>33</TD><RNG><D>1729</D><H>1729</H></RNG><FA>2018-12-10</FA><RSAPK><M>vhJ8x6BapLLhCX8+s8fjX2jaHRT91CXySTOFgFydglRPLSLKm7dIALW+PYoom2VCBhWTeiNPlzrXLyS9jF5NfQ==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">CaGLVMtdrMIfmQN9L7s98aBuAgPv/5ahylOAtrZL9Zn+XP19UhkgVkWwUfA4jTgvf1mmRGC+spsylbFya+5u3Q==</FRMA></CAF><TSTED>2018-12-10T07:27:18</TSTED></DD><FRMT algoritmo="SHA1withRSA">PD20vHhLMWhHQ6pxxbIIgubXfWY/ITugmbxt0UIfQBCViMaTBc30llgQuoRUsZKvs9r+155qMKNLgGZcxEcBiQ==</FRMT></TED>
+    <TmstFirma>2018-12-10T07:27:18</TmstFirma>
+
+  </Documento>
+<default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<default:SignedInfo>
+<default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<default:Reference URI="#MiPE76003293-19742">
+<default:Transforms>
+<default:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</default:Transforms>
+<default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<default:DigestValue>+TR3XGDzB+W8VmQY3XYBqhSrTtw=</default:DigestValue>
+</default:Reference>
+</default:SignedInfo>
+<default:SignatureValue>
+lRjavevqslSdzEAW+wb46hAGvUnXef7iLhrQKDW8KRU5kPPHppbNWO/rcrlNr2+ll1NwPD3F2Z8U
+bOxh3XfyRhz/532ebKJ65cRj5dRHGewne3YkCS3d5VvgYbt4noBhFSXtpnWtye+zQY1rolzHDkq7
+J2uWDz/DXnhvYWqByxgntfE06cHIpEGiUgpjE7Sl0ECxQQGCe0nDmndiN6BvLT+utGEgo6hP/D12
+yJWRO4N4GZryD9OjEco4P2H/tiq0ek43gzKbtZk+cWUWa+SbdNagD7+0U6sJuIQ/OMPTbbWvJ9we
+00IQSRcEqXeQczwRCGwnpBBP+O7m+Ax9bbjFYw==
+</default:SignatureValue>
+<default:KeyInfo>
+<default:KeyValue>
+<default:RSAKeyValue>
+<default:Modulus>
+pZXW9SrYwLQwqNKG5OAxWKwVQUj5XHaYGNMeFj5kNGPvplbKOCMlu974n4zIdJZnRw+sbVvnomiE
+SC5coNXbUML3bhHP0sBawOQf/BOqEZ0mGUy2PWDcE5y3ZUTcYdu2xaalMLjdyqM65/7nwli7X2nU
+P8GkbXasBp03MbBnANNjzD6Q/Vh+qhnADJgcjri/9jnwTh6ZYvgJyApf/eazMEzUYNQCFIll4tNJ
+Sz0u8ZjinR4PcElokdr/ICOOO9NiSIk9Ww6SY0uTIt+fSodldZ7YogMKgPoWnoIVpYIYYKx070RQ
+tuwuXap45z5nCAAkHVcQF4TdUf8ku0ckOGmJvQ==
+</default:Modulus>
+<default:Exponent>AQAB</default:Exponent>
+</default:RSAKeyValue>
+</default:KeyValue>
+<default:X509Data>
+<default:X509Certificate>
+MIIGdzCCBV+gAwIBAgIDAWeRMA0GCSqGSIb3DQEBCwUAMIGmMQswCQYDVQQGEwJDTDEYMBYGA1UE
+ChMPQWNlcHRhLmNvbSBTLkEuMUgwRgYDVQQDEz9BY2VwdGEuY29tIEF1dG9yaWRhZCBDZXJ0aWZp
+Y2Fkb3JhIENsYXNlIDIgUGVyc29uYSBOYXR1cmFsIC0gRzQxHjAcBgkqhkiG9w0BCQEWD2luZm9A
+YWNlcHRhLmNvbTETMBEGA1UEBRMKOTY5MTkwNTAtODAeFw0xNzExMDIxOTEzMTNaFw0yMDExMDIx
+OTEzMTNaMIGKMQswCQYDVQQGEwJDTDEYMBYGA1UEDBMPUEVSU09OQSBOQVRVUkFMMSMwIQYDVQQD
+ExpBTkRSRUEgUEFPTEEgSElEQUxHTyBQRVJFWjEnMCUGCSqGSIb3DQEJARYYZXJpa0BhbGZyYWNv
+bnN1bHRvcmVzLmNsMRMwEQYDVQQFEwoxMDkzODMyMy02MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEApZXW9SrYwLQwqNKG5OAxWKwVQUj5XHaYGNMeFj5kNGPvplbKOCMlu974n4zIdJZn
+Rw+sbVvnomiESC5coNXbUML3bhHP0sBawOQf/BOqEZ0mGUy2PWDcE5y3ZUTcYdu2xaalMLjdyqM6
+5/7nwli7X2nUP8GkbXasBp03MbBnANNjzD6Q/Vh+qhnADJgcjri/9jnwTh6ZYvgJyApf/eazMEzU
+YNQCFIll4tNJSz0u8ZjinR4PcElokdr/ICOOO9NiSIk9Ww6SY0uTIt+fSodldZ7YogMKgPoWnoIV
+pYIYYKx070RQtuwuXap45z5nCAAkHVcQF4TdUf8ku0ckOGmJvQIDAQABo4ICxjCCAsIwHwYDVR0j
+BBgwFoAUZaWrPj/ItlFtEX5fwwoH5kOgCLYwHQYDVR0OBBYEFJDBWasDXu37xzp6tii7TqjqP21A
+MAsGA1UdDwQEAwIE8DAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwEQYJYIZIAYb4QgEB
+BAQDAgWgMIH1BgNVHSAEge0wgeowgecGCCsGAQQBtWsCMIHaMDEGCCsGAQUFBwIBFiVodHRwczov
+L2FjZzQuYWNlcHRhLmNvbS9DUFMtQWNlcHRhY29tMIGkBggrBgEFBQcCAjCBlzAWFg9BY2VwdGEu
+Y29tIFMuQS4wAwIBCRp9RWwgdGl0dWxhciBoYSBzaWRvIHZhbGlkYWRvIGVuIGZvcm1hIG9ubGlu
+ZSwgcXVlZGFuZG8gaGFiaWxpdGFkbyBlbCBDZXJ0aWZpY2FkbyBwYXJhIHVzbyB0cmlidXRhcmlv
+LCBwYWdvcywgY29tZXJjaW8geSBvdHJvcy4wWgYDVR0SBFMwUaAYBggrBgEEAcEBAqAMFgo5Njkx
+OTA1MC04oCQGCCsGAQUFBwgDoBgwFgwKOTY5MTkwNTAtOAYIKwYBBAHBAQKBD2luZm9AYWNlcHRh
+LmNvbTBjBgNVHREEXDBaoBgGCCsGAQQBwQEBoAwWCjEwOTM4MzIzLTagJAYIKwYBBQUHCAOgGDAW
+DAoxMDkzODMyMy02BggrBgEEAcEBAoEYZXJpa0BhbGZyYWNvbnN1bHRvcmVzLmNsMEcGCCsGAQUF
+BwEBBDswOTA3BggrBgEFBQcwAYYraHR0cHM6Ly9hY2c0LmFjZXB0YS5jb20vYWNnNC9vY3NwL0Ns
+YXNlMi1HNDA/BgNVHR8EODA2MDSgMqAwhi5odHRwczovL2FjZzQuYWNlcHRhLmNvbS9hY2c0L2Ny
+bC9DbGFzZTItRzQuY3JsMA0GCSqGSIb3DQEBCwUAA4IBAQBsd2eHeZb+4XCvzHUgjc6JOuXUCwL9
+2hYw1s8fUP1WQX1WDFRASlKDlZwr64gjPRIDjWx52majRhxrTZKTI71K3TFtnmUvmeM6ugrsKeY1
+Sb+r46KwyR1U4GH3rMhSFcf6zyRnqdkSK1zUFVH3ylRSQu7al0rwUUxsr4tiCG7SgNsmZJcT2GM7
+gcjzqy0zNHCobwYIcpubTUijyTAZAinwUeJGyBYqpJgeextvHO/OagK3Gz5aTXp5vnIDjYW9ZWCU
+SfrB2AiDU08sEJjAjN9dq66YjdxSsgPuQFupuh496sRjBRj67+aYp9dLowQJZv/I4gAvze1WqQP4
+2c2JuGQ+
+</default:X509Certificate>
+</default:X509Data>
+</default:KeyInfo>
+</default:Signature></DTE>

@@ -7,7 +7,8 @@ define('AMBIENTE','LOCAL');
 define('WS_USER', '24675367-9');
 define('WS_PASS', 'MtVZCHZ8d351');
 define('WS_EMISOR', '76254347-8');
-define('WS_PROD','http://wsprod.webfactura.net/wsWF.php?wsdl');
+define('WS_PROD','http://wsprod.webfactura.net/wsWF.php?wsdl');//
+//define('WS_PROD','http://wstest.webfactura.net/wsWF.php?wsdl');
 define('WS_TEST','http://wstest.webfactura.net/wsWF.php?wsdl');
 
 

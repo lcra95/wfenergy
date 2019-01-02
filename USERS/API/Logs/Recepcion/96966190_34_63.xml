@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DTE xmlns="http://www.sii.cl/SiiDte" xmlns:default="http://www.w3.org/2000/09/xmldsig#" version="1.0">
+  <!-- O Win32 Trident 7 central VERSION: v20170209 -->
+<Documento ID="MiPE96966190-13929">
+    <Encabezado>
+      <IdDoc>
+        <TipoDTE>34</TipoDTE>
+        <Folio>63</Folio>
+        <FchEmis>2018-12-08</FchEmis>
+        <TpoTranCompra>1</TpoTranCompra>
+        <TpoTranVenta>1</TpoTranVenta>
+        <FmaPago>1</FmaPago>
+      </IdDoc>
+      <Emisor>
+        <RUTEmisor>96966190-K</RUTEmisor>
+        <RznSoc>INMOBILIARIA LOMAS LOS COLORADOS SOCIEDAD ANONIMA</RznSoc>
+        <GiroEmis>ARRIENDO (EXCEPTO AMOBLADOS) DE INMUEBLES PROPIOS O ARRENDADO</GiroEmis>
+        <CorreoEmisor>CARLOS.REGLAS@KENBOURNE.CL</CorreoEmisor>
+        <Acteco>681012</Acteco>
+        <CdgSIISucur>059471390</CdgSIISucur>
+        <DirOrigen>LOTES A Y B FUNDO lAS bAT S/N   FUNDO LAS BATEAS</DirOrigen>
+        <CmnaOrigen>TIL-TIL</CmnaOrigen>
+        <CiudadOrigen>SANTIAGO</CiudadOrigen>
+      </Emisor>
+      <Receptor>
+        <RUTRecep>76254347-8</RUTRecep>
+        <RznSocRecep>HANWHA Q CELLS TIL TIL UNO SPA</RznSocRecep>
+        <GiroRecep>FONDOS Y SOCIEDADES DE INVERSION Y ENTID</GiroRecep>
+        <Contacto>DANIEL CHOI</Contacto>
+        <DirRecep>APOQUINDO 3910 PISO 5</DirRecep>
+        <CmnaRecep>LAS CONDES</CmnaRecep>
+        <CiudadRecep>SANTIAGO</CiudadRecep>
+      </Receptor>
+      <Totales>
+        <MntExe>1032910</MntExe>
+        <MntTotal>1032910</MntTotal>
+      </Totales>
+    </Encabezado>
+    <Detalle>
+      <NroLinDet>1</NroLinDet>
+      <NmbItem>Arriendo Predio</NmbItem>
+      <DscItem>Arriendo seg?n contrato de fecha 11 de marzo 2014
+Rep.N?7-310-2014 Notaria Felix Jara Cadot de 
+Santiag, correspondiente a la mensualidad de 
+Diciembre de 2018</DscItem>
+      <QtyItem>1.00</QtyItem>
+      <PrcItem>1032910.00</PrcItem>
+      <MontoItem>1032910</MontoItem>
+    </Detalle>
+<TED version="1.0"><DD><RE>96966190-K</RE><TD>34</TD><F>63</F><FE>2018-12-08</FE><RR>76254347-8</RR><RSR>HANWHA Q CELLS TIL TIL UNO SPA</RSR><MNT>1032910</MNT><IT1>Arriendo Predio</IT1><CAF version="1.0"><DA><RE>96966190-K</RE><RS>INMOBILIARIA LOMAS LOS COLORADOS SOCIEDA</RS><TD>34</TD><RNG><D>63</D><H>63</H></RNG><FA>2018-12-08</FA><RSAPK><M>sjfEoVoYj7+09nK38cg+dTNTYsSuhTPcgvAuAye0klU2Tq1oei4U1E0t1TiThL6yl3rNF5UHvPArnxia62sBfw==</M><E>Aw==</E></RSAPK><IDK>300</IDK></DA><FRMA algoritmo="SHA1withRSA">JZ8lzE9B+V23IgFVMw9N9ylwmpC6AaP08uXhhUb0PJWGR/vv+MG7Ja3P9WsxUIW+qLguKaxn/apneyIirKVrKw==</FRMA></CAF><TSTED>2018-12-08T15:52:01</TSTED></DD><FRMT algoritmo="SHA1withRSA">gz8TokVp2J0RnKuP7eB9bUxGQBb9OnfC9toW4LiLk7PuzgimRVHCh4pBJMHeslEA6FbZgglpd52jI3N401WCjg==</FRMT></TED>
+    <TmstFirma>2018-12-08T15:52:01</TmstFirma>
+
+  </Documento>
+<default:Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+<default:SignedInfo>
+<default:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+<default:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+<default:Reference URI="#MiPE96966190-13929">
+<default:Transforms>
+<default:Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+</default:Transforms>
+<default:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+<default:DigestValue>Vu4hA/dmCe33ID/geQ9D5AHb/Ic=</default:DigestValue>
+</default:Reference>
+</default:SignedInfo>
+<default:SignatureValue>
+l5XaS1maKNuNoVjxDC8K//7/Uy+M7LC+JiBAecDwOphiJ6ERYjU4IBFkghsVQsvJD6/QCAhaVDVO
+CH7s0Lpbi80njb0x9bRp43q2tH+U6sWMdW9iZqWRusl3CNZkLYhYCuJxD/togVpIc8+mKUDCdgI6
+oVRsrOzkwJQi0eiV82A=
+</default:SignatureValue>
+<default:KeyInfo>
+<default:KeyValue>
+<default:RSAKeyValue>
+<default:Modulus>
+5EwzFLY/244rwsBGo5/k2gi+gBv5g8obEKUV0pp1GPk4YxtgyfmGoOP12Tpywp8Joyfa85grkZHI
+q3tV5YFLXYRYDUVIsJiVI0uDMPEqv/PpzxQWnYtoRO8kYnO4jIEQAFLscITjEYvmf75QxowHU8py
+GwI1iBr2/QkrOxeXMj0=
+</default:Modulus>
+<default:Exponent>AQAB</default:Exponent>
+</default:RSAKeyValue>
+</default:KeyValue>
+<default:X509Data>
+<default:X509Certificate>
+MIIGQjCCBSqgAwIBAgIKZTOv4QAAAAlC/zANBgkqhkiG9w0BAQUFADCB0jELMAkGA1UEBhMCQ0wx
+HTAbBgNVBAgTFFJlZ2lvbiBNZXRyb3BvbGl0YW5hMREwDwYDVQQHEwhTYW50aWFnbzEUMBIGA1UE
+ChMLRS1DRVJUQ0hJTEUxIDAeBgNVBAsTF0F1dG9yaWRhZCBDZXJ0aWZpY2Fkb3JhMTAwLgYDVQQD
+EydFLUNFUlRDSElMRSBDQSBGSVJNQSBFTEVDVFJPTklDQSBTSU1QTEUxJzAlBgkqhkiG9w0BCQEW
+GHNjbGllbnRlc0BlLWNlcnRjaGlsZS5jbDAeFw0xNzExMDYxMzU0MjlaFw0xOTExMDYxMzU0Mjla
+MIHFMQswCQYDVQQGEwJDTDEjMCEGA1UECBMaTUVUUk9QT0xJVEFOQSBERSBTQU5USUFHTyAxETAP
+BgNVBAcTCFNhbnRpYWdvMRUwEwYDVQQKEwxOQU5BSU1PIFMuQS4xHzAdBgNVBAsTFkFSUklFTkRP
+IERFIElOTVVFQkxFUyAxHzAdBgNVBAMTFkNBUkxPUyBTQU5DSEVaIEZSVUdPTkUxJTAjBgkqhkiG
+9w0BCQEWFktFTkJPVVJORUBLRU5CT1VSTkUuQ0wwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGB
+AORMMxS2P9uOK8LARqOf5NoIvoAb+YPKGxClFdKadRj5OGMbYMn5hqDj9dk6csKfCaMn2vOYK5GR
+yKt7VeWBS12EWA1FSLCYlSNLgzDxKr/z6c8UFp2LaETvJGJzuIyBEABS7HCE4xGL5n++UMaMB1PK
+chsCNYga9v0JKzsXlzI9AgMBAAGjggKnMIICozA9BgkrBgEEAYI3FQcEMDAuBiYrBgEEAYI3FQiC
+3IMvhZOMZoXVnReC4twnge/sPGGDqudDh9PGDgIBZAIBBDAdBgNVHQ4EFgQUWJSKPZOL6Bbsn4nc
+621ZMlsh5mAwCwYDVR0PBAQDAgTwMB8GA1UdIwQYMBaAFHjhPp/SErN6PI3NMA5Ts0MpB7NVMD4G
+A1UdHwQ3MDUwM6AxoC+GLWh0dHA6Ly9jcmwuZS1jZXJ0Y2hpbGUuY2wvZWNlcnRjaGlsZWNhRkVT
+LmNybDA6BggrBgEFBQcBAQQuMCwwKgYIKwYBBQUHMAGGHmh0dHA6Ly9vY3NwLmVjZXJ0Y2hpbGUu
+Y2wvb2NzcDAjBgNVHREEHDAaoBgGCCsGAQQBwQEBoAwWCjA3MDUyODUyLTUwIwYDVR0SBBwwGqAY
+BggrBgEEAcEBAqAMFgo5NjkyODE4MC01MIIBTQYDVR0gBIIBRDCCAUAwggE8BggrBgEEAcNSBTCC
+AS4wLQYIKwYBBQUHAgEWIWh0dHA6Ly93d3cuZS1jZXJ0Y2hpbGUuY2wvQ1BTLmh0bTCB/AYIKwYB
+BQUHAgIwge8egewAQwBlAHIAdABpAGYAaQBjAGEAZABvACAARgBpAHIAbQBhACAAUwBpAG0AcABs
+AGUALgAgAEgAYQAgAHMAaQBkAG8AIAB2AGEAbABpAGQAYQBkAG8AIABlAG4AIABmAG8AcgBtAGEA
+IABwAHIAZQBzAGUAbgBjAGkAYQBsACwAIABxAHUAZQBkAGEAbgBkAG8AIABoAGEAYgBpAGwAaQB0
+AGEAZABvACAAZQBsACAAQwBlAHIAdABpAGYAaQBjAGEAZABvACAAcABhAHIAYQAgAHUAcwBvACAA
+dAByAGkAYgB1AHQAYQByAGkAbzANBgkqhkiG9w0BAQUFAAOCAQEAWjlzZzY8x9m3v0BHATCgjMi3
+4AOg71hfKdpqN6h+WVd7MMc3F62AdaFqmyxE/vjxaf4YnK9DCkoiVfwEGPIgb219A9O0bXUA8U0K
+jEAVcYimgbUvTsfEDFWOwkyn26qf6yp+X1/Mxm80Ph26UnB9btxTfXXlvWb3jqJoM09UIQRh8nOy
+0cLYtk4IEH73WrXHheikmw6gLqXWWAr2FLIkzWBuhPn8n+wd1VScjrPUI9qmr3aYEU2lFdKkMpGr
+sqSJf/o7JGceuNdtQpfxbWgy1bcroLWgJbCNUK7O9XsAgLiebb0JrYgfoPcRYYZYMnlYpwdRHJwz
+d6WbkbolPvw/lg==
+</default:X509Certificate>
+</default:X509Data>
+</default:KeyInfo>
+</default:Signature></DTE>

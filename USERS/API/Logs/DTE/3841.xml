@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F3841T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>3841</Folio>
+                    <FchEmis>2018-12-27</FchEmis>
+                    <FchVenc>2018-12-31</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76418918-3</RUTRecep>
+                    <RznSocRecep>EMPRESA ELECTRICA GUACOLDA S.A.</RznSocRecep>
+                    <GiroRecep>GENERACION DISTRIBUCION Y TRANSMISION DE</GiroRecep>
+                    <Contacto>RICHARD.TRUBIO@AES.COM</Contacto>
+                    <DirRecep>AV. SANTA MARIA 2810 PISO 4</DirRecep>
+                    <CmnaRecep>PROVIDENCIA</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>145834</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>27708</IVA>
+                    <MntTotal>173542</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>2</VlrCodigo>
+        </CdgItem>
+        <NmbItem>POTENCIA
+</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>145834</PrcItem>
+        <MontoItem>145834</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE05969A18C56S0292</FolioRef>
+        <FchRef>2018-12-18</FchRef>
+        <RazonRef>SEN_[BP__][Nov18][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>
