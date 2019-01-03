@@ -2,6 +2,7 @@
 /*
 AMBIENTE TILTIL
 AMBIENTE LOCAL
+AMBIENTE TEST
 */
 define('AMBIENTE','LOCAL');
 define('WS_USER', '24675367-9');
@@ -26,6 +27,14 @@ if(AMBIENTE=='LOCAL'){
     define('DB', 'wfenergy_wf_tiltiluno');
     define('DB_USER', 'wfenergy_ejpo');
     define('DB_PASS', 'Elianny2018.*');
+
+}elseif(AMBIENTE=='TEST'){
+    
+    define('SERVER','localhost');
+    define('DB', 'wbilling');
+    define('DB_USER', 'root');
+    define('DB_PASS', '');
+    
 }
 
 ?>

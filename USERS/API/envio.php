@@ -4,6 +4,7 @@ session_start();
 $mysqli = new mysqli(SERVER, DB_USER, DB_PASS, DB);
 include_once ("nusoap/src/nusoap.php");
 $idr=$_GET['id'];
+$transaccion = $_GET['tran'];
 //$idr=".xml";//SE COMENTA LA LINEA ANTERIOR, SE ACTIVA ESTA Y SE COLOCA EL NOMBRE DEL ARCHIVO QUE SE DESEA ENVIAR MANUALMENTE
 $id='Logs/DTE/'.$idr;
 $emisorRut=WS_EMISOR;
@@ -39,7 +40,9 @@ $searchNode = $xmlDoc->getElementsByTagName( "PDF" );
 $res=$xmlDoc->getElementsByTagName('EstadoDTE');
 $estado=$res->item(0)->nodeValue;
 if($estado!=0){
-
+    $fp = fopen('Logs/RespuestaWs/Errors/Folio_'.$docFolio.'_Transaccion_'.$transaccion.'.xml', 'w');
+    fwrite($fp, $objRespuesta);
+    fclose($fp);
     switch($docTipo):
         case 33: 
             $sql1="DELETE FROM factura WHERE id = $docFolio";
