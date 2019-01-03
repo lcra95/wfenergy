@@ -1,6 +1,6 @@
 <?php
-include("letras.php");
-include("../funciones.php");
+include ("letras.php");
+include ("../funciones.php");
 
 $fac=$_GET['factura'];
 $observacion=$_POST['observacion'];
@@ -236,5 +236,5 @@ $files=fopen("../Logs/DTE/$fac.xml","w+");
 fwrite ($files,$b2);
 fclose($files);
 
-header("location: ../envio.php?id=$fac.xml");
+header("location: ../envio.php?id=$fac.xml&tran=$id");
 ?>
