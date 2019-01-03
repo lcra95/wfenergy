@@ -4,7 +4,7 @@ include_once ("conexion.php");
 include_once ("funciones.php");
 
 $sel=mysql_query("SELECT * FROM empresa_transaccion WHERE id_status = 0");
-;
+
 echo '<pre>';
 
 while($row=mysql_fetch_array($sel))
@@ -15,7 +15,7 @@ while($row=mysql_fetch_array($sel))
 	{	
         if(($row[1]<20)&&($row[4]>0)){
            if($res = factMasiva($row)){
-               
+            
                 print_r($res); 
 
            }
