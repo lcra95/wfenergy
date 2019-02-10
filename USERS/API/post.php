@@ -1,27 +1,17 @@
 <?php
-$idr=$_GET['id'];
-$id='DTE/'.$idr;
 $ch = curl_init();
-$archivo=file_get_contents($id);
-
-curl_setopt($ch, CURLOPT_URL,            "http://api.kimchi.cl/firmar" );
+curl_setopt($ch, CURLOPT_URL,"https://sistema.webfactura.net/xml/b47961719e2478b9aa166cf0be525181/0" );
+curl_setopt($ch, CURLOPT_POST, 0);
 curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1 );
-curl_setopt($ch, CURLOPT_POST,           1 );
-curl_setopt($ch, CURLOPT_POSTFIELDS,     $archivo );
-curl_setopt($ch, CURLOPT_HTTPHEADER,     array('Content-Type: text/json'));
+curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
+$result=curl_exec ($ch);
 
 $result=curl_exec ($ch);
-$files=fopen("DTE/result.xml","w+");
+$files=fopen("Logs/SendQuery/result.xml","w+");
 fwrite ($files,$result);
 fclose($files);
 
-$res=file_get_contents('DTE/result.xml');
-$xml=base64_encode($res);
-include("conexion.php");
-mysql_query("INSERT INTO factura_docs (`id`, `xml`, `pdf`, `id_factura`) VALUES (NULL, '$xml', '', '$idr');");
 
-
-header("location: Facturacion/pfactura.php?msg=SE HA CREADO EXITOSAMENTE LA FACTURA $idr");
 ?>
 
 

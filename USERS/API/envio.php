@@ -4,7 +4,7 @@ session_start();
 $mysqli = new mysqli(SERVER, DB_USER, DB_PASS, DB);
 include_once ("nusoap/src/nusoap.php");
 $idr=$_GET['id'];
-$transaccion = $_GET['tran'];
+$transaccion = @$_GET['tran'];
 //$idr=".xml";//SE COMENTA LA LINEA ANTERIOR, SE ACTIVA ESTA Y SE COLOCA EL NOMBRE DEL ARCHIVO QUE SE DESEA ENVIAR MANUALMENTE
 $id='Logs/DTE/'.$idr;
 $emisorRut=WS_EMISOR;
@@ -23,7 +23,6 @@ $empresaRut=$emp->item(0)->nodeValue;
 $archivoXMLbase64 = base64_encode($archivoXMLdata);
 $objClienteSOAP = new soapclient(WS_PROD);
 $token = $objClienteSOAP->getToken($emisorRut, $usuarioWs, $claveWs);
-
 $objRespuesta = $objClienteSOAP->sendDte($token, $archivoXMLbase64, $empresaRut, $docTipo, $docFolio);
 
 $fp = fopen('Logs/RespuestaWs/'.$docFolio.'.xml', 'w');
@@ -90,11 +89,7 @@ if($estado!=0){
     foreach( $searchNode as $searchNode ){
     
         $valueID = $searchNode->getAttribute('Url');
-<<<<<<< HEAD
-        $sql="INSERT INTO `wfenergy_wf_tiltiluno`.`factura_docs` (`id`, `xml`, `pdf`, `id_factura`) VALUES (NULL,'','$valueID','$docFolio')";
-=======
         $sql="INSERT INTO factura_docs (`id`, `xml`, `pdf`, `id_factura`) VALUES (NULL,'','$valueID','$docFolio')";
->>>>>>> 8d7bce0b01dcf2c991fca151eb9ef806aa58a619
         $mysqli->query($sql);
         //header ("location: Logs/RespuestaWs/$docFolio.xml");
         $_SESSION['msg']="Operacion Exitosa Folio ".$docFolio." Tipo ".$docTipo;

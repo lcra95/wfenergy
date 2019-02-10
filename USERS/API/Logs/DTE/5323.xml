@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F5323T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>5323</Folio>
+                    <FchEmis>2019-02-08</FchEmis>
+                    <FchVenc>2019-02-08</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>77412850-6</RUTRecep>
+                    <RznSocRecep>GENERADORA ELECTRICA RHOM LTDA</RznSocRecep>
+                    <GiroRecep>GENE ADQUI DISTRI Y SUMINIS ENERG ELECT</GiroRecep>
+                    <Contacto>RMOHR@BOQUIAL.COM</Contacto>
+                    <DirRecep>MACKENA 716 OFICINA D</DirRecep>
+                    <CmnaRecep>OSORNO</CmnaRecep>
+                    <CiudadRecep>OSORNO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>799</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>152</IVA>
+                    <MntTotal>951</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>8</VlrCodigo>
+        </CdgItem>
+        <NmbItem>RELIQUIDACION BALANCE POTENCIA ANUAL</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>799</PrcItem>
+        <MontoItem>799</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE05455A18C39S0258</FolioRef>
+        <FchRef>2018-11-13</FchRef>
+        <RazonRef>SEN_[RBPA][Abr16-Mar17][R][V03]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

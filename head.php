@@ -2,7 +2,7 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>WF ENERGY</title>
+  <title>Web Billing</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="images/ico.ico">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
