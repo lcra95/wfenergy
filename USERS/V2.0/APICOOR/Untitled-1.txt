@@ -1,0 +1,115 @@
+//QUERY DE FACTURACION
+
+SELECT 
+    i.id,
+    concat(p.rut,'-',p.dv) AS RUT_Acreedor, (p.nombre_legal) AS Razon_Acreedor,  
+    concat(pd.rut,'-',pd.dv) AS RUT_Deudor, (pd.nombre_legal) AS Razon_Deudor, pd.direccion, 
+    pd.giro_comercial, concat (c.nombre,'' ,c.apellido) as Contacto, c.correo,
+    vf.id as id_ventana,  vf.key, i.monto,tf.prefijo_systema,m.referencia, m.fechaPublicacion, m.codigo,   m.numeroCarta, 
+    vf.periodo, tf.id AS tipo_fact, tf.titulo,  m.archivoCarta
+FROM instruccion i 
+JOIN matriz m ON i.id_matriz = m.id
+JOIN ventana_facturacion vf ON m.ventanafactura = vf.id
+JOIN tipo_facturacion tf ON vf.id_tipo_facturacion = tf.id
+JOIN participante p ON i.id_acreedor = p.id
+JOIN participante pd  ON i.id_deudor = pd.id 
+JOIN contacto c ON pd.id = c.id_participante AND id_tipo_contacto = 1
+WHERE pd.id = 110
+
+//END QUERY DE FACTURACION
+
+//QUERY DE BALANCE
+
+CREATE VIEW balance AS
+SELECT 
+    tf.id AS tipo_fact, tf.titulo, m.numeroCarta, m.archivoCarta, m.fechaPublicacion, vf.periodo,
+    (SELECT sum(monto) FROM instruccion WHERE id_matriz = m.id) AS monto       
+FROM instruccion i 
+JOIN matriz m ON i.id_matriz = m.id
+JOIN ventana_facturacion vf ON m.ventanafactura = vf.id
+JOIN tipo_facturacion tf ON vf.id_tipo_facturacion = tf.id
+GROUP BY tf.id , vf.periodo;
+
+//END QUERY DE BALANCE
+
+
+//tipo facturacion
+        for ($i = 0; $i  < $result['count']; $i++){
+            $id = $result['results'][$i]['id']; 
+            $key = $result['results'][$i]['natural_key'];
+            $titulo = utf8_decode($result['results'][$i]['title']);
+            $sysPrefijo = $result['results'][$i]['system_prefix'];
+            $desPrefijo = $result['results'][$i]['description_prefix']; 
+            $venPago = $result['results'][$i]['payment_window'];
+            
+            $tfInsert = "INSERT INTO tipo_facturacion VALUES ('$id','$key','$titulo','$sysPrefijo','$desPrefijo','$venPago')";
+            $mysqli->query($tfInsert);
+        }
+
+//end tipo facturacion            
+
+//ventana de venPago
+
+         for ($i = 0; $i  < $result['count']; $i++){
+              $id = $result['results'][$i]['id']; 
+              $key = $result['results'][$i]['natural_key'];
+              $tipofac = utf8_decode($result['results'][$i]['billing_type']);
+              $periodo = $result['results'][$i]['periods'][0];
+              $desPrefijo = $result['results'][$i]['description_prefix']; 
+              $venPago = $result['results'][$i]['payment_window'];
+
+              $vfInsert = "INSERT INTO ventana_facturacion VALUES ('$id','$key','$tipofac','$periodo')";
+              $mysqli->query($vfInsert);
+  
+         }
+
+//end ventana de venPago
+
+//Matriz de Pago
+
+ for ($i = 0; $i  < $result['count']; $i++){
+             $id = $result['results'][$i]['id']; 
+             $tipoPago = $result['results'][$i]['payment_type'];
+             $version = $result['results'][$i]['version'];
+             $archivoPago = $result['results'][$i]['payment_file'];
+             $numeroCarta = $result['results'][$i]['letter_code'];
+             $anoCarta = $result['results'][$i]['letter_year'];
+             $archivoCarta = $result['results'][$i]['letter_file'];
+             $archivoMatriz = $result['results'][$i]['matrix_file'];
+             $fechaPublicacion = $result['results'][$i]['publish_date'];
+             $diasPago = $result['results'][$i]['payment_days'];
+             $ventanaPago = $result['results'][$i]['payment_window'];
+             $codigo = $result['results'][$i]['natural_key'];
+             $referencia = $result['results'][$i]['reference_code'];
+             $ventanafactura = $result['results'][$i]['billing_window'];
+             $formaPago = $result['results'][$i]['payment_due_type'];
+
+              
+
+             $mInsert = "INSERT INTO matriz VALUES ('$id', '$tipoPago', '$version', '$archivoPago', '$numeroCarta', '$anoCarta', '$archivoCarta', '$archivoMatriz', '$fechaPublicacion', '$diasPago', '$ventanaPago', '$codigo', '$referencia', '$ventanafactura', '$formaPago')";
+             $mysqli->query($mInsert);
+  
+        }
+//End Matriz de Pago
+
+//Instrucciones
+
+  for ($i = 0; $i  < $result['count']; $i++){
+                          
+            $id = $result['results'][$i]['id'];
+            $id_matriz = $result['results'][$i]['payment_matrix'];
+            $id_acreedor = $result['results'][$i]['creditor'];
+            $id_deudor = $result['results'][$i]['debtor'];
+            $monto = $result['results'][$i]['amount'];
+            $status = $result['results'][$i]['status'];
+            $resolucion = $result['results'][$i]['resolution'];
+            $fechaMaxPago = $result['results'][$i]['max_payment_date'];
+  
+            
+
+            $Insert = "INSERT INTO instruccion VALUES ('$id', '$id_matriz', '$id_acreedor', '$id_deudor', '$monto', '$status', '$resolucion', '$fechaMaxPago')";
+            $mysqli->query($Insert);
+  
+        }
+
+//end instrucciones
