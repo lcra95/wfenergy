@@ -1,8 +1,13 @@
 <?php 
-include("conexion.php");
+include ("conexion.php");
 
 $id=$_GET["id"];
 $ide=$_GET["ide"];
+if($id == 'udpe'){
+	$sql=mysql_query("UPDATE periodo SET activo = 0");
+	$sql1=mysql_query("UPDATE periodo SET activo = 1 WHERE id LIKE '$ide'");
+	header("location: tablas.php?msg=OPERACION EXITOSA&color=verde");	
+}
 if($id=="dp")
 {
 	$sql=mysql_query("SELECT * FROM empresa_transaccion WHERE periodo LIKE '$ide'");

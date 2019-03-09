@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
   <script src="//code.jquery.com/jquery-1.12.4.js"></script>
   <meta charset="UTF-8">
-  <title>WF ENERGY</title>
+  <title>WEB-BILLING</title>
 </head>
 <body>
 <div class="container-fluid">

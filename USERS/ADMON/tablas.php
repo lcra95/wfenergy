@@ -1,7 +1,7 @@
 <?php 
-include("head.php");
-include("modales.php");
-include("funciones.php");
+include ("head.php");
+include ("modales.php");
+include ("funciones.php");
 
 ?>
 
@@ -170,13 +170,61 @@ include("funciones.php");
         <div class="panel-body">
           Registro y Consulta de Proveedores / Clientes
            <br>
-          <a href="" class="glyphicon glyphicon-plus" data-toggle="modal" data-target="#ventana22"></a>&nbsp;&nbsp;&nbsp;<a href="" data-toggle="modal" data-target="#ventana23" class="glyphicon glyphicon-search"></a>
+          <a href="" class="glyphicon glyphicon-plus" data-toggle="modal" data-target="#ventana22"></a>&nbsp;&nbsp;&nbsp;
+          <a href="" data-toggle="modal" data-target="#ventana23" class="glyphicon glyphicon-search"></a>
 
         </div>
       </div>
     </div>     
 </div>
+<div class="row">
+    <div class="col-lg-3 col-md-6 col-xs-12">
+      <div class="panel panel-primary">
+        <div class="panel-heading">Referencias</div>
+        <div class="panel-body">
+          Registro de las referencias para facturación del SEN
+          <br>
+          <a href="" class="glyphicon glyphicon-plus" data-toggle="modal" data-target="#Win1"></a>&nbsp;&nbsp;&nbsp;
+          <a href="" class="glyphicon glyphicon-search" data-toggle="modal" data-target="#Win2"></a>
+        </div>
+      </div>
+    </div>   
 
+    <div class="col-lg-3 col-md-6 col-xs-12">
+      <div class="panel panel-primary">
+        <div class="panel-heading">No Asignado</div>
+        <div class="panel-body">
+           <br>
+          <a class="glyphicon glyphicon-plus" data-toggle="modal" data-target="#"></a>&nbsp;&nbsp;&nbsp;
+          <a data-toggle="modal" data-target="#" class="glyphicon glyphicon-search"></a>
+        </div>
+      </div>
+    </div>    
+
+    <div class="col-lg-3 col-md-6 col-xs-12">
+      <div class="panel panel-primary">
+        <div class="panel-heading">No Asignado</div>
+        <div class="panel-body">
+           <br>
+          <a href="" data-toggle="modal" data-target="#" class="glyphicon glyphicon-plus"></a>&nbsp;&nbsp;&nbsp;
+          <a href="" data-toggle="modal" data-target="#" class="glyphicon glyphicon-search"></a>
+        </div>
+      </div>
+    </div>   
+
+    <div class="col-lg-3 col-md-6 col-xs-12">
+      <div class="panel panel-primary">
+        <div class="panel-heading">No Asignado</div>
+        <div class="panel-body">
+
+           <br>
+          <a href="" class="glyphicon glyphicon-plus" data-toggle="modal" data-target="#"></a>&nbsp;&nbsp;&nbsp;
+          <a href="" data-toggle="modal" data-target="#" class="glyphicon glyphicon-search"></a>
+
+        </div>
+      </div>
+    </div>     
+</div>
 
 
 <!-- /#page-content-wrapper -->
@@ -338,7 +386,7 @@ include("funciones.php");
             $sel=mysql_query("SELECT * FROM periodo");
             $i=0;
             ?>
-      <table class="table">
+      <table class="display" id="example" cellspacing="0" width="100%">
         <thead>
           <tr>
             <th>#</th>
@@ -358,7 +406,8 @@ include("funciones.php");
             <td><?php echo $row[0];?></td>
             <td><?php echo $row[1];?></td>
             <td><?php if($row[2]==1){echo "ACTIVO";}else{echo "INACTIVO";}?></td>
-            <td aling="center"><a class="glyphicon glyphicon-pencil"></a> 
+            <td aling="center"><a class="glyphicon glyphicon-pencil"></a>
+            <a href="delete.php?id=udpe&ide=<?php echo $row[0];?>" class="glyphicon glyphicon-ok" alt="Activar"></a> 
             <A class="glyphicon glyphicon-trash" href="delete.php?id=dp&ide=<?php echo $row[0];?>"></a>
             </td>                                                            
           </tr>
@@ -886,7 +935,7 @@ include("funciones.php");
             $sel=mysql_query("SELECT * FROM tipo_transaccion");
             $i=0;
             ?>
-      <table class="table">
+      <table class="display" id="example1" cellspacing="0" width="100%">
         <thead>
           <tr>
             <th>#</th>
@@ -898,21 +947,22 @@ include("funciones.php");
         </thead>
         <tbody>
           <?php 
-          while ($row=mysql_fetch_row($sel)) {
+            while ($row=mysql_fetch_row($sel)) {
             $i++; 
-            ?>
+          ?>
           <tr>
             <td><?php echo $i;?></td>
             <td><?php echo $row[0];?></td>
             <td><?php echo $row[1];?></td>
             <td><?php echo grupo($row[0]);?></td>
-            <td aling="center"><a class="glyphicon glyphicon-pencil"></a> 
-        <A class="glyphicon glyphicon-trash" href="delete.php?id=dtt&ide=<?php echo $row[0]; ?>"></a></td>                                                            
+            <td aling="center">
+              <a class="glyphicon glyphicon-pencil"></a> 
+              <A class="glyphicon glyphicon-trash" href="delete.php?id=dtt&ide=<?php echo $row[0]; ?>"></a></td>                                                            
           </tr>
-          <?php }?>
-
+            <?php }?>
         </tbody>
       </table>
+
     </div>
 
 
@@ -1074,3 +1124,15 @@ include("funciones.php");
 </div>
 
 
+<link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css">
+<script src="//code.jquery.com/jquery-1.12.4.js"></script>
+<script src="https://cdn.datatables.net/1.10.15/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#example').DataTable();
+    $('#example1').DataTable();
+    $('#example2').DataTable();
+    $('#example3').DataTable();
+} );
+
+</script>

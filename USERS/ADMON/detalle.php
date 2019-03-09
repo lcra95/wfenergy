@@ -88,7 +88,6 @@ $sel=mysql_query("SELECT * FROM `empresa_transaccion` WHERE `id_transaccion` = $
             <th align="Center">Empresa</th>
             <th align="Center">Rut</th>
             <th align="Center">Razón Social</th>
-            <th align="Center">Proceso de Pago</th>
             <th align="Center">Monto</th>
             <th align="Center">Status</th>
           </tr>
@@ -103,7 +102,6 @@ $sel=mysql_query("SELECT * FROM `empresa_transaccion` WHERE `id_transaccion` = $
              <td><?php echo $q[2];?></td>                                        
              <td><?php echo rut_empresa($q[2]);?></td>
              <td><?php echo razon($q[2]);?></td>
-             <td align="Center"><a target="_blank"  href="#?fac=<?php echo factura($q[0]);?>&rut=<?php echo rut_empresa($q[2]);?>"><?php echo $fa=proceso($q[0]);?></a></td>
              <td align="Right"><?php echo number_format($q[4]);?></td>
              <td align="Center"><?php// echo @status_pago($fa);?></td>             
           </tr>

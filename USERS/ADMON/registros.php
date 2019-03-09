@@ -1,5 +1,5 @@
 <?PHP 
-include("conexion.php");
+include ("conexion.php");
 @$codigo=$_POST["codigo"];
 @$nombre=$_POST["nombre"];
 @$status=$_POST["status"];
@@ -23,6 +23,21 @@ include("conexion.php");
 @$codigoc=$_POST["codigoc"];
 @$giro=$_POST['giro'];
 @$ateco=$_POST['ateco'];
+
+if($_POST['key']=='referencia'){
+
+	$periodo = $_POST["periodo"];
+	$tipo = $_POST["tipo"];
+	$cod_ref = $_POST["cod_ref"];
+	$emisor = $_POST["emisor"];
+	$nemotecnico = $_POST["nemo"];
+	$fecha= $_POST["fecha"];
+
+	$insert = mysql_query("INSERT INTO referencia VALUES (NULL, '$periodo', '$tipo', '$cod_ref', '$emisor', '$nemotecnico','$fecha' )");
+	header("location: tablas.php?msg=OPERACION EXITOSA&color=verde");
+}
+
+
 if($id=="rp")
 {		
 	
