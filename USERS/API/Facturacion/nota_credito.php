@@ -15,7 +15,7 @@ $id=$desde+$num;
 
 mysql_query("INSERT INTO nota_credito (`id`, `folio`, `tipo`, `tipo_doc_ref`, `num_doc_ref`, `fecha_ref`, `cod_ref`, `razon_ref`) VALUES 
 	(NULL, '$id', '$tipo_f', '$tipo_d', '$fac', '$fecha', '$codref', '$razon');");
-mysql_query("DELETE FROM factura_transaccion WHERE id_factura = $fac");
+//mysql_query("DELETE FROM factura_transaccion WHERE id_factura = $fac");
 
 include_once ("../funciones.php");
 
