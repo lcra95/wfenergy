@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SetDTE version="1.0">
+  <EnvioDTE ID="76254347-8F5324T33">
+    <Caratula>
+      <RutEmisor>76254347-8</RutEmisor>
+      <NroDetalles>1</NroDetalles>
+      <FechaHoraEnvio>2019-02-20T23:51:09</FechaHoraEnvio>
+    </Caratula>
+    <DocumentoDTE>
+      <TipoDTE>33</TipoDTE>
+      <Folio>5324</Folio>
+      <EstadoDTE>1</EstadoDTE>
+      <GlosaEstadoDTE>DTE NO RECIBIDO - ERROR EN SCHEMA Error 1824: Element '{http://www.sii.cl/SiiDte}FchRef': '0000-00-00' is not a valid value of the atomic type 'xs:date'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/2019/02/76254347-8_33_5324_valida.xml on line 54
+</GlosaEstadoDTE>
+      <PDF Url="" Timbre=""/>
+    </DocumentoDTE>
+  </EnvioDTE>
+</SetDTE>

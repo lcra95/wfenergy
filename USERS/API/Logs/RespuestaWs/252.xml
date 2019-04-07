@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SetDTE version="1.0">
+  <EnvioDTE ID="76254347-8F252T61">
+    <Caratula>
+      <RutEmisor>76254347-8</RutEmisor>
+      <NroDetalles>1</NroDetalles>
+      <FechaHoraEnvio>2019-04-01T23:49:15</FechaHoraEnvio>
+    </Caratula>
+    <DocumentoDTE>
+      <TipoDTE>61</TipoDTE>
+      <Folio>252</Folio>
+      <EstadoDTE>0</EstadoDTE>
+      <GlosaEstadoDTE>DTE RECIBIDO OK</GlosaEstadoDTE>
+      <PDF Url="https://sistema.webfactura.net/pdf/399e215372425b79bd02d426c7ee080d" Timbre="https://sistema.webfactura.net/pdf/399e215372425b79bd02d426c7ee080d/2"/>
+    </DocumentoDTE>
+  </EnvioDTE>
+</SetDTE>

@@ -4,8 +4,8 @@ session_start();
 $mysqli = new mysqli(SERVER, DB_USER, DB_PASS, DB);
 include_once ("nusoap/src/nusoap.php");
 $idr=$_GET['id'];
-$transaccion = @$_GET['tran'];
-//$idr="unaprueba.xml";//SE COMENTA LA LINEA ANTERIOR, SE ACTIVA ESTA Y SE COLOCA EL NOMBRE DEL ARCHIVO QUE SE DESEA ENVIAR MANUALMENTE
+@$transaccion = $_GET['tran'];
+//$idr=".xml";//SE COMENTA LA LINEA ANTERIOR, SE ACTIVA ESTA Y SE COLOCA EL NOMBRE DEL ARCHIVO QUE SE DESEA ENVIAR MANUALMENTE
 $id='Logs/DTE/'.$idr;
 $emisorRut=WS_EMISOR;
 $usuarioWs=WS_USER;
@@ -23,6 +23,10 @@ $empresaRut=$emp->item(0)->nodeValue;
 $archivoXMLbase64 = base64_encode($archivoXMLdata);
 $objClienteSOAP = new soapclient(WS_PROD);
 $token = $objClienteSOAP->getToken($emisorRut, $usuarioWs, $claveWs);
+$fre=$dom->getElementsByTagName('FolioRef');
+$FolioRef=$fre->item(0)->nodeValue;
+
+
 $objRespuesta = $objClienteSOAP->sendDte($token, $archivoXMLbase64, $empresaRut, $docTipo, $docFolio);
 
 $fp = fopen('Logs/RespuestaWs/'.$docFolio.'.xml', 'w');
@@ -60,8 +64,8 @@ if($estado!=0){
         case 61: 
             $sql1="DELETE FROM nota_credito WHERE folio = $docFolio";
             $sql4="UPDATE empresa_transaccion SET id_status = 0 WHERE id = (SELECT id_transaccion FROM factura_transaccion WHERE id_factura = $docFolio)";
-            // $mysqli->query($sql4);
-            break;   
+            $mysqli->query($sql4);
+        break;   
     endswitch;
  
         // $mysqli->query($sql1);
@@ -86,6 +90,21 @@ if($estado!=0){
     }
 
 }else{
+
+    switch($docTipo):
+        case 56: 
+            $sql1="DELETE FROM nota_debito WHERE folio = $docFolio";
+            $sql4="UPDATE empresa_transaccion SET id_status = 0 WHERE id = (SELECT id_transaccion FROM factura_transaccion WHERE id_factura = $docFolio)";
+            $mysqli->query($sql4);
+        break;   
+        case 61: 
+            $sql1="DELETE FROM factura_transaccion WHERE id_factura = $FolioRef";           
+            $sql4="UPDATE empresa_transaccion SET id_status = 0 WHERE id = (SELECT id_transaccion FROM factura_transaccion WHERE id_factura = $FolioRef)";
+            $mysqli->query($sql4);
+            $mysqli->query($sql1);
+        break;   
+    endswitch;
+
     foreach( $searchNode as $searchNode ){
     
         $valueID = $searchNode->getAttribute('Url');

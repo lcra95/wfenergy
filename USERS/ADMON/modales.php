@@ -432,7 +432,7 @@
             $sel=mysql_query("SELECT * FROM empresa");
             $i=0;
             ?>
-      <table class="table">
+      <table class="display" id="example2" cellspacing="0" width="100%">
         <thead>
           <tr>
             <th>#</th>
@@ -468,3 +468,157 @@
 </div>   
 </div>
 </div>
+
+
+
+
+<div class="modal fade" id="Win1" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+<div class="modal-content well">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">
+<span aria-hidden="true">&times;</span><span class="sr-only">Cerrar</span>
+</button>
+<h3 class="modal-title" id="ModalLabel">Nueva Referencia</h3>
+</div>
+<div class="modal-body">
+  
+      <form action="registros.php" class="form-horizontal" method="post">
+
+      <input type="hidden" name="key" value="referencia">      
+      <div class="form-group">
+        <label for="formGroup" class="col-sm-2 control-label">Código Referencia</label>
+        <div class="col-sm-4">
+        <input type="text" class="form-control" id="formGroup" placeholder="DE05562A18C40S0264" name="cod_ref" required="true">
+        </div>
+      </div>       
+      <div class="form-group">
+        <label for="formGroup" class="col-sm-2 control-label">Emisor</label>
+        <div class="col-sm-4">
+        <input type="text" class="form-control" id="formGroup" placeholder="Emisor" name="emisor" value="SEN" readonly="true">
+        </div>
+      </div> 
+      <div class="form-group">
+        <label for="formGroup" class="col-sm-2 control-label">Fecha Emisión</label>
+        <div class="col-sm-4">
+        <input type="text" class="form-control" id="formGroup" placeholder="YYYY-MM-DD" name="fecha" required="true" >
+        </div>
+      </div> 
+      <div class="form-group">
+        <label for="formGroup" class="col-sm-2 control-label">Periodo</label>
+        <div class="col-sm-4">
+          <SELECT name="periodo" class="form-control">
+          <?PHP 
+          $per=mysql_query("SELECT * FROM periodo ORDER BY id DESC");
+          ?>
+          <option value="1">SELECCIONE</option>
+          <?php while($rowa=mysql_fetch_array($per)){?>
+          <option value="<?php echo $rowa[0];?>"><?php echo $rowa[0];?></option>
+          <?php }?>
+          </SELECT>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="formGroup" class="col-sm-2 control-label">Cuadro de Pagos</label>
+        <div class="col-sm-4">
+        <input type="text" class="form-control" id="formGroup" placeholder="SEN_[TEE_][Oct18][L][V01]" name="nemo" required="true">
+        </div>
+      </div> 
+      <div class="form-group">
+        <label for="formGroup" class="col-sm-2 control-label">Tipo de Transacción</label>
+        <div class="col-sm-4">
+          <SELECT name="tipo" class="form-control">
+          <?PHP 
+          $per=mysql_query("SELECT * FROM tipo_transaccion");
+          ?>
+          <?php while($rowa=mysql_fetch_array($per)){?>
+            <option value="<?php echo $rowa[0];?>"><?php echo $rowa[1];?></option>
+          <?php }?>
+          </SELECT>
+        </div>
+      </div>
+      <br>
+      <div class="form-group">
+      <label for="formGroup" class="col-sm-2 control-label"></label>
+      <div class="col-sm-4">
+      <button type="submit" class="btn btn-success btn-sm"><span class="glyphicon glyphicon-floppy-saved"></span>Guardar</button>
+      <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove-circle" ></span>Cancelar</button>  
+
+
+      </div>
+      </div>
+    </form>
+
+
+
+</div>
+</div>   
+</div>
+</div>
+
+<div class="modal fade" id="Win2" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+<div class="modal-content well">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">
+<span aria-hidden="true">&times;</span><span class="sr-only">Cerrar</span>
+</button>
+<h3 class="modal-title" id="ModalLabel">Listado de Referencias</h3>
+</div>
+<div class="modal-body">
+  
+      <div class="table-responsive table-bordered">
+            <?php include('conexion.php');
+            $nsel=mysql_query("SELECT r.id, r.id_periodo,r.codigo_ref, r.emisor,r.nemotecnico, r.fecha, tt.descripcion FROM referencia r JOIN tipo_transaccion tt ON r.id_concepto = tt.id");
+            $i=0;
+            ?>
+      <table class="display" id="example3" cellspacing="0" width="100%">
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Concepto</th>
+            <th>Cod Referencia</th>
+            <th>Cuadro de Pagos</th>
+            <th>Emisor</th> 
+            <th>Periodo</th>
+            <th>Fecha</th>
+            <th>Acción</th>
+          </tr>
+        </thead>
+        <tbody>
+          <?php 
+          while ($row=mysql_fetch_row($nsel)) {
+            $i++; 
+             ?>
+          <tr>
+            <td><?php echo $row[0];?></td>
+            <td><?php echo $row[6];?></td>
+            <td><?php echo $row[2];?></td>
+            <td><?php echo $row[4];?></td>
+            <td><?php echo $row[3];?></td>
+            <td><?php echo $row[1];?></td>
+            <td><?php echo $row[5];?></td>
+            <td aling="center">
+              <a href="#" class="glyphicon glyphicon-pencil"></a> 
+              <A href="#" class="glyphicon glyphicon-trash"></a>
+            </td>                                   
+          </tr>
+          <?php }?>
+
+        </tbody>
+      </table>
+    </div>
+
+
+
+</div>
+</div>   
+</div>
+</div>
+
+
+
+
+
+
+

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F5430T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>5430</Folio>
+                    <FchEmis>2019-03-15</FchEmis>
+                    <FchVenc>2019-03-31</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>61704000-K</RUTRecep>
+                    <RznSocRecep>CORP NACIONAL DEL COBRE DE CHILE</RznSocRecep>
+                    <GiroRecep> TRANSMISION DE ENERGIA ELECTRICA</GiroRecep>
+                    <Contacto>SILLANES@CODELCO.CL</Contacto>
+                    <DirRecep>HUERFANOS 1270</DirRecep>
+                    <CmnaRecep>SANTIAGO</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>34</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>6</IVA>
+                    <MntTotal>40</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>2</VlrCodigo>
+        </CdgItem>
+        <NmbItem>POTENCIA
+</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>34</PrcItem>
+        <MontoItem>34</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE00301A19C09S0313</FolioRef>
+        <FchRef>2019-01-22</FchRef>
+        <RazonRef>SEN_[BP__][Dic18][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

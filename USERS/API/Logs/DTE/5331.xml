@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F5331T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>5331</Folio>
+                    <FchEmis>2019-02-21</FchEmis>
+                    <FchVenc>2019-02-28</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76009698-9</RUTRecep>
+                    <RznSocRecep>INVERSIONES HORNITOS SA</RznSocRecep>
+                    <GiroRecep>GENERACION EN OTRAS CENTRALES TERMOELEC</GiroRecep>
+                    <Contacto>rosa.abasolo@cl.engie.com</Contacto>
+                    <DirRecep>AV APOQUINDO 3721, PISO 6</DirRecep>
+                    <CmnaRecep>LAS CONDES</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>483705</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>91904</IVA>
+                    <MntTotal>575609</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>1</VlrCodigo>
+        </CdgItem>
+        <NmbItem>ENERGIA
+</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>483705</PrcItem>
+        <MontoItem>483705</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE00982A19C27S0340</FolioRef>
+        <FchRef>2019-02-20</FchRef>
+        <RazonRef>SEN_[TEE_][Ene19][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

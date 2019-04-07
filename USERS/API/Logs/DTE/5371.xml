@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F5371T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>5371</Folio>
+                    <FchEmis>2019-02-21</FchEmis>
+                    <FchVenc>2019-02-28</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76166466-2</RUTRecep>
+                    <RznSocRecep>PARQUE EOLICO CABO LEONES I S.A</RznSocRecep>
+                    <GiroRecep>GENERACIOEN OTRAS CENTRALES N.C.P.</GiroRecep>
+                    <Contacto>IHD@GRUPOIBEREOLICA.COM</Contacto>
+                    <DirRecep>ROSARIO NORTE 615, PISO 14, OFICINA 1403. LAS CONDES</DirRecep>
+                    <CmnaRecep>LAS CONDES</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>27031</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>5136</IVA>
+                    <MntTotal>32167</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>2</VlrCodigo>
+        </CdgItem>
+        <NmbItem>POTENCIA
+</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>27031</PrcItem>
+        <MontoItem>27031</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE00982A19C30S0343</FolioRef>
+        <FchRef>2019-02-20</FchRef>
+        <RazonRef>SEN_[BP__][Ene19][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>
