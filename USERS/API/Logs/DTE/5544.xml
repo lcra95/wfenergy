@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F5544T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>5544</Folio>
+                    <FchEmis>2019-04-02</FchEmis>
+                    <FchVenc>2019-04-03</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76073162-5</RUTRecep>
+                    <RznSocRecep>SOCIEDAD AUSTRAL DE ELECTRICIDAD SA</RznSocRecep>
+                    <GiroRecep>DISTRIBUCION DE ENERGIA ELECTRICA</GiroRecep>
+                    <Contacto>MARCELA.ALVAREZ@SAESA.CL</Contacto>
+                    <DirRecep>BULNES 441</DirRecep>
+                    <CmnaRecep>OSORNO</CmnaRecep>
+                    <CiudadRecep>OSORNO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>584</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>111</IVA>
+                    <MntTotal>695</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>9</VlrCodigo>
+        </CdgItem>
+        <NmbItem>[CU2M]CARGO UNICO NACIONAL CLIENTES MENORES O IGUAL A 2MW</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>584</PrcItem>
+        <MontoItem>584</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE01651A19C51S0378</FolioRef>
+        <FchRef>2019-04-02</FchRef>
+        <RazonRef>SEN_[CU2M][Nov18][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>
