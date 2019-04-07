@@ -30,7 +30,7 @@
 											Administrar <span class="caret"></span></a>
 
 				          <ul class="dropdown-menu" role="menu">
-				          	<li><a href="tablas.php"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Gestionar Tablas</a></li>
+				          	<li><a href="../../ADMON/tablas.php"><span class="glyphicon glyphicon-list-alt" aria-hidden="true"></span> Gestionar Tablas</a></li>
 				          </ul>
 				    </li>
 						<?php } ?>

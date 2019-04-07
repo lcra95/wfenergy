@@ -617,7 +617,44 @@
 </div>
 
 
+<div class="modal fade" id="Mod1" tabindex="-1" role="dialog" aria-labelledby="ModalLabel" aria-hidden="true">
+<div class="modal-dialog modal-lg">
+<div class="modal-content well">
+<div class="modal-header">
+<button type="button" class="close" data-dismiss="modal">
+<span aria-hidden="true">&times;</span><span class="sr-only">Cerrar</span>
+</button>
+<h3 class="modal-title" id="ModalLabel">Buscar XML</h3>
+</div>
+<div class="modal-body">
+  
+      <form action="../API/xmlSend.php" class="form-horizontal" method="post">
 
+      <input type="hidden" name="key" value="referencia">      
+      <div class="form-group">
+        <label for="formGroup" class="col-sm-2 control-label">N° Folio</label>
+        <div class="col-sm-4">
+        <input type="text" class="form-control" id="IDFOLIO" name="id" required="true">
+        </div>
+      </div>  
+      <br>
+      <div class="form-group">
+      <label for="formGroup" class="col-sm-2 control-label"></label>
+      <div class="col-sm-4">
+      <button type="button" class="btn btn-success btn-sm" onclick="getXML()"><span class="glyphicon glyphicon-floppy-saved"></span>Guardar</button>
+      <button type="button" class="btn btn-danger btn-sm" data-dismiss="modal" aria-hidden="true"><span class="glyphicon glyphicon-remove-circle" ></span>Cancelar</button>  
+      <div id = "resultado"></div>
+
+      </div>
+      </div>
+    </form>
+
+
+
+</div>
+</div>   
+</div>
+</div>
 
 
 

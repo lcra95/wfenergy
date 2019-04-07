@@ -16,10 +16,30 @@
       $(document).ready(function() {
           $('#example').DataTable();
       } );
+
+    function getXML() {
+
+        var id = $("#IDFOLIO").val();
+        var url = '../API/xmlSend.php';
+        var data = {"id" : id};
+        $.ajax({
+          type: "POST",
+          url: url,
+          data: data,
+          beforeSend: function () {
+            $("#resultado").html("Procesando, espere por favor...");
+          },
+          success:  function (response) {
+            $("#resultado").html(response);
+          }
+        });
+
+        }
     </script>
     <style>
         #tel{
           margin-right: 16px;
         }
     </style>
+
 </head>
