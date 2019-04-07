@@ -6,10 +6,14 @@ $curl = new getDatos();
 $sql = "SELECT e.url FROM endpoints e WHERE e.nombre = 'Participante'"; 
 $result = $mysqli->query($sql);
 $row = mysqli_fetch_assoc($result);
-$url = $row['url'];
+$url = $row['url'].'&id=110';
+echo $url;
 
 $result = $curl->getData($url);
 $arr =json_decode($result,1);
+
+echo '<pre>';
+    print_r($arr);
 
 for ($i = 0; $i < $arr['count']; $i++){
     
@@ -51,19 +55,19 @@ for ($i = 0; $i < $arr['count']; $i++){
     @$cbMail = $contactoFacturacion['email'];
     $cbTc = CB;
 
-    $participanteInsert ="INSERT INTO participante VALUES ('$id','$name','$rut','$dv','$razon','$giro','$email','$cuenta','$banco','$direccion','$direccionPostal','$encargado')";
-    $result = $mysqli->query($participanteInsert);
+    // $participanteInsert ="INSERT INTO participante VALUES ('$id','$name','$rut','$dv','$razon','$giro','$email','$cuenta','$banco','$direccion','$direccionPostal','$encargado')";
+    // $result = $mysqli->query($participanteInsert);
 
-    if($result){
-        $cpInsert = "INSERT INTO contacto VALUES (NULL,'$id','$cpTc','$cpNombre','$cpApellido','$cpDireccion','$cpTelefono','$cpMail')";
-        $mysqli->query($cpInsert);
+    // if($result){
+    //     $cpInsert = "INSERT INTO contacto VALUES (NULL,'$id','$cpTc','$cpNombre','$cpApellido','$cpDireccion','$cpTelefono','$cpMail')";
+    //     $mysqli->query($cpInsert);
         
-        $cbInsert = "INSERT INTO contacto VALUES (NULL,'$id','$cbTc','$cbNombre','$cbApellido','$cbDireccion','$cbTelefono','$cbMail')";
-        $mysqli->query($cbInsert);
-    }else{
+    //     $cbInsert = "INSERT INTO contacto VALUES (NULL,'$id','$cbTc','$cbNombre','$cbApellido','$cbDireccion','$cbTelefono','$cbMail')";
+    //     $mysqli->query($cbInsert);
+    // }else{
 
-        echo $id.'- '.$mysqli->error.'<BR>';
-    }
+    //     echo $id.'- '.$mysqli->error.'<BR>';
+    // }
 
 }
 

@@ -1,8 +1,8 @@
 <?php 
-    session_start();
+    //session_start();
     include_once ("Config.php");
     include_once ("../ADMON/head.php");
-    $periodo = '2018-10-01';
+    $periodo = '2019-02-01';
 ?>
 <body>
    <?php include_once ("../ADMON/head-nav-main.php");?><!--Menu Principal-->

@@ -2,7 +2,7 @@
 include_once ("Config.php");
 $contacto =CP;
 
-$sql = "";
+$sql = "SELECT * FROM `endpoints` WHERE `nombre` LIKE 'Instrucciones'";
 
 echo '<pre>';
 $result = $mysqli->query($sql);
