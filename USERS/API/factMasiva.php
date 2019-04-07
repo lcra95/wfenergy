@@ -9,7 +9,8 @@ echo '<pre>';
 
 while($row=mysql_fetch_array($sel))
 { 
-    
+    // print_r($row);
+    // exit;
     $sql2=mysql_query("SELECT * FROM factura_transaccion WHERE id_transaccion = $row[0]");
 	if($data=mysql_fetch_array($sql2))
 	{	

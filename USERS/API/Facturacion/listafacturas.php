@@ -131,7 +131,7 @@ $tte=mysql_fetch_array($tpr);
                       <td align="Right"><?php echo number_format($total);?></td>
                       <td align="Center" class="<?php echo $color; ?>">
                         <a target="_blank" href="<?php echo $codFact[2]?>" class="fa fa-file-text"></a>
-                        <a target="_blank" class="fa fa-file-code-o" target="_blank" href="decoder.php?id=<?php echo $q[0];?>"></a>         
+                        <a target="_blank" class="fa fa-file-code-o" target="_blank" href="<?php echo $codFact[1]?>"></a>         
                       </td> 
                       <td align="Center">
                         <a href="nota_credito.php?id=<?php echo $q[0];?>" class="fa fa-trash" onclick="return confirm('¿Esta Seguro que Deseas Anularlo?')"></a>            

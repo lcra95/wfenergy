@@ -1,5 +1,5 @@
 <?PHP 
-include_once ('../../Config.php');
+include_once (dirname(__FILE__).'/../../Config.php');
 $host=SERVER;
 $user=DB_USER;
 $pass=DB_PASS;
