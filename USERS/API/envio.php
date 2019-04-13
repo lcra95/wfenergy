@@ -48,40 +48,40 @@ if($estado!=0){
             $sql4="UPDATE empresa_transaccion SET id_status = 0 WHERE id = (SELECT id_transaccion FROM factura_transaccion WHERE id_factura = $docFolio)";
             $sql2="DELETE FROM factura_concepto WHERE id_factura = $docFolio";
             $sql3="DELETE FROM factura_transaccion WHERE id_factura = $docFolio";
-            // $mysqli->query($sql2);
-            // $mysqli->query($sql4);
-            // $mysqli->query($sql3);
+            $mysqli->query($sql2);
+            $mysqli->query($sql4);
+            $mysqli->query($sql3);
         break;
         case 56: 
             $sql1="DELETE FROM nota_debito WHERE folio = $docFolio";
             $sql4="UPDATE empresa_transaccion SET id_status = 0 WHERE id = (SELECT id_transaccion FROM factura_transaccion WHERE id_factura = $docFolio)";
-            // $mysqli->query($sql4);
+            $mysqli->query($sql4);
         break;   
         case 61: 
             $sql1="DELETE FROM nota_credito WHERE folio = $docFolio";
             $sql4="UPDATE empresa_transaccion SET id_status = 0 WHERE id = (SELECT id_transaccion FROM factura_transaccion WHERE id_factura = $docFolio)";
-            // $mysqli->query($sql4);
+            $mysqli->query($sql4);
             break;   
     endswitch;
  
-        // $mysqli->query($sql1);
+        $mysqli->query($sql1);
     
     switch($estado){
         case 1:
             echo $_SESSION['msg']="Error En el Schema XML";
-            //header("location: Facturacion/pfactura.php");
+            header("location: Facturacion/pfactura.php");
         break;
         case 2:
             echo $_SESSION['msg']="Error en Datos";
-            //header("location: Facturacion/pfactura.php");
+            header("location: Facturacion/pfactura.php");
         break;
         case 3:
             echo $_SESSION['msg']="Folio Duplicado";
-            //header("location: Facturacion/pfactura.php");
+            header("location: Facturacion/pfactura.php");
         break;
         default:
             echo $_SESSION['msg']="Error en el Envio del DTE";
-            //header("location: Facturacion/pfactura.php");
+            header("location: Facturacion/pfactura.php");
 
     }
 
@@ -105,10 +105,10 @@ if($estado!=0){
     
         $valueID = $searchNode->getAttribute('Url');
         $sql="INSERT INTO factura_docs (`id`, `xml`, `pdf`, `id_factura`) VALUES (NULL,'','$valueID','$docFolio')";
-        // $mysqli->query($sql);
+        $mysqli->query($sql);
         //header ("location: Logs/RespuestaWs/$docFolio.xml");
         echo $_SESSION['msg']="Operacion Exitosa Folio ".$docFolio." Tipo ".$docTipo;
- 	    //header("location: Facturacion/pfactura.php");
+ 	    header("location: Facturacion/pfactura.php");
     }
 }
 ?>

@@ -135,10 +135,9 @@ function miva()
 
 function id()
 {
-	$sql=mysql_query("SELECT *
-FROM `empresa_transaccion`");
-	$row=mysql_num_rows($sql);
-	$id=$row+1;
+	$sql=mysql_query("SELECT Auto_increment FROM information_schema.tables WHERE table_name='empresa_transaccion' ");
+	$row=mysql_fetch_row($sql);
+	$id = $row[0];
 	return $id;
 }
 function folio_activo()

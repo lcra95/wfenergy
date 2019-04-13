@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F5673T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>5673</Folio>
+                    <FchEmis>2019-04-13</FchEmis>
+                    <FchVenc>2019-04-19</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>96783910-8</RUTRecep>
+                    <RznSocRecep>EMPRESA ELECTRICA DE COLINA LIMITADA</RznSocRecep>
+                    <GiroRecep>DISTRIBUCION DE ENERGIA ELECTRICA</GiroRecep>
+                    <Contacto>VERONICA.CUADROS@ENEL.COM</Contacto>
+                    <DirRecep>CHACABUCO 31</DirRecep>
+                    <CmnaRecep>COLINA</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>36</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>7</IVA>
+                    <MntTotal>43</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>9</VlrCodigo>
+        </CdgItem>
+        <NmbItem>[CU2M]CARGO UNICO NACIONAL CLIENTES MENORES O IGUAL A 2MW</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>36</PrcItem>
+        <MontoItem>36</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE00776A19C25S0334</FolioRef>
+        <FchRef>2019-02-08</FchRef>
+        <RazonRef>SEN_[CU2M][Oct18][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

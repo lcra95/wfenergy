@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F5623T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>5623</Folio>
+                    <FchEmis>2019-04-13</FchEmis>
+                    <FchVenc>2019-04-18</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>80237700-2</RUTRecep>
+                    <RznSocRecep>COOPE DE CONSUMO DE ENERGIA ELECTRICA CHI</RznSocRecep>
+                    <GiroRecep>DISTRIBUCION Y VENTA DE ENERGIA ELECTRIC</GiroRecep>
+                    <Contacto>IFUENTEALBA@COPELEC.CL</Contacto>
+                    <DirRecep>18 DE SEPTIEMBRE 688</DirRecep>
+                    <CmnaRecep>CHILLAN</CmnaRecep>
+                    <CiudadRecep>CHILLAN</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>43</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>8</IVA>
+                    <MntTotal>51</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>9</VlrCodigo>
+        </CdgItem>
+        <NmbItem>[CU2M]CARGO UNICO NACIONAL CLIENTES MENORES O IGUAL A 2MW</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>43</PrcItem>
+        <MontoItem>43</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE05597A18C47S0273</FolioRef>
+        <FchRef>2018-11-22</FchRef>
+        <RazonRef>SEN_[CU2M][Jul18][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

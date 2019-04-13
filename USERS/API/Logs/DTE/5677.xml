@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F5677T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>5677</Folio>
+                    <FchEmis>2019-04-13</FchEmis>
+                    <FchVenc>2019-04-19</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>81585900-6</RUTRecep>
+                    <RznSocRecep>COOPERATIVA ELECTRICA LOS ANGELES LTDA</RznSocRecep>
+                    <GiroRecep>DISTRIBUCION DE ENERGIA ELECTRICA</GiroRecep>
+                    <Contacto>CQUEZADA@COOPELAN.CL</Contacto>
+                    <DirRecep>AV. LAS INDUSTRIAS 4670</DirRecep>
+                    <CmnaRecep>LOS ANGELES </CmnaRecep>
+                    <CiudadRecep>LOS ANGELES</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>26</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>5</IVA>
+                    <MntTotal>31</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>9</VlrCodigo>
+        </CdgItem>
+        <NmbItem>[CU2M]CARGO UNICO NACIONAL CLIENTES MENORES O IGUAL A 2MW</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>26</PrcItem>
+        <MontoItem>26</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE00776A19C25S0334</FolioRef>
+        <FchRef>2019-02-08</FchRef>
+        <RazonRef>SEN_[CU2M][Oct18][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

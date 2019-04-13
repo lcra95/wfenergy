@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F5692T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>5692</Folio>
+                    <FchEmis>2019-04-13</FchEmis>
+                    <FchVenc>2019-04-19</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76257379-2</RUTRecep>
+                    <RznSocRecep>INTERCHILE S.A.</RznSocRecep>
+                    <GiroRecep> TRANSMISION DE ENERGIA</GiroRecep>
+                    <Contacto>DMANCILLA@INTERCHILESA.COM </Contacto>
+                    <DirRecep>CERRO EL PLOMO 5630 DP. 1801</DirRecep>
+                    <CmnaRecep>LAS CONDES</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>5354</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>1017</IVA>
+                    <MntTotal>6371</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>19</VlrCodigo>
+        </CdgItem>
+        <NmbItem>RELIQUIDACION DE INGRESOS TARIFARIOS</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>5354</PrcItem>
+        <MontoItem>5354</MontoItem>
+    </Detalle><Referencia>
+    <NroLinRef>1</NroLinRef>
+    <TpoDocRef>SEN</TpoDocRef>
+    <FolioRef>DE03822A18C88S0175</FolioRef>
+    <FchRef>2018-08-28</FchRef>
+    <RazonRef>SEN_[ITN_][Jul18][R][V01]</RazonRef>
+</Referencia></Documento>
+    </DTE>
