@@ -192,11 +192,11 @@ include ("funciones.php");
 
     <div class="col-lg-3 col-md-6 col-xs-12">
       <div class="panel panel-primary">
-        <div class="panel-heading">No Asignado</div>
-        <div class="panel-body">
+        <div class="panel-heading">Obtener XML</div>
+        <div class="panel-body">Permite Obtener el XML de un DTE emitido
            <br>
-          <a class="glyphicon glyphicon-plus" data-toggle="modal" data-target="#"></a>&nbsp;&nbsp;&nbsp;
-          <a data-toggle="modal" data-target="#" class="glyphicon glyphicon-search"></a>
+          <a class="glyphicon glyphicon-plus" data-toggle="modal" data-target="#Mod1"></a>&nbsp;&nbsp;&nbsp;
+          <a href="../API/xmlSend.php" class="glyphicon glyphicon-search">Todos</a>
         </div>
       </div>
     </div>    

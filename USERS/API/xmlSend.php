@@ -13,9 +13,13 @@ $date = date('Y-m-d');
 $time = date('h:i:s');
 $objClienteSOAP = new soapclient(WS_PROD);
 $token = $objClienteSOAP->getToken($emisorRut, $usuarioWs, $claveWs);
-$sql = "SELECT 
-    f.id as id_factura, f.id_tipo_documento 
-FROM factura f WHERE  f.id = 3618";
+
+if(isset($_POST['id'])){
+    $fac = $_POST['id'];
+    $sql = "SELECT     f.id as id_factura, f.id_tipo_documento FROM factura f WHERE  f.id = $fac";
+}else{
+    $sql = "SELECT fd.id_factura, f.id_tipo_documento FROM factura_docs fd JOIN factura f on f.id = fd.id_factura WHERE fd.xml =''";
+}
 $resultado=$mysqli->query($sql);
 while ($fila = $resultado->fetch_assoc()) {
     $xml= '<?xml version="1.0" encoding="UTF-8"?>
