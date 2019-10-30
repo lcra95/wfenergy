@@ -9,7 +9,7 @@ $razon="ANULA DOCUMENTO DE REFERENCIA";
 $sql=mysql_query("SELECT * FROM folio where tipo_folio =61");
 $row=mysql_fetch_array($sql);
 $desde=$row[1];
-$sql1=mysql_query("SELECT * FROM nota_credito");
+$sql1=mysql_query("SELECT * FROM nota_credito where folio >= $desde");
 $num=mysql_num_rows($sql1);
 $id=$desde+$num;
 
