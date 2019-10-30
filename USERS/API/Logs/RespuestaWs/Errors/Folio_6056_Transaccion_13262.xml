@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SetDTE version="1.0">
+  <EnvioDTE ID="76254347-8F6056T33">
+    <Caratula>
+      <RutEmisor>76254347-8</RutEmisor>
+      <NroDetalles>1</NroDetalles>
+      <FechaHoraEnvio>2019-07-05T14:57:35</FechaHoraEnvio>
+    </Caratula>
+    <DocumentoDTE>
+      <TipoDTE>33</TipoDTE>
+      <Folio>6056</Folio>
+      <EstadoDTE>1</EstadoDTE>
+      <GlosaEstadoDTE>DTE NO RECIBIDO - ERROR EN SCHEMA Error 1832: Element '{http://www.sii.cl/SiiDte}FolioRef': [facet 'maxLength'] The value has a length of '36'; this exceeds the allowed maximum length of '18'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/2019/07/76254347-8_33_6056_valida.xml on line 52
+Error 1824: Element '{http://www.sii.cl/SiiDte}FolioRef': 'DEDE04653A18C19S022204653A18C19S0222' is not a valid value of the atomic type '{http://www.sii.cl/SiiDte}FolioRType'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/2019/07/76254347-8_33_6056_valida.xml on line 52
+</GlosaEstadoDTE>
+      <PDF Url="" Timbre=""/>
+    </DocumentoDTE>
+  </EnvioDTE>
+</SetDTE>

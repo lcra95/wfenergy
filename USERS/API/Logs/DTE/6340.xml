@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F6340T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>6340</Folio>
+                    <FchEmis>2019-08-22</FchEmis>
+                    <FchVenc>2019-08-25</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76858530-K</RUTRecep>
+                    <RznSocRecep>NORACID SA</RznSocRecep>
+                    <GiroRecep>FABRICACION Y VENTA DE PRODUCTOS QUIMICO</GiroRecep>
+                    <Contacto>JFLORES@NORACID.CL</Contacto>
+                    <DirRecep>AV.TERCERA INDUSTRIAL N 850</DirRecep>
+                    <CmnaRecep>LOS MEJILLONES</CmnaRecep>
+                    <CiudadRecep>LOS MEJILLONES</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>51703</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>9824</IVA>
+                    <MntTotal>61527</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>8</VlrCodigo>
+        </CdgItem>
+        <NmbItem>[RBPA]RELIQUIDACION BALANCE POTENCIA ANUAL</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>51703</PrcItem>
+        <MontoItem>51703</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE02509A19C73S0409</FolioRef>
+        <FchRef>2019-08-21</FchRef>
+        <RazonRef>SEN_[RBPA][Ene17-Dic17][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

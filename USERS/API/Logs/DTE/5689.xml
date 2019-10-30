@@ -1,3 +1,4 @@
+
 <?xml version="1.0" encoding="UTF-8"?>
     <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
     <Documento ID="F5689T33">
@@ -47,7 +48,7 @@
         <MontoItem>6</MontoItem>
     </Detalle><Referencia>
     <NroLinRef>1</NroLinRef>
-    <TpoDocRef>33</TpoDocRef>
+    <TpoDocRef>SEN</TpoDocRef>
     <FolioRef>DE02681A18C49S0101</FolioRef>
     <FchRef>2018-06-29</FchRef>
     <RazonRef>SEN_[ITN_][May18][R][V01]</RazonRef>

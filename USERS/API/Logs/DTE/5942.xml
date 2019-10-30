@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F5942T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>5942</Folio>
+                    <FchEmis>2019-05-22</FchEmis>
+                    <FchVenc>2019-05-24</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>77683400-9</RUTRecep>
+                    <RznSocRecep>STS</RznSocRecep>
+                    <GiroRecep>EXPLOT DESAR Y COMERCIA SISTEMAS ELEC</GiroRecep>
+                    <Contacto>KANDINSKY.DINTRANS@SAESA.CL</Contacto>
+                    <DirRecep>BULNES N. 441</DirRecep>
+                    <CmnaRecep>OSORNO</CmnaRecep>
+                    <CiudadRecep>OSORNO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>97</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>18</IVA>
+                    <MntTotal>115</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>1</VlrCodigo>
+        </CdgItem>
+        <NmbItem>ENERGIA
+</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>97</PrcItem>
+        <MontoItem>97</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE02716A19C79S0416</FolioRef>
+        <FchRef>2019-05-21</FchRef>
+        <RazonRef>SEN_[TEE_][Abr19][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
     <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
-    <Documento ID="F5693T33">
+    <Documento ID="F5693T0">
             <Encabezado>
                 <IdDoc>
-                    <TipoDTE>33</TipoDTE>
+                    <TipoDTE>0</TipoDTE>
                     <Folio>5693</Folio>
-                    <FchEmis>2019-04-13</FchEmis>
-                    <FchVenc>2019-04-19</FchVenc>
+                    <FchEmis>0000-00-00</FchEmis>
+                    <FchVenc></FchVenc>
                 </IdDoc>
                 <Emisor>
                     <RUTEmisor>76254347-8</RUTEmisor>
@@ -19,20 +19,20 @@
                     <CdgVendedor>No</CdgVendedor>
                 </Emisor>
                 <Receptor>
-                    <RUTRecep>76555400-4</RUTRecep>
-                    <RznSocRecep>TRANSELEC S A</RznSocRecep>
-                    <GiroRecep>TRANSMI DE ENERGIA ELECTRI</GiroRecep>
-                    <Contacto>ILOPEZ@TRANSELEC.CL</Contacto>
-                    <DirRecep>ORINOCO 90, PISO 14</DirRecep>
-                    <CmnaRecep>LAS CONDES</CmnaRecep>
-                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                    <RUTRecep></RUTRecep>
+                    <RznSocRecep></RznSocRecep>
+                    <GiroRecep></GiroRecep>
+                    <Contacto></Contacto>
+                    <DirRecep></DirRecep>
+                    <CmnaRecep></CmnaRecep>
+                    <CiudadRecep></CiudadRecep>
                 </Receptor>
                 <Totales>
-                    <MntNeto>10656</MntNeto>
+                    <MntNeto>5960</MntNeto>
                     <MntExe>0</MntExe>
                     <TasaIVA>19</TasaIVA>
-                    <IVA>2025</IVA>
-                    <MntTotal>12681</MntTotal>
+                    <IVA>1132</IVA>
+                    <MntTotal>7092</MntTotal>
                 </Totales>
             </Encabezado><Detalle>
         <NroLinDet>1</NroLinDet>
@@ -43,14 +43,14 @@
         <NmbItem>RELIQUIDACION DE INGRESOS TARIFARIOS</NmbItem>
         <QtyItem>1</QtyItem>
         <UnmdItem>UN</UnmdItem>
-        <PrcItem>10656</PrcItem>
-        <MontoItem>10656</MontoItem>
+        <PrcItem>5960</PrcItem>
+        <MontoItem>5960</MontoItem>
     </Detalle>
     <Referencia>
         <NroLinRef>1</NroLinRef>
-        <TpoDocRef>SEN</TpoDocRef>
-        <FolioRef>DE04491A18C14S0216</FolioRef>
-        <FchRef>2018-09-18</FchRef>
-        <RazonRef>SEN_[ITN_][Ago18][R][V01]</RazonRef>
+        <TpoDocRef></TpoDocRef>
+        <FolioRef></FolioRef>
+        <FchRef></FchRef>
+        <RazonRef></RazonRef>
     </Referencia></Documento>
     </DTE>

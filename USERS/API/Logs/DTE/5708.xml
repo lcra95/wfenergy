@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F5708T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>5708</Folio>
+                    <FchEmis>2019-04-17</FchEmis>
+                    <FchVenc>2019-04-18</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76046791-K</RUTRecep>
+                    <RznSocRecep>EDELNOR TRANSMISION S.A.</RznSocRecep>
+                    <GiroRecep> TRANSMISION DE ENERGIA ELECTRICA </GiroRecep>
+                    <Contacto>CLAUDIA.EITNER@CL.ENGIE.COM</Contacto>
+                    <DirRecep>AV. APOQUINDO 3721 OFICINA 61</DirRecep>
+                    <CmnaRecep>LAS CONDES</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>12</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>2</IVA>
+                    <MntTotal>14</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>19</VlrCodigo>
+        </CdgItem>
+        <NmbItem>RELIQUIDACION DE INGRESOS TARIFARIOS</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>12</PrcItem>
+        <MontoItem>12</MontoItem>
+    </Detalle><Referencia>
+    <NroLinRef>1</NroLinRef>
+    <TpoDocRef>SEN</TpoDocRef>
+    <FolioRef>DE05687A18C49S0279</FolioRef>
+    <FchRef>2018-11-29</FchRef>
+    <RazonRef>SEN_[ITN_][Oct18][R][V01]</RazonRef>
+</Referencia></Documento>
+    </DTE>

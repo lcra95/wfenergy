@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+	<Documento ID="F319T61">
+			<Encabezado>
+				<IdDoc>
+					<TipoDTE>61</TipoDTE>
+					<Folio>319</Folio>
+					<FchEmis>2019-08-28</FchEmis>
+					<FchVenc>2019-08-28</FchVenc>
+				</IdDoc>
+				<Emisor>
+					<RUTEmisor>76254347-8</RUTEmisor>
+					<RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+					<GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+					<Acteco>741400</Acteco>
+					<DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+					<CmnaOrigen>LAS CONDES </CmnaOrigen>
+					<CiudadOrigen>SANTIAGO</CiudadOrigen>
+					<CdgVendedor>No</CdgVendedor>
+				</Emisor>
+				<Receptor>
+					<RUTRecep>76468419-2</RUTRecep>
+					<RznSocRecep>ENERKEY SPA</RznSocRecep>
+					<GiroRecep>GENERACION EN OTRAS CENTRALES N.C.P</GiroRecep>
+					<Contacto>ACHAIGNEAU@ABRENERGY.COM</Contacto>
+					<DirRecep>EDUARDO MAQUINA 3937</DirRecep>
+					<CmnaRecep>VITACURA</CmnaRecep>
+					<CiudadRecep>SANTIAGO</CiudadRecep>
+				</Receptor>
+				<Totales>
+					<MntNeto>4</MntNeto>
+					<MntExe>0</MntExe>
+					<TasaIVA>19</TasaIVA>
+					<IVA>1</IVA>
+					<MntTotal>5</MntTotal>
+				</Totales>
+			</Encabezado><Detalle>
+		<NroLinDet>1</NroLinDet>
+		<CdgItem>
+			<TpoCodigo>INT</TpoCodigo>
+			<VlrCodigo>1</VlrCodigo>
+		</CdgItem>
+		<NmbItem>ENERGIA
+</NmbItem>
+		<QtyItem>1</QtyItem>
+		<UnmdItem>UN</UnmdItem>
+		<PrcItem>4</PrcItem>
+		<MontoItem>4</MontoItem>
+	</Detalle><Referencia>
+			<NroLinRef>1</NroLinRef>
+			<TpoDocRef>33</TpoDocRef>
+			<FolioRef>6298</FolioRef>
+			<FchRef>2019-08-28</FchRef>
+			<CodRef>1</CodRef>
+			<RazonRef>ANULA DOCUMENTO</RazonRef>
+		</Referencia></Documento>
+	</DTE>

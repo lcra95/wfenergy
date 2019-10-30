@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F5722T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>5722</Folio>
+                    <FchEmis>2019-04-18</FchEmis>
+                    <FchVenc>2019-04-25</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>96884450-4</RUTRecep>
+                    <RznSocRecep>LUZLINARES S.A.</RznSocRecep>
+                    <GiroRecep>DISTRIBUCION DE ENERG ELECTRI</GiroRecep>
+                    <Contacto>JJARA@LUZLINARES.CL</Contacto>
+                    <DirRecep>CHACABUCO 675</DirRecep>
+                    <CmnaRecep>LINARES</CmnaRecep>
+                    <CiudadRecep>LINARES</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>40</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>8</IVA>
+                    <MntTotal>48</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>9</VlrCodigo>
+        </CdgItem>
+        <NmbItem>[CU2M]CARGO UNICO NACIONAL CLIENTES MENORES O IGUAL A 2MW</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>40</PrcItem>
+        <MontoItem>40</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE05909A18C54S0290</FolioRef>
+        <FchRef>2018-12-14</FchRef>
+        <RazonRef>SEN_[CU2M][Ago18][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

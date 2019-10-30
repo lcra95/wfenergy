@@ -5,7 +5,7 @@
                 <IdDoc>
                     <TipoDTE>33</TipoDTE>
                     <Folio>5700</Folio>
-                    <FchEmis>2019-04-13</FchEmis>
+                    <FchEmis>2019-04-15</FchEmis>
                     <FchVenc>2019-04-18</FchVenc>
                 </IdDoc>
                 <Emisor>
@@ -19,20 +19,20 @@
                     <CdgVendedor>No</CdgVendedor>
                 </Emisor>
                 <Receptor>
-                    <RUTRecep>76257379-2</RUTRecep>
-                    <RznSocRecep>INTERCHILE S.A.</RznSocRecep>
-                    <GiroRecep> TRANSMISION DE ENERGIA</GiroRecep>
-                    <Contacto>DMANCILLA@INTERCHILESA.COM </Contacto>
-                    <DirRecep>CERRO EL PLOMO 5630 DP. 1801</DirRecep>
+                    <RUTRecep>76555400-4</RUTRecep>
+                    <RznSocRecep>TRANSELEC S A</RznSocRecep>
+                    <GiroRecep>TRANSMI DE ENERGIA ELECTRI</GiroRecep>
+                    <Contacto>ILOPEZ@TRANSELEC.CL</Contacto>
+                    <DirRecep>ORINOCO 90, PISO 14</DirRecep>
                     <CmnaRecep>LAS CONDES</CmnaRecep>
                     <CiudadRecep>SANTIAGO</CiudadRecep>
                 </Receptor>
                 <Totales>
-                    <MntNeto>7483</MntNeto>
+                    <MntNeto>78005</MntNeto>
                     <MntExe>0</MntExe>
                     <TasaIVA>19</TasaIVA>
-                    <IVA>1422</IVA>
-                    <MntTotal>8905</MntTotal>
+                    <IVA>14821</IVA>
+                    <MntTotal>92826</MntTotal>
                 </Totales>
             </Encabezado><Detalle>
         <NroLinDet>1</NroLinDet>
@@ -43,25 +43,14 @@
         <NmbItem>RELIQUIDACION DE INGRESOS TARIFARIOS</NmbItem>
         <QtyItem>1</QtyItem>
         <UnmdItem>UN</UnmdItem>
-        <PrcItem>12</PrcItem>
-        <MontoItem>12</MontoItem>
-    </Detalle><Detalle>
-        <NroLinDet>2</NroLinDet>
-        <CdgItem>
-            <TpoCodigo>INT</TpoCodigo>
-            <VlrCodigo>19</VlrCodigo>
-        </CdgItem>
-        <NmbItem>RELIQUIDACION DE INGRESOS TARIFARIOS</NmbItem>
-        <QtyItem>1</QtyItem>
-        <UnmdItem>UN</UnmdItem>
-        <PrcItem>7471</PrcItem>
-        <MontoItem>7471</MontoItem>
+        <PrcItem>78005</PrcItem>
+        <MontoItem>78005</MontoItem>
     </Detalle>
     <Referencia>
         <NroLinRef>1</NroLinRef>
-        <TpoDocRef></TpoDocRef>
-        <FolioRef></FolioRef>
-        <FchRef></FchRef>
-        <RazonRef></RazonRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE04909A18C32S0249</FolioRef>
+        <FchRef>2018-10-25</FchRef>
+        <RazonRef>SEN_[ITN_][Sep18][R][V01]</RazonRef>
     </Referencia></Documento>
     </DTE>

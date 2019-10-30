@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F5917T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>5917</Folio>
+                    <FchEmis>2019-05-22</FchEmis>
+                    <FchVenc>2019-05-24</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76284294-7</RUTRecep>
+                    <RznSocRecep>LOS GUINDOS GENERACION SPA</RznSocRecep>
+                    <GiroRecep>GENERA CAPTAC Y DISTRIBU DE ENER ELECTR</GiroRecep>
+                    <Contacto> GABRIEL.FLORES@LOSGUINDOSGENERACION.CL</Contacto>
+                    <DirRecep>AV DEL PARQUE 4161 TORRE A PISO 2 CIUDAD EMPRESARIAL</DirRecep>
+                    <CmnaRecep>HUECHURABA</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>3346</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>636</IVA>
+                    <MntTotal>3982</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>1</VlrCodigo>
+        </CdgItem>
+        <NmbItem>ENERGIA
+</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>3346</PrcItem>
+        <MontoItem>3346</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE02716A19C79S0416</FolioRef>
+        <FchRef>2019-05-21</FchRef>
+        <RazonRef>SEN_[TEE_][Abr19][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F6078T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>6078</Folio>
+                    <FchEmis>2019-07-15</FchEmis>
+                    <FchVenc>2019-07-26</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76411321-7</RUTRecep>
+                    <RznSocRecep>COMPANIA GENERAL DE ELECTRICIDAD S.A</RznSocRecep>
+                    <GiroRecep>TRANS Y DIST DE ENERG ELECT INV EN SOC</GiroRecep>
+                    <Contacto>CMETAYER@CGE.CL</Contacto>
+                    <DirRecep>AV. PRESIDENTE RIESCO 5561 DP P 17</DirRecep>
+                    <CmnaRecep>LAS CONDES</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>661</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>126</IVA>
+                    <MntTotal>787</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>10</VlrCodigo>
+        </CdgItem>
+        <NmbItem>[PTN]PEAJES DE TRANSMISION NACIONAL</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>661</PrcItem>
+        <MontoItem>661</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE02910A18C57S0123</FolioRef>
+        <FchRef>2019-07-15</FchRef>
+        <RazonRef>SEN_[PTN_][Ene17-Dic17][R][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

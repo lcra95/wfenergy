@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+	<Documento ID="F280T61">
+			<Encabezado>
+				<IdDoc>
+					<TipoDTE>61</TipoDTE>
+					<Folio>280</Folio>
+					<FchEmis>2019-04-16</FchEmis>
+					<FchVenc>2019-04-16</FchVenc>
+				</IdDoc>
+				<Emisor>
+					<RUTEmisor>76254347-8</RUTEmisor>
+					<RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+					<GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+					<Acteco>741400</Acteco>
+					<DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+					<CmnaOrigen>LAS CONDES </CmnaOrigen>
+					<CiudadOrigen>SANTIAGO</CiudadOrigen>
+					<CdgVendedor>No</CdgVendedor>
+				</Emisor>
+				<Receptor>
+					<RUTRecep>76472262-0</RUTRecep>
+					<RznSocRecep>IMELSA ENERGIA SPA</RznSocRecep>
+					<GiroRecep>GENERACION EN OTRAS CENTRALES N.C.P.</GiroRecep>
+					<Contacto>CARLOS.DUCASSE@IMELSA.CL</Contacto>
+					<DirRecep>AVDA ESPANA 795</DirRecep>
+					<CmnaRecep>SANTIAGO</CmnaRecep>
+					<CiudadRecep>SANTIAGO</CiudadRecep>
+				</Receptor>
+				<Totales>
+					<MntNeto>20929</MntNeto>
+					<MntExe>0</MntExe>
+					<TasaIVA>19</TasaIVA>
+					<IVA>3977</IVA>
+					<MntTotal>24906</MntTotal>
+				</Totales>
+			</Encabezado><Detalle>
+		<NroLinDet>1</NroLinDet>
+		<CdgItem>
+			<TpoCodigo>INT</TpoCodigo>
+			<VlrCodigo>2</VlrCodigo>
+		</CdgItem>
+		<NmbItem>POTENCIA
+</NmbItem>
+		<QtyItem>1</QtyItem>
+		<UnmdItem>UN</UnmdItem>
+		<PrcItem>20929</PrcItem>
+		<MontoItem>20929</MontoItem>
+	</Detalle><Referencia>
+			<NroLinRef>1</NroLinRef>
+			<TpoDocRef>33</TpoDocRef>
+			<FolioRef>5486</FolioRef>
+			<FchRef>2019-04-16</FchRef>
+			<CodRef>1</CodRef>
+			<RazonRef>ANULA DOCUMENTO</RazonRef>
+		</Referencia></Documento>
+	</DTE>

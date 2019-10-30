@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SetDTE version="1.0">
+  <EnvioDTE ID="76254347-8FNULLT">
+    <Caratula>
+      <RutEmisor>76254347-8</RutEmisor>
+      <NroDetalles>1</NroDetalles>
+      <FechaHoraEnvio>2019-08-23T16:07:13</FechaHoraEnvio>
+    </Caratula>
+    <DocumentoDTE>
+      <TipoDTE></TipoDTE>
+      <Folio>NULL</Folio>
+      <EstadoDTE>1</EstadoDTE>
+      <GlosaEstadoDTE>DTE NO RECIBIDO - ERROR EN SCHEMA Error 1824: Element '{http://www.sii.cl/SiiDte}TipoDTE': '' is not a valid value of the atomic type '{http://www.sii.cl/SiiDte}DTEType'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/76254347-8__NULL_valida.xml on line 6
+Error 1824: Element '{http://www.sii.cl/SiiDte}Folio': 'NULL' is not a valid value of the atomic type '{http://www.sii.cl/SiiDte}FolioType'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/76254347-8__NULL_valida.xml on line 7
+Error 1824: Element '{http://www.sii.cl/SiiDte}FchEmis': '' is not a valid value of the atomic type 'xs:date'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/76254347-8__NULL_valida.xml on line 8
+Error 1824: Element '{http://www.sii.cl/SiiDte}FchVenc': '' is not a valid value of the atomic type 'xs:date'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/76254347-8__NULL_valida.xml on line 9
+Error 1831: Element '{http://www.sii.cl/SiiDte}RUTRecep': [facet 'minLength'] The value has a length of '0'; this underruns the allowed minimum length of '3'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/76254347-8__NULL_valida.xml on line 22
+Error 1839: Element '{http://www.sii.cl/SiiDte}RUTRecep': [facet 'pattern'] The value '' is not accepted by the pattern '[0-9]+-([0-9]|K)'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/76254347-8__NULL_valida.xml on line 22
+Error 1824: Element '{http://www.sii.cl/SiiDte}RUTRecep': '' is not a valid value of the atomic type '{http://www.sii.cl/SiiDte}RUTType'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/76254347-8__NULL_valida.xml on line 22
+Error 1871: Element '{http://www.sii.cl/SiiDte}Referencia': This element is not expected. Expected is ( {http://www.sii.cl/SiiDte}Detalle ). in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/76254347-8__NULL_valida.xml on line 38
+</GlosaEstadoDTE>
+      <PDF Url="" Timbre=""/>
+    </DocumentoDTE>
+  </EnvioDTE>
+</SetDTE>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+	<Documento ID="F293T61">
+			<Encabezado>
+				<IdDoc>
+					<TipoDTE>61</TipoDTE>
+					<Folio>293</Folio>
+					<FchEmis>2019-04-18</FchEmis>
+					<FchVenc>2019-04-18</FchVenc>
+				</IdDoc>
+				<Emisor>
+					<RUTEmisor>76254347-8</RUTEmisor>
+					<RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+					<GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+					<Acteco>741400</Acteco>
+					<DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+					<CmnaOrigen>LAS CONDES </CmnaOrigen>
+					<CiudadOrigen>SANTIAGO</CiudadOrigen>
+					<CdgVendedor>No</CdgVendedor>
+				</Emisor>
+				<Receptor>
+					<RUTRecep>81629800-8</RUTRecep>
+					<RznSocRecep>COOP ELECTRICA PAILLACO LTDA</RznSocRecep>
+					<GiroRecep>DISTRIBUCION DE ENERGIA ELECTRICA</GiroRecep>
+					<Contacto> LUIS.CANDIA@SOCOEPA.CL</Contacto>
+					<DirRecep>PEREZ ROSALES 1167</DirRecep>
+					<CmnaRecep>PAILLACO</CmnaRecep>
+					<CiudadRecep>PAILLACO</CiudadRecep>
+				</Receptor>
+				<Totales>
+					<MntNeto>47</MntNeto>
+					<MntExe>0</MntExe>
+					<TasaIVA>19</TasaIVA>
+					<IVA>9</IVA>
+					<MntTotal>56</MntTotal>
+				</Totales>
+			</Encabezado><Detalle>
+		<NroLinDet>1</NroLinDet>
+		<CdgItem>
+			<TpoCodigo>INT</TpoCodigo>
+			<VlrCodigo>9</VlrCodigo>
+		</CdgItem>
+		<NmbItem>[CU2M]CARGO UNICO NACIONAL CLIENTES MENORES O IGUAL A 2MW</NmbItem>
+		<QtyItem>1</QtyItem>
+		<UnmdItem>UN</UnmdItem>
+		<PrcItem>47</PrcItem>
+		<MontoItem>47</MontoItem>
+	</Detalle><Referencia>
+			<NroLinRef>1</NroLinRef>
+			<TpoDocRef>33</TpoDocRef>
+			<FolioRef>5650</FolioRef>
+			<FchRef>2019-04-18</FchRef>
+			<CodRef>1</CodRef>
+			<RazonRef>ANULA DOCUMENTO</RazonRef>
+		</Referencia></Documento>
+	</DTE>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F6062T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>6062</Folio>
+                    <FchEmis>2019-07-09</FchEmis>
+                    <FchVenc>2019-07-19</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>61704000-K</RUTRecep>
+                    <RznSocRecep>CORPORACION NACIONAL DEL COBRE DE CHILE</RznSocRecep>
+                    <GiroRecep>GRAN MINERIA DEL COBRE</GiroRecep>
+                    <Contacto> CVALD027@CODELCO.CL  MDUNAY@CODELCO.CL</Contacto>
+                    <DirRecep>HUERFANOS 1270</DirRecep>
+                    <CmnaRecep>SANTIAGO</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>129855</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>24672</IVA>
+                    <MntTotal>154527</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>11</VlrCodigo>
+        </CdgItem>
+        <NmbItem>[PCU]PEAJE DE RETIRO POR PEAJE UNITARIO VS CARGO UNICO</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>129855</PrcItem>
+        <MontoItem>129855</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE02910A18C57S0125</FolioRef>
+        <FchRef>2019-07-08</FchRef>
+        <RazonRef>SEN_[PCU_][Ene17-Dic17][R][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

@@ -5,7 +5,7 @@
                 <IdDoc>
                     <TipoDTE>33</TipoDTE>
                     <Folio>5701</Folio>
-                    <FchEmis>2019-04-13</FchEmis>
+                    <FchEmis>2019-04-15</FchEmis>
                     <FchVenc>2019-04-18</FchVenc>
                 </IdDoc>
                 <Emisor>
@@ -19,20 +19,20 @@
                     <CdgVendedor>No</CdgVendedor>
                 </Emisor>
                 <Receptor>
-                    <RUTRecep>76218856-2</RUTRecep>
-                    <RznSocRecep>COLBUN TRANSMISION S.A</RznSocRecep>
-                    <GiroRecep>TRANSMISION DE ENERGIA ELECTRICA</GiroRecep>
-                    <Contacto>CVAREA@COLBUN.CL</Contacto>
-                    <DirRecep>AV. APOQUINDO 4775</DirRecep>
+                    <RUTRecep>76257379-2</RUTRecep>
+                    <RznSocRecep>INTERCHILE S.A.</RznSocRecep>
+                    <GiroRecep> TRANSMISION DE ENERGIA</GiroRecep>
+                    <Contacto>DMANCILLA@INTERCHILESA.COM </Contacto>
+                    <DirRecep>CERRO EL PLOMO 5630 DP. 1801</DirRecep>
                     <CmnaRecep>LAS CONDES</CmnaRecep>
                     <CiudadRecep>SANTIAGO</CiudadRecep>
                 </Receptor>
                 <Totales>
-                    <MntNeto>34</MntNeto>
+                    <MntNeto>5306</MntNeto>
                     <MntExe>0</MntExe>
                     <TasaIVA>19</TasaIVA>
-                    <IVA>6</IVA>
-                    <MntTotal>40</MntTotal>
+                    <IVA>1008</IVA>
+                    <MntTotal>6314</MntTotal>
                 </Totales>
             </Encabezado><Detalle>
         <NroLinDet>1</NroLinDet>
@@ -43,14 +43,14 @@
         <NmbItem>RELIQUIDACION DE INGRESOS TARIFARIOS</NmbItem>
         <QtyItem>1</QtyItem>
         <UnmdItem>UN</UnmdItem>
-        <PrcItem>34</PrcItem>
-        <MontoItem>34</MontoItem>
+        <PrcItem>5306</PrcItem>
+        <MontoItem>5306</MontoItem>
     </Detalle>
     <Referencia>
         <NroLinRef>1</NroLinRef>
         <TpoDocRef>SEN</TpoDocRef>
-        <FolioRef>DE05687A18C49S0279</FolioRef>
-        <FchRef>2018-11-18</FchRef>
-        <RazonRef>SEN_[ITN_][Oct18][R][V01]</RazonRef>
+        <FolioRef>DE04909A18C32S0249</FolioRef>
+        <FchRef>2018-10-25</FchRef>
+        <RazonRef>SEN_[ITN_][Sep18][R][V01]</RazonRef>
     </Referencia></Documento>
     </DTE>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F5846T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>5846</Folio>
+                    <FchEmis>2019-05-22</FchEmis>
+                    <FchVenc>2019-05-24</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>87756500-9</RUTRecep>
+                    <RznSocRecep>ENAP REFINERIAS S.A.</RznSocRecep>
+                    <GiroRecep>IMPOR ELAB ALMACE Y COMERC</GiroRecep>
+                    <Contacto>MTELLEZ@ENAP.CL</Contacto>
+                    <DirRecep>AVDA BORGONO 25777</DirRecep>
+                    <CmnaRecep>CONCON</CmnaRecep>
+                    <CiudadRecep>CONCON</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>288499</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>54815</IVA>
+                    <MntTotal>343314</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>1</VlrCodigo>
+        </CdgItem>
+        <NmbItem>ENERGIA
+</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>288499</PrcItem>
+        <MontoItem>288499</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE02716A19C79S0416</FolioRef>
+        <FchRef>2019-05-21</FchRef>
+        <RazonRef>SEN_[TEE_][Abr19][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

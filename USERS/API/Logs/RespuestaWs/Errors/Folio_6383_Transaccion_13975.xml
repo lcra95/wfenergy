@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SetDTE version="1.0">
+  <EnvioDTE ID="76254347-8F6383T33">
+    <Caratula>
+      <RutEmisor>76254347-8</RutEmisor>
+      <NroDetalles>1</NroDetalles>
+      <FechaHoraEnvio>2019-08-23T15:22:40</FechaHoraEnvio>
+    </Caratula>
+    <DocumentoDTE>
+      <TipoDTE>33</TipoDTE>
+      <Folio>6383</Folio>
+      <EstadoDTE>1</EstadoDTE>
+      <GlosaEstadoDTE>DTE NO RECIBIDO - ERROR EN SCHEMA Error 1832: Element '{http://www.sii.cl/SiiDte}GiroRecep': [facet 'maxLength'] The value has a length of '56'; this exceeds the allowed maximum length of '40'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/2019/08/76254347-8_33_6383_valida.xml on line 24
+Error 1824: Element '{http://www.sii.cl/SiiDte}GiroRecep': 'GENERACION DE ENERGIA ELECTRICA EN OTRAS CENTRALES N.C.P' is not a valid value of the local atomic type. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/2019/08/76254347-8_33_6383_valida.xml on line 24
+</GlosaEstadoDTE>
+      <PDF Url="" Timbre=""/>
+    </DocumentoDTE>
+  </EnvioDTE>
+</SetDTE>

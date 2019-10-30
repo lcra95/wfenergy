@@ -5,7 +5,7 @@
                 <IdDoc>
                     <TipoDTE>33</TipoDTE>
                     <Folio>5698</Folio>
-                    <FchEmis>2019-04-13</FchEmis>
+                    <FchEmis>2019-04-15</FchEmis>
                     <FchVenc>2019-04-18</FchVenc>
                 </IdDoc>
                 <Emisor>
@@ -19,11 +19,11 @@
                     <CdgVendedor>No</CdgVendedor>
                 </Emisor>
                 <Receptor>
-                    <RUTRecep>76218856-2</RUTRecep>
-                    <RznSocRecep>COLBUN TRANSMISION S.A</RznSocRecep>
-                    <GiroRecep>TRANSMISION DE ENERGIA ELECTRICA</GiroRecep>
-                    <Contacto>CVAREA@COLBUN.CL</Contacto>
-                    <DirRecep>AV. APOQUINDO 4775</DirRecep>
+                    <RUTRecep>76046791-K</RUTRecep>
+                    <RznSocRecep>EDELNOR TRANSMISION S.A.</RznSocRecep>
+                    <GiroRecep> TRANSMISION DE ENERGIA ELECTRICA </GiroRecep>
+                    <Contacto>CLAUDIA.EITNER@CL.ENGIE.COM</Contacto>
+                    <DirRecep>AV. APOQUINDO 3721 OFICINA 61</DirRecep>
                     <CmnaRecep>LAS CONDES</CmnaRecep>
                     <CiudadRecep>SANTIAGO</CiudadRecep>
                 </Receptor>
@@ -49,8 +49,8 @@
     <Referencia>
         <NroLinRef>1</NroLinRef>
         <TpoDocRef>SEN</TpoDocRef>
-        <FolioRef>DE04491A18C14S0216</FolioRef>
-        <FchRef>2018-09-18</FchRef>
-        <RazonRef>SEN_[ITN_][Ago18][R][V01]</RazonRef>
+        <FolioRef>DE04909A18C32S0249</FolioRef>
+        <FchRef>2018-10-25</FchRef>
+        <RazonRef>SEN_[ITN_][Sep18][R][V01]</RazonRef>
     </Referencia></Documento>
     </DTE>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+	<Documento ID="F312T61">
+			<Encabezado>
+				<IdDoc>
+					<TipoDTE>61</TipoDTE>
+					<Folio>312</Folio>
+					<FchEmis>2019-07-18</FchEmis>
+					<FchVenc>2019-07-18</FchVenc>
+				</IdDoc>
+				<Emisor>
+					<RUTEmisor>76254347-8</RUTEmisor>
+					<RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+					<GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+					<Acteco>741400</Acteco>
+					<DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+					<CmnaOrigen>LAS CONDES </CmnaOrigen>
+					<CiudadOrigen>SANTIAGO</CiudadOrigen>
+					<CdgVendedor>No</CdgVendedor>
+				</Emisor>
+				<Receptor>
+					<RUTRecep>76555400-4</RUTRecep>
+					<RznSocRecep>TRANSELEC S A</RznSocRecep>
+					<GiroRecep>TRANSMI DE ENERGIA ELECTRI</GiroRecep>
+					<Contacto>ILOPEZ@TRANSELEC.CL</Contacto>
+					<DirRecep>ORINOCO 90, PISO 14</DirRecep>
+					<CmnaRecep>LAS CONDES</CmnaRecep>
+					<CiudadRecep>SANTIAGO</CiudadRecep>
+				</Receptor>
+				<Totales>
+					<MntNeto>1</MntNeto>
+					<MntExe>0</MntExe>
+					<TasaIVA>19</TasaIVA>
+					<IVA>0</IVA>
+					<MntTotal>1</MntTotal>
+				</Totales>
+			</Encabezado><Detalle>
+		<NroLinDet>1</NroLinDet>
+		<CdgItem>
+			<TpoCodigo>INT</TpoCodigo>
+			<VlrCodigo>12</VlrCodigo>
+		</CdgItem>
+		<NmbItem>[PZ]PAGO PEAJES ZONAL(VASTx+Perdida)</NmbItem>
+		<QtyItem>1</QtyItem>
+		<UnmdItem>UN</UnmdItem>
+		<PrcItem>1</PrcItem>
+		<MontoItem>1</MontoItem>
+	</Detalle><Referencia>
+			<NroLinRef>1</NroLinRef>
+			<TpoDocRef>33</TpoDocRef>
+			<FolioRef>6095</FolioRef>
+			<FchRef>2019-07-18</FchRef>
+			<CodRef>1</CodRef>
+			<RazonRef>ANULA DOCUMENTO</RazonRef>
+		</Referencia></Documento>
+	</DTE>

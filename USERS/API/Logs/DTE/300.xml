@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+	<Documento ID="F300T61">
+			<Encabezado>
+				<IdDoc>
+					<TipoDTE>61</TipoDTE>
+					<Folio>300</Folio>
+					<FchEmis>2019-04-18</FchEmis>
+					<FchVenc>2019-04-18</FchVenc>
+				</IdDoc>
+				<Emisor>
+					<RUTEmisor>76254347-8</RUTEmisor>
+					<RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+					<GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+					<Acteco>741400</Acteco>
+					<DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+					<CmnaOrigen>LAS CONDES </CmnaOrigen>
+					<CiudadOrigen>SANTIAGO</CiudadOrigen>
+					<CdgVendedor>No</CdgVendedor>
+				</Emisor>
+				<Receptor>
+					<RUTRecep>76073162-5</RUTRecep>
+					<RznSocRecep>SOCIEDAD AUSTRAL DE ELECTRICIDAD SA</RznSocRecep>
+					<GiroRecep>DISTRIBUCION DE ENERGIA ELECTRICA</GiroRecep>
+					<Contacto>MARCELA.ALVAREZ@SAESA.CL</Contacto>
+					<DirRecep>BULNES 441</DirRecep>
+					<CmnaRecep>OSORNO</CmnaRecep>
+					<CiudadRecep>OSORNO</CiudadRecep>
+				</Receptor>
+				<Totales>
+					<MntNeto>17</MntNeto>
+					<MntExe>0</MntExe>
+					<TasaIVA>19</TasaIVA>
+					<IVA>3</IVA>
+					<MntTotal>20</MntTotal>
+				</Totales>
+			</Encabezado><Detalle>
+		<NroLinDet>1</NroLinDet>
+		<CdgItem>
+			<TpoCodigo>INT</TpoCodigo>
+			<VlrCodigo>9</VlrCodigo>
+		</CdgItem>
+		<NmbItem>[CU2M]CARGO UNICO NACIONAL CLIENTES MENORES O IGUAL A 2MW</NmbItem>
+		<QtyItem>1</QtyItem>
+		<UnmdItem>UN</UnmdItem>
+		<PrcItem>17</PrcItem>
+		<MontoItem>17</MontoItem>
+	</Detalle><Referencia>
+			<NroLinRef>1</NroLinRef>
+			<TpoDocRef>33</TpoDocRef>
+			<FolioRef>5657</FolioRef>
+			<FchRef>2019-04-18</FchRef>
+			<CodRef>1</CodRef>
+			<RazonRef>ANULA DOCUMENTO</RazonRef>
+		</Referencia></Documento>
+	</DTE>
