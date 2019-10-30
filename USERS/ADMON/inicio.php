@@ -1,4 +1,11 @@
 <?php 
+session_start();
+if(isset($_SESSION['msg'])){
+    $msg=$_SESSION['msg'];
+    echo "<script> alert('$msg')</script>"; 
+    unset($_SESSION['msg']);
+  }
+
 include("conexion.php");
 include("funciones.php");
 include("11pesos.php");
@@ -37,6 +44,7 @@ $tte=mysql_fetch_array($tpr);
         <!--<li class="active"><a href="#" data-toggle="modal" data-target="#ventana"><i class="fa fa-asterisk"></i> Nuevo Registro</a></li>--> 
         </ol>
     </div>
+
         <div class="col-sm-6">
             <div class="panel panel-default">
               <div class="panel-heading">

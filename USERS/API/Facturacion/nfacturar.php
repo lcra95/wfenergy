@@ -15,7 +15,6 @@ if($row=mysql_fetch_array($sql))
 {
 $if=proxima_factura();	
 }
-
 $qw=mysql_query("SELECT *  FROM borrador_referencia WHERE id_factura= $fac");
 $datqw=mysql_fetch_array($qw);
 

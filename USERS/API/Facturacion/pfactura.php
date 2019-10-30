@@ -43,6 +43,7 @@ $tte=mysql_fetch_array($tpr);
             <th align="Center">Rut</th>
             <th align="Center">Razón Social</th>
             <th align="Center">Monto</th>
+            <th align="Center">Periodo</th>
             <th align="Center">Facturar</th>
           </tr>
         </thead>
@@ -61,11 +62,12 @@ while($row=mysql_fetch_array($sel))
 
 		
 		?>
-		          <tr>
+		      <tr>
              <td><?php echo $row[2];?></td>                                        
              <td><?php echo rut_empresa($row[2]);?></td>
              <td><?php echo razon($row[2]);?></td>
              <td align="Right"><?php echo number_format($row[4]);?></td>
+             <td><?php echo $row[3];?></td>
              <td align="Center"><a href="borrador.php?concepto=<?php echo $row[1];?>&id=<?php echo $row[0]; ?>&empresa=<?php echo $row[2]?>&monto=<?php echo $row[4];?>&periodo=<?php echo $periodo;?>">Facturar</a></td>             
           </tr>
 		

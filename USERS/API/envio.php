@@ -1,4 +1,6 @@
 <?php
+error_reporting(E_ALL);
+ini_set('display_errors', 'On');
 include_once ('../../Config.php');
 session_start();
 $mysqli = new mysqli(SERVER, DB_USER, DB_PASS, DB);
@@ -23,21 +25,29 @@ $empresaRut=$emp->item(0)->nodeValue;
 $archivoXMLbase64 = base64_encode($archivoXMLdata);
 $objClienteSOAP = new soapclient(WS_PROD);
 $token = $objClienteSOAP->getToken($emisorRut, $usuarioWs, $claveWs);
-$objRespuesta = $objClienteSOAP->sendDte($token, $archivoXMLbase64, $empresaRut, $docTipo, $docFolio);
 
-$fp = fopen('Logs/RespuestaWs/'.$docFolio.'.xml', 'w');
-fwrite($fp, $objRespuesta);
-fclose($fp);
+try {  
+    $objRespuesta = $objClienteSOAP->sendDte($token, $archivoXMLbase64, $empresaRut, $docTipo, $docFolio);
+    $fp = fopen('Logs/RespuestaWs/'.$docFolio.'.xml', 'w');
+    fwrite($fp, $objRespuesta);
+    fclose($fp);
 
 
-$archivoXML1=('Logs/RespuestaWs/'.$docFolio.'.xml');
-$archivo=file_get_contents($archivoXML);
-$xmlDoc = new DOMDocument;
-$xmlDoc->load($archivoXML1);
-$searchNode = $xmlDoc->getElementsByTagName( "PDF" );
+    $archivoXML1=('Logs/RespuestaWs/'.$docFolio.'.xml');
+    $archivo=file_get_contents($archivoXML);
+    $xmlDoc = new DOMDocument;
+    $xmlDoc->load($archivoXML1);
+    $searchNode = $xmlDoc->getElementsByTagName( "PDF" );
 
-$res=$xmlDoc->getElementsByTagName('EstadoDTE');
-$estado=$res->item(0)->nodeValue;
+    $res=$xmlDoc->getElementsByTagName('EstadoDTE');
+    $estado=$res->item(0)->nodeValue;
+} catch (SoapFault $E) {
+    $estado = 66;
+    $_SESSION['msg']=$E->faultstring; ;
+    
+}
+
+
 if($estado!=0){
     $fp = fopen('Logs/RespuestaWs/Errors/Folio_'.$docFolio.'_Transaccion_'.$transaccion.'.xml', 'w');
     fwrite($fp, $objRespuesta);
@@ -79,6 +89,9 @@ if($estado!=0){
             echo $_SESSION['msg']="Folio Duplicado";
             header("location: Facturacion/pfactura.php");
         break;
+        case 66:
+            header("location: Facturacion/pfactura.php");
+    break;
         default:
             echo $_SESSION['msg']="Error en el Envio del DTE";
             header("location: Facturacion/pfactura.php");

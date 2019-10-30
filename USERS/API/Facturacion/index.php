@@ -10,6 +10,7 @@ $( document ).ready(function() {
 }); 
 </script>
 <?php 
+
 include("funciones.php");
 include("head.php");
 @$empresa=$_GET['empresa'];
@@ -29,8 +30,39 @@ else
     $t=$row[8];
     $g=$row[10];
 }
-
-
+if(isset($_SESSION['msg'])){
+  $msg=$_SESSION['msg'];
+  echo "<script> alert('$msg')</script>"; 
+  unset($_SESSION['msg']);
+}
+function hayFactura()
+{
+	list($foli,$desde,$hasta)=folio_activo();
+	$sql=mysql_query("SELECT * FROM factura WHERE id >=$desde AND id <= $hasta");
+	$row=mysql_num_rows($sql);
+	if($row==0)
+	{
+		$fac=$desde;
+	}else
+	{
+	$fac=$desde+$row;
+	}
+	if($fac>$hasta)
+	{
+		return "NULL";
+	}
+	else
+	{
+		return $fac;
+	}
+}
+$hay = hayFactura();
+session_start();
+if($hay == 'NULL'){
+  $_SESSION['msg']='No existen folios disponibles';
+  header("location: ../../ADMON/inicio.php");
+ 
+}
 ?>
 <link rel="stylesheet" href="https://cdn.datatables.net/1.10.15/css/jquery.dataTables.min.css">
 <script src="//code.jquery.com/jquery-1.12.4.js"></script>

@@ -14,6 +14,35 @@ $miva=miva();
 @$iva=$monto*$miva;
 @$total=$monto+$iva;
 @$id=$_GET['id'];
+function hayFactura()
+{
+	list($foli,$desde,$hasta)=folio_activo();
+	$sql=mysql_query("SELECT * FROM factura WHERE id >=$desde AND id <= $hasta");
+	$row=mysql_num_rows($sql);
+	if($row==0)
+	{
+		$fac=$desde;
+	}else
+	{
+	$fac=$desde+$row;
+	}
+	if($fac>$hasta)
+	{
+		return "NULL";
+	}
+	else
+	{
+		return $fac;
+	}
+}
+$hay = hayFactura();
+session_start();
+if($hay == 'NULL'){
+  $_SESSION['msg']='No existen folios disponibles';
+  header("location: pfactura.php");
+ 
+}
+
 mysql_query("INSERT INTO borrador VALUES ('$fac', '1', '', '$fecha', '', '$empresa', '$periodo', '$tipo');");
 
 $sql=mysql_query("INSERT INTO `borrador_concepto` (`id`, `id_factura`, `id_concepto`, `canti`, `monto`, `extendido`, `exento`, `iva`, `descuento_por`, `recargo_por`, `descuento_efe`, `recargo_efe`, `total`) VALUES (NULL, '$fac', '$concepto', '1', '$monto', '$monto', '0', '$iva', '0', '0', '0', '0', '$total')");
@@ -24,23 +53,43 @@ $sql=mysql_query("INSERT INTO `borrador_concepto` (`id`, `id_factura`, `id_conce
 
 
 if(@$empresa=="")
-{}
+{
+  $_SESSION['msg']='debe seleccionar una empresa';
+  header("location: pfactura.php");
+  
+}
 else
 {
     $sql=mysql_query("SELECT * FROM `empresa` WHERE `id` LIKE '$empresa'");
-    $row=mysql_fetch_array($sql);
-    $r=$row[1];
-    $ra=$row[2];
-    $d=$row[5];
-    $c=$row[6];
-    $ci=$row[7];
-    $t=$row[8];
-    $array=array();
-    $array = explode(',' , $row[10]);
+    if($row=mysql_fetch_array($sql)){
+      $r=$row[1];
+      $ra=$row[2];
+      $d=$row[5];
+      $c=$row[6];
+      $ci=$row[7];
+      $t=$row[8];
+      $array=array();
+      $array = explode(',' , $row[10]);
+  
+      foreach($array as $key ){
+          $g= $key;
+      }
+      if($r =='' || $ra =='' || $d =='' || $c == '' || $ci == '' || $g ==''){
+        $_SESSION['msg']='Los siguientes campos son obligatorios para una empresa: \n-Rut \n-Razon Social \n-Comuna \n-Ciudad \n-Dirección \n-Giro';
+        header("location: pfactura.php");
+        exit;
+      }
 
-    foreach($array as $key ){
-        $g= $key;
+      if(strlen ($g ) > 40 ){
+        $_SESSION['msg']='El giro de la empresa seleccionada tiene mas de 40 caracteres';
+        header("location: pfactura.php");
+        exit;
+      }
+    }else{
+      $_SESSION['msg']='La empresa seleccionada no se encuentra registrada';
+      header("location: pfactura.php");
     }
+
 
 }
 
