@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SetDTE version="1.0">
+  <EnvioDTE ID="76254347-8F6669T33">
+    <Caratula>
+      <RutEmisor>76254347-8</RutEmisor>
+      <NroDetalles>1</NroDetalles>
+      <FechaHoraEnvio>2019-11-20T12:03:07</FechaHoraEnvio>
+    </Caratula>
+    <DocumentoDTE>
+      <TipoDTE>33</TipoDTE>
+      <Folio>6669</Folio>
+      <EstadoDTE>0</EstadoDTE>
+      <GlosaEstadoDTE>DTE RECIBIDO OK</GlosaEstadoDTE>
+      <PDF Url="https://sistema.webfactura.cl/pdf/63e37d3c6a7ead3dcbe2159fdab41186" Timbre="https://sistema.webfactura.cl/pdf/63e37d3c6a7ead3dcbe2159fdab41186/2"/>
+    </DocumentoDTE>
+  </EnvioDTE>
+</SetDTE>

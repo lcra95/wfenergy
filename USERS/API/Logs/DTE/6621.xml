@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F6621T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>6621</Folio>
+                    <FchEmis>2019-11-20</FchEmis>
+                    <FchVenc>2019-11-22</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76059578-0</RUTRecep>
+                    <RznSocRecep>KDM ENERGIA S.A</RznSocRecep>
+                    <GiroRecep>GENERACION DE ENERGIA ELECTRICA</GiroRecep>
+                    <Contacto>YMERCHAN@KDMEMPRESAS.CL</Contacto>
+                    <DirRecep>AV ISIDORA GOYENECHEA 3621 TORRE B P 14</DirRecep>
+                    <CmnaRecep>HUECHURABA</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>91665</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>17416</IVA>
+                    <MntTotal>109081</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>1</VlrCodigo>
+        </CdgItem>
+        <NmbItem>ENERGIA
+</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>91665</PrcItem>
+        <MontoItem>91665</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE06198A19C95S0607</FolioRef>
+        <FchRef>2019-11-20</FchRef>
+        <RazonRef>SEN_[TEE_][Oct19][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>
