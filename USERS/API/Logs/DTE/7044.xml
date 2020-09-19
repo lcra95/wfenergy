@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F7044T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>7044</Folio>
+                    <FchEmis>2020-03-20</FchEmis>
+                    <FchVenc>2020-03-23</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION ENER EN OTRAS CENTRALES N.C.P</GiroEmis>
+                    <Acteco>351019</Acteco>
+                    <DirOrigen>AV.APOQUINDO 5400 PISO 21 of 2101</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76237256-8</RUTRecep>
+                    <RznSocRecep>CERRO DOMINADOR CSP S.A</RznSocRecep>
+                    <GiroRecep>CONST EXPL LINE ELE GENER COMER ENER ELE</GiroRecep>
+                    <Contacto>LUCILA.BALLESTEROS@CERRODOMINADOR.COM</Contacto>
+                    <DirRecep>APOQUINDO 4501 P 8 OFICINA 803 804</DirRecep>
+                    <CmnaRecep>LAS CONDES</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>59258</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>11259</IVA>
+                    <MntTotal>70517</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>2</VlrCodigo>
+        </CdgItem>
+        <NmbItem>POTENCIA
+</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>59258</PrcItem>
+        <MontoItem>59258</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE01401A20C52S0764</FolioRef>
+        <FchRef>2020-03-18</FchRef>
+        <RazonRef>SEN_[BP__][Feb20][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

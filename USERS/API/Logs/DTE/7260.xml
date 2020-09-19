@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F7260T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>7260</Folio>
+                    <FchEmis>2020-05-22</FchEmis>
+                    <FchVenc>2020-05-25</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION ENER EN OTRAS CENTRALES N.C.P</GiroEmis>
+                    <Acteco>351019</Acteco>
+                    <DirOrigen>AV.APOQUINDO 5400 PISO 21 of 2101</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76055134-1</RUTRecep>
+                    <RznSocRecep>ATACAMA SOLAR S.A.</RznSocRecep>
+                    <GiroRecep>GENE ENE MED CONV CONC ARRDTO TERR  PROY</GiroRecep>
+                    <Contacto>FACTURACION_APILOT@PMMC.CL</Contacto>
+                    <DirRecep>AV. EL BOSQUE CENTRAL N 92 PISO 6</DirRecep>
+                    <CmnaRecep>LAS CONDES</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>15587</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>2962</IVA>
+                    <MntTotal>18549</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>2</VlrCodigo>
+        </CdgItem>
+        <NmbItem>POTENCIA
+</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>15587</PrcItem>
+        <MontoItem>15587</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE02535A20C83S0797</FolioRef>
+        <FchRef>2020-04-22</FchRef>
+        <RazonRef>SEN_[BP__][Abr20][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

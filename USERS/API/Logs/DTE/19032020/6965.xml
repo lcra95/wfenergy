@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F6965T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>6965</Folio>
+                    <FchEmis>2020-02-20</FchEmis>
+                    <FchVenc>2020-02-21</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION ENER EN OTRAS CENTRALES N.C.P</GiroEmis>
+                    <Acteco>351019</Acteco>
+                    <DirOrigen>AV.APOQUINDO 5400 PISO 21 of 2101</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76178599-0</RUTRecep>
+                    <RznSocRecep>PARQUE EOLICO LOS CURUROS SPA</RznSocRecep>
+                    <GiroRecep>GENERACION DE ENERGIA ELECTRICA</GiroRecep>
+                    <Contacto>EPMCHILE@EPMCHILE.COM</Contacto>
+                    <DirRecep>ROSARIO NORTE 532 PISO 19</DirRecep>
+                    <CmnaRecep>LAS CONDES</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>18070</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>3433</IVA>
+                    <MntTotal>21503</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>2</VlrCodigo>
+        </CdgItem>
+        <NmbItem>POTENCIA
+</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>6021</PrcItem>
+        <MontoItem>6021</MontoItem>
+    </Detalle><Detalle>
+        <NroLinDet>2</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>2</VlrCodigo>
+        </CdgItem>
+        <NmbItem>POTENCIA
+</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>12049</PrcItem>
+        <MontoItem>12049</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef></TpoDocRef>
+        <FolioRef></FolioRef>
+        <FchRef></FchRef>
+        <RazonRef></RazonRef>
+    </Referencia><Adicional>
+                    <NodosA>
+                        <A6>Refacturación Folio 5503</A6>
+                    </NodosA>
+                </Adicional></Documento>
+    </DTE>

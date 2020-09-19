@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F7293T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>7293</Folio>
+                    <FchEmis>2020-06-20</FchEmis>
+                    <FchVenc>2020-06-23</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION ENER EN OTRAS CENTRALES N.C.P</GiroEmis>
+                    <Acteco>351019</Acteco>
+                    <DirOrigen>AV.APOQUINDO 5400 PISO 21 of 2101</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76472262-0</RUTRecep>
+                    <RznSocRecep>IMELSA ENERGIA SPA</RznSocRecep>
+                    <GiroRecep>GENERACION DE ENERGIA ELECTRICA</GiroRecep>
+                    <Contacto>CARLOS.DUCASSE@IMELSA.CL</Contacto>
+                    <DirRecep>AVDA ESPANA 795</DirRecep>
+                    <CmnaRecep>SANTIAGO</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>32206</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>6119</IVA>
+                    <MntTotal>38325</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>2</VlrCodigo>
+        </CdgItem>
+        <NmbItem>POTENCIA
+</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>32206</PrcItem>
+        <MontoItem>32206</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE03124A20C99S0814</FolioRef>
+        <FchRef>2020-06-19</FchRef>
+        <RazonRef>SEN_[BP__][May20][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

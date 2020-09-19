@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F7402T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>7402</Folio>
+                    <FchEmis>2020-07-22</FchEmis>
+                    <FchVenc>2020-07-24</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION ENER EN OTRAS CENTRALES N.C.P</GiroEmis>
+                    <Acteco>351019</Acteco>
+                    <DirOrigen>AV.APOQUINDO 5400 PISO 21 of 2101</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76919070-8</RUTRecep>
+                    <RznSocRecep>NORVIND S.A.</RznSocRecep>
+                    <GiroRecep>TRANSM GENE Y DISTRIB DE ENERG ELECTRICA</GiroRecep>
+                    <Contacto>MARCELO.RUBIO@LATAMPOWER.COM</Contacto>
+                    <DirRecep>CERRO EL PLOMO 5680, OF.1202</DirRecep>
+                    <CmnaRecep>LAS CONDES</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>27665</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>5256</IVA>
+                    <MntTotal>32921</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>1</VlrCodigo>
+        </CdgItem>
+        <NmbItem>ENERGIA
+</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>27665</PrcItem>
+        <MontoItem>27665</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE03687A20C15S0838</FolioRef>
+        <FchRef>2020-07-22</FchRef>
+        <RazonRef>SEN_[TEE_][Jun20][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

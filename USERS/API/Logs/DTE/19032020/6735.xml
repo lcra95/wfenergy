@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F6735T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>6735</Folio>
+                    <FchEmis>2019-12-10</FchEmis>
+                    <FchVenc>2019-12-20</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76555400-4</RUTRecep>
+                    <RznSocRecep>TRANSELEC S A</RznSocRecep>
+                    <GiroRecep>TRANSMI DE ENERGIA ELECTRI</GiroRecep>
+                    <Contacto>ILOPEZ@TRANSELEC.CL</Contacto>
+                    <DirRecep>ORINOCO 90, PISO 14</DirRecep>
+                    <CmnaRecep>LAS CONDES</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>40</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>8</IVA>
+                    <MntTotal>48</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>24</VlrCodigo>
+        </CdgItem>
+        <NmbItem>[ITE]RECAUDACION POR INGRESOS TARIFARIOS DE ENERGIA</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>40</PrcItem>
+        <MontoItem>40</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE06429A19C19S0634</FolioRef>
+        <FchRef>2019-12-10</FchRef>
+        <RazonRef>SEN_[ITE_][Ene16-Dic16][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

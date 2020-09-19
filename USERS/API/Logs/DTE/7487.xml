@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F7487T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>7487</Folio>
+                    <FchEmis>2020-08-18</FchEmis>
+                    <FchVenc>2020-08-18</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION ENER EN OTRAS CENTRALES N.C.P</GiroEmis>
+                    <Acteco>351019</Acteco>
+                    <DirOrigen>AV.APOQUINDO 5400 PISO 21 of 2101</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>87756500-9</RUTRecep>
+                    <RznSocRecep>ENAP REFINERIAS S.A.</RznSocRecep>
+                    <GiroRecep>IMPOR  ELAB ALMACE Y COME DE HIDRO Y DER</GiroRecep>
+                    <Contacto>MTELLEZ@ENAP.CL</Contacto>
+                    <DirRecep>AVDA BORGONO 25777</DirRecep>
+                    <CmnaRecep>CONCON</CmnaRecep>
+                    <CiudadRecep>CONCON</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>48103</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>9140</IVA>
+                    <MntTotal>57243</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>2</VlrCodigo>
+        </CdgItem>
+        <NmbItem>POTENCIA
+</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>48103</PrcItem>
+        <MontoItem>48103</MontoItem>
+    </Detalle><Referencia>
+    <NroLinRef>1</NroLinRef>
+    <TpoDocRef>SEN</TpoDocRef>
+    <FolioRef>DE02535A20C83S079</FolioRef>
+    <FchRef>2020-04-22</FchRef>
+    <RazonRef>SEN_[BP__][Abr20][L][V01]</RazonRef>
+</Referencia><Adicional>
+                    <NodosA>
+                        <A6>Refacturación de Folio 7252</A6>
+                    </NodosA>
+                </Adicional></Documento>
+    </DTE>

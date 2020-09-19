@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+	<Documento ID="F367T61">
+			<Encabezado>
+				<IdDoc>
+					<TipoDTE>61</TipoDTE>
+					<Folio>367</Folio>
+					<FchEmis>2020-02-20</FchEmis>
+					<FchVenc>2020-02-20</FchVenc>
+				</IdDoc>
+				<Emisor>
+					<RUTEmisor>76254347-8</RUTEmisor>
+					<RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+					<GiroEmis>GENERACION ENER EN OTRAS CENTRALES N.C.P</GiroEmis>
+					<Acteco>351019</Acteco>
+					<DirOrigen>AV.APOQUINDO 5400 PISO 21 of 2101</DirOrigen>
+					<CmnaOrigen>LAS CONDES </CmnaOrigen>
+					<CiudadOrigen>SANTIAGO</CiudadOrigen>
+					<CdgVendedor>No</CdgVendedor>
+				</Emisor>
+				<Receptor>
+					<RUTRecep>76729711-4</RUTRecep>
+					<RznSocRecep>EPM TRANSMISION CHILE S.A.</RznSocRecep>
+					<GiroRecep>EXPLO DESA D SIST ELEC Y TRAN ENER ELEC</GiroRecep>
+					<Contacto> MARIANGEL.RIVEROS@EPMCHILE.COM</Contacto>
+					<DirRecep>AV MANQUEHUE NORTE N 160 41 B</DirRecep>
+					<CmnaRecep>LAS CONDES</CmnaRecep>
+					<CiudadRecep>SANTIAGO</CiudadRecep>
+				</Receptor>
+				<Totales>
+					<MntNeto>27177</MntNeto>
+					<MntExe>0</MntExe>
+					<TasaIVA>19</TasaIVA>
+					<IVA>5164</IVA>
+					<MntTotal>32341</MntTotal>
+				</Totales>
+			</Encabezado><Detalle>
+		<NroLinDet>1</NroLinDet>
+		<CdgItem>
+			<TpoCodigo>INT</TpoCodigo>
+			<VlrCodigo>11</VlrCodigo>
+		</CdgItem>
+		<NmbItem>[PCU]PEAJE DE RETIRO POR PEAJE UNITARIO VS CARGO UNICO</NmbItem>
+		<QtyItem>1</QtyItem>
+		<UnmdItem>UN</UnmdItem>
+		<PrcItem>27177</PrcItem>
+		<MontoItem>27177</MontoItem>
+	</Detalle><Referencia>
+			<NroLinRef>1</NroLinRef>
+			<TpoDocRef>33</TpoDocRef>
+			<FolioRef>6067</FolioRef>
+			<FchRef>2020-02-20</FchRef>
+			<CodRef>1</CodRef>
+			<RazonRef>ANULA DOCUMENTO</RazonRef>
+		</Referencia></Documento>
+	</DTE>

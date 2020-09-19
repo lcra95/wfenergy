@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F6920T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>6920</Folio>
+                    <FchEmis>2020-02-12</FchEmis>
+                    <FchVenc>2020-02-19</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION ENER EN OTRAS CENTRALES N.C.P</GiroEmis>
+                    <Acteco>351019</Acteco>
+                    <DirOrigen>AV.APOQUINDO 5400 PISO 21 of 2101</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76550580-1</RUTRecep>
+                    <RznSocRecep>CENTRAL CARDONES SA</RznSocRecep>
+                    <GiroRecep>CENTRAL TERMICA E HIDROELECTRICA</GiroRecep>
+                    <Contacto> JAVIER.PUJOL@INKIAENERGY.CL</Contacto>
+                    <DirRecep>CERRO EL PLOMO 5680 PISO 15, OF 1501</DirRecep>
+                    <CmnaRecep>LAS CONDES</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>908</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>173</IVA>
+                    <MntTotal>1081</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>1</VlrCodigo>
+        </CdgItem>
+        <NmbItem>ENERGIA
+</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>908</PrcItem>
+        <MontoItem>908</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE04830A18C27S0237</FolioRef>
+        <FchRef>2020-02-12</FchRef>
+        <RazonRef>SEN_[TEE_][Sep18][L][V01]</RazonRef>
+    </Referencia><Adicional>
+                    <NodosA>
+                        <A6>Refacturación de Folio 3637</A6>
+                    </NodosA>
+                </Adicional></Documento>
+    </DTE>

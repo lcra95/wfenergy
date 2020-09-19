@@ -231,6 +231,36 @@ function conceptosxml($fac) //esta funcion obtine de la base de datos los datos 
 return $buffermedio;
 
 }
+// function folio_activo()
+// {
+// 	$sql=mysql_query("SELECT * FROM folio WHERE status = 1 AND tipo_folio = 33");
+// 	$row=mysql_fetch_array($sql);
+// 	print_r($row[0],$row[1],$row[2],$row[4],$row[5]);
+// 	return array($row[0],$row[1],$row[2],$row[4],$row[5]);
+
+// }
+// function proxima_factura()
+// {	
+
+// 	list($foli,$desde,$hasta)=folio_activo();
+// 	$sql=mysql_query("SELECT * FROM factura WHERE id >=$desde AND id <= $hasta");
+// 	$row=mysql_num_rows($sql);
+// 	if($row==0)
+// 	{
+// 		$fac=$desde;
+// 	}else
+// 	{
+// 	$fac=$desde+$row;
+// 	}
+// 	if($fac>$hasta)
+// 	{
+// 		return "NULL";
+// 	}
+// 	else
+// 	{
+// 		return $fac;
+// 	}
+// }
 $b2=setDTE($fac);
 $files=fopen("../Logs/DTE/$fac.xml","w+");
 fwrite ($files,$b2);

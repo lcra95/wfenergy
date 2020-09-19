@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F7500T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>7500</Folio>
+                    <FchEmis>2020-08-20</FchEmis>
+                    <FchVenc>2020-08-24</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION ENER EN OTRAS CENTRALES N.C.P</GiroEmis>
+                    <Acteco>351019</Acteco>
+                    <DirOrigen>AV.APOQUINDO 5400 PISO 21 of 2101</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76059578-0</RUTRecep>
+                    <RznSocRecep>KDM ENERGIA S.A</RznSocRecep>
+                    <GiroRecep>GENERACION Y VENTA DE ENERGIA ELECTRICA</GiroRecep>
+                    <Contacto>YMERCHAN@KDMEMPRESAS.CL</Contacto>
+                    <DirRecep>ALCALDE GUZMAN N 0180 </DirRecep>
+                    <CmnaRecep>QUILICURA</CmnaRecep>
+                    <CiudadRecep>SANTIAGO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>53048</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>10079</IVA>
+                    <MntTotal>63127</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>1</VlrCodigo>
+        </CdgItem>
+        <NmbItem>ENERGIA
+</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>53048</PrcItem>
+        <MontoItem>53048</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE04236A20C35S0865</FolioRef>
+        <FchRef>2020-08-19</FchRef>
+        <RazonRef>SEN_[TEE_][Jul20][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

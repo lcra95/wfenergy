@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F6726T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>6726</Folio>
+                    <FchEmis>2019-12-06</FchEmis>
+                    <FchVenc>2019-12-16</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
+                    <Acteco>741400</Acteco>
+                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76045612-8</RUTRecep>
+                    <RznSocRecep>ELECTRICA NUEVA ENERGIA S.A.</RznSocRecep>
+                    <GiroRecep>GENERACION DE ENERGIA ELECTRICA</GiroRecep>
+                    <Contacto>JBERTRAN@SCLEA.COM</Contacto>
+                    <DirRecep>PARQUE INDUSTRIAL ESCUADRON 2 KM 17,5 CAMINO A CORONEL</DirRecep>
+                    <CmnaRecep>CORONEL</CmnaRecep>
+                    <CiudadRecep>CORONEL</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>19</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>4</IVA>
+                    <MntTotal>23</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>1</VlrCodigo>
+        </CdgItem>
+        <NmbItem>ENERGIA
+</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>19</PrcItem>
+        <MontoItem>19</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE06429A19C09S0621</FolioRef>
+        <FchRef>2019-12-06</FchRef>
+        <RazonRef>SEN_[TEE_][Ene16-Dic16][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

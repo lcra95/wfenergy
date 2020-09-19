@@ -152,9 +152,11 @@ function folio_activo()
 	$sql=mysql_query("SELECT * FROM folio WHERE status = 1 AND tipo_folio = 33");
 	$row=mysql_fetch_array($sql);
 	return array($row[0],$row[1],$row[2],$row[4],$row[5]);
+
 }
 function proxima_factura()
-{
+{	
+
 	list($foli,$desde,$hasta)=folio_activo();
 	$sql=mysql_query("SELECT * FROM factura WHERE id >=$desde AND id <= $hasta");
 	$row=mysql_num_rows($sql);
@@ -165,6 +167,7 @@ function proxima_factura()
 	{
 	$fac=$desde+$row;
 	}
+	
 	if($fac>$hasta)
 	{
 		return "NULL";

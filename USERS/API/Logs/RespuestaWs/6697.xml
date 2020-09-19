@@ -4,17 +4,14 @@
     <Caratula>
       <RutEmisor>76254347-8</RutEmisor>
       <NroDetalles>1</NroDetalles>
-      <FechaHoraEnvio>2019-11-20T12:07:52</FechaHoraEnvio>
+      <FechaHoraEnvio>2019-11-20T23:24:28</FechaHoraEnvio>
     </Caratula>
     <DocumentoDTE>
       <TipoDTE>33</TipoDTE>
       <Folio>6697</Folio>
-      <EstadoDTE>1</EstadoDTE>
-      <GlosaEstadoDTE>DTE NO RECIBIDO - ERROR EN SCHEMA Error 1831: Element '{http://www.sii.cl/SiiDte}RUTRecep': [facet 'minLength'] The value has a length of '0'; this underruns the allowed minimum length of '3'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/2019/10/76254347-8_33_6697_valida.xml on line 22
-Error 1839: Element '{http://www.sii.cl/SiiDte}RUTRecep': [facet 'pattern'] The value '' is not accepted by the pattern '[0-9]+-([0-9]|K)'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/2019/10/76254347-8_33_6697_valida.xml on line 22
-Error 1824: Element '{http://www.sii.cl/SiiDte}RUTRecep': '' is not a valid value of the atomic type '{http://www.sii.cl/SiiDte}RUTType'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/2019/10/76254347-8_33_6697_valida.xml on line 22
-</GlosaEstadoDTE>
-      <PDF Url="" Timbre=""/>
+      <EstadoDTE>0</EstadoDTE>
+      <GlosaEstadoDTE>DTE RECIBIDO OK</GlosaEstadoDTE>
+      <PDF Url="https://sistema.webfactura.cl/pdf/a34c27b9e8e301316b6466a245648f8e" Timbre="https://sistema.webfactura.cl/pdf/a34c27b9e8e301316b6466a245648f8e/2"/>
     </DocumentoDTE>
   </EnvioDTE>
 </SetDTE>

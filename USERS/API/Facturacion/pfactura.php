@@ -51,13 +51,13 @@ $tte=mysql_fetch_array($tpr);
 
 
 <?php 
-$sel=mysql_query("SELECT * FROM empresa_transaccion WHERE id_status = 0");
+$sel=mysql_query("SELECT * FROM empresa_transaccion WHERE id_status = 0 AND periodo = '2019-10'");
 while($row=mysql_fetch_array($sel))
 { 
 	$sql2=mysql_query("SELECT * FROM factura_transaccion WHERE id_transaccion = $row[0]");
 	if(!$data=mysql_fetch_array($sql2))
 	{	
-    if(($row[1]<20)&&($row[4]>0))
+    if(($row[1]<30)&&($row[4]>0))
 		{
 
 		

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="FT">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE></TipoDTE>
+                    <Folio></Folio>
+                    <FchEmis></FchEmis>
+                    <FchVenc></FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION ENER EN OTRAS CENTRALES N.C.P</GiroEmis>
+                    <Acteco>351019</Acteco>
+                    <DirOrigen>AV.APOQUINDO 5400 PISO 21 of 2101</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep></RUTRecep>
+                    <RznSocRecep></RznSocRecep>
+                    <GiroRecep></GiroRecep>
+                    <Contacto></Contacto>
+                    <DirRecep></DirRecep>
+                    <CmnaRecep></CmnaRecep>
+                    <CiudadRecep></CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>0</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>0</IVA>
+                    <MntTotal>0</MntTotal>
+                </Totales>
+            </Encabezado>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef></TpoDocRef>
+        <FolioRef></FolioRef>
+        <FchRef></FchRef>
+        <RazonRef></RazonRef>
+    </Referencia></Documento>
+    </DTE>

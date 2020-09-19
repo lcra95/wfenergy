@@ -11,9 +11,9 @@
                 <Emisor>
                     <RUTEmisor>76254347-8</RUTEmisor>
                     <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
-                    <GiroEmis>GENERACION EN OTRAS CENTRALES</GiroEmis>
-                    <Acteco>741400</Acteco>
-                    <DirOrigen>AVDA. APOQUINDO 3910, PISO 5</DirOrigen>
+                    <GiroEmis>GENERACION ENER EN OTRAS CENTRALES N.C.P</GiroEmis>
+                    <Acteco>351019</Acteco>
+                    <DirOrigen>AV.APOQUINDO 5400 PISO 21 of 2101</DirOrigen>
                     <CmnaOrigen>LAS CONDES </CmnaOrigen>
                     <CiudadOrigen>SANTIAGO</CiudadOrigen>
                     <CdgVendedor>No</CdgVendedor>
@@ -34,12 +34,5 @@
                     <IVA>0</IVA>
                     <MntTotal>0</MntTotal>
                 </Totales>
-            </Encabezado>
-    <Referencia>
-        <NroLinRef>1</NroLinRef>
-        <TpoDocRef></TpoDocRef>
-        <FolioRef></FolioRef>
-        <FchRef></FchRef>
-        <RazonRef></RazonRef>
-    </Referencia></Documento>
+            </Encabezado></Documento>
     </DTE>

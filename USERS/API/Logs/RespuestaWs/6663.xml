@@ -4,14 +4,14 @@
     <Caratula>
       <RutEmisor>76254347-8</RutEmisor>
       <NroDetalles>1</NroDetalles>
-      <FechaHoraEnvio>2019-11-20T12:01:44</FechaHoraEnvio>
+      <FechaHoraEnvio>2019-11-20T23:17:59</FechaHoraEnvio>
     </Caratula>
     <DocumentoDTE>
       <TipoDTE>33</TipoDTE>
       <Folio>6663</Folio>
       <EstadoDTE>0</EstadoDTE>
       <GlosaEstadoDTE>DTE RECIBIDO OK</GlosaEstadoDTE>
-      <PDF Url="https://sistema.webfactura.cl/pdf/371aa8320abb473b5d6474e9c2ce19fc" Timbre="https://sistema.webfactura.cl/pdf/371aa8320abb473b5d6474e9c2ce19fc/2"/>
+      <PDF Url="https://sistema.webfactura.cl/pdf/fa8347508c78fe826aef7b5a99d0f103" Timbre="https://sistema.webfactura.cl/pdf/fa8347508c78fe826aef7b5a99d0f103/2"/>
     </DocumentoDTE>
   </EnvioDTE>
 </SetDTE>

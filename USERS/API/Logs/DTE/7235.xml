@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+    <Documento ID="F7235T33">
+            <Encabezado>
+                <IdDoc>
+                    <TipoDTE>33</TipoDTE>
+                    <Folio>7235</Folio>
+                    <FchEmis>2020-05-22</FchEmis>
+                    <FchVenc>2020-05-25</FchVenc>
+                </IdDoc>
+                <Emisor>
+                    <RUTEmisor>76254347-8</RUTEmisor>
+                    <RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+                    <GiroEmis>GENERACION ENER EN OTRAS CENTRALES N.C.P</GiroEmis>
+                    <Acteco>351019</Acteco>
+                    <DirOrigen>AV.APOQUINDO 5400 PISO 21 of 2101</DirOrigen>
+                    <CmnaOrigen>LAS CONDES </CmnaOrigen>
+                    <CiudadOrigen>SANTIAGO</CiudadOrigen>
+                    <CdgVendedor>No</CdgVendedor>
+                </Emisor>
+                <Receptor>
+                    <RUTRecep>76073162-5</RUTRecep>
+                    <RznSocRecep>SOCIEDAD AUSTRAL DE ELECTRICIDAD SA</RznSocRecep>
+                    <GiroRecep>DISTRIBUCION DE ENERGIA ELECTRICA</GiroRecep>
+                    <Contacto>MARCELA.ALVAREZ@SAESA.CL</Contacto>
+                    <DirRecep>BULNES 441</DirRecep>
+                    <CmnaRecep>OSORNO</CmnaRecep>
+                    <CiudadRecep>OSORNO</CiudadRecep>
+                </Receptor>
+                <Totales>
+                    <MntNeto>118</MntNeto>
+                    <MntExe>0</MntExe>
+                    <TasaIVA>19</TasaIVA>
+                    <IVA>22</IVA>
+                    <MntTotal>140</MntTotal>
+                </Totales>
+            </Encabezado><Detalle>
+        <NroLinDet>1</NroLinDet>
+        <CdgItem>
+            <TpoCodigo>INT</TpoCodigo>
+            <VlrCodigo>1</VlrCodigo>
+        </CdgItem>
+        <NmbItem>ENERGIA
+</NmbItem>
+        <QtyItem>1</QtyItem>
+        <UnmdItem>UN</UnmdItem>
+        <PrcItem>118</PrcItem>
+        <MontoItem>118</MontoItem>
+    </Detalle>
+    <Referencia>
+        <NroLinRef>1</NroLinRef>
+        <TpoDocRef>SEN</TpoDocRef>
+        <FolioRef>DE02535A20C81S0795</FolioRef>
+        <FchRef>2020-05-22</FchRef>
+        <RazonRef>SEN_[TEE_][Abr20][L][V01]</RazonRef>
+    </Referencia></Documento>
+    </DTE>

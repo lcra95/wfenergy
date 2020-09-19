@@ -7,7 +7,7 @@ $mysqli = new mysqli(SERVER, DB_USER, DB_PASS, DB);
 include_once ("nusoap/src/nusoap.php");
 $idr=$_GET['id'];
 $transaccion = @$_GET['tran'];
-//$idr="unaprueba.xml";//SE COMENTA LA LINEA ANTERIOR, SE ACTIVA ESTA Y SE COLOCA EL NOMBRE DEL ARCHIVO QUE SE DESEA ENVIAR MANUALMENTE
+//$idr="388.xml";//SE COMENTA LA LINEA ANTERIOR, SE ACTIVA ESTA Y SE COLOCA EL NOMBRE DEL ARCHIVO QUE SE DESEA ENVIAR MANUALMENTE
 $id='Logs/DTE/'.$idr;
 $emisorRut=WS_EMISOR;
 $usuarioWs=WS_USER;

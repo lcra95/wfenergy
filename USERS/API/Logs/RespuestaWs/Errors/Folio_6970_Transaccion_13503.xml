@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SetDTE version="1.0">
+  <EnvioDTE ID="76254347-8F6970T0">
+    <Caratula>
+      <RutEmisor>76254347-8</RutEmisor>
+      <NroDetalles>1</NroDetalles>
+      <FechaHoraEnvio>2020-03-02T16:12:04</FechaHoraEnvio>
+    </Caratula>
+    <DocumentoDTE>
+      <TipoDTE>0</TipoDTE>
+      <Folio>6970</Folio>
+      <EstadoDTE>1</EstadoDTE>
+      <GlosaEstadoDTE>DTE NO RECIBIDO - ERROR EN SCHEMA Error 1824: Element '{http://www.sii.cl/SiiDte}TipoDTE': '0' is not a valid value of the atomic type '{http://www.sii.cl/SiiDte}DTEType'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/0000/00/76254347-8_0_6970_valida.xml on line 6
+Error 1824: Element '{http://www.sii.cl/SiiDte}FchEmis': '0000-00-00' is not a valid value of the atomic type 'xs:date'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/0000/00/76254347-8_0_6970_valida.xml on line 8
+Error 1824: Element '{http://www.sii.cl/SiiDte}FchVenc': '' is not a valid value of the atomic type 'xs:date'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/0000/00/76254347-8_0_6970_valida.xml on line 9
+Error 1831: Element '{http://www.sii.cl/SiiDte}RUTRecep': [facet 'minLength'] The value has a length of '0'; this underruns the allowed minimum length of '3'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/0000/00/76254347-8_0_6970_valida.xml on line 22
+Error 1839: Element '{http://www.sii.cl/SiiDte}RUTRecep': [facet 'pattern'] The value '' is not accepted by the pattern '[0-9]+-([0-9]|K)'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/0000/00/76254347-8_0_6970_valida.xml on line 22
+Error 1824: Element '{http://www.sii.cl/SiiDte}RUTRecep': '' is not a valid value of the atomic type '{http://www.sii.cl/SiiDte}RUTType'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/0000/00/76254347-8_0_6970_valida.xml on line 22
+Error 1831: Element '{http://www.sii.cl/SiiDte}FolioRef': [facet 'minLength'] The value has a length of '0'; this underruns the allowed minimum length of '1'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/0000/00/76254347-8_0_6970_valida.xml on line 64
+Error 1824: Element '{http://www.sii.cl/SiiDte}FolioRef': '' is not a valid value of the atomic type '{http://www.sii.cl/SiiDte}FolioRType'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/0000/00/76254347-8_0_6970_valida.xml on line 64
+Error 1824: Element '{http://www.sii.cl/SiiDte}FchRef': '' is not a valid value of the atomic type 'xs:date'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/0000/00/76254347-8_0_6970_valida.xml on line 65
+</GlosaEstadoDTE>
+      <PDF Url="" Timbre=""/>
+    </DocumentoDTE>
+  </EnvioDTE>
+</SetDTE>

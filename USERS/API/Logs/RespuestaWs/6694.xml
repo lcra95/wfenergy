@@ -4,17 +4,14 @@
     <Caratula>
       <RutEmisor>76254347-8</RutEmisor>
       <NroDetalles>1</NroDetalles>
-      <FechaHoraEnvio>2019-11-20T14:06:09</FechaHoraEnvio>
+      <FechaHoraEnvio>2019-11-20T23:23:59</FechaHoraEnvio>
     </Caratula>
     <DocumentoDTE>
       <TipoDTE>33</TipoDTE>
       <Folio>6694</Folio>
-      <EstadoDTE>1</EstadoDTE>
-      <GlosaEstadoDTE>DTE NO RECIBIDO - ERROR EN SCHEMA Error 1831: Element '{http://www.sii.cl/SiiDte}FolioRef': [facet 'minLength'] The value has a length of '0'; this underruns the allowed minimum length of '1'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/2019/11/76254347-8_33_6694_valida.xml on line 65
-Error 1824: Element '{http://www.sii.cl/SiiDte}FolioRef': '' is not a valid value of the atomic type '{http://www.sii.cl/SiiDte}FolioRType'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/2019/11/76254347-8_33_6694_valida.xml on line 65
-Error 1824: Element '{http://www.sii.cl/SiiDte}FchRef': '' is not a valid value of the atomic type 'xs:date'. in /srv/www/webfactura/wsprod.webfactura.net/archivos/76254347-8/2019/11/76254347-8_33_6694_valida.xml on line 66
-</GlosaEstadoDTE>
-      <PDF Url="" Timbre=""/>
+      <EstadoDTE>0</EstadoDTE>
+      <GlosaEstadoDTE>DTE RECIBIDO OK</GlosaEstadoDTE>
+      <PDF Url="https://sistema.webfactura.cl/pdf/d87b4d718d69341446e9e2bae62da849" Timbre="https://sistema.webfactura.cl/pdf/d87b4d718d69341446e9e2bae62da849/2"/>
     </DocumentoDTE>
   </EnvioDTE>
 </SetDTE>

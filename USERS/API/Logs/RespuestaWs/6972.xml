@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SetDTE version="1.0">
+  <EnvioDTE ID="76254347-8F6972T33">
+    <Caratula>
+      <RutEmisor>76254347-8</RutEmisor>
+      <NroDetalles>1</NroDetalles>
+      <FechaHoraEnvio>2020-03-16T11:34:24</FechaHoraEnvio>
+    </Caratula>
+    <DocumentoDTE>
+      <TipoDTE>33</TipoDTE>
+      <Folio>6972</Folio>
+      <EstadoDTE>3</EstadoDTE>
+      <GlosaEstadoDTE>DTE NO RECIBIDO - DTE DUPLICADO</GlosaEstadoDTE>
+      <PDF Url="" Timbre=""/>
+    </DocumentoDTE>
+  </EnvioDTE>
+</SetDTE>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+	<DTE xmlns="http://www.sii.cl/SiiDte" version="1.0">
+	<Documento ID="F370T61">
+			<Encabezado>
+				<IdDoc>
+					<TipoDTE>61</TipoDTE>
+					<Folio>370</Folio>
+					<FchEmis>2020-02-27</FchEmis>
+					<FchVenc>2020-02-27</FchVenc>
+				</IdDoc>
+				<Emisor>
+					<RUTEmisor>76254347-8</RUTEmisor>
+					<RznSoc>HANWHA Q CELLS TIL TIL UNO SPA</RznSoc>
+					<GiroEmis>GENERACION ENER EN OTRAS CENTRALES N.C.P</GiroEmis>
+					<Acteco>351019</Acteco>
+					<DirOrigen>AV.APOQUINDO 5400 PISO 21 of 2101</DirOrigen>
+					<CmnaOrigen>LAS CONDES </CmnaOrigen>
+					<CiudadOrigen>SANTIAGO</CiudadOrigen>
+					<CdgVendedor>No</CdgVendedor>
+				</Emisor>
+				<Receptor>
+					<RUTRecep>76178599-0</RUTRecep>
+					<RznSocRecep>PARQUE EOLICO LOS CURUROS LIMITADA</RznSocRecep>
+					<GiroRecep>GENERACION DE ENERGIA ELECTRICA</GiroRecep>
+					<Contacto>EPMCHILE@EPMCHILE.COM</Contacto>
+					<DirRecep>AV. MANQUEHUE NORTE 160 OFICINA 41-B</DirRecep>
+					<CmnaRecep>LAS CONDES</CmnaRecep>
+					<CiudadRecep>SANTIAGO</CiudadRecep>
+				</Receptor>
+				<Totales>
+					<MntNeto>12049</MntNeto>
+					<MntExe>0</MntExe>
+					<TasaIVA>19</TasaIVA>
+					<IVA>2289</IVA>
+					<MntTotal>14338</MntTotal>
+				</Totales>
+			</Encabezado><Detalle>
+		<NroLinDet>1</NroLinDet>
+		<CdgItem>
+			<TpoCodigo>INT</TpoCodigo>
+			<VlrCodigo>2</VlrCodigo>
+		</CdgItem>
+		<NmbItem>POTENCIA
+</NmbItem>
+		<QtyItem>1</QtyItem>
+		<UnmdItem>UN</UnmdItem>
+		<PrcItem>12049</PrcItem>
+		<MontoItem>12049</MontoItem>
+	</Detalle><Referencia>
+			<NroLinRef>1</NroLinRef>
+			<TpoDocRef>33</TpoDocRef>
+			<FolioRef>6962</FolioRef>
+			<FchRef>2020-02-27</FchRef>
+			<CodRef>1</CodRef>
+			<RazonRef>ANULA DOCUMENTO</RazonRef>
+		</Referencia></Documento>
+	</DTE>
